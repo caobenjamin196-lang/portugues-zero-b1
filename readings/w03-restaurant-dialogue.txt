@@ -1,0 +1,85 @@
+==============================================================
+W3 阅读 · 餐厅与购物对话（No restaurante e na loja）
+==============================================================
+
+【对话一】No restaurante（在餐厅）
+
+Garçom:    Boa tarde! Mesa para quantas pessoas?
+Cliente:   Boa tarde! Para duas, por favor.
+Garçom:    Por aqui. O que vocês querem beber?
+Cliente:   Eu quero um suco de laranja, e ela quer uma água com gás.
+Garçom:    E para comer?
+Cliente:   Eu como um prato feito. O que tem hoje?
+Garçom:    Hoje tem arroz, feijão, bife e salada. Também temos peixe grelhado.
+Cliente:   Para mim, o prato feito. E para ela, o peixe, por favor.
+Garçom:    Muito bem. Mais alguma coisa?
+Cliente:   Não, obrigado. Só isso.
+
+... (depois do almoço)
+
+Cliente:   A conta, por favor!
+Garçom:    São quarenta e cinco reais.
+Cliente:   Posso pagar com cartão?
+Garçom:    Pode, sim. Crédito ou débito?
+Cliente:   Crédito. Muito obrigado!
+Garçom:    Obrigado eu! Volte sempre!
+
+【对话二】Na loja（在商店）
+
+Vendedora: Oi! Posso ajudar?
+Cliente:   Oi! Estou só olhando, obrigada... Ah, essa camisa é muito bonita!
+           Quanto custa?
+Vendedora: Custa sessenta reais. Temos também em azul e em verde.
+Cliente:   Você tem tamanho M?
+Vendedora: Temos, sim. Quer experimentar? O provador é ali.
+Cliente:   Quero, sim... Ficou ótima! Eu levo.
+Vendedora: Legal! Mais alguma coisa?
+Cliente:   Não, só a camisa. Aceita PIX?
+Vendedora: Aceitamos, sim!
+
+--------------------------------------------------------------
+词汇表（★ = 假朋友/易混）
+--------------------------------------------------------------
+garçom            服务员（男性；女性 garçonete）
+mesa              桌子/餐桌（阴性：a mesa）
+suco de laranja   橙汁（葡国叫 sumo）
+água com gás      气泡水
+prato feito       套餐（巴西平价餐厅标配，简称 PF）
+arroz             米饭（阳性：o arroz；rr 读 /h/）
+feijão            豆子（巴西国民食物；-ão 复数 feijões）
+bife              牛排
+grelhado          烤的（lh=/ʎ/）
+a conta           账单
+reais             雷亚尔（巴西货币；real 的复数）
+cartão            卡（复数 cartões）
+★ propina         葡语=贿赂；巴西小费叫 gorjeta 或 os 10%
+tamanho           尺码
+experimentar      试穿/试用
+provador          试衣间
+ficou ótima       （穿上）很合身/很好看（ficar=看起来/变得）
+eu levo           我买了（levar=带走）
+★ legal           口语=酷/棒（≠西语"合法的"）
+PIX               巴西即时支付系统
+estou só olhando  我就随便看看（购物必备句）
+
+--------------------------------------------------------------
+阅读理解题（答案在文末）
+--------------------------------------------------------------
+1. 两位客人分别点了什么饮料和什么主菜？
+2. 这顿饭多少钱？客人怎么支付？
+3. 客人试穿了什么尺码的衬衫？最后买了吗？
+4. "Estou só olhando" 在什么场景下使用？什么意思？
+5. 对话二中客人为什么用 "obrigada" 而不是 "obrigado"？
+
+答案：
+1. 男客人：橙汁+套餐（prato feito）；女客人：气泡水+烤鱼（peixe grelhado）。
+2. 45 雷亚尔；用信用卡（crédito）支付。
+3. M 码（tamanho M）；试了，很合身（ficou ótima），最后买了（eu levo）。
+4. 进店被店员问"需要帮助吗"时使用，意思是"我先随便看看"。
+5. 因为说话的是女性——obrigado 词尾随说话人性别变化（男性 -o，女性 -a）。
+
+【语法观察】本周知识点：
+- 现在时变位：querem / quero / como / tem / temos / posso / custa / levo
+- a gente 式口语：Aceita PIX?（省略主语 você）
+- 存在句：Hoje tem...（口语用 ter 代替 haver=há）
+- 不规则第一人称：eu quero / eu como / eu posso（poder 的 eu posso 不规则）

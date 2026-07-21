@@ -1,0 +1,94 @@
+{
+  "description": "W1-W4 涉及动词的现在时变位表（PT-BR），含西语对照",
+  "tense": "presente do indicativo",
+  "verbs": [
+    {
+      "infinitive": "falar", "meaning": "说", "type": "regular -ar",
+      "conjugation": { "eu": "falo", "tu": "falas", "ele/ela/você": "fala", "nós": "falamos", "eles/elas/vocês": "falam" },
+      "spanish": "hablar: hablo/hablas/habla/hablamos/hablan"
+    },
+    {
+      "infinitive": "estudar", "meaning": "学习", "type": "regular -ar",
+      "conjugation": { "eu": "estudo", "tu": "estudas", "ele/ela/você": "estuda", "nós": "estudamos", "eles/elas/vocês": "estudam" },
+      "spanish": "estudiar: estudio/estudias/estudia/estudiamos/estudian"
+    },
+    {
+      "infinitive": "trabalhar", "meaning": "工作", "type": "regular -ar",
+      "conjugation": { "eu": "trabalho", "tu": "trabalhas", "ele/ela/você": "trabalha", "nós": "trabalhamos", "eles/elas/vocês": "trabalham" },
+      "spanish": "trabajar: trabajo/trabajas/trabaja/trabajamos/trabajan"
+    },
+    {
+      "infinitive": "morar", "meaning": "居住", "type": "regular -ar",
+      "conjugation": { "eu": "moro", "tu": "moras", "ele/ela/você": "mora", "nós": "moramos", "eles/elas/vocês": "moram" },
+      "spanish": "vivir: vivo/vives/vive/vivimos/viven"
+    },
+    {
+      "infinitive": "comer", "meaning": "吃", "type": "regular -er",
+      "conjugation": { "eu": "como", "tu": "comes", "ele/ela/você": "come", "nós": "comemos", "eles/elas/vocês": "comem" },
+      "spanish": "comer: como/comes/come/comemos/comen"
+    },
+    {
+      "infinitive": "beber", "meaning": "喝", "type": "regular -er",
+      "conjugation": { "eu": "bebo", "tu": "bebes", "ele/ela/você": "bebe", "nós": "bebemos", "eles/elas/vocês": "bebem" },
+      "spanish": "beber: bebo/bebes/bebe/bebemos/beben"
+    },
+    {
+      "infinitive": "abrir", "meaning": "打开", "type": "regular -ir",
+      "conjugation": { "eu": "abro", "tu": "abres", "ele/ela/você": "abre", "nós": "abrimos", "eles/elas/vocês": "abrem" },
+      "spanish": "abrir: abro/abres/abre/abrimos/abren"
+    },
+    {
+      "infinitive": "partir", "meaning": "离开/出发", "type": "regular -ir",
+      "conjugation": { "eu": "parto", "tu": "partes", "ele/ela/você": "parte", "nós": "partimos", "eles/elas/vocês": "partem" },
+      "spanish": "partir: parto/partes/parte/partimos/parten"
+    },
+    {
+      "infinitive": "ser", "meaning": "是（本质）", "type": "irregular",
+      "conjugation": { "eu": "sou", "tu": "és", "ele/ela/você": "é", "nós": "somos", "eles/elas/vocês": "são" },
+      "spanish": "ser: soy/eres/es/somos/son",
+      "note": "葡语 sou ≠ 西语 soy；são 带鼻音"
+    },
+    {
+      "infinitive": "estar", "meaning": "是（状态/位置）", "type": "irregular",
+      "conjugation": { "eu": "estou", "tu": "estás", "ele/ela/você": "está", "nós": "estamos", "eles/elas/vocês": "estão" },
+      "spanish": "estar: estoy/estás/está/estamos/están",
+      "note": "葡语 estou ≠ 西语 estoy"
+    },
+    {
+      "infinitive": "ter", "meaning": "有", "type": "irregular",
+      "conjugation": { "eu": "tenho", "tu": "tens", "ele/ela/você": "tem", "nós": "temos", "eles/elas/vocês": "têm" },
+      "spanish": "tener: tengo/tienes/tiene/tenemos/tienen",
+      "note": "无词干元音变化（西语 t-iene）；第三人称复数 têm 带重音区分单数 tem"
+    },
+    {
+      "infinitive": "haver", "meaning": "有（存在）", "type": "irregular",
+      "conjugation": { "eu": "hei", "tu": "hás", "ele/ela/você": "há", "nós": "havemos", "eles/elas/vocês": "hão" },
+      "spanish": "haber: he/has/ha/hemos/han（存在义：hay）",
+      "note": "存在义常用 há（=hay）；巴西口语常用 tem 代替 há"
+    },
+    {
+      "infinitive": "fazer", "meaning": "做", "type": "irregular",
+      "conjugation": { "eu": "faço", "tu": "fazes", "ele/ela/você": "faz", "nós": "fazemos", "eles/elas/vocês": "fazem" },
+      "spanish": "hacer: hago/haces/hace/hacemos/hacen",
+      "note": "eu faço 是不规则点（类似西语 hago）"
+    },
+    {
+      "infinitive": "ir", "meaning": "去", "type": "irregular",
+      "conjugation": { "eu": "vou", "tu": "vais", "ele/ela/você": "vai", "nós": "vamos", "eles/elas/vocês": "vão" },
+      "spanish": "ir: voy/vas/va/vamos/van",
+      "note": "高度平行：vou≈voy, vão≈van"
+    },
+    {
+      "infinitive": "poder", "meaning": "能", "type": "irregular（词干变化 o→o）",
+      "conjugation": { "eu": "posso", "tu": "podes", "ele/ela/você": "pode", "nós": "podemos", "eles/elas/vocês": "podem" },
+      "spanish": "poder: puedo/puedes/puede/podemos/pueden",
+      "note": "eu posso 不规则；无西语 ue 双元音化"
+    },
+    {
+      "infinitive": "querer", "meaning": "想要", "type": "irregular",
+      "conjugation": { "eu": "quero", "tu": "queres", "ele/ela/você": "quer", "nós": "queremos", "eles/elas/vocês": "querem" },
+      "spanish": "querer: quiero/quieres/quiere/queremos/quieren",
+      "note": "第三人称单数 quer（无词尾 -e），无 ie 双元音化"
+    }
+  ]
+}

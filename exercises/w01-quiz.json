@@ -1,0 +1,345 @@
+{
+  "week": 1,
+  "title": "发音系统：14个元音 + 鼻元音 + 半元音",
+  "theoryPage": "w01-pronunciation.html",
+  "questions": [
+    {
+      "id": "w1_q001",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "元音系统",
+      "prompt": "巴西葡语的元音系统（口元音 + 鼻元音 + 半元音）合计约多少个元音音位？",
+      "options": ["5 个", "7 个", "约 14 个", "20 个以上"],
+      "answer": "约 14 个",
+      "explanation": "巴西葡语有 7 个口元音（a, é, e, i, ó, o, u）+ 5 个鼻元音（ã, ẽ, ĩ, õ, ũ）+ 2 个半元音（j, w），合计约 14 个元音音位。",
+      "spanishContrast": "西语只有 5 个元音（a, e, i, o, u），没有鼻元音。这是西语者学葡语发音最大的坎。"
+    },
+    {
+      "id": "w1_q002",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "鼻元音",
+      "prompt": "单词 não（不）中的 ão 是什么性质的音？",
+      "options": ["两个分开发音的口元音", "鼻化双元音", "鼻辅音 m", "半元音 + 口元音"],
+      "answer": "鼻化双元音",
+      "explanation": "ão 是鼻化双元音 /ɐ̃w̃/：发音时气流同时从口腔和鼻腔通过，类似把 'au' 鼻化。绝不能发成西语式的 a+o 两个分明元音。",
+      "spanishContrast": "西语 no 就是干脆的 /no/。西语中没有任何鼻化元音，需要全新学习这个发音动作。"
+    },
+    {
+      "id": "w1_q003",
+      "type": "single_choice",
+      "difficulty": 2,
+      "topic": "字母→音素",
+      "prompt": "字母 x 在 caixa（箱子）中发什么音？",
+      "options": ["/ks/（如英语 box）", "/ʃ/（如英语 sh）", "/z/", "/s/"],
+      "answer": "/ʃ/（如英语 sh）",
+      "explanation": "葡语 x 最常见的发音是 /ʃ/（sh），如 caixa /ˈkajʃɐ/、baixo、peixe。只在部分外来词中发 /ks/（taxi）或 /z/（exame）或 /s/（texto）。",
+      "spanishContrast": "西语 x 基本发 /ks/（taxi, examen）。葡语 x→sh 是高频音变，务必适应。"
+    },
+    {
+      "id": "w1_q004",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "字母→音素",
+      "prompt": "chuva（雨）中的 ch 发什么音？",
+      "options": ["/tʃ/（如西语 ch、英语 ch）", "/ʃ/（如英语 sh）", "/k/", "/x/（如西语 j）"],
+      "answer": "/ʃ/（如英语 sh）",
+      "explanation": "葡语 ch 永远发 /ʃ/（sh）：chuva /ˈʃuvɐ/。这是与西语最直观的差异之一。",
+      "spanishContrast": "西语 ch 发 /tʃ/（chuvia 不存在，西语是 lluvia）。把葡语 ch 读成西语 ch 是最典型的西语腔错误。"
+    },
+    {
+      "id": "w1_q005",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "字母→音素",
+      "prompt": "mulher（女人）中的 lh 发什么音？",
+      "options": ["l + h 两个音", "/ʎ/（类似西语 ll）", "/j/（英语 y）", "/l/ 单纯 l"],
+      "answer": "/ʎ/（类似西语 ll）",
+      "explanation": "lh 是腭化边音 /ʎ/，对应西语的 ll（传统发音）：mulher /muˈʎeʁ/、filho、trabalho。",
+      "spanishContrast": "西语 ll（calle, lluvia）在多数方言已 yeísmo 化为 /ʝ/~/j/，但葡语 lh 仍保持清晰的腭边音。"
+    },
+    {
+      "id": "w1_q006",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "字母→音素",
+      "prompt": "amanhã（明天）中的 nh 发什么音？",
+      "options": ["n + h 两个音", "/ɲ/（同西语 ñ）", "鼻化 n 后接元音", "/ŋ/（英语 ng）"],
+      "answer": "/ɲ/（同西语 ñ）",
+      "explanation": "nh 发 /ɲ/，完全对应西语 ñ：amanhã ≈ mañana、senhor ≈ señor、espanhol ≈ español。对西语者来说这是送分音。",
+      "spanishContrast": "西语 mañana → 葡语 amanhã。注意拼写对应 ñ→nh，另外葡语词首多了非重读的 a-。"
+    },
+    {
+      "id": "w1_q007",
+      "type": "single_choice",
+      "difficulty": 2,
+      "topic": "重音规则",
+      "prompt": "café（咖啡）的重音在哪个音节？这种词叫什么？",
+      "options": ["倒数第一音节，oxítona", "倒数第二音节，paroxítona", "倒数第三音节，proparoxítona", "无重音"],
+      "answer": "倒数第一音节，oxítona",
+      "explanation": "ca-FÉ 重音在末音节，是 oxítona（aguda）。末音节重读且以 a/e/o(+s) 结尾的词必须标尖音符：café, português, avó。",
+      "spanishContrast": "西语 café 同样是 aguda 且同样标音符——重音分类概念（aguda/llana/esdrújula）与葡语 oxítona/paroxítona/proparoxítona 一一对应。"
+    },
+    {
+      "id": "w1_q008",
+      "type": "single_choice",
+      "difficulty": 2,
+      "topic": "重音规则",
+      "prompt": "médico（医生）属于哪类重音词？标音规则是什么？",
+      "options": ["oxítona，可不标音", "paroxítona，必须标音", "proparoxítona，必须标音", "proparoxítona，可不标音"],
+      "answer": "proparoxítona，必须标音",
+      "explanation": "MÉ-di-co 重音在倒数第三音节，是 proparoxítona（esdrúxula）。规则：所有 proparoxítona 词无一例外必须标重音符号。",
+      "spanishContrast": "西语 médico 同样是 esdrújula 且必须标音——这条规则两种语言完全一致，可直接迁移。"
+    },
+    {
+      "id": "w1_q009",
+      "type": "single_choice",
+      "difficulty": 3,
+      "topic": "重音规则",
+      "prompt": "hotel（酒店）末尾没有重音符号，它的默认重音在？",
+      "options": ["倒数第二音节（HO-tel）", "最后音节（ho-TEL）", "任意音节", "第一个音节"],
+      "answer": "最后音节（ho-TEL）",
+      "explanation": "无标音时默认规则：以 -l, -r, -z, -i(s), -u(s) 结尾的词重读末音节（oxítona），如 hotel, falar, feliz。以 -a(s), -e(s), -o(s), -am, -em, -ens 结尾的词重读倒数第二音节（paroxítona）。",
+      "spanishContrast": "西语规则几乎相同（以辅音除 n/s 结尾 → 末音节重读），hotel 两语都读 ho-TEL。差异主要在细节（西语 -n/-s 结尾重读倒数第二，葡语 -ens/-em 也重读倒数第二）。"
+    },
+    {
+      "id": "w1_q010",
+      "type": "single_choice",
+      "difficulty": 2,
+      "topic": "重音规则",
+      "prompt": "pássaro（鸟）中的 á 为什么要标？",
+      "options": ["装饰，可写可不写", "因为它是 proparoxítona，必须标音", "因为它是 oxítona", "为了区分单复数"],
+      "answer": "因为它是 proparoxítona，必须标音",
+      "explanation": "PÁS-sa-ro 重音在倒数第三音节。所有 proparoxítona 必须标重音符号，没有例外。",
+      "spanishContrast": "西语 pájaro 是 llana（倒数第二音节），不标音；而葡语 pássaro 是 esdrúxula 必须标音。同根词重音位置可能不同，不能照搬西语直觉。"
+    },
+    {
+      "id": "w1_q011",
+      "type": "single_choice",
+      "difficulty": 2,
+      "topic": "鼻元音",
+      "prompt": "também（也）词尾的 -ém 实际发音接近？",
+      "options": ["西语式的 e + m（分明）", "鼻化音 /ẽj̃/（像鼻化的'ei'）", "/en/", "/em/ 闭口 m 收尾"],
+      "answer": "鼻化音 /ẽj̃/（像鼻化的'ei'）",
+      "explanation": "词尾 -em/-ém 发鼻化双元音 /ẽj̃/：também /tɐ̃ˈbẽj̃/、também 的 m 不闭口，只是鼻化标记。复数 -ens/-ens 同规则：parabéns。",
+      "spanishContrast": "西语 también 末尾就是清楚的 /em/。葡语 -ém 的鼻化音是西语者最容易露馅的发音点之一。"
+    },
+    {
+      "id": "w1_q012",
+      "type": "single_choice",
+      "difficulty": 2,
+      "topic": "字母→音素",
+      "prompt": "grande（大的）词尾的 -e 在巴西葡语中通常发作？",
+      "options": ["/e/（同西语）", "/i/", "/ə/（弱化中央元音）", "不发音"],
+      "answer": "/i/",
+      "explanation": "非重读词尾 e 在巴西普遍弱化为 /i/：grande /ˈgɾɐ̃dʒi/、noite /ˈnojtʃi/。同理非重读词尾 o → /u/。",
+      "spanishContrast": "西语 grande 末尾是清晰的 /e/。这是巴西腔的标志性特征：词尾 e→i、o→u。"
+    },
+    {
+      "id": "w1_q013",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "字母→音素",
+      "prompt": "定冠词 o（相当于西语 el）的实际发音是？",
+      "options": ["/o/", "/ɔ/", "/u/", "/a/"],
+      "answer": "/u/",
+      "explanation": "非重读的 o 发 /u/：o livro 读作 /u ˈlivɾu/。葡语书写 o 但发音 u 是常态（非重读 o→u）。",
+      "spanishContrast": "西语 el 中的 e 清晰。葡语冠词 o/a 发音 /u/、/ɐ/，与拼写差距大，听力时要有心理准备。"
+    },
+    {
+      "id": "w1_q014",
+      "type": "single_choice",
+      "difficulty": 3,
+      "topic": "字母→音素",
+      "prompt": "carro（汽车）中的 rr 在巴西多数地区发什么音？",
+      "options": ["多击颤音 /r/（同西语 rr）", "喉擦音 /h/（类似西语 j）", "/l/", "不发音"],
+      "answer": "喉擦音 /h/（类似西语 j）",
+      "explanation": "rr（以及词首 r）在巴西多数地区发喉擦音 /h/：carro /ˈkahu/、Rio /ˈʁiu/~/ˈhiu/。对西语者反而容易——就发 j 的音。",
+      "spanishContrast": "西语 carro 的 rr 是多击颤音。想发巴西腔，把西语 rr 换成 j（gente 的 g）即可。"
+    },
+    {
+      "id": "w1_q015",
+      "type": "multi_choice",
+      "difficulty": 3,
+      "topic": "元音系统",
+      "prompt": "以下哪些音/字母组合是葡语有而标准西语没有的？（多选）",
+      "options": ["鼻元音 ã / õ", "音 /ʃ/（葡语 ch、x）", "音 /ɲ/（ñ / nh）", "重音符号 ~（til）"],
+      "answer": ["鼻元音 ã / õ", "音 /ʃ/（葡语 ch、x）", "重音符号 ~（til）"],
+      "explanation": "鼻元音、/ʃ/、以及 til（ã/õ 的鼻化波浪符）都是葡语独有。/ɲ/ 两语都有（西语 ñ = 葡语 nh），不选。",
+      "spanishContrast": "西语只有 ñ（=葡语 nh），没有鼻化元音字母 ã/õ，本土词汇也没有 /ʃ/ 音。"
+    },
+
+    {
+      "id": "w1_q016",
+      "type": "accent_mark",
+      "difficulty": 1,
+      "topic": "重音标注",
+      "prompt": "给单词加上正确的重音符号：medico（医生，proparoxítona）",
+      "answer": "médico",
+      "hint": "重音在倒数第三音节",
+      "explanation": "médico 是 proparoxítona（esdrúxula），所有此类词必须标尖音符。",
+      "spanishContrast": "西语同为 médico，规则一致。"
+    },
+    {
+      "id": "w1_q017",
+      "type": "accent_mark",
+      "difficulty": 1,
+      "topic": "重音标注",
+      "prompt": "给单词加上正确的重音符号：cafe（咖啡，oxítona 以 e 结尾）",
+      "answer": "café",
+      "hint": "末音节重读且以 e 结尾 → 尖音符",
+      "explanation": "café 是 oxítona 且以 e 结尾，必须标尖音符，否则按默认规则会误读为 CA-fe。",
+      "spanishContrast": "西语 café 同样标音，完全一致。"
+    },
+    {
+      "id": "w1_q018",
+      "type": "accent_mark",
+      "difficulty": 2,
+      "topic": "重音标注",
+      "prompt": "给单词加上正确的符号：aviao（飞机）",
+      "answer": "avião",
+      "hint": "词尾是鼻化双元音，用 til（~）",
+      "explanation": "avião 词尾 ão 是鼻化双元音，用 til（~）标记鼻化。这里的 ~ 是鼻音符号而非重音符号（重音天然在 ão 上）。",
+      "spanishContrast": "西语 avión 用尖音符 ó；葡语对应规律：西语 -ón → 葡语 -ão（W2 会系统学习）。"
+    },
+    {
+      "id": "w1_q019",
+      "type": "accent_mark",
+      "difficulty": 2,
+      "topic": "重音标注",
+      "prompt": "给单词加上正确的重音符号：portugues（葡语/葡萄牙人）",
+      "answer": "português",
+      "hint": "末音节重读，以 s 结尾的 e → 需要尖音符",
+      "explanation": "por-tu-GUÊS 是 oxítona，以 -e(s) 结尾需标尖音符：português。不加音符会按默认规则误读为 por-TU-gues。",
+      "spanishContrast": "西语 portugués 同样 aguda 标音，完全平行。"
+    },
+    {
+      "id": "w1_q020",
+      "type": "accent_mark",
+      "difficulty": 2,
+      "topic": "重音标注",
+      "prompt": "给单词加上正确的符号：tambem（也）",
+      "answer": "também",
+      "hint": "末音节重读",
+      "explanation": "também 是 oxítona（tam-BÉM），-ém 结尾标尖音符。注意复数 parabéns 同理。",
+      "spanishContrast": "西语 también 同样标音，完全平行。"
+    },
+    {
+      "id": "w1_q021",
+      "type": "accent_mark",
+      "difficulty": 2,
+      "topic": "重音标注",
+      "prompt": "给单词加上正确的符号：voce（你）",
+      "answer": "você",
+      "hint": "末音节重读；词首 c 在 e 前要变成什么字母？",
+      "explanation": "você：oxítona 标尖音符；且 c 在 e/i 前发 /s/ 时必须写成 ç（cedilha）：vo-cê /voˈse/。",
+      "spanishContrast": "西语没有 ç 字母。葡语 ç 只出现在 a/o/u 前（faça, aço, açúcar），发 /s/。"
+    },
+    {
+      "id": "w1_q022",
+      "type": "accent_mark",
+      "difficulty": 3,
+      "topic": "重音标注",
+      "prompt": "给单词加上正确的重音符号：arvore（树，proparoxítona）",
+      "answer": "árvore",
+      "hint": "重音在倒数第三音节",
+      "explanation": "ÁR-vo-re 是 proparoxítona，必须标尖音符。",
+      "spanishContrast": "西语 árbol 是 llana 不标音；葡语 árvore 是 esdrúxula 必须标音——同根词重音分类不同。"
+    },
+    {
+      "id": "w1_q023",
+      "type": "accent_mark",
+      "difficulty": 3,
+      "topic": "重音标注",
+      "prompt": "给单词加上正确的符号：licao（课，西语 lección）",
+      "answer": "lição",
+      "hint": "ç + til",
+      "explanation": "lição：c 在 ã 前（a 类元音）要发 /s/ 需写 ç；ão 鼻化用 til。西语 -cción → 葡语 -ção 是 W2 的核心对应规则。",
+      "spanishContrast": "西语 lección → 葡语 lição。cc→ç、ó→ã 双重变化。"
+    },
+    {
+      "id": "w1_q024",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "topic": "字母→音素",
+      "prompt": "填空：葡语字母组合 ___ 发 /ɲ/，对应西语的 ñ（如 senhor ≈ señor）。",
+      "answer": ["nh"],
+      "explanation": "nh = /ɲ/ = 西语 ñ。对应词族：amanhã/mañana, senhor/señor, espanhol/español。",
+      "spanishContrast": "拼写不同音相同：ñ（西）= nh（葡）。"
+    },
+    {
+      "id": "w1_q025",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "topic": "重音规则",
+      "prompt": "填空：无重音符号时，以 -r 结尾的动词不定式（如 falar, comer）默认重音在倒数第 ___ 音节。（填数字）",
+      "answer": ["一", "1"],
+      "hint": "hotel 同理",
+      "explanation": "以 -r（以及 -l, -z, -i, -u）结尾的词默认重读末音节：fa-LAR, co-MER, par-TIR。所以 infinitivo 都是 oxítona。",
+      "spanishContrast": "西语规则相同：ha-BLAR, co-MER 也是 aguda。可直接迁移。"
+    },
+    {
+      "id": "w1_q026",
+      "type": "translation",
+      "difficulty": 1,
+      "topic": "日常用语",
+      "prompt": "把西语翻译成葡语：Buenas noches, señora.",
+      "answer": ["Boa noite, senhora", "boa noite senhora"],
+      "explanation": "西语 buenas noches（复数）→ 葡语 boa noite（单数！）；señora → senhora（ñ→nh）。",
+      "spanishContrast": "问候语葡语全部用单数：bom dia / boa tarde / boa noite，与西语复数形式相反。"
+    },
+    {
+      "id": "w1_q027",
+      "type": "translation",
+      "difficulty": 2,
+      "topic": "日常用语",
+      "prompt": "把西语翻译成葡语：Hasta mañana.",
+      "answer": ["Até amanhã", "ate amanha", "Até logo"],
+      "explanation": "Hasta → Até；mañana → amanhã（ñ→nh，词首加非重读 a-）。",
+      "spanishContrast": "西语 hasta mañana → 葡语 até amanhã。注意 até 是 oxítona 需标音。"
+    },
+    {
+      "id": "w1_q028",
+      "type": "translation",
+      "difficulty": 2,
+      "topic": "日常用语",
+      "prompt": "把中文翻译成葡语：非常感谢。（男性说话者）",
+      "answer": ["Muito obrigado", "muito obrigado"],
+      "explanation": "男性说 obrigado，女性说 obrigada——词尾随说话人性别变化，与西语 gracias 不变完全不同。muito 中的 o 发 /u/。",
+      "spanishContrast": "西语 muchas gracias 人人一样；葡语 (muito) obrigado/obrigada 分性别。"
+    },
+    {
+      "id": "w1_q029",
+      "type": "translation",
+      "difficulty": 2,
+      "topic": "日常用语",
+      "prompt": "把西语翻译成葡语：¿Cómo estás? — Muy bien, gracias.",
+      "answer": ["Como você está? — Muito bem, obrigado", "Como vai? — Muito bem, obrigado", "Tudo bem? — Tudo bem", "Como você está? — Muito bem, obrigada", "Como vai? Muito bem, obrigado"],
+      "explanation": "巴西最自然的问候是 Tudo bem? — Tudo bem.；正式一点用 Como você está?（注意 você 搭配第三人称）。",
+      "spanishContrast": "西语 ¿Cómo estás? 用第二人称 tú；巴西方言中 você+第三人称才是常态，tú 对应形式 estás 在巴西多数地区不使用。"
+    },
+
+    {
+      "id": "w1_q030",
+      "type": "translation",
+      "difficulty": 3,
+      "topic": "发音综合",
+      "aiGraded": true,
+      "prompt": "写出 5 个含鼻元音（ã / õ / ão / em / en 等）的葡语单词，标注其中文意思，并各标出重音音节（用大写标出，如 te-LE-fone）。",
+      "referenceAnswer": "示例：amanhã（明天，a-ma-NHÃ）、coração（心，co-ra-ÇÃO）、pão（面包，单音节 PÃO）、também（也，tam-BÉM）、mãe（妈妈，单音节 MÃE）",
+      "scoringCriteria": "5个词均含鼻元音(4分)、中文意思正确(2分)、重音标注正确(3分)、拼写正确含 til/尖音符(1分)",
+      "spanishContrast": "西语无鼻元音；注意 amanhã/mañana、coração/corazón 这类同根词的鼻化对应。"
+    },
+    {
+      "id": "w1_q031",
+      "type": "translation",
+      "difficulty": 3,
+      "topic": "日常对话",
+      "aiGraded": true,
+      "prompt": "把这段小对话翻译成巴西葡语（注意问候语单复数、obrigado 词尾）：\n— 早上好！你好吗？\n— 我很好，谢谢（女性）。你呢？\n— 也很好。再见！",
+      "referenceAnswer": "— Bom dia! Tudo bem? / Como você está?\n— Estou muito bem, obrigada. E você?\n— Muito bem também. Tchau! / Até logo!",
+      "scoringCriteria": "bom dia 用单数(2分)、问候句型自然(2分)、obrigada 词尾正确(2分)、E você 反问(2分)、告别语正确(2分)",
+      "spanishContrast": "西语 Buenos días 复数 vs 葡语 Bom dia 单数；西语 gracias 不变 vs 葡语 obrigada（女性说）。"
+    }
+  ]
+}

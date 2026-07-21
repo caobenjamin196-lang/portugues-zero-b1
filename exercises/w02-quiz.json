@@ -1,0 +1,322 @@
+{
+  "week": 2,
+  "title": "名词 / 冠词 / 形容词：阴阳性转移规则",
+  "theoryPage": "w02-nouns-articles.html",
+  "questions": [
+    {
+      "id": "w2_q001",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "词性转移 -ción→-ção",
+      "prompt": "西语 información 的葡语对应形式是？",
+      "options": ["información", "informaçao", "informação", "informaçom"],
+      "answer": "informação",
+      "explanation": "规则：西语 -ción → 葡语 -ção。nación→nação, decisión→decisão, televisión→televisão。注意 ç 和 ã 两个符号。",
+      "spanishContrast": "información → informação。这类词全部为阴性（a informação），与西语一致。"
+    },
+    {
+      "id": "w2_q002",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "词性转移 -dad→-dade",
+      "prompt": "西语 universidad 的葡语对应形式是？",
+      "options": ["universidad", "universidade", "universidadi", "universidá"],
+      "answer": "universidade",
+      "explanation": "规则：西语 -dad → 葡语 -dade。ciudad→cidade, verdad→verdade, libertad→liberdade。全部阴性。",
+      "spanishContrast": "la universidad → a universidade。词尾 e 非重读，巴西发音为 /i/。"
+    },
+    {
+      "id": "w2_q003",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "词性转移 -ón→-ão",
+      "prompt": "西语 corazón 的葡语对应形式是？",
+      "options": ["corazón", "coração", "coraçom", "corazao"],
+      "answer": "coração",
+      "explanation": "规则：西语 -ón → 葡语 -ão。avión→avião, lección→lição, canción→canção。注意 z→ç 的音变（corazón→coração）。",
+      "spanishContrast": "corazón → coração。西语 z 在葡语中对应 ç（都发 /s/）。"
+    },
+    {
+      "id": "w2_q004",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "冠词",
+      "prompt": "cidade（城市）应该用哪个定冠词？",
+      "options": ["o", "a", "os", "as"],
+      "answer": "a",
+      "explanation": "-dade 结尾的词全部阴性：a cidade。与西语 la ciudad 阴阳性一致。",
+      "spanishContrast": "la ciudad → a cidade。葡语 o/a = 西语 el/la。"
+    },
+    {
+      "id": "w2_q005",
+      "type": "single_choice",
+      "difficulty": 2,
+      "topic": "阴阳性例外",
+      "prompt": "dia（天）应该用哪个定冠词？",
+      "options": ["a", "o", "uma", "as"],
+      "answer": "o",
+      "explanation": "dia 是阳性：o dia。以 -a 结尾却阳性的词与西语高度一致（el día）。记忆法：西语阳性的不规则 -a 词，葡语通常也阳性。",
+      "spanishContrast": "el día → o dia。两种语言都不规则得一样。"
+    },
+    {
+      "id": "w2_q006",
+      "type": "single_choice",
+      "difficulty": 2,
+      "topic": "阴阳性例外",
+      "prompt": "problema（问题）应该用哪个定冠词？",
+      "options": ["a", "o", "uma", "as"],
+      "answer": "o",
+      "explanation": "希腊语源 -ma 结尾的词是阳性：o problema, o tema, o sistema, o programa。",
+      "spanishContrast": "el problema → o problema。规则与西语完全相同，直接迁移。"
+    },
+    {
+      "id": "w2_q007",
+      "type": "single_choice",
+      "difficulty": 2,
+      "topic": "阴阳性例外",
+      "prompt": "mão（手）应该用哪个定冠词？",
+      "options": ["o", "a", "um", "os"],
+      "answer": "a",
+      "explanation": "mão 是阴性：a mão。与西语 la mano 阴阳性一致（都是不规则阴性）。",
+      "spanishContrast": "la mano → a mão。又一个不规则得一致的词。"
+    },
+    {
+      "id": "w2_q008",
+      "type": "single_choice",
+      "difficulty": 2,
+      "topic": "复数规则",
+      "prompt": "azul（蓝色）的复数是？",
+      "options": ["azuls", "azules", "azuis", "azulês"],
+      "answer": "azuis",
+      "explanation": "以 -l 结尾的词复数：去 -l 加 -is。azul→azuis, hotel→hotéis, papel→papéis（后两词还要补重音符号）。",
+      "spanishContrast": "西语 azul→azules 直接加 -es。葡语 -l→-is 的替换是西语没有的规则。"
+    },
+    {
+      "id": "w2_q009",
+      "type": "single_choice",
+      "difficulty": 2,
+      "topic": "复数规则",
+      "prompt": "hotel（酒店）的复数是？",
+      "options": ["hotels", "hoteles", "hotéis", "hoteis"],
+      "answer": "hotéis",
+      "explanation": "hotel→hotéis：-l→-is，且 é 处需补尖音符保持重音位置（ho-TÉIS）。",
+      "spanishContrast": "西语 hotel→hoteles。葡语复数变化后重音不变（仍在倒数第二音节），所以必须标音。"
+    },
+    {
+      "id": "w2_q010",
+      "type": "single_choice",
+      "difficulty": 2,
+      "topic": "复数规则",
+      "prompt": "país（国家）的复数是？",
+      "options": ["paíss", "países", "pais", "paiseis"],
+      "answer": "países",
+      "explanation": "以 -s 结尾且重读末音节的词，复数加 -es：país→países, português→portugueses。",
+      "spanishContrast": "西语 país→países，完全一致。直接迁移。"
+    },
+    {
+      "id": "w2_q011",
+      "type": "single_choice",
+      "difficulty": 2,
+      "topic": "复数规则",
+      "prompt": "lição（课）的复数是？",
+      "options": ["liçãos", "lições", "liçães", "liçonas"],
+      "answer": "lições",
+      "explanation": "以 -ão 结尾的词复数多数变 -ões：lição→lições, coração→corações, nação→nações。（另有小部分变 -ães：pão→pães，或 -ãos：mão→mãos）",
+      "spanishContrast": "西语 lección→lecciones。葡语 -ão→-ões 的鼻音复数是特色规则。"
+    },
+    {
+      "id": "w2_q012",
+      "type": "single_choice",
+      "difficulty": 2,
+      "topic": "形容词位置",
+      "prompt": "'一辆红色的车'用葡语怎么说？",
+      "options": ["um vermelho carro", "um carro vermelho", "uma carro vermelha", "um carros vermelho"],
+      "answer": "um carro vermelho",
+      "explanation": "葡语形容词默认后置：um carro vermelho，且与名词保持性数一致（carro 阳性单数 → vermelho）。",
+      "spanishContrast": "西语 un coche rojo / un carro rojo——形容词后置规则两语一致，可直接迁移。"
+    },
+    {
+      "id": "w2_q013",
+      "type": "single_choice",
+      "difficulty": 2,
+      "topic": "形容词位置",
+      "prompt": "'一朵美丽的花'最自然的葡语说法是？",
+      "options": ["uma bonita flor", "uma flor bonita", "um flor bonito", "uma flors bonitas"],
+      "answer": "uma flor bonita",
+      "explanation": "flor 阴性（a flor），形容词 bonita 后置并保持阴性单数：uma flor bonita。",
+      "spanishContrast": "西语 una flor bonita，完全平行。"
+    },
+    {
+      "id": "w2_q014",
+      "type": "multi_choice",
+      "difficulty": 3,
+      "topic": "阴阳性",
+      "prompt": "以下哪些名词是阴性？（多选）",
+      "options": ["mão（手）", "flor（花）", "nação（国家/民族）", "dia（天）"],
+      "answer": ["mão（手）", "flor（花）", "nação（国家/民族）"],
+      "explanation": "a mão、a flor、a nação 都是阴性；o dia 是阳性。以 -r 结尾的抽象名词（flor, cor, dor）多为阴性。",
+      "spanishContrast": "西语 la mano, la flor, la nación 阴性；el día 阳性——阴阳性分配两语完全一致。"
+    },
+    {
+      "id": "w2_q015",
+      "type": "single_choice",
+      "difficulty": 3,
+      "topic": "词性转移 -aje→-agem",
+      "prompt": "西语 el viaje（旅行，阳性）对应葡语 viagem，它的阴阳性是？",
+      "options": ["阳性（o viagem）", "阴性（a viagem）", "两性皆可", "无冠词"],
+      "answer": "阴性（a viagem）",
+      "explanation": "规则：西语 -aje（阳性）→ 葡语 -agem（阴性！）：el viaje→a viagem, el paisaje→a paisagem, el mensaje→a mensagem。这是少数阴阳性发生翻转的词族，要特别记忆。",
+      "spanishContrast": "el viaje（阳）→ a viagem（阴）。阴阳性翻转，高危假朋友！"
+    },
+
+    {
+      "id": "w2_q016",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "topic": "词性转换",
+      "prompt": "写出葡语对应词：acción（西）→ ___",
+      "answer": ["ação", "acao"],
+      "explanation": "acción → ação。-cción 双写 c 在葡语中简化为 ç。",
+      "spanishContrast": "-cción → -ção。"
+    },
+    {
+      "id": "w2_q017",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "topic": "词性转换",
+      "prompt": "写出葡语对应词：decisión（西）→ ___",
+      "answer": ["decisão", "decisao"],
+      "explanation": "decisión → decisão。-sión → -são（s 保留，ó→ã）。",
+      "spanishContrast": "-sión → -são。同样阴性：a decisão。"
+    },
+    {
+      "id": "w2_q018",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "topic": "词性转换",
+      "prompt": "写出葡语对应词：libertad（西）→ ___",
+      "answer": ["liberdade"],
+      "explanation": "libertad → liberdade。-dad → -dade，阴性。",
+      "spanishContrast": "la libertad → a liberdade。"
+    },
+    {
+      "id": "w2_q019",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "topic": "词性转换",
+      "prompt": "写出葡语对应词：dificultad（西）→ ___",
+      "answer": ["dificuldade"],
+      "explanation": "dificultad → dificuldade。注意葡语保留了 ul 音节（difi-CUL-dade），重音在倒数第二音节。",
+      "spanishContrast": "西语 di-fi-cul-TAD（4音节）vs 葡语 di-fi-cul-DA-de（5音节）——葡语常比西语多一个音节。"
+    },
+    {
+      "id": "w2_q020",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "topic": "复数规则",
+      "prompt": "填空：o livro → os ___（书，复数）",
+      "answer": ["livros"],
+      "explanation": "以 -o 结尾的阳性名词复数加 -s：livro→livros。规则与西语相同。",
+      "spanishContrast": "el libro → los libros；o livro → os livros。"
+    },
+    {
+      "id": "w2_q021",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "topic": "复数规则",
+      "prompt": "填空：a casa → as ___（房子，复数）",
+      "answer": ["casas"],
+      "explanation": "以 -a 结尾的阴性名词复数加 -s：casa→casas。",
+      "spanishContrast": "la casa → las casas；a casa → as casas。"
+    },
+    {
+      "id": "w2_q022",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "topic": "复数+形容词一致",
+      "prompt": "填空：o carro azul → os carros ___（蓝色的车，复数）",
+      "answer": ["azuis"],
+      "explanation": "形容词与名词保持数的一致：azul→azuis（-l→-is 规则同样适用于形容词）。",
+      "spanishContrast": "los coches azules。西语加 -es，葡语换 -is。"
+    },
+    {
+      "id": "w2_q023",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "topic": "形容词性数一致",
+      "prompt": "填空：as meninas ___（漂亮的姑娘们，bonito 的阴性复数）",
+      "answer": ["bonitas"],
+      "explanation": "bonito 有四种形式：bonito/bonita/bonitos/bonitas，与名词性数一致。meninas 阴性复数 → bonitas。",
+      "spanishContrast": "las chicas bonitas——性数一致规则两语相同。"
+    },
+    {
+      "id": "w2_q024",
+      "type": "matching",
+      "difficulty": 2,
+      "topic": "词性转移规则",
+      "prompt": "把西语词尾与对应的葡语词尾连起来：",
+      "options": ["-ção", "-dade", "-ão", "-agem", "-mento"],
+      "answer": {
+        "-ción": "-ção",
+        "-dad": "-dade",
+        "-ón": "-ão",
+        "-aje": "-agem",
+        "-amiento": "-amento"
+      },
+      "explanation": "五大对应规则：información→informação, ciudad→cidade, avión→avião, viaje→viagem, apartamiento→apartamento。注意 -aje(阳)→-agem(阴) 阴阳性翻转。",
+      "spanishContrast": "这些对应覆盖数千个同源词，是西语者扩张葡语词汇量最快的杠杆。"
+    },
+    {
+      "id": "w2_q025",
+      "type": "translation",
+      "difficulty": 2,
+      "topic": "翻译",
+      "prompt": "把西语翻译成葡语：La ciudad es grande y bonita.",
+      "answer": ["A cidade é grande e bonita", "A cidade e grande e bonita"],
+      "explanation": "ciudad→cidade（阴性）；grande 两性同形不变；é 是 ser 的第三人称单数（W3 详讲）。",
+      "spanishContrast": "La ciudad es grande y bonita → A cidade é grande e bonita。注意西语 y → 葡语 e（葡语 e 永远不变形）。"
+    },
+    {
+      "id": "w2_q026",
+      "type": "translation",
+      "difficulty": 2,
+      "topic": "翻译",
+      "prompt": "把西语翻译成葡语：Los hoteles son caros.",
+      "answer": ["Os hotéis são caros", "Os hoteis sao caros"],
+      "explanation": "hotel→hotéis（复数）；son→são（ser 第三人称复数，鼻元音）；caro 阳性复数 → caros。",
+      "spanishContrast": "Los hoteles son caros → Os hotéis são caros。son/são 对应工整。"
+    },
+    {
+      "id": "w2_q027",
+      "type": "translation",
+      "difficulty": 3,
+      "topic": "翻译",
+      "prompt": "把西语翻译成葡语：Tengo dos libros y una flor.",
+      "answer": ["Eu tenho dois livros e uma flor", "Tenho dois livros e uma flor"],
+      "explanation": "tengo→tenho（ter 第一人称）；dos→dois（阳性复数）；y→e。巴西葡语倾向保留主语 Eu。",
+      "spanishContrast": "tener→ter 变位完全不同（W3 详讲）；dos→dois 阴阳性：dois livros（阳）/ duas flores（阴）。"
+    },
+    {
+      "id": "w2_q028",
+      "type": "translation",
+      "difficulty": 3,
+      "topic": "写作",
+      "aiGraded": true,
+      "prompt": "把这段西语翻译成巴西葡语，特别注意每个名词的阴阳性和冠词：\nLa nación tiene una información importante: la universidad de la ciudad abre dos cursos nuevos de televisión.",
+      "referenceAnswer": "A nação tem uma informação importante: a universidade da cidade abre dois cursos novos de televisão.",
+      "scoringCriteria": "-ción→-ção 转换正确(2分)、-dad→-dade 正确(2分)、冠词阴阳性全对(3分)、dois 阳性形式(1分)、形容词后置 novos(1分)、da 缩合(1分)",
+      "spanishContrast": "la nación→a nação, la información→a informação, la universidad→a universidade, la ciudad→a cidade, la televisión→a televisão——全部阴性，两语一致。da = de+a（W4 详讲）。"
+    },
+    {
+      "id": "w2_q029",
+      "type": "translation",
+      "difficulty": 3,
+      "topic": "写作",
+      "aiGraded": true,
+      "prompt": "用葡语写 3-4 句话介绍你的家庭，要求：至少使用 2 个本周词性转移规则的词（-ção/-dade/-ão 词族）、形容词后置并保持性数一致、正确使用冠词。",
+      "referenceAnswer": "示例：A minha família é pequena e bonita. O meu pai é uma pessoa muito simpática. A minha mãe trabalha numa universidade da cidade. Nós temos uma casa grande e dois carros vermelhos.",
+      "scoringCriteria": "冠词使用正确(3分)、形容词后置+性数一致(3分)、至少2个规则词族词(2分)、句法正确(2分)",
+      "spanishContrast": "注意葡语物主形容词前常加冠词：o meu pai（西语 mi padre 无冠词）。"
+    }
+  ]
+}
