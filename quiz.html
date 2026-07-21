@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>周考 · Português Zero → B1</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <main class="container" id="quiz-root">
+    <div class="card text-center"><p>⏳ 正在加载题库…</p></div>
+  </main>
+
+  <script src="assets/js/progress.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/quiz-engine.js"></script>
+  <script src="assets/js/ai-grader.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>
+  (() => {
+    const root = document.getElementById('quiz-root');
+    const week = parseInt(new URLSearchParams(location.search).get('week') || '1', 10);
+    let quiz = null;
+    const answers = {};       // id -> 用户答案
+    const graded = {};        // id -> 批改结果
+    const aiQuestions = [];   // aiGraded 题
+
+    const TYPE_LABEL = {
+      single_choice: '单选', multi_choice: '多选', fill_blank: '填空',
+      matching: '匹配', ordering: '排序', accent_mark: '重音标注',
+      conjugation: '动词变位', translation: '翻译'
+    };
+
+    function esc(s) {
+      return String(s == null ? '' : s)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    function pointsOf(q) {
+      if (q.aiGraded) return 0; // AI 题单独计分，不进自动总分
+      switch (q.type) {
+        case 'single_choice': case 'multi_choice': return 2;
+        case 'fill_blank': case 'conjugation': case 'matching': case 'ordering': case 'accent_mark': return 3;
+        case 'translation': return 5;
+        default: return 2;
+      }
+    }
+
+    /* ===== 渲染各题型输入区 ===== */
+    function renderInput(q) {
+      switch (q.type) {
+        case 'single_choice':
+        case 'accent_mark':
+          if (!q.options) {
+            // 无选项的重音标注题：键盘输入（严格比对重音）
+            return `<input type="text" id="${q.id}_input" placeholder="写出带正确重音符号的单词（可复制：á à â ã é ê í ó ô õ ú ç）">`;
+          }
+          return `<div class="option-list" data-q="${q.id}">
+            ${q.options.map((o, i) => `<div class="option-item" data-val="${esc(o)}" onclick="Quiz.pickSingle('${q.id}', this)">
+              <span class="badge badge-gray">${String.fromCharCode(65 + i)}</span> ${esc(o)}</div>`).join('')}
+          </div>`;
+
+        case 'multi_choice':
+          return `<p class="text-dim" style="font-size:0.85rem">（多选：选出所有正确项）</p>
+          <div class="option-list" data-q="${q.id}">
+            ${q.options.map((o, i) => `<div class="option-item" data-val="${esc(o)}" onclick="Quiz.pickMulti('${q.id}', this)">
+              <span class="badge badge-gray">${String.fromCharCode(65 + i)}</span> ${esc(o)}</div>`).join('')}
+          </div>`;
+
+        case 'fill_blank':
+          if (Array.isArray(q.blanks)) {
+            return `<div class="grid grid-2">${q.blanks.map((b, i) =>
+              `<div><label>空 ${i + 1}</label><input type="text" id="${q.id}_blank${i}" placeholder="填写答案"></div>`).join('')}</div>`;
+          }
+          return `<input type="text" id="${q.id}_input" placeholder="填写答案（重音符号可容错）">`;
+
+        case 'conjugation': {
+          const persons = Object.keys(q.answer);
+          return `<div class="conj-table">${persons.map(p =>
+            `<div class="conj-cell"><label>${esc(p)}</label><input type="text" id="${q.id}_conj_${esc(p)}" placeholder="…"></div>`).join('')}</div>`;
+        }
+
+        case 'matching': {
+          const lefts = Object.keys(q.answer);
+          const rights = q.options || Object.values(q.answer).slice().sort(() => Math.random() - 0.5);
+          return `<p class="text-dim" style="font-size:0.85rem">（先点左边，再点右边完成配对）</p>
+          <div class="matching-grid">
+            <div>${lefts.map(l => `<div class="match-item" data-side="L" data-key="${esc(l)}" data-q="${q.id}" onclick="Quiz.pickMatch(this)">${esc(l)}</div>`).join('')}</div>
+            <div>${rights.map(r => `<div class="match-item" data-side="R" data-val="${esc(r)}" data-q="${q.id}" onclick="Quiz.pickMatch(this)">${esc(r)}</div>`).join('')}</div>
+          </div>`;
+        }
+
+        case 'ordering': {
+          const shuffled = (q.options || q.answer.slice().sort(() => Math.random() - 0.5));
+          return `<p class="text-dim" style="font-size:0.85rem">（用 ▲▼ 调整为正确顺序）</p>
+          <div class="ordering-list" id="${q.id}_order">
+            ${shuffled.map(o => `<div class="order-item" data-val="${esc(o)}">
+              <div class="ord-btns"><button onclick="Quiz.moveOrder(this,-1)">▲</button><button onclick="Quiz.moveOrder(this,1)">▼</button></div>
+              <span>${esc(o)}</span></div>`).join('')}
+          </div>`;
+        }
+
+        case 'translation':
+          return `<textarea id="${q.id}_input" placeholder="输入你的翻译…"></textarea>`;
+
+        default:
+          return `<textarea id="${q.id}_input" placeholder="输入你的答案…"></textarea>`;
+      }
+    }
+
+    /* ===== 收集答案 ===== */
+    function collect(q) {
+      switch (q.type) {
+        case 'single_choice': return answers[q.id] || '';
+        case 'accent_mark':
+          if (!q.options) return (document.getElementById(`${q.id}_input`) || {}).value || '';
+          return answers[q.id] || '';
+        case 'multi_choice': return answers[q.id] || [];
+        case 'fill_blank':
+          if (Array.isArray(q.blanks)) return q.blanks.map((b, i) => (document.getElementById(`${q.id}_blank${i}`) || {}).value || '');
+          return (document.getElementById(`${q.id}_input`) || {}).value || '';
+        case 'conjugation': {
+          const out = {};
+          Object.keys(q.answer).forEach(p => { out[p] = (document.getElementById(`${q.id}_conj_${p}`) || {}).value || ''; });
+          return out;
+        }
+        case 'matching': return answers[q.id] || {};
+        case 'ordering':
+          return [...document.querySelectorAll(`#${q.id}_order .order-item`)].map(el => el.dataset.val);
+        case 'translation':
+        default:
+          return (document.getElementById(`${q.id}_input`) || {}).value || '';
+      }
+    }
+
+    /* ===== 单题批改 + 即时反馈 ===== */
+    function gradeOne(q) {
+      const ua = collect(q);
+      const r = QuizEngine.grade(q, ua);
+      graded[q.id] = r;
+      const card = document.getElementById('card_' + q.id);
+      const fb = card.querySelector('.feedback');
+      fb.className = 'feedback show ' + (r.correct ? 'ok' : 'no');
+      const partialNote = r.maxPartial > 1 ? `（${r.partial}/${r.maxPartial} 部分正确）` : '';
+      fb.innerHTML = `
+        <div class="fb-title">${r.correct ? '✅ 正确！' : '❌ 不正确 ' + partialNote}</div>
+        ${!r.correct ? `<div>正确答案：<b style="color:var(--success)">${esc(QuizEngine.answerToDisplay(q.type === 'fill_blank' && q.blanks ? q.blanks.map(b => Array.isArray(b) ? b[0] : b) : q.answer))}</b></div>` : ''}
+        ${q.explanation ? `<div class="mt-1">💡 ${esc(q.explanation)}</div>` : ''}
+        ${q.spanishContrast ? `<div class="contrast">🇪🇸 <b>西语对比</b>：${esc(q.spanishContrast)}</div>` : ''}`;
+      card.querySelectorAll('.option-item').forEach(el => {
+        el.classList.add('disabled');
+        const val = el.dataset.val;
+        const ansArr = Array.isArray(q.answer) ? q.answer : [q.answer];
+        if (ansArr.some(a => QuizEngine.normalizeAnswer(a) === QuizEngine.normalizeAnswer(val))) el.classList.add('correct');
+        if (el.classList.contains('selected') && !el.classList.contains('correct')) el.classList.add('wrong');
+        el.onclick = null;
+      });
+      card.querySelectorAll('input, textarea, .match-item, .ord-btns button').forEach(el => {
+        if (el.classList && el.classList.contains('match-item')) el.onclick = null;
+        else el.disabled = true;
+      });
+      const btn = card.querySelector('.grade-btn');
+      if (btn) btn.disabled = true;
+      if (!r.correct) {
+        Progress.addMistake(QuizEngine.mistakeEntry(week, q, ua));
+      }
+      updateScoreLine();
+    }
+
+    function updateScoreLine() {
+      let got = 0, max = 0, done = 0;
+      quiz.questions.forEach(q => {
+        if (q.aiGraded) return;
+        const pts = pointsOf(q);
+        max += pts;
+        if (graded[q.id]) {
+          done++;
+          got += pts * (r => r.maxPartial ? r.partial / r.maxPartial : 0)(graded[q.id]);
+        }
+      });
+      const el = document.getElementById('scoreLine');
+      if (el) el.textContent = `已批改 ${done}/${quiz.questions.filter(q => !q.aiGraded).length} 题 · 当前得分 ${Math.round(got)}/${max}`;
+    }
+
+    /* ===== 交卷总评 ===== */
+    async function finishQuiz() {
+      // 先批改所有未批改的自动题
+      quiz.questions.forEach(q => { if (!q.aiGraded && !graded[q.id]) gradeOne(q); });
+
+      let got = 0, max = 0;
+      quiz.questions.forEach(q => {
+        if (q.aiGraded) return;
+        const pts = pointsOf(q);
+        max += pts;
+        const r = graded[q.id];
+        if (r && r.maxPartial) got += pts * r.partial / r.maxPartial;
+      });
+      const score = max ? Math.round((got / max) * 100) : 0;
+      Progress.recordQuizScore(week, score);
+
+      const aiZone = aiQuestions.length ? `
+        <div class="card card-accent-blue">
+          <h3>🤖 AI 批改题（${aiQuestions.length} 题，不计入自动得分）</h3>
+          <p class="text-dim">当前方案：${Progress.loadSettings().aiMode === 'A' ? 'A · API 自动批改' : 'B · 复制 prompt 到 AI 对话框'}</p>
+          <div class="flex mt-1">
+            <button class="btn btn-primary" id="aiGradeBtn">开始 AI 批改</button>
+          </div>
+          <div id="aiResult" class="mt-2"></div>
+        </div>` : '';
+
+      const resultHtml = `
+        <div class="card quiz-result">
+          <div class="big-score">${score}</div>
+          <div class="score-detail">自动题得分 ${Math.round(got)}/${max}（百分制 ${score} 分）· ${score >= 60 ? '✅ 已通过（≥60），已解锁下一周' : '未达 60 分，建议复习后重考'}</div>
+          <div class="flex" style="justify-content:center">
+            <a class="btn btn-primary" href="index.html">返回仪表盘</a>
+            <a class="btn btn-outline" href="quiz.html?week=${week}">重新考一次</a>
+            <a class="btn btn-outline" href="theory/${quiz.theoryPage || ('w' + String(week).padStart(2, '0') + '.html')}">复习理论</a>
+          </div>
+        </div>
+        ${aiZone}`;
+
+      root.insertAdjacentHTML('afterbegin', resultHtml);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      const fb = document.getElementById('finishBar');
+      if (fb) fb.remove();
+
+      const aiBtn = document.getElementById('aiGradeBtn');
+      if (aiBtn) aiBtn.addEventListener('click', runAIGrading);
+    }
+
+    async function runAIGrading() {
+      const zone = document.getElementById('aiResult');
+      const btn = document.getElementById('aiGradeBtn');
+      btn.disabled = true;
+      const s = Progress.loadSettings();
+      if (s.aiMode === 'A') {
+        zone.innerHTML = '<p class="text-dim">⏳ 正在调用 API 批改…</p>';
+        for (const q of aiQuestions) {
+          const ua = collect(q);
+          try {
+            const result = await AIGrader.gradeWithAI(q, ua);
+            zone.innerHTML += `<div class="card"><h4>${esc(q.prompt).slice(0, 60)}…</h4>
+              <p><b>你的答案：</b>${esc(ua)}</p>
+              <div class="example-box"><div class="zh" style="white-space:pre-wrap">${esc(result)}</div></div></div>`;
+          } catch (e) {
+            zone.innerHTML += `<div class="warning-box">API 批改失败：${esc(e.message)}<br>可切换方案B重试。</div>`;
+            break;
+          }
+        }
+      } else {
+        const uas = aiQuestions.map(q => collect(q));
+        const r = await AIGrader.exportToAIPrompt(aiQuestions, uas);
+        zone.innerHTML = `<div class="tip-box">${esc(r.message)}</div>
+          <label>Prompt 内容（可手动复制）</label>
+          <textarea readonly style="min-height:200px">${esc(r.prompt)}</textarea>`;
+      }
+    }
+
+    /* ===== 全局交互回调 ===== */
+    window.Quiz = {
+      pickSingle(id, el) {
+        answers[id] = el.dataset.val;
+        el.parentElement.querySelectorAll('.option-item').forEach(x => x.classList.remove('selected'));
+        el.classList.add('selected');
+      },
+      pickMulti(id, el) {
+        answers[id] = answers[id] || [];
+        const v = el.dataset.val;
+        const i = answers[id].indexOf(v);
+        if (i >= 0) { answers[id].splice(i, 1); el.classList.remove('selected'); }
+        else { answers[id].push(v); el.classList.add('selected'); }
+      },
+      pickMatch(el) {
+        const id = el.dataset.q;
+        answers[id] = answers[id] || {};
+        const siblings = [...document.querySelectorAll(`.match-item[data-q="${id}"]`)];
+        if (el.classList.contains('matched')) return;
+        if (el.dataset.side === 'L') {
+          siblings.filter(x => x.dataset.side === 'L').forEach(x => x.classList.remove('picked'));
+          el.classList.add('picked');
+        } else {
+          const left = siblings.find(x => x.dataset.side === 'L' && x.classList.contains('picked'));
+          if (!left) { toast('先选择左边的一项'); return; }
+          // 解除该右项旧配对
+          Object.keys(answers[id]).forEach(k => { if (answers[id][k] === el.dataset.val) delete answers[id][k]; });
+          siblings.forEach(x => { if (x.dataset.side === 'R' && x.dataset.val === el.dataset.val) x.classList.remove('matched'); });
+          const oldRight = answers[id][left.dataset.key];
+          if (oldRight) siblings.forEach(x => { if (x.dataset.side === 'R' && x.dataset.val === oldRight) x.classList.remove('matched'); });
+          answers[id][left.dataset.key] = el.dataset.val;
+          left.classList.remove('picked');
+          left.classList.add('matched');
+          el.classList.add('matched');
+        }
+      },
+      moveOrder(btn, dir) {
+        const item = btn.closest('.order-item');
+        if (dir < 0 && item.previousElementSibling) item.parentElement.insertBefore(item, item.previousElementSibling);
+        if (dir > 0 && item.nextElementSibling) item.parentElement.insertBefore(item.nextElementSibling, item);
+      },
+      gradeOne(id) {
+        const q = quiz.questions.find(x => x.id === id);
+        if (q) gradeOne(q);
+      }
+    };
+
+    /* ===== 启动 ===== */
+    async function start() {
+      try {
+        quiz = await Data.loadQuiz(week);
+      } catch (e) {
+        root.innerHTML = `<div class="card"><h3>⚠️ 题库加载失败</h3><p>${esc(e.message)}</p>
+          <p class="text-dim">W${week} 的题库可能尚未上线。请从仪表盘选择已完成周次。</p>
+          <a class="btn btn-primary mt-2" href="index.html">返回仪表盘</a></div>`;
+        return;
+      }
+
+      quiz.questions.forEach(q => { if (q.aiGraded) aiQuestions.push(q); });
+      const autoCount = quiz.questions.length - aiQuestions.length;
+
+      const cards = quiz.questions.map((q, i) => `
+        <div class="question-card" id="card_${q.id}">
+          <div class="q-head">
+            <span class="badge ${q.aiGraded ? 'badge-blue' : 'badge-green'}">${i + 1}. ${TYPE_LABEL[q.type] || q.type}${q.aiGraded ? ' · AI批改' : ''}</span>
+            <span class="badge badge-gray">难度 ${'★'.repeat(q.difficulty || 1)}</span>
+          </div>
+          <div class="q-prompt">${esc(q.prompt)}</div>
+          ${q.hint ? `<p class="text-dim" style="font-size:0.85rem">💡 提示：${esc(q.hint)}</p>` : ''}
+          ${renderInput(q)}
+          ${q.aiGraded
+            ? `<p class="text-dim mt-1" style="font-size:0.85rem">此题由 AI 批改：交卷后在顶部结果区点击「开始 AI 批改」。${q.scoringCriteria ? '评分标准：' + esc(q.scoringCriteria) : ''}</p>`
+            : `<div class="flex mt-2"><button class="btn btn-sm btn-primary grade-btn" onclick="Quiz.gradeOne('${q.id}')">批改本题</button></div>`}
+          <div class="feedback"></div>
+        </div>`).join('');
+
+      root.innerHTML = `
+        <div class="card no-hover">
+          <div class="flex-between">
+            <h2>📝 W${quiz.week} 周考：${esc(quiz.title)}</h2>
+            <a class="btn btn-sm btn-outline" href="index.html">← 仪表盘</a>
+          </div>
+          <p class="text-dim">共 ${quiz.questions.length} 题（自动批改 ${autoCount} 题${aiQuestions.length ? ` + AI 批改 ${aiQuestions.length} 题` : ''}）· 可逐题批改，或直接交卷总评</p>
+          <div class="quiz-progress-line"><span id="scoreLine">尚未批改</span></div>
+        </div>
+        ${cards}
+        <div class="card text-center" id="finishBar">
+          <button class="btn btn-secondary" id="finishBtn">📤 交卷总评</button>
+        </div>`;
+
+      document.getElementById('finishBtn').addEventListener('click', finishQuiz);
+      Progress.touchStudy(0);
+    }
+
+    renderHeader('weeks');
+    renderFooter();
+    start();
+  })();
+  </script>
+</body>
+</html>

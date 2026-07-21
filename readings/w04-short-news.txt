@@ -1,0 +1,73 @@
+==============================================================
+W4 阅读 · 短新闻（Notícia curta，约 130 词）
+==============================================================
+
+【新闻】Metrô de São Paulo abre nova linha
+
+SÃO PAULO — O metrô de São Paulo abre hoje uma nova linha, a Linha 6-Laranja,
+que liga o centro da cidade ao bairro da Brasilândia, na zona norte.
+
+A nova linha tem quinze estações e passa por importantes pontos da cidade,
+como a Universidade de São Paulo e o Hospital das Clínicas. Segundo o
+governo do estado, cerca de 600 mil pessoas vão usar a linha todos os dias.
+
+"É um dia histórico para a cidade", diz a prefeita na cerimônia de abertura.
+"Os moradores da zona norte agora chegam ao centro em trinta minutos."
+
+Os trens da Linha 6 são novos e têm ar-condicionado e Wi-Fi gratuito.
+Nas primeiras semanas, a passagem é de graça nos fins de semana.
+
+Os moradores estão contentes, mas alguns reclamam do barulho das obras
+nos últimos anos. "Agora valeu a pena", diz Maria Silva, que mora na
+Brasilândia há vinte anos.
+
+(Adaptado de notícias do G1 — texto didático)
+
+--------------------------------------------------------------
+词汇表（★ = 假朋友/易混）
+--------------------------------------------------------------
+metrô             地铁（阳性：o metrô；西语 el metro）
+linha             线路（阴性）
+ligar             连接（liga A a/ao B）
+bairro            街区/社区（阳性；rr=/h/）
+zona norte        北区
+estações          车站（estação 的复数，-ão→-ões）
+pontos            地点/站点（复数）
+segundo           据……（介词"根据"）
+cerca de          大约（+数字）
+mil               千（600 mil = 60 万）
+prefeita          女市长（阳性 prefeito）
+cerimônia de abertura  开通仪式
+moradores         居民（morador 的复数）
+chegam            到达（chegar 第三人称复数；chegar em/a）
+ar-condicionado   空调
+gratuito          免费的（= de graça）
+passagem          车票（阴性；★ 西语 pasaje 阳性 el pasaje → 葡语 a passagem！）
+de graça          免费（口语）
+reclamar de       抱怨（reclamar + de）
+barulho           噪音（lh=/ʎ/）
+obras             工程/施工（阴性复数）
+valeu a pena      值了（valer a pena 的过去式）
+há vinte anos     二十年了（há + 时间 = 西语 hace + 时间）
+
+--------------------------------------------------------------
+阅读理解题（答案在文末）
+--------------------------------------------------------------
+1. 新地铁线叫什么名字？连接哪两个区域？
+2. 这条线有多少站？经过哪两个重要地点？
+3. 政府预计每天有多少人使用这条线？
+4. 开通初期有什么优惠？
+5. 居民有什么不满？Maria Silva 怎么看？
+
+答案：
+1. 6 号线-橙线（Linha 6-Laranja）；连接市中心（o centro）和北区 Brasilândia 社区。
+2. 15 站；经过圣保罗大学（Universidade de São Paulo）和临床医院（Hospital das Clínicas）。
+3. 约 60 万人（cerca de 600 mil pessoas）。
+4. 头几周周末免费（a passagem é de graça nos fins de semana）。
+5. 有人抱怨近年施工的噪音（reclamam do barulho das obras）；Maria 觉得"现在值了"（valeu a pena）。
+
+【语法观察】本周知识点：
+- 缩合：ao bairro（a+o）、na zona norte（em+a）、do estado（de+o）、à praia 同类 à 未出现但 ao/na/do 密集
+- 国名/地名冠词：o metrô de São Paulo（城市不带冠词）
+- 复习 W3：são / têm / diz / chegam / estão / reclamam / valeu（过去时预告 W5）
+- 新闻体：há vinte anos（há+时间）、segundo o governo（据政府）
