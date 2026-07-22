@@ -1,0 +1,4924 @@
+{
+  "description": "每周 100 个频率词汇（PT-BR）。W1=频率排名1-100，W2=101-200，W3=201-300，W4=301-400。选词参考 Corpus do Português / Routledge Frequency Dictionary 高频区。动词附现在时完整变位与西语对照；falseFriend 为西语假朋友警示。",
+  "source": "Corpus do Português / Routledge Frequency Dictionary of Portuguese（高频区，按教学需要微调）",
+  "variant": "PT-BR",
+  "w1": [
+    {
+      "rank": 1,
+      "pt": "o",
+      "pos": "冠词",
+      "zh": "阳性定冠词（≈西语 el）",
+      "example": {
+        "pt": "O livro está na mesa.",
+        "zh": "书在桌上。"
+      }
+    },
+    {
+      "rank": 2,
+      "pt": "a",
+      "pos": "冠词",
+      "zh": "阴性定冠词（≈西语 la）",
+      "example": {
+        "pt": "A casa é grande.",
+        "zh": "这栋房子很大。"
+      }
+    },
+    {
+      "rank": 3,
+      "pt": "de",
+      "pos": "介词",
+      "zh": "的 / 从",
+      "example": {
+        "pt": "Eu sou da China.",
+        "zh": "我来自中国。"
+      }
+    },
+    {
+      "rank": 4,
+      "pt": "que",
+      "pos": "连词/关系代词",
+      "zh": "引导从句：…说/认为/希望（后接句子）",
+      "example": {
+        "pt": "Eu acho que sim.",
+        "zh": "我认为是的。"
+      }
+    },
+    {
+      "rank": 5,
+      "pt": "e",
+      "pos": "连词",
+      "zh": "和",
+      "example": {
+        "pt": "Eu e você somos amigos.",
+        "zh": "我和你是朋友。"
+      }
+    },
+    {
+      "rank": 6,
+      "pt": "do",
+      "pos": "缩合（de+o）",
+      "zh": "…的 / 从（阳性单数）",
+      "example": {
+        "pt": "Eu gosto do Brasil.",
+        "zh": "我喜欢巴西。"
+      }
+    },
+    {
+      "rank": 7,
+      "pt": "da",
+      "pos": "缩合（de+a）",
+      "zh": "…的 / 从（阴性单数）",
+      "example": {
+        "pt": "Pequim é a capital da China.",
+        "zh": "北京是中国的首都。"
+      }
+    },
+    {
+      "rank": 8,
+      "pt": "em",
+      "pos": "介词",
+      "zh": "在（地点/时间，≈西语 en）",
+      "example": {
+        "pt": "Eu moro em São Paulo.",
+        "zh": "我住在圣保罗。"
+      }
+    },
+    {
+      "rank": 9,
+      "pt": "um",
+      "pos": "冠词/数词",
+      "zh": "一个（阳性，≈西语 un）",
+      "example": {
+        "pt": "Eu tenho um carro.",
+        "zh": "我有一辆车。"
+      }
+    },
+    {
+      "rank": 10,
+      "pt": "para",
+      "pos": "介词",
+      "zh": "为了 / 去（方向/目的）",
+      "example": {
+        "pt": "Este presente é para você.",
+        "zh": "这个礼物是给你的。"
+      }
+    },
+    {
+      "rank": 11,
+      "pt": "é",
+      "pos": "动词（ser 现在时）",
+      "zh": "是（第三人称单数）",
+      "example": {
+        "pt": "Ela é médica.",
+        "zh": "她是医生。"
+      }
+    },
+    {
+      "rank": 12,
+      "pt": "com",
+      "pos": "介词",
+      "zh": "和 / 用（≈西语 con）",
+      "example": {
+        "pt": "Quero um café com leite.",
+        "zh": "我要一杯加奶咖啡。"
+      }
+    },
+    {
+      "rank": 13,
+      "pt": "não",
+      "pos": "副词",
+      "zh": "不",
+      "example": {
+        "pt": "Eu não sei.",
+        "zh": "我不知道。"
+      }
+    },
+    {
+      "rank": 14,
+      "pt": "uma",
+      "pos": "冠词/数词",
+      "zh": "一个（阴性，≈西语 una）",
+      "example": {
+        "pt": "Ela tem uma flor bonita.",
+        "zh": "她有一朵美丽的花。"
+      }
+    },
+    {
+      "rank": 15,
+      "pt": "os",
+      "pos": "冠词",
+      "zh": "阳性复数定冠词（≈西语 los）",
+      "example": {
+        "pt": "Os livros são bons.",
+        "zh": "这些书很好。"
+      }
+    },
+    {
+      "rank": 16,
+      "pt": "no",
+      "pos": "缩合（em+o）",
+      "zh": "在…里（阳性单数）",
+      "example": {
+        "pt": "Eu moro no Brasil.",
+        "zh": "我住在巴西。"
+      }
+    },
+    {
+      "rank": 17,
+      "pt": "se",
+      "pos": "代词/连词",
+      "zh": "自己（反身）/ 如果",
+      "example": {
+        "pt": "Ele se chama Carlos.",
+        "zh": "他叫卡洛斯。"
+      }
+    },
+    {
+      "rank": 18,
+      "pt": "na",
+      "pos": "缩合（em+a）",
+      "zh": "在…里（阴性单数）",
+      "example": {
+        "pt": "O livro está na mesa.",
+        "zh": "书在桌上。"
+      }
+    },
+    {
+      "rank": 19,
+      "pt": "por",
+      "pos": "介词",
+      "zh": "通过 / 因为 / 每",
+      "example": {
+        "pt": "Eu passo por aqui todos os dias.",
+        "zh": "我每天经过这里。"
+      }
+    },
+    {
+      "rank": 20,
+      "pt": "mais",
+      "pos": "副词",
+      "zh": "更 / 更多",
+      "example": {
+        "pt": "Quero mais café, por favor.",
+        "zh": "请再给我来点咖啡。"
+      }
+    },
+    {
+      "rank": 21,
+      "pt": "as",
+      "pos": "冠词",
+      "zh": "阴性复数定冠词（≈西语 las）",
+      "example": {
+        "pt": "As meninas são simpáticas.",
+        "zh": "姑娘们很友善。"
+      }
+    },
+    {
+      "rank": 22,
+      "pt": "dos",
+      "pos": "缩合（de+os）",
+      "zh": "…的（阳性复数）",
+      "example": {
+        "pt": "a cor dos olhos dela",
+        "zh": "她眼睛的颜色"
+      }
+    },
+    {
+      "rank": 23,
+      "pt": "como",
+      "pos": "连词/介词",
+      "zh": "像 / 作为 / 怎样",
+      "example": {
+        "pt": "Como você está?",
+        "zh": "你好吗？"
+      }
+    },
+    {
+      "rank": 24,
+      "pt": "mas",
+      "pos": "连词",
+      "zh": "但是（≈西语 pero）",
+      "example": {
+        "pt": "Eu quero, mas não posso.",
+        "zh": "我想去，但去不了。"
+      }
+    },
+    {
+      "rank": 25,
+      "pt": "ser",
+      "pos": "动词",
+      "zh": "是（本质/永久）",
+      "example": {
+        "pt": "Eu sou estudante.",
+        "zh": "我是学生。"
+      },
+      "conjugations": {
+        "eu": "sou",
+        "tu": "és",
+        "ele/ela/você": "é",
+        "nós": "somos",
+        "eles/elas/vocês": "são",
+        "es": "ser: soy/eres/es/somos/son"
+      }
+    },
+    {
+      "rank": 26,
+      "pt": "ao",
+      "pos": "缩合（a+o）",
+      "zh": "到（阳性单数，≈西语 al）",
+      "example": {
+        "pt": "Eu vou ao mercado.",
+        "zh": "我去超市。"
+      }
+    },
+    {
+      "rank": 27,
+      "pt": "ele",
+      "pos": "代词",
+      "zh": "他",
+      "example": {
+        "pt": "Ele é brasileiro.",
+        "zh": "他是巴西人。"
+      }
+    },
+    {
+      "rank": 28,
+      "pt": "das",
+      "pos": "缩合（de+as）",
+      "zh": "…的（阴性复数）",
+      "example": {
+        "pt": "a casa das meninas",
+        "zh": "姑娘们的房子"
+      }
+    },
+    {
+      "rank": 29,
+      "pt": "ter",
+      "pos": "动词",
+      "zh": "有",
+      "example": {
+        "pt": "Eu tenho dois filhos.",
+        "zh": "我有两个孩子。"
+      },
+      "conjugations": {
+        "eu": "tenho",
+        "tu": "tens",
+        "ele/ela/você": "tem",
+        "nós": "temos",
+        "eles/elas/vocês": "têm",
+        "es": "tener: tengo/tienes/tiene/tenemos/tienen"
+      }
+    },
+    {
+      "rank": 30,
+      "pt": "à",
+      "pos": "缩合（a+a，crase）",
+      "zh": "到（阴性单数）",
+      "example": {
+        "pt": "Vou à praia no sábado.",
+        "zh": "我周六去海滩。"
+      }
+    },
+    {
+      "rank": 31,
+      "pt": "seu",
+      "pos": "物主代词",
+      "zh": "你的 / 他的（阳性）",
+      "example": {
+        "pt": "O seu carro é novo.",
+        "zh": "你的车很新。"
+      }
+    },
+    {
+      "rank": 32,
+      "pt": "sua",
+      "pos": "物主代词",
+      "zh": "你的 / 他的（阴性）",
+      "example": {
+        "pt": "A sua casa é grande.",
+        "zh": "你的房子很大。"
+      }
+    },
+    {
+      "rank": 33,
+      "pt": "ou",
+      "pos": "连词",
+      "zh": "或者（≈西语 o）",
+      "example": {
+        "pt": "Chá ou café?",
+        "zh": "茶还是咖啡？"
+      }
+    },
+    {
+      "rank": 34,
+      "pt": "estar",
+      "pos": "动词",
+      "zh": "是（状态/位置）",
+      "example": {
+        "pt": "Eu estou bem, obrigado.",
+        "zh": "我很好，谢谢。"
+      },
+      "conjugations": {
+        "eu": "estou",
+        "tu": "estás",
+        "ele/ela/você": "está",
+        "nós": "estamos",
+        "eles/elas/vocês": "estão",
+        "es": "estar: estoy/estás/está/estamos/están"
+      }
+    },
+    {
+      "rank": 35,
+      "pt": "quando",
+      "pos": "副词/连词",
+      "zh": "什么时候 / 当…时",
+      "example": {
+        "pt": "Quando você chega?",
+        "zh": "你什么时候到？"
+      }
+    },
+    {
+      "rank": 36,
+      "pt": "muito",
+      "pos": "副词",
+      "zh": "很 / 非常",
+      "example": {
+        "pt": "Muito obrigado!",
+        "zh": "非常感谢！"
+      }
+    },
+    {
+      "rank": 37,
+      "pt": "haver",
+      "pos": "动词",
+      "zh": "有（存在，≈西语 haber）",
+      "example": {
+        "pt": "Há muita gente aqui.",
+        "zh": "这里有很多人。"
+      },
+      "conjugations": {
+        "eu": "hei",
+        "tu": "hás",
+        "ele/ela/você": "há",
+        "nós": "havemos",
+        "eles/elas/vocês": "hão",
+        "es": "haber: he/has/ha/hemos/han"
+      }
+    },
+    {
+      "rank": 38,
+      "pt": "já",
+      "pos": "副词",
+      "zh": "已经 / 马上",
+      "example": {
+        "pt": "Eu já comi.",
+        "zh": "我已经吃过了。"
+      }
+    },
+    {
+      "rank": 39,
+      "pt": "eu",
+      "pos": "代词",
+      "zh": "我",
+      "example": {
+        "pt": "Eu falo português.",
+        "zh": "我说葡语。"
+      }
+    },
+    {
+      "rank": 40,
+      "pt": "também",
+      "pos": "副词",
+      "zh": "也（≈西语 también）",
+      "example": {
+        "pt": "Eu também gosto de café.",
+        "zh": "我也喜欢咖啡。"
+      }
+    },
+    {
+      "rank": 41,
+      "pt": "só",
+      "pos": "副词",
+      "zh": "只 / 仅仅",
+      "example": {
+        "pt": "Só um pouco, por favor.",
+        "zh": "只要一点点，谢谢。"
+      }
+    },
+    {
+      "rank": 42,
+      "pt": "pelo",
+      "pos": "缩合（por+o）",
+      "zh": "经由（阳性）",
+      "example": {
+        "pt": "Eu passo pelo parque.",
+        "zh": "我经过公园。"
+      }
+    },
+    {
+      "rank": 43,
+      "pt": "pela",
+      "pos": "缩合（por+a）",
+      "zh": "经由 / 为了（阴性）",
+      "example": {
+        "pt": "Obrigado pela ajuda.",
+        "zh": "谢谢你的帮助。"
+      }
+    },
+    {
+      "rank": 44,
+      "pt": "até",
+      "pos": "介词",
+      "zh": "直到（≈西语 hasta）",
+      "example": {
+        "pt": "Até amanhã!",
+        "zh": "明天见！"
+      }
+    },
+    {
+      "rank": 45,
+      "pt": "isso",
+      "pos": "代词",
+      "zh": "那 / 那个（中性）",
+      "example": {
+        "pt": "O que é isso?",
+        "zh": "那是什么？"
+      }
+    },
+    {
+      "rank": 46,
+      "pt": "ela",
+      "pos": "代词",
+      "zh": "她",
+      "example": {
+        "pt": "Ela está em casa.",
+        "zh": "她在家。"
+      }
+    },
+    {
+      "rank": 47,
+      "pt": "entre",
+      "pos": "介词",
+      "zh": "在…之间",
+      "example": {
+        "pt": "Isso fica entre nós.",
+        "zh": "这事就咱俩知道。"
+      }
+    },
+    {
+      "rank": 48,
+      "pt": "depois",
+      "pos": "副词",
+      "zh": "之后 / 然后",
+      "example": {
+        "pt": "Depois eu te ligo.",
+        "zh": "之后我打给你。"
+      }
+    },
+    {
+      "rank": 49,
+      "pt": "sem",
+      "pos": "介词",
+      "zh": "没有（≈西语 sin）",
+      "example": {
+        "pt": "Um café sem açúcar.",
+        "zh": "一杯不加糖的咖啡。"
+      }
+    },
+    {
+      "rank": 50,
+      "pt": "mesmo",
+      "pos": "副词/形容词",
+      "zh": "甚至 / 同一个 / 亲自",
+      "example": {
+        "pt": "Eu mesmo fiz isso.",
+        "zh": "这是我亲自做的。"
+      }
+    },
+    {
+      "rank": 51,
+      "pt": "ir",
+      "pos": "动词",
+      "zh": "去",
+      "example": {
+        "pt": "Eu vou à escola.",
+        "zh": "我去上学。"
+      },
+      "conjugations": {
+        "eu": "vou",
+        "tu": "vais",
+        "ele/ela/você": "vai",
+        "nós": "vamos",
+        "eles/elas/vocês": "vão",
+        "es": "ir: voy/vas/va/vamos/van"
+      }
+    },
+    {
+      "rank": 52,
+      "pt": "fazer",
+      "pos": "动词",
+      "zh": "做",
+      "example": {
+        "pt": "O que você faz?",
+        "zh": "你是做什么的？"
+      },
+      "conjugations": {
+        "eu": "faço",
+        "tu": "fazes",
+        "ele/ela/você": "faz",
+        "nós": "fazemos",
+        "eles/elas/vocês": "fazem",
+        "es": "hacer: hago/haces/hace/hacemos/hacen"
+      }
+    },
+    {
+      "rank": 53,
+      "pt": "quem",
+      "pos": "代词",
+      "zh": "谁",
+      "example": {
+        "pt": "Quem é ele?",
+        "zh": "他是谁？"
+      }
+    },
+    {
+      "rank": 54,
+      "pt": "nas",
+      "pos": "缩合（em+as）",
+      "zh": "在…里（阴性复数）",
+      "example": {
+        "pt": "Eu viajo nas férias.",
+        "zh": "我假期去旅行。"
+      }
+    },
+    {
+      "rank": 55,
+      "pt": "esse",
+      "pos": "代词",
+      "zh": "那个（阳性）",
+      "example": {
+        "pt": "Esse livro é bom.",
+        "zh": "那本书很好。"
+      }
+    },
+    {
+      "rank": 56,
+      "pt": "eles",
+      "pos": "代词",
+      "zh": "他们",
+      "example": {
+        "pt": "Eles são amigos.",
+        "zh": "他们是朋友。"
+      }
+    },
+    {
+      "rank": 57,
+      "pt": "você",
+      "pos": "代词",
+      "zh": "你（巴西通用，搭第三人称）",
+      "example": {
+        "pt": "Você fala português?",
+        "zh": "你说葡语吗？"
+      }
+    },
+    {
+      "rank": 58,
+      "pt": "essa",
+      "pos": "代词",
+      "zh": "那个（阴性）",
+      "example": {
+        "pt": "Essa casa é bonita.",
+        "zh": "那栋房子很漂亮。"
+      }
+    },
+    {
+      "rank": 59,
+      "pt": "num",
+      "pos": "缩合（em+um）",
+      "zh": "在一个…里（阳性，口语）",
+      "example": {
+        "pt": "Eu moro num apartamento.",
+        "zh": "我住在一间公寓。"
+      }
+    },
+    {
+      "rank": 60,
+      "pt": "nem",
+      "pos": "连词",
+      "zh": "也不",
+      "example": {
+        "pt": "Não sei, nem quero saber.",
+        "zh": "我不知道，也不想知道。"
+      }
+    },
+    {
+      "rank": 61,
+      "pt": "às",
+      "pos": "缩合（a+as）/ 钟点",
+      "zh": "在…点（钟）",
+      "example": {
+        "pt": "A loja abre às nove.",
+        "zh": "商店九点开门。"
+      }
+    },
+    {
+      "rank": 62,
+      "pt": "meu",
+      "pos": "物主代词",
+      "zh": "我的（阳性）",
+      "example": {
+        "pt": "O meu pai é professor.",
+        "zh": "我爸爸是老师。"
+      }
+    },
+    {
+      "rank": 63,
+      "pt": "minha",
+      "pos": "物主代词",
+      "zh": "我的（阴性）",
+      "example": {
+        "pt": "A minha mãe é médica.",
+        "zh": "我妈妈是医生。"
+      }
+    },
+    {
+      "rank": 64,
+      "pt": "numa",
+      "pos": "缩合（em+uma）",
+      "zh": "在一个…里（阴性，口语）",
+      "example": {
+        "pt": "Eu moro numa casa pequena.",
+        "zh": "我住在一栋小房子里。"
+      }
+    },
+    {
+      "rank": 65,
+      "pt": "elas",
+      "pos": "代词",
+      "zh": "她们",
+      "example": {
+        "pt": "Elas são irmãs.",
+        "zh": "她们是姐妹。"
+      }
+    },
+    {
+      "rank": 66,
+      "pt": "qual",
+      "pos": "代词",
+      "zh": "哪个",
+      "example": {
+        "pt": "Qual você quer?",
+        "zh": "你想要哪个？"
+      }
+    },
+    {
+      "rank": 67,
+      "pt": "nós",
+      "pos": "代词",
+      "zh": "我们",
+      "example": {
+        "pt": "Nós somos chineses.",
+        "zh": "我们是中国人。"
+      }
+    },
+    {
+      "rank": 68,
+      "pt": "este",
+      "pos": "代词",
+      "zh": "这个（阳性）",
+      "example": {
+        "pt": "Este carro é meu.",
+        "zh": "这辆车是我的。"
+      }
+    },
+    {
+      "rank": 69,
+      "pt": "dele",
+      "pos": "缩合（de+ele）",
+      "zh": "他的",
+      "example": {
+        "pt": "O carro dele é novo.",
+        "zh": "他的车很新。"
+      }
+    },
+    {
+      "rank": 70,
+      "pt": "foi",
+      "pos": "动词（ir/ser 过去时）",
+      "zh": "去了 / 曾是（第三人称）",
+      "example": {
+        "pt": "Ele foi ao Brasil.",
+        "zh": "他去了巴西。"
+      }
+    },
+    {
+      "rank": 71,
+      "pt": "está",
+      "pos": "动词（estar 现在时）",
+      "zh": "在 / 是（第三人称）",
+      "example": {
+        "pt": "Ela está cansada.",
+        "zh": "她累了。"
+      }
+    },
+    {
+      "rank": 72,
+      "pt": "tem",
+      "pos": "动词（ter 现在时）",
+      "zh": "有（第三人称单数）",
+      "example": {
+        "pt": "Ele tem um carro.",
+        "zh": "他有一辆车。"
+      }
+    },
+    {
+      "rank": 73,
+      "pt": "são",
+      "pos": "动词（ser 现在时）",
+      "zh": "是（第三人称复数，鼻音）",
+      "example": {
+        "pt": "Eles são brasileiros.",
+        "zh": "他们是巴西人。"
+      }
+    },
+    {
+      "rank": 74,
+      "pt": "estão",
+      "pos": "动词（estar 现在时）",
+      "zh": "在 / 是（第三人称复数）",
+      "example": {
+        "pt": "Elas estão em casa.",
+        "zh": "她们在家。"
+      }
+    },
+    {
+      "rank": 75,
+      "pt": "era",
+      "pos": "动词（ser 过去未完成）",
+      "zh": "曾是 / 当时是",
+      "example": {
+        "pt": "Ele era professor.",
+        "zh": "他以前是老师。"
+      }
+    },
+    {
+      "rank": 76,
+      "pt": "têm",
+      "pos": "动词（ter 现在时）",
+      "zh": "有（第三人称复数，带尖音符）",
+      "example": {
+        "pt": "Eles têm dois filhos.",
+        "zh": "他们有两个孩子。"
+      }
+    },
+    {
+      "rank": 77,
+      "pt": "poder",
+      "pos": "动词",
+      "zh": "能 / 可以",
+      "example": {
+        "pt": "Posso ajudar?",
+        "zh": "我能帮忙吗？"
+      },
+      "conjugations": {
+        "eu": "posso",
+        "tu": "podes",
+        "ele/ela/você": "pode",
+        "nós": "podemos",
+        "eles/elas/vocês": "podem",
+        "es": "poder: puedo/puedes/puede/podemos/pueden"
+      }
+    },
+    {
+      "rank": 78,
+      "pt": "querer",
+      "pos": "动词",
+      "zh": "想要",
+      "example": {
+        "pt": "Eu quero um café.",
+        "zh": "我想要一杯咖啡。"
+      },
+      "conjugations": {
+        "eu": "quero",
+        "tu": "queres",
+        "ele/ela/você": "quer",
+        "nós": "queremos",
+        "eles/elas/vocês": "querem",
+        "es": "querer: quiero/quieres/quiere/queremos/quieren"
+      }
+    },
+    {
+      "rank": 79,
+      "pt": "dar",
+      "pos": "动词",
+      "zh": "给",
+      "example": {
+        "pt": "Eu dou o livro a ele.",
+        "zh": "我把书给他。"
+      },
+      "conjugations": {
+        "eu": "dou",
+        "tu": "dás",
+        "ele/ela/você": "dá",
+        "nós": "damos",
+        "eles/elas/vocês": "dão",
+        "es": "dar: doy/das/da/damos/dan"
+      }
+    },
+    {
+      "rank": 80,
+      "pt": "ver",
+      "pos": "动词",
+      "zh": "看见",
+      "example": {
+        "pt": "Eu vejo o mar da janela.",
+        "zh": "我从窗户看见大海。"
+      },
+      "conjugations": {
+        "eu": "vejo",
+        "tu": "vês",
+        "ele/ela/você": "vê",
+        "nós": "vemos",
+        "eles/elas/vocês": "veem",
+        "es": "ver: veo/ves/ve/vemos/ven"
+      }
+    },
+    {
+      "rank": 81,
+      "pt": "dizer",
+      "pos": "动词",
+      "zh": "说",
+      "example": {
+        "pt": "O que você disse?",
+        "zh": "你说了什么？"
+      },
+      "conjugations": {
+        "eu": "digo",
+        "tu": "dizes",
+        "ele/ela/você": "diz",
+        "nós": "dizemos",
+        "eles/elas/vocês": "dizem",
+        "es": "decir: digo/dices/dice/decimos/dicen"
+      }
+    },
+    {
+      "rank": 82,
+      "pt": "saber",
+      "pos": "动词",
+      "zh": "知道",
+      "example": {
+        "pt": "Eu não sei ainda.",
+        "zh": "我还不知道。"
+      },
+      "conjugations": {
+        "eu": "sei",
+        "tu": "sabes",
+        "ele/ela/você": "sabe",
+        "nós": "sabemos",
+        "eles/elas/vocês": "sabem",
+        "es": "saber: sé/sabes/sabe/sabemos/saben"
+      }
+    },
+    {
+      "rank": 83,
+      "pt": "onde",
+      "pos": "副词",
+      "zh": "哪里",
+      "example": {
+        "pt": "Onde você mora?",
+        "zh": "你住在哪里？"
+      }
+    },
+    {
+      "rank": 84,
+      "pt": "enquanto",
+      "pos": "连词",
+      "zh": "当…时 / 而",
+      "example": {
+        "pt": "Enquanto eu trabalho, ela estuda.",
+        "zh": "我工作的时候她在学习。"
+      }
+    },
+    {
+      "rank": 85,
+      "pt": "ainda",
+      "pos": "副词",
+      "zh": "还 / 仍然",
+      "example": {
+        "pt": "Ainda não, obrigado.",
+        "zh": "还没有，谢谢。"
+      }
+    },
+    {
+      "rank": 86,
+      "pt": "aqui",
+      "pos": "副词",
+      "zh": "这里",
+      "example": {
+        "pt": "Eu moro aqui.",
+        "zh": "我住在这里。"
+      }
+    },
+    {
+      "rank": 87,
+      "pt": "ali",
+      "pos": "副词",
+      "zh": "那里（不远处）",
+      "example": {
+        "pt": "O livro está ali.",
+        "zh": "书就在那边。"
+      }
+    },
+    {
+      "rank": 88,
+      "pt": "lá",
+      "pos": "副词",
+      "zh": "那里（远处）",
+      "example": {
+        "pt": "A minha família mora lá.",
+        "zh": "我家人住在那边。"
+      }
+    },
+    {
+      "rank": 89,
+      "pt": "agora",
+      "pos": "副词",
+      "zh": "现在",
+      "example": {
+        "pt": "Agora eu entendo.",
+        "zh": "现在我明白了。"
+      }
+    },
+    {
+      "rank": 90,
+      "pt": "hoje",
+      "pos": "名词/副词",
+      "zh": "今天",
+      "example": {
+        "pt": "Hoje é segunda-feira.",
+        "zh": "今天是星期一。"
+      }
+    },
+    {
+      "rank": 91,
+      "pt": "amanhã",
+      "pos": "名词/副词",
+      "zh": "明天",
+      "example": {
+        "pt": "Até amanhã!",
+        "zh": "明天见！"
+      }
+    },
+    {
+      "rank": 92,
+      "pt": "sim",
+      "pos": "副词",
+      "zh": "是 / 对",
+      "example": {
+        "pt": "Sim, eu quero.",
+        "zh": "是的，我要。"
+      }
+    },
+    {
+      "rank": 93,
+      "pt": "tudo",
+      "pos": "代词",
+      "zh": "一切 / 所有",
+      "example": {
+        "pt": "Tudo bem?",
+        "zh": "一切都好吗？"
+      }
+    },
+    {
+      "rank": 94,
+      "pt": "nada",
+      "pos": "代词",
+      "zh": "什么也没有",
+      "example": {
+        "pt": "De nada!",
+        "zh": "不客气！"
+      }
+    },
+    {
+      "rank": 95,
+      "pt": "algo",
+      "pos": "代词",
+      "zh": "某事 / 某物",
+      "example": {
+        "pt": "Você quer algo?",
+        "zh": "你想要点什么吗？"
+      }
+    },
+    {
+      "rank": 96,
+      "pt": "cada",
+      "pos": "代词/形容词",
+      "zh": "每个",
+      "example": {
+        "pt": "Cada dia é diferente.",
+        "zh": "每一天都不一样。"
+      }
+    },
+    {
+      "rank": 97,
+      "pt": "outro",
+      "pos": "代词/形容词",
+      "zh": "另一个 / 别的",
+      "example": {
+        "pt": "Outro dia eu te conto.",
+        "zh": "改天我再告诉你。"
+      }
+    },
+    {
+      "rank": 98,
+      "pt": "sobre",
+      "pos": "介词",
+      "zh": "关于 / 在…上",
+      "example": {
+        "pt": "um livro sobre o Brasil",
+        "zh": "一本关于巴西的书"
+      }
+    },
+    {
+      "rank": 99,
+      "pt": "contra",
+      "pos": "介词",
+      "zh": "反对 / 靠着",
+      "example": {
+        "pt": "Eu sou contra isso.",
+        "zh": "我反对这个。"
+      }
+    },
+    {
+      "rank": 100,
+      "pt": "desde",
+      "pos": "介词",
+      "zh": "自从",
+      "example": {
+        "pt": "Eu moro aqui desde 2020.",
+        "zh": "我从 2020 年起住在这里。"
+      }
+    }
+  ],
+  "w2": [
+    {
+      "rank": 101,
+      "pt": "falar",
+      "pos": "动词",
+      "zh": "说 / 讲话",
+      "example": {
+        "pt": "Eu falo português.",
+        "zh": "我说葡语。"
+      },
+      "conjugations": {
+        "eu": "falo",
+        "tu": "falas",
+        "ele/ela/você": "fala",
+        "nós": "falamos",
+        "eles/elas/vocês": "falam",
+        "es": "hablar: hablo/hablas/habla/hablamos/hablan"
+      }
+    },
+    {
+      "rank": 102,
+      "pt": "encontrar",
+      "pos": "动词",
+      "zh": "找到 / 遇见",
+      "example": {
+        "pt": "Eu encontro meus amigos no bar.",
+        "zh": "我在酒吧见朋友。"
+      },
+      "conjugations": {
+        "eu": "encontro",
+        "tu": "encontras",
+        "ele/ela/você": "encontra",
+        "nós": "encontramos",
+        "eles/elas/vocês": "encontram",
+        "es": "encontrar: encuentro/encuentras/encuentra/encontramos/encuentran"
+      }
+    },
+    {
+      "rank": 103,
+      "pt": "levar",
+      "pos": "动词",
+      "zh": "带走 / 携带",
+      "example": {
+        "pt": "Eu levo um guarda-chuva.",
+        "zh": "我带一把伞。"
+      },
+      "conjugations": {
+        "eu": "levo",
+        "tu": "levas",
+        "ele/ela/você": "leva",
+        "nós": "levamos",
+        "eles/elas/vocês": "levam",
+        "es": "llevar: llevo/llevas/lleva/llevamos/llevan"
+      }
+    },
+    {
+      "rank": 104,
+      "pt": "passar",
+      "pos": "动词",
+      "zh": "经过 / 度过（时间）",
+      "example": {
+        "pt": "Eu passo o fim de semana na praia.",
+        "zh": "我在海滩过周末。"
+      },
+      "conjugations": {
+        "eu": "passo",
+        "tu": "passas",
+        "ele/ela/você": "passa",
+        "nós": "passamos",
+        "eles/elas/vocês": "passam",
+        "es": "pasar: paso/pasas/pasa/pasamos/pasan"
+      }
+    },
+    {
+      "rank": 105,
+      "pt": "deixar",
+      "pos": "动词",
+      "zh": "留下 / 让",
+      "example": {
+        "pt": "Deixa comigo.",
+        "zh": "交给我吧。"
+      },
+      "conjugations": {
+        "eu": "deixo",
+        "tu": "deixas",
+        "ele/ela/você": "deixa",
+        "nós": "deixamos",
+        "eles/elas/vocês": "deixam",
+        "es": "dejar: dejo/dejas/deja/dejamos/dejan"
+      }
+    },
+    {
+      "rank": 106,
+      "pt": "ficar",
+      "pos": "动词",
+      "zh": "待在 / 变得 / 位于",
+      "example": {
+        "pt": "Eu fico em casa hoje.",
+        "zh": "我今天待在家里。"
+      },
+      "conjugations": {
+        "eu": "fiço",
+        "tu": "ficas",
+        "ele/ela/você": "fica",
+        "nós": "ficamos",
+        "eles/elas/vocês": "ficam",
+        "es": "西语 quedar(se)/estar：quedo/quedas/queda/quedamos/quedan"
+      }
+    },
+    {
+      "rank": 107,
+      "pt": "vir",
+      "pos": "动词",
+      "zh": "来",
+      "example": {
+        "pt": "Vem aqui, por favor.",
+        "zh": "请过来一下。"
+      },
+      "conjugations": {
+        "eu": "venho",
+        "tu": "vens",
+        "ele/ela/você": "vem",
+        "nós": "vimos",
+        "eles/elas/vocês": "vêm",
+        "es": "venir: vengo/vienes/viene/venimos/vienen"
+      }
+    },
+    {
+      "rank": 108,
+      "pt": "chegar",
+      "pos": "动词",
+      "zh": "到达",
+      "example": {
+        "pt": "Eu chego às nove.",
+        "zh": "我九点到。"
+      },
+      "conjugations": {
+        "eu": "chego",
+        "tu": "chegas",
+        "ele/ela/você": "chega",
+        "nós": "chegamos",
+        "eles/elas/vocês": "chegam",
+        "es": "llegar: llego/llegas/llega/llegamos/llegan"
+      }
+    },
+    {
+      "rank": 109,
+      "pt": "partir",
+      "pos": "动词",
+      "zh": "离开 / 出发",
+      "example": {
+        "pt": "O trem parte às oito.",
+        "zh": "火车八点出发。"
+      },
+      "conjugations": {
+        "eu": "parto",
+        "tu": "partes",
+        "ele/ela/você": "parte",
+        "nós": "partimos",
+        "eles/elas/vocês": "partem",
+        "es": "partir: parto/partes/parte/partimos/parten"
+      }
+    },
+    {
+      "rank": 110,
+      "pt": "voltar",
+      "pos": "动词",
+      "zh": "回来 / 返回",
+      "example": {
+        "pt": "Eu volto amanhã.",
+        "zh": "我明天回来。"
+      },
+      "conjugations": {
+        "eu": "volto",
+        "tu": "voltas",
+        "ele/ela/você": "volta",
+        "nós": "voltamos",
+        "eles/elas/vocês": "voltam",
+        "es": "volver: vuelvo/vuelves/vuelve/volvemos/vuelven"
+      }
+    },
+    {
+      "rank": 111,
+      "pt": "começar",
+      "pos": "动词",
+      "zh": "开始",
+      "example": {
+        "pt": "A aula começa às dez.",
+        "zh": "课十点开始。"
+      },
+      "conjugations": {
+        "eu": "começo",
+        "tu": "começas",
+        "ele/ela/você": "começa",
+        "nós": "começamos",
+        "eles/elas/vocês": "começam",
+        "es": "empezar: empiezo/empiezas/empieza/empezamos/empiezan"
+      }
+    },
+    {
+      "rank": 112,
+      "pt": "acabar",
+      "pos": "动词",
+      "zh": "结束 / 刚做完",
+      "example": {
+        "pt": "Eu acabo de comer.",
+        "zh": "我刚吃完。"
+      },
+      "conjugations": {
+        "eu": "acabo",
+        "tu": "acabas",
+        "ele/ela/você": "acaba",
+        "nós": "acabamos",
+        "eles/elas/vocês": "acabam",
+        "es": "acabar: acabo/acabas/acaba/acabamos/acaban"
+      }
+    },
+    {
+      "rank": 113,
+      "pt": "trabalhar",
+      "pos": "动词",
+      "zh": "工作",
+      "example": {
+        "pt": "Eu trabalho numa empresa chinesa.",
+        "zh": "我在一家中国公司工作。"
+      },
+      "conjugations": {
+        "eu": "trabalho",
+        "tu": "trabalhas",
+        "ele/ela/você": "trabalha",
+        "nós": "trabalhamos",
+        "eles/elas/vocês": "trabalham",
+        "es": "trabajar: trabajo/trabajas/trabaja/trabajamos/trabajan"
+      }
+    },
+    {
+      "rank": 114,
+      "pt": "estudar",
+      "pos": "动词",
+      "zh": "学习",
+      "example": {
+        "pt": "Eu estudo português todos os dias.",
+        "zh": "我每天学葡语。"
+      },
+      "conjugations": {
+        "eu": "estudo",
+        "tu": "estudas",
+        "ele/ela/você": "estuda",
+        "nós": "estudamos",
+        "eles/elas/vocês": "estudam",
+        "es": "estudiar: estudio/estudias/estudia/estudiamos/estudian"
+      }
+    },
+    {
+      "rank": 115,
+      "pt": "morar",
+      "pos": "动词",
+      "zh": "居住（在某地）",
+      "example": {
+        "pt": "Eu moro em São Paulo.",
+        "zh": "我住在圣保罗。"
+      },
+      "conjugations": {
+        "eu": "moro",
+        "tu": "moras",
+        "ele/ela/você": "mora",
+        "nós": "moramos",
+        "eles/elas/vocês": "moram",
+        "es": "西语 vivir: vivo/vives/vive/vivimos/viven"
+      }
+    },
+    {
+      "rank": 116,
+      "pt": "viver",
+      "pos": "动词",
+      "zh": "生活 / 活着",
+      "example": {
+        "pt": "Eles vivem bem.",
+        "zh": "他们生活得很好。"
+      },
+      "conjugations": {
+        "eu": "vivo",
+        "tu": "vives",
+        "ele/ela/você": "vive",
+        "nós": "vivemos",
+        "eles/elas/vocês": "vivem",
+        "es": "vivir: vivo/vives/vive/vivimos/viven"
+      }
+    },
+    {
+      "rank": 117,
+      "pt": "comer",
+      "pos": "动词",
+      "zh": "吃",
+      "example": {
+        "pt": "Eu como arroz e feijão.",
+        "zh": "我吃米饭和豆子。"
+      },
+      "conjugations": {
+        "eu": "como",
+        "tu": "comes",
+        "ele/ela/você": "come",
+        "nós": "comemos",
+        "eles/elas/vocês": "comem",
+        "es": "comer: como/comes/come/comemos/comen"
+      }
+    },
+    {
+      "rank": 118,
+      "pt": "beber",
+      "pos": "动词",
+      "zh": "喝",
+      "example": {
+        "pt": "Eu bebo café de manhã.",
+        "zh": "我早上喝咖啡。"
+      },
+      "conjugations": {
+        "eu": "bebo",
+        "tu": "bebes",
+        "ele/ela/você": "bebe",
+        "nós": "bebemos",
+        "eles/elas/vocês": "bebem",
+        "es": "beber: bebo/bebes/bebe/bebemos/beben"
+      }
+    },
+    {
+      "rank": 119,
+      "pt": "abrir",
+      "pos": "动词",
+      "zh": "打开",
+      "example": {
+        "pt": "A loja abre às nove.",
+        "zh": "商店九点开门。"
+      },
+      "conjugations": {
+        "eu": "abro",
+        "tu": "abres",
+        "ele/ela/você": "abre",
+        "nós": "abrimos",
+        "eles/elas/vocês": "abrem",
+        "es": "abrir: abro/abres/abre/abrimos/abren"
+      }
+    },
+    {
+      "rank": 120,
+      "pt": "fechar",
+      "pos": "动词",
+      "zh": "关闭",
+      "example": {
+        "pt": "O banco fecha às cinco.",
+        "zh": "银行五点关门。"
+      },
+      "conjugations": {
+        "eu": "fecho",
+        "tu": "fechas",
+        "ele/ela/você": "fecha",
+        "nós": "fechamos",
+        "eles/elas/vocês": "fecham",
+        "es": "cerrar: cierro/cierras/cierra/cerramos/cierran"
+      }
+    },
+    {
+      "rank": 121,
+      "pt": "escrever",
+      "pos": "动词",
+      "zh": "写",
+      "example": {
+        "pt": "Eu escrevo um e-mail.",
+        "zh": "我写一封邮件。"
+      },
+      "conjugations": {
+        "eu": "escrevo",
+        "tu": "escreves",
+        "ele/ela/você": "escreve",
+        "nós": "escrevemos",
+        "eles/elas/vocês": "escrevem",
+        "es": "escribir: escribo/escribes/escribe/escribimos/escriben"
+      }
+    },
+    {
+      "rank": 122,
+      "pt": "ler",
+      "pos": "动词",
+      "zh": "读",
+      "example": {
+        "pt": "Eu leio o jornal de manhã.",
+        "zh": "我早上读报。"
+      },
+      "conjugations": {
+        "eu": "leio",
+        "tu": "lês",
+        "ele/ela/você": "lê",
+        "nós": "lemos",
+        "eles/elas/vocês": "leem",
+        "es": "leer: leo/lees/lee/leemos/leen"
+      }
+    },
+    {
+      "rank": 123,
+      "pt": "ouvir",
+      "pos": "动词",
+      "zh": "听",
+      "example": {
+        "pt": "Eu ouço música brasileira.",
+        "zh": "我听巴西音乐。"
+      },
+      "conjugations": {
+        "eu": "ouço",
+        "tu": "ouves",
+        "ele/ela/você": "ouve",
+        "nós": "ouvimos",
+        "eles/elas/vocês": "ouvem",
+        "es": "oír: oigo/oyes/oye/oímos/oyen"
+      }
+    },
+    {
+      "rank": 124,
+      "pt": "olhar",
+      "pos": "动词",
+      "zh": "看（动作）",
+      "example": {
+        "pt": "Olha isso!",
+        "zh": "你看这个！"
+      },
+      "conjugations": {
+        "eu": "olho",
+        "tu": "olhas",
+        "ele/ela/você": "olha",
+        "nós": "olhamos",
+        "eles/elas/vocês": "olham",
+        "es": "mirar: miro/miras/mira/miramos/miran"
+      }
+    },
+    {
+      "rank": 125,
+      "pt": "gostar",
+      "pos": "动词",
+      "zh": "喜欢",
+      "example": {
+        "pt": "Eu gosto de café.",
+        "zh": "我喜欢咖啡。"
+      },
+      "conjugations": {
+        "eu": "gosto",
+        "tu": "gostas",
+        "ele/ela/você": "gosta",
+        "nós": "gostamos",
+        "eles/elas/vocês": "gostam",
+        "es": "西语 Me gusta el café（gustar 倒装结构）→ 葡语 Eu gosto de café：主谓正常语序 + 必须带 de！"
+      }
+    },
+    {
+      "rank": 126,
+      "pt": "precisar",
+      "pos": "动词",
+      "zh": "需要",
+      "example": {
+        "pt": "Eu preciso de ajuda.",
+        "zh": "我需要帮助。"
+      },
+      "conjugations": {
+        "eu": "preciso",
+        "tu": "precisas",
+        "ele/ela/você": "precisa",
+        "nós": "precisamos",
+        "eles/elas/vocês": "precisam",
+        "es": "necesitar: necesito/necesitas/necesita/necesitamos/necesitan"
+      }
+    },
+    {
+      "rank": 127,
+      "pt": "ajudar",
+      "pos": "动词",
+      "zh": "帮助",
+      "example": {
+        "pt": "Posso ajudar?",
+        "zh": "我能帮忙吗？"
+      },
+      "conjugations": {
+        "eu": "ajudo",
+        "tu": "ajudas",
+        "ele/ela/você": "ajuda",
+        "nós": "ajudamos",
+        "eles/elas/vocês": "ajudam",
+        "es": "ayudar: ayudo/ayudas/ayuda/ayudamos/ayudan"
+      }
+    },
+    {
+      "rank": 128,
+      "pt": "esperar",
+      "pos": "动词",
+      "zh": "等待 / 期待",
+      "example": {
+        "pt": "Eu espero o ônibus.",
+        "zh": "我等公交车。"
+      },
+      "conjugations": {
+        "eu": "espero",
+        "tu": "esperas",
+        "ele/ela/você": "espera",
+        "nós": "esperamos",
+        "eles/elas/vocês": "esperam",
+        "es": "esperar: espero/esperas/espera/esperamos/esperan"
+      }
+    },
+    {
+      "rank": 129,
+      "pt": "entender",
+      "pos": "动词",
+      "zh": "理解",
+      "example": {
+        "pt": "Eu entendo um pouco de português.",
+        "zh": "我懂一点葡语。"
+      },
+      "conjugations": {
+        "eu": "entendo",
+        "tu": "entendes",
+        "ele/ela/você": "entende",
+        "nós": "entendemos",
+        "eles/elas/vocês": "entendem",
+        "es": "entender: entiendo/entiendes/entiende/entendemos/entienden"
+      }
+    },
+    {
+      "rank": 130,
+      "pt": "pensar",
+      "pos": "动词",
+      "zh": "想 / 思考",
+      "example": {
+        "pt": "Eu penso em você.",
+        "zh": "我想你。"
+      },
+      "conjugations": {
+        "eu": "penso",
+        "tu": "pensas",
+        "ele/ela/você": "pensa",
+        "nós": "pensamos",
+        "eles/elas/vocês": "pensam",
+        "es": "pensar: pienso/piensas/piensa/pensamos/piensan"
+      }
+    },
+    {
+      "rank": 131,
+      "pt": "acreditar",
+      "pos": "动词",
+      "zh": "相信",
+      "example": {
+        "pt": "Eu acredito em você.",
+        "zh": "我相信你。"
+      },
+      "conjugations": {
+        "eu": "acredito",
+        "tu": "acreditas",
+        "ele/ela/você": "acredita",
+        "nós": "acreditamos",
+        "eles/elas/vocês": "acreditam",
+        "es": "creer: creo/crees/cree/creemos/creen"
+      }
+    },
+    {
+      "rank": 132,
+      "pt": "perguntar",
+      "pos": "动词",
+      "zh": "问（问题）",
+      "example": {
+        "pt": "Posso perguntar uma coisa?",
+        "zh": "我能问件事吗？"
+      },
+      "conjugations": {
+        "eu": "pergunto",
+        "tu": "perguntas",
+        "ele/ela/você": "pergunta",
+        "nós": "perguntamos",
+        "eles/elas/vocês": "perguntam",
+        "es": "preguntar: pregunto/preguntas/pregunta/preguntamos/preguntan"
+      }
+    },
+    {
+      "rank": 133,
+      "pt": "responder",
+      "pos": "动词",
+      "zh": "回答",
+      "example": {
+        "pt": "Ele não responde.",
+        "zh": "他不回答。"
+      },
+      "conjugations": {
+        "eu": "respondo",
+        "tu": "respondes",
+        "ele/ela/você": "responde",
+        "nós": "respondemos",
+        "eles/elas/vocês": "respondem",
+        "es": "responder: respondo/respondes/responde/respondemos/responden"
+      }
+    },
+    {
+      "rank": 134,
+      "pt": "chamar",
+      "pos": "动词",
+      "zh": "叫 / 称呼",
+      "example": {
+        "pt": "Eu me chamo Li Ming.",
+        "zh": "我叫李明。"
+      },
+      "conjugations": {
+        "eu": "chamo",
+        "tu": "chamas",
+        "ele/ela/você": "chama",
+        "nós": "chamamos",
+        "eles/elas/vocês": "chamam",
+        "es": "llamar: llamo/llamas/llama/llamamos/llaman"
+      }
+    },
+    {
+      "rank": 135,
+      "pt": "conhecer",
+      "pos": "动词",
+      "zh": "认识 / 了解",
+      "example": {
+        "pt": "Eu conheço São Paulo bem.",
+        "zh": "我很了解圣保罗。"
+      },
+      "conjugations": {
+        "eu": "conheço",
+        "tu": "conheces",
+        "ele/ela/você": "conhece",
+        "nós": "conhecemos",
+        "eles/elas/vocês": "conhecem",
+        "es": "conocer: conozco/conoces/conoce/conocemos/conocen"
+      }
+    },
+    {
+      "rank": 136,
+      "pt": "sentir",
+      "pos": "动词",
+      "zh": "感觉 / 遗憾",
+      "example": {
+        "pt": "Sinto muito.",
+        "zh": "非常抱歉。"
+      },
+      "conjugations": {
+        "eu": "sinto",
+        "tu": "sentes",
+        "ele/ela/você": "sente",
+        "nós": "sentimos",
+        "eles/elas/vocês": "sentem",
+        "es": "sentir: siento/sientes/siente/sentimos/sienten"
+      }
+    },
+    {
+      "rank": 137,
+      "pt": "dormir",
+      "pos": "动词",
+      "zh": "睡觉",
+      "example": {
+        "pt": "Eu durmo oito horas.",
+        "zh": "我睡八小时。"
+      },
+      "conjugations": {
+        "eu": "durmo",
+        "tu": "dormes",
+        "ele/ela/você": "dorme",
+        "nós": "dormimos",
+        "eles/elas/vocês": "dormem",
+        "es": "dormir: duermo/duermes/duerme/dormimos/duermen"
+      }
+    },
+    {
+      "rank": 138,
+      "pt": "acordar",
+      "pos": "动词",
+      "zh": "醒来 / 叫醒",
+      "example": {
+        "pt": "Eu acordo às sete.",
+        "zh": "我七点醒。"
+      },
+      "conjugations": {
+        "eu": "acordo",
+        "tu": "acordas",
+        "ele/ela/você": "acorda",
+        "nós": "acordamos",
+        "eles/elas/vocês": "acordam",
+        "es": "despertar: despierto/despiertas/despierta/despertamos/despiertan"
+      }
+    },
+    {
+      "rank": 139,
+      "pt": "lembrar",
+      "pos": "动词",
+      "zh": "记得 / 提醒",
+      "example": {
+        "pt": "Você lembra dele?",
+        "zh": "你记得他吗？"
+      },
+      "conjugations": {
+        "eu": "lembro",
+        "tu": "lembras",
+        "ele/ela/você": "lembra",
+        "nós": "lembramos",
+        "eles/elas/vocês": "lembram",
+        "es": "recordar: recuerdo/recuerdas/recuerda/recordamos/recuerdan"
+      }
+    },
+    {
+      "rank": 140,
+      "pt": "esquecer",
+      "pos": "动词",
+      "zh": "忘记",
+      "example": {
+        "pt": "Eu esqueço os nomes.",
+        "zh": "我老忘名字。"
+      },
+      "conjugations": {
+        "eu": "esqueço",
+        "tu": "esqueces",
+        "ele/ela/você": "esquece",
+        "nós": "esquecemos",
+        "eles/elas/vocês": "esquecem",
+        "es": "olvidar: olvido/olvidas/olvida/olvidamos/olvidan"
+      }
+    },
+    {
+      "rank": 141,
+      "pt": "usar",
+      "pos": "动词",
+      "zh": "使用",
+      "example": {
+        "pt": "Eu uso o celular muito.",
+        "zh": "我经常用手机。"
+      },
+      "conjugations": {
+        "eu": "uso",
+        "tu": "usas",
+        "ele/ela/você": "usa",
+        "nós": "usamos",
+        "eles/elas/vocês": "usam",
+        "es": "usar: uso/usas/usa/usamos/usan"
+      }
+    },
+    {
+      "rank": 142,
+      "pt": "comprar",
+      "pos": "动词",
+      "zh": "买",
+      "example": {
+        "pt": "Eu compro pão todos os dias.",
+        "zh": "我每天买面包。"
+      },
+      "conjugations": {
+        "eu": "compro",
+        "tu": "compras",
+        "ele/ela/você": "compra",
+        "nós": "compramos",
+        "eles/elas/vocês": "compram",
+        "es": "comprar: compro/compras/compra/compramos/compran"
+      }
+    },
+    {
+      "rank": 143,
+      "pt": "vender",
+      "pos": "动词",
+      "zh": "卖",
+      "example": {
+        "pt": "Eles vendem frutas.",
+        "zh": "他们卖水果。"
+      },
+      "conjugations": {
+        "eu": "vendo",
+        "tu": "vendes",
+        "ele/ela/você": "vende",
+        "nós": "vendemos",
+        "eles/elas/vocês": "vendem",
+        "es": "vender: vendo/vendes/vende/vendemos/venden"
+      }
+    },
+    {
+      "rank": 144,
+      "pt": "pagar",
+      "pos": "动词",
+      "zh": "付钱",
+      "example": {
+        "pt": "Eu pago a conta.",
+        "zh": "我买单。"
+      },
+      "conjugations": {
+        "eu": "pago",
+        "tu": "pagas",
+        "ele/ela/você": "paga",
+        "nós": "pagamos",
+        "eles/elas/vocês": "pagam",
+        "es": "pagar: pago/pagas/paga/pagamos/pagan"
+      }
+    },
+    {
+      "rank": 145,
+      "pt": "ganhar",
+      "pos": "动词",
+      "zh": "赢 / 赚",
+      "example": {
+        "pt": "Eu ganho pouco dinheiro.",
+        "zh": "我赚钱不多。"
+      },
+      "conjugations": {
+        "eu": "ganho",
+        "tu": "ganhas",
+        "ele/ela/você": "ganha",
+        "nós": "ganhamos",
+        "eles/elas/vocês": "ganham",
+        "es": "ganar: gano/ganas/gana/ganamos/ganan"
+      }
+    },
+    {
+      "rank": 146,
+      "pt": "perder",
+      "pos": "动词",
+      "zh": "输 / 丢失 / 错过",
+      "example": {
+        "pt": "Eu perco o ônibus.",
+        "zh": "我错过了公交。"
+      },
+      "conjugations": {
+        "eu": "perdo",
+        "tu": "perdes",
+        "ele/ela/você": "perde",
+        "nós": "perdemos",
+        "eles/elas/vocês": "perdem",
+        "es": "perder: pierdo/pierdes/pierde/perdemos/pierden"
+      }
+    },
+    {
+      "rank": 147,
+      "pt": "jogar",
+      "pos": "动词",
+      "zh": "玩 / 踢（球）",
+      "example": {
+        "pt": "Eu jogo futebol no sábado.",
+        "zh": "我周六踢足球。"
+      },
+      "conjugations": {
+        "eu": "jogo",
+        "tu": "jogas",
+        "ele/ela/você": "joga",
+        "nós": "jogamos",
+        "eles/elas/vocês": "jogam",
+        "es": "jugar: juego/juegas/juega/jugamos/juegan"
+      }
+    },
+    {
+      "rank": 148,
+      "pt": "brincar",
+      "pos": "动词",
+      "zh": "玩耍 / 开玩笑",
+      "example": {
+        "pt": "As crianças brincam no parque.",
+        "zh": "孩子们在公园玩。"
+      },
+      "conjugations": {
+        "eu": "brinço",
+        "tu": "brincas",
+        "ele/ela/você": "brinca",
+        "nós": "brincamos",
+        "eles/elas/vocês": "brincam",
+        "es": "jugar: juego/juegas/juega/jugamos/juegan"
+      }
+    },
+    {
+      "rank": 149,
+      "pt": "correr",
+      "pos": "动词",
+      "zh": "跑",
+      "example": {
+        "pt": "Eu corro de manhã.",
+        "zh": "我早上跑步。"
+      },
+      "conjugations": {
+        "eu": "corro",
+        "tu": "corres",
+        "ele/ela/você": "corre",
+        "nós": "corremos",
+        "eles/elas/vocês": "correm",
+        "es": "correr: corro/corres/corre/corremos/corren"
+      }
+    },
+    {
+      "rank": 150,
+      "pt": "andar",
+      "pos": "动词",
+      "zh": "走 / 步行",
+      "example": {
+        "pt": "Eu ando até o trabalho.",
+        "zh": "我走路去上班。"
+      },
+      "conjugations": {
+        "eu": "ando",
+        "tu": "andas",
+        "ele/ela/você": "anda",
+        "nós": "andamos",
+        "eles/elas/vocês": "andam",
+        "es": "andar: ando/andas/anda/andamos/andan"
+      }
+    },
+    {
+      "rank": 151,
+      "pt": "sair",
+      "pos": "动词",
+      "zh": "出去 / 离开",
+      "example": {
+        "pt": "Eu saio às seis.",
+        "zh": "我六点出门。"
+      },
+      "conjugations": {
+        "eu": "saio",
+        "tu": "sais",
+        "ele/ela/você": "sai",
+        "nós": "saímos",
+        "eles/elas/vocês": "saem",
+        "es": "salir: salgo/sales/sale/salimos/salen"
+      }
+    },
+    {
+      "rank": 152,
+      "pt": "entrar",
+      "pos": "动词",
+      "zh": "进入",
+      "example": {
+        "pt": "Pode entrar!",
+        "zh": "请进！"
+      },
+      "conjugations": {
+        "eu": "entro",
+        "tu": "entras",
+        "ele/ela/você": "entra",
+        "nós": "entramos",
+        "eles/elas/vocês": "entram",
+        "es": "entrar: entro/entras/entra/entramos/entran"
+      }
+    },
+    {
+      "rank": 153,
+      "pt": "subir",
+      "pos": "动词",
+      "zh": "上 / 爬",
+      "example": {
+        "pt": "Eu subo as escadas.",
+        "zh": "我上楼梯。"
+      },
+      "conjugations": {
+        "eu": "subo",
+        "tu": "subes",
+        "ele/ela/você": "sube",
+        "nós": "subimos",
+        "eles/elas/vocês": "subem",
+        "es": "subir: subo/subes/sube/subimos/suben"
+      }
+    },
+    {
+      "rank": 154,
+      "pt": "descer",
+      "pos": "动词",
+      "zh": "下 / 下车",
+      "example": {
+        "pt": "Eu desço na próxima estação.",
+        "zh": "我下一站下车。"
+      },
+      "conjugations": {
+        "eu": "desço",
+        "tu": "desces",
+        "ele/ela/você": "desce",
+        "nós": "descemos",
+        "eles/elas/vocês": "descem",
+        "es": "bajar: bajo/bajas/baja/bajamos/bajan"
+      }
+    },
+    {
+      "rank": 155,
+      "pt": "sentar",
+      "pos": "动词",
+      "zh": "坐",
+      "example": {
+        "pt": "Eu sento perto da janela.",
+        "zh": "我靠窗坐。"
+      },
+      "conjugations": {
+        "eu": "sento",
+        "tu": "sentas",
+        "ele/ela/você": "senta",
+        "nós": "sentamos",
+        "eles/elas/vocês": "sentam",
+        "es": "sentar: siento/sientas/sienta/sentamos/sientan"
+      }
+    },
+    {
+      "rank": 156,
+      "pt": "levantar",
+      "pos": "动词",
+      "zh": "起身 / 举起",
+      "example": {
+        "pt": "Eu me levanto às sete.",
+        "zh": "我七点起床。"
+      },
+      "conjugations": {
+        "eu": "levanto",
+        "tu": "levantas",
+        "ele/ela/você": "levanta",
+        "nós": "levantamos",
+        "eles/elas/vocês": "levantam",
+        "es": "levantar: levanto/levantas/levanta/levantamos/levantan"
+      }
+    },
+    {
+      "rank": 157,
+      "pt": "colocar",
+      "pos": "动词",
+      "zh": "放置",
+      "example": {
+        "pt": "Eu coloco o livro na mesa.",
+        "zh": "我把书放在桌上。"
+      },
+      "conjugations": {
+        "eu": "coloço",
+        "tu": "colocas",
+        "ele/ela/você": "coloca",
+        "nós": "colocamos",
+        "eles/elas/vocês": "colocam",
+        "es": "poner: pono/pones/pone/ponemos/ponen"
+      }
+    },
+    {
+      "rank": 158,
+      "pt": "tirar",
+      "pos": "动词",
+      "zh": "拿出 / 拍（照）",
+      "example": {
+        "pt": "Eu tiro uma foto.",
+        "zh": "我拍一张照片。"
+      },
+      "conjugations": {
+        "eu": "tiro",
+        "tu": "tiras",
+        "ele/ela/você": "tira",
+        "nós": "tiramos",
+        "eles/elas/vocês": "tiram",
+        "es": "sacar: saco/sacas/saca/sacamos/sacan"
+      }
+    },
+    {
+      "rank": 159,
+      "pt": "mostrar",
+      "pos": "动词",
+      "zh": "展示",
+      "example": {
+        "pt": "Eu mostro o caminho.",
+        "zh": "我给你指路。"
+      },
+      "conjugations": {
+        "eu": "mostro",
+        "tu": "mostras",
+        "ele/ela/você": "mostra",
+        "nós": "mostramos",
+        "eles/elas/vocês": "mostram",
+        "es": "mostrar: muestro/muestras/muestra/mostramos/muestran"
+      }
+    },
+    {
+      "rank": 160,
+      "pt": "tentar",
+      "pos": "动词",
+      "zh": "尝试",
+      "example": {
+        "pt": "Eu tento de novo.",
+        "zh": "我再试一次。"
+      },
+      "conjugations": {
+        "eu": "tento",
+        "tu": "tentas",
+        "ele/ela/você": "tenta",
+        "nós": "tentamos",
+        "eles/elas/vocês": "tentam",
+        "es": "intentar: intento/intentas/intenta/intentamos/intentan"
+      }
+    },
+    {
+      "rank": 161,
+      "pt": "conseguir",
+      "pos": "动词",
+      "zh": "成功做到",
+      "example": {
+        "pt": "Eu consigo falar um pouco.",
+        "zh": "我能说一点。"
+      },
+      "conjugations": {
+        "eu": "consigo",
+        "tu": "consegues",
+        "ele/ela/você": "consegue",
+        "nós": "conseguimos",
+        "eles/elas/vocês": "conseguem",
+        "es": "conseguir: consigo/consigues/consigue/conseguimos/consiguen"
+      }
+    },
+    {
+      "rank": 162,
+      "pt": "continuar",
+      "pos": "动词",
+      "zh": "继续",
+      "example": {
+        "pt": "Pode continuar.",
+        "zh": "可以继续。"
+      },
+      "conjugations": {
+        "eu": "continuo",
+        "tu": "continuas",
+        "ele/ela/você": "continua",
+        "nós": "continuamos",
+        "eles/elas/vocês": "continuam",
+        "es": "continuar: continuo/continuas/continua/continuamos/continuan"
+      }
+    },
+    {
+      "rank": 163,
+      "pt": "parar",
+      "pos": "动词",
+      "zh": "停止 / 停下",
+      "example": {
+        "pt": "O ônibus para aqui.",
+        "zh": "公交在这里停。"
+      },
+      "conjugations": {
+        "eu": "paro",
+        "tu": "paras",
+        "ele/ela/você": "para",
+        "nós": "paramos",
+        "eles/elas/vocês": "param",
+        "es": "parar: paro/paras/para/paramos/paran"
+      }
+    },
+    {
+      "rank": 164,
+      "pt": "mudar",
+      "pos": "动词",
+      "zh": "改变 / 搬家",
+      "example": {
+        "pt": "Eu mudo de casa em maio.",
+        "zh": "我五月搬家。"
+      },
+      "conjugations": {
+        "eu": "mudo",
+        "tu": "mudas",
+        "ele/ela/você": "muda",
+        "nós": "mudamos",
+        "eles/elas/vocês": "mudam",
+        "es": "cambiar: cambio/cambias/cambia/cambiamos/cambian"
+      }
+    },
+    {
+      "rank": 165,
+      "pt": "acontecer",
+      "pos": "动词",
+      "zh": "发生",
+      "example": {
+        "pt": "O que aconteceu?",
+        "zh": "发生什么了？"
+      },
+      "conjugations": {
+        "eu": "aconteço",
+        "tu": "aconteces",
+        "ele/ela/você": "acontece",
+        "nós": "acontecemos",
+        "eles/elas/vocês": "acontecem",
+        "es": "ocurrir: ocurro/ocurres/ocurre/ocurrimos/ocurren"
+      }
+    },
+    {
+      "rank": 166,
+      "pt": "existir",
+      "pos": "动词",
+      "zh": "存在",
+      "example": {
+        "pt": "Isso não existe.",
+        "zh": "这不存在。"
+      },
+      "conjugations": {
+        "eu": "existo",
+        "tu": "existes",
+        "ele/ela/você": "existe",
+        "nós": "existimos",
+        "eles/elas/vocês": "existem",
+        "es": "existir: existo/existes/existe/existimos/existen"
+      }
+    },
+    {
+      "rank": 167,
+      "pt": "parecer",
+      "pos": "动词",
+      "zh": "似乎 / 看起来像",
+      "example": {
+        "pt": "Parece que vai chover.",
+        "zh": "看起来要下雨。"
+      },
+      "conjugations": {
+        "eu": "pareço",
+        "tu": "pareces",
+        "ele/ela/você": "parece",
+        "nós": "parecemos",
+        "eles/elas/vocês": "parecem",
+        "es": "parecer: pareco/pareces/parece/parecemos/parecen"
+      }
+    },
+    {
+      "rank": 168,
+      "pt": "seguir",
+      "pos": "动词",
+      "zh": "跟随 / 继续",
+      "example": {
+        "pt": "Siga em frente.",
+        "zh": "请直走。"
+      },
+      "conjugations": {
+        "eu": "sigo",
+        "tu": "segues",
+        "ele/ela/você": "segue",
+        "nós": "seguimos",
+        "eles/elas/vocês": "seguem",
+        "es": "seguir: sigo/sigues/sigue/seguimos/siguen"
+      }
+    },
+    {
+      "rank": 169,
+      "pt": "servir",
+      "pos": "动词",
+      "zh": "服务 / 有用",
+      "example": {
+        "pt": "Para que serve isso?",
+        "zh": "这有什么用？"
+      },
+      "conjugations": {
+        "eu": "sirvo",
+        "tu": "serves",
+        "ele/ela/você": "serve",
+        "nós": "servimos",
+        "eles/elas/vocês": "servem",
+        "es": "servir: sirvo/sirves/sirve/servimos/sirven"
+      }
+    },
+    {
+      "rank": 170,
+      "pt": "receber",
+      "pos": "动词",
+      "zh": "收到 / 接待",
+      "example": {
+        "pt": "Eu recebo um e-mail.",
+        "zh": "我收到一封邮件。"
+      },
+      "conjugations": {
+        "eu": "recebo",
+        "tu": "recebes",
+        "ele/ela/você": "recebe",
+        "nós": "recebemos",
+        "eles/elas/vocês": "recebem",
+        "es": "recibir: recibo/recibes/recibe/recibimos/reciben"
+      }
+    },
+    {
+      "rank": 171,
+      "pt": "mandar",
+      "pos": "动词",
+      "zh": "发送 / 吩咐",
+      "example": {
+        "pt": "Eu mando uma mensagem.",
+        "zh": "我发一条消息。"
+      },
+      "conjugations": {
+        "eu": "mando",
+        "tu": "mandas",
+        "ele/ela/você": "manda",
+        "nós": "mandamos",
+        "eles/elas/vocês": "mandam",
+        "es": "mandar: mando/mandas/manda/mandamos/mandan"
+      }
+    },
+    {
+      "rank": 172,
+      "pt": "trazer",
+      "pos": "动词",
+      "zh": "带来",
+      "example": {
+        "pt": "Eu trago o vinho.",
+        "zh": "我带葡萄酒来。"
+      },
+      "conjugations": {
+        "eu": "trago",
+        "tu": "trazes",
+        "ele/ela/você": "traz",
+        "nós": "trazemos",
+        "eles/elas/vocês": "trazem",
+        "es": "traer: traigo/traes/trae/traemos/traen"
+      }
+    },
+    {
+      "rank": 173,
+      "pt": "pedir",
+      "pos": "动词",
+      "zh": "请求 / 点（餐）",
+      "example": {
+        "pt": "Eu peço um café.",
+        "zh": "我点一杯咖啡。"
+      },
+      "conjugations": {
+        "eu": "peço",
+        "tu": "pedes",
+        "ele/ela/você": "pede",
+        "nós": "pedimos",
+        "eles/elas/vocês": "pedem",
+        "es": "pedir: pido/pides/pide/pedimos/piden"
+      }
+    },
+    {
+      "rank": 174,
+      "pt": "oferecer",
+      "pos": "动词",
+      "zh": "提供 / 赠送",
+      "example": {
+        "pt": "Eles oferecem café aos clientes.",
+        "zh": "他们给客人提供咖啡。"
+      },
+      "conjugations": {
+        "eu": "ofereço",
+        "tu": "ofereces",
+        "ele/ela/você": "oferece",
+        "nós": "oferecemos",
+        "eles/elas/vocês": "oferecem",
+        "es": "ofrecer: ofrezco/ofreces/ofrece/ofrecemos/ofrecen"
+      }
+    },
+    {
+      "rank": 175,
+      "pt": "escolher",
+      "pos": "动词",
+      "zh": "选择",
+      "example": {
+        "pt": "Eu escolho o peixe.",
+        "zh": "我选鱼。"
+      },
+      "conjugations": {
+        "eu": "escolho",
+        "tu": "escolhes",
+        "ele/ela/você": "escolhe",
+        "nós": "escolhemos",
+        "eles/elas/vocês": "escolhem",
+        "es": "elegir: elijo/eliges/elige/elegimos/eligen"
+      }
+    },
+    {
+      "rank": 176,
+      "pt": "decidir",
+      "pos": "动词",
+      "zh": "决定",
+      "example": {
+        "pt": "Eu decido amanhã.",
+        "zh": "我明天决定。"
+      },
+      "conjugations": {
+        "eu": "decido",
+        "tu": "decides",
+        "ele/ela/você": "decide",
+        "nós": "decidimos",
+        "eles/elas/vocês": "decidem",
+        "es": "decidir: decido/decides/decide/decidimos/deciden"
+      }
+    },
+    {
+      "rank": 177,
+      "pt": "permitir",
+      "pos": "动词",
+      "zh": "允许",
+      "example": {
+        "pt": "Não permitem fumar aqui.",
+        "zh": "这里不允许吸烟。"
+      },
+      "conjugations": {
+        "eu": "permito",
+        "tu": "permites",
+        "ele/ela/você": "permite",
+        "nós": "permitimos",
+        "eles/elas/vocês": "permitem",
+        "es": "permitir: permito/permites/permite/permitimos/permiten"
+      }
+    },
+    {
+      "rank": 178,
+      "pt": "evitar",
+      "pos": "动词",
+      "zh": "避免",
+      "example": {
+        "pt": "Eu evito o trânsito.",
+        "zh": "我避开堵车。"
+      },
+      "conjugations": {
+        "eu": "evito",
+        "tu": "evitas",
+        "ele/ela/você": "evita",
+        "nós": "evitamos",
+        "eles/elas/vocês": "evitam",
+        "es": "evitar: evito/evitas/evita/evitamos/evitan"
+      }
+    },
+    {
+      "rank": 179,
+      "pt": "aprender",
+      "pos": "动词",
+      "zh": "学习（学会）",
+      "example": {
+        "pt": "Eu aprendo a falar português.",
+        "zh": "我学讲葡语。"
+      },
+      "conjugations": {
+        "eu": "aprendo",
+        "tu": "aprendes",
+        "ele/ela/você": "aprende",
+        "nós": "aprendemos",
+        "eles/elas/vocês": "aprendem",
+        "es": "aprender: aprendo/aprendes/aprende/aprendemos/aprenden"
+      }
+    },
+    {
+      "rank": 180,
+      "pt": "ensinar",
+      "pos": "动词",
+      "zh": "教",
+      "example": {
+        "pt": "Ela ensina chinês.",
+        "zh": "她教中文。"
+      },
+      "conjugations": {
+        "eu": "ensino",
+        "tu": "ensinas",
+        "ele/ela/você": "ensina",
+        "nós": "ensinamos",
+        "eles/elas/vocês": "ensinam",
+        "es": "enseñar: enseño/enseñas/enseña/enseñamos/enseñan"
+      }
+    },
+    {
+      "rank": 181,
+      "pt": "praticar",
+      "pos": "动词",
+      "zh": "练习",
+      "example": {
+        "pt": "Eu pratico todos os dias.",
+        "zh": "我每天练习。"
+      },
+      "conjugations": {
+        "eu": "pratiço",
+        "tu": "praticas",
+        "ele/ela/você": "pratica",
+        "nós": "praticamos",
+        "eles/elas/vocês": "praticam",
+        "es": "practicar: practico/practicas/practica/practicamos/practican"
+      }
+    },
+    {
+      "rank": 182,
+      "pt": "cantar",
+      "pos": "动词",
+      "zh": "唱歌",
+      "example": {
+        "pt": "Ela canta muito bem.",
+        "zh": "她唱得很好。"
+      },
+      "conjugations": {
+        "eu": "canto",
+        "tu": "cantas",
+        "ele/ela/você": "canta",
+        "nós": "cantamos",
+        "eles/elas/vocês": "cantam",
+        "es": "cantar: canto/cantas/canta/cantamos/cantan"
+      }
+    },
+    {
+      "rank": 183,
+      "pt": "dançar",
+      "pos": "动词",
+      "zh": "跳舞",
+      "example": {
+        "pt": "Eles dançam samba.",
+        "zh": "他们跳桑巴。"
+      },
+      "conjugations": {
+        "eu": "danço",
+        "tu": "danças",
+        "ele/ela/você": "dança",
+        "nós": "dançamos",
+        "eles/elas/vocês": "dançam",
+        "es": "bailar: bailo/bailas/baila/bailamos/bailan"
+      }
+    },
+    {
+      "rank": 184,
+      "pt": "viajar",
+      "pos": "动词",
+      "zh": "旅行",
+      "example": {
+        "pt": "Eu viajo nas férias.",
+        "zh": "我假期旅行。"
+      },
+      "conjugations": {
+        "eu": "viajo",
+        "tu": "viajas",
+        "ele/ela/você": "viaja",
+        "nós": "viajamos",
+        "eles/elas/vocês": "viajam",
+        "es": "viajar: viajo/viajas/viaja/viajamos/viajan"
+      }
+    },
+    {
+      "rank": 185,
+      "pt": "dirigir",
+      "pos": "动词",
+      "zh": "开车（巴西）",
+      "example": {
+        "pt": "Eu dirijo para o trabalho.",
+        "zh": "我开车上班。"
+      },
+      "conjugations": {
+        "eu": "dirijo",
+        "tu": "diriges",
+        "ele/ela/você": "dirige",
+        "nós": "dirigimos",
+        "eles/elas/vocês": "dirigem",
+        "es": "conducir: conduzco/conduces/conduce/conducimos/conducen"
+      }
+    },
+    {
+      "rank": 186,
+      "pt": "cozinhar",
+      "pos": "动词",
+      "zh": "做饭",
+      "example": {
+        "pt": "Eu cozinho em casa.",
+        "zh": "我在家做饭。"
+      },
+      "conjugations": {
+        "eu": "cozinho",
+        "tu": "cozinhas",
+        "ele/ela/você": "cozinha",
+        "nós": "cozinhamos",
+        "eles/elas/vocês": "cozinham",
+        "es": "cocinar: cocino/cocinas/cocina/cocinamos/cocinan"
+      }
+    },
+    {
+      "rank": 187,
+      "pt": "limpar",
+      "pos": "动词",
+      "zh": "打扫 / 清洁",
+      "example": {
+        "pt": "Eu limpo a casa no sábado.",
+        "zh": "我周六打扫房子。"
+      },
+      "conjugations": {
+        "eu": "limpo",
+        "tu": "limpas",
+        "ele/ela/você": "limpa",
+        "nós": "limpamos",
+        "eles/elas/vocês": "limpam",
+        "es": "limpiar: limpio/limpias/limpia/limpiamos/limpian"
+      }
+    },
+    {
+      "rank": 188,
+      "pt": "lavar",
+      "pos": "动词",
+      "zh": "洗",
+      "example": {
+        "pt": "Eu lavo a roupa.",
+        "zh": "我洗衣服。"
+      },
+      "conjugations": {
+        "eu": "lavo",
+        "tu": "lavas",
+        "ele/ela/você": "lava",
+        "nós": "lavamos",
+        "eles/elas/vocês": "lavam",
+        "es": "lavar: lavo/lavas/lava/lavamos/lavan"
+      }
+    },
+    {
+      "rank": 189,
+      "pt": "cortar",
+      "pos": "动词",
+      "zh": "切 / 剪",
+      "example": {
+        "pt": "Eu corto o pão.",
+        "zh": "我切面包。"
+      },
+      "conjugations": {
+        "eu": "corto",
+        "tu": "cortas",
+        "ele/ela/você": "corta",
+        "nós": "cortamos",
+        "eles/elas/vocês": "cortam",
+        "es": "cortar: corto/cortas/corta/cortamos/cortan"
+      }
+    },
+    {
+      "rank": 190,
+      "pt": "guardar",
+      "pos": "动词",
+      "zh": "保存 / 收好",
+      "example": {
+        "pt": "Eu guardo os documentos aqui.",
+        "zh": "我把文件收在这里。"
+      },
+      "conjugations": {
+        "eu": "guardo",
+        "tu": "guardas",
+        "ele/ela/você": "guarda",
+        "nós": "guardamos",
+        "eles/elas/vocês": "guardam",
+        "es": "guardar: guardo/guardas/guarda/guardamos/guardan"
+      }
+    },
+    {
+      "rank": 191,
+      "pt": "procurar",
+      "pos": "动词",
+      "zh": "寻找",
+      "example": {
+        "pt": "Eu procuro as chaves.",
+        "zh": "我找钥匙。"
+      },
+      "conjugations": {
+        "eu": "procuro",
+        "tu": "procuras",
+        "ele/ela/você": "procura",
+        "nós": "procuramos",
+        "eles/elas/vocês": "procuram",
+        "es": "buscar: busco/buscas/busca/buscamos/buscan"
+      }
+    },
+    {
+      "rank": 192,
+      "pt": "achar",
+      "pos": "动词",
+      "zh": "认为 / 找到",
+      "example": {
+        "pt": "Eu acho que sim.",
+        "zh": "我认为是的。"
+      },
+      "conjugations": {
+        "eu": "acho",
+        "tu": "achas",
+        "ele/ela/você": "acha",
+        "nós": "achamos",
+        "eles/elas/vocês": "acham",
+        "es": "西语 creer（认为）/ encontrar（找到）"
+      }
+    },
+    {
+      "rank": 193,
+      "pt": "chover",
+      "pos": "动词",
+      "zh": "下雨",
+      "example": {
+        "pt": "Está chovendo muito.",
+        "zh": "雨下得很大。"
+      },
+      "conjugations": {
+        "eu": "chovo",
+        "tu": "choves",
+        "ele/ela/você": "chove",
+        "nós": "chovemos",
+        "eles/elas/vocês": "chovem",
+        "es": "llover: llueve/llueve/llueve/llovemos/llueven"
+      }
+    },
+    {
+      "rank": 194,
+      "pt": "custar",
+      "pos": "动词",
+      "zh": "花费（价格）",
+      "example": {
+        "pt": "Quanto custa?",
+        "zh": "多少钱？"
+      },
+      "conjugations": {
+        "eu": "custo",
+        "tu": "custas",
+        "ele/ela/você": "custa",
+        "nós": "custamos",
+        "eles/elas/vocês": "custam",
+        "es": "costar: cuesto/cuestas/cuesta/costamos/cuestan"
+      }
+    },
+    {
+      "rank": 195,
+      "pt": "valer",
+      "pos": "动词",
+      "zh": "值得",
+      "example": {
+        "pt": "Vale a pena.",
+        "zh": "值得。"
+      },
+      "conjugations": {
+        "eu": "valo",
+        "tu": "vales",
+        "ele/ela/você": "vale",
+        "nós": "valemos",
+        "eles/elas/vocês": "valem",
+        "es": "valer: valgo/vales/vale/valemos/valen"
+      }
+    },
+    {
+      "rank": 196,
+      "pt": "demorar",
+      "pos": "动词",
+      "zh": "费时 / 慢",
+      "example": {
+        "pt": "Demora quanto tempo?",
+        "zh": "要多久？"
+      },
+      "conjugations": {
+        "eu": "demoro",
+        "tu": "demoras",
+        "ele/ela/você": "demora",
+        "nós": "demoramos",
+        "eles/elas/vocês": "demoram",
+        "es": "tardar: tardo/tardas/tarda/tardamos/tardan"
+      }
+    },
+    {
+      "rank": 197,
+      "pt": "importar",
+      "pos": "动词",
+      "zh": "要紧 / 在意",
+      "example": {
+        "pt": "Não importa.",
+        "zh": "没关系。"
+      },
+      "conjugations": {
+        "eu": "importo",
+        "tu": "importas",
+        "ele/ela/você": "importa",
+        "nós": "importamos",
+        "eles/elas/vocês": "importam",
+        "es": "importar: importo/importas/importa/importamos/importan"
+      }
+    },
+    {
+      "rank": 198,
+      "pt": "adorar",
+      "pos": "动词",
+      "zh": "酷爱",
+      "example": {
+        "pt": "Eu adoro café!",
+        "zh": "我超爱咖啡！"
+      },
+      "conjugations": {
+        "eu": "adoro",
+        "tu": "adoras",
+        "ele/ela/você": "adora",
+        "nós": "adoramos",
+        "eles/elas/vocês": "adoram",
+        "es": "adorar: adoro/adoras/adora/adoramos/adoran"
+      }
+    },
+    {
+      "rank": 199,
+      "pt": "odiar",
+      "pos": "动词",
+      "zh": "讨厌",
+      "example": {
+        "pt": "Eu odeio acordar cedo.",
+        "zh": "我讨厌早起。"
+      },
+      "conjugations": {
+        "eu": "odio",
+        "tu": "odias",
+        "ele/ela/você": "odia",
+        "nós": "odiamos",
+        "eles/elas/vocês": "odiam",
+        "es": "odiar: odio/odias/odia/odiamos/odian"
+      }
+    },
+    {
+      "rank": 200,
+      "pt": "preferir",
+      "pos": "动词",
+      "zh": "更喜欢",
+      "example": {
+        "pt": "Eu prefiro chá.",
+        "zh": "我更喜欢茶。"
+      },
+      "conjugations": {
+        "eu": "prefiro",
+        "tu": "preferes",
+        "ele/ela/você": "prefere",
+        "nós": "preferimos",
+        "eles/elas/vocês": "preferem",
+        "es": "preferir: prefiero/prefieres/prefiere/preferimos/prefieren"
+      }
+    }
+  ],
+  "w3": [
+    {
+      "rank": 201,
+      "pt": "homem",
+      "pos": "名词",
+      "zh": "男人",
+      "example": {
+        "pt": "O homem trabalha muito.",
+        "zh": "这个男人工作很努力。"
+      }
+    },
+    {
+      "rank": 202,
+      "pt": "mulher",
+      "pos": "名词",
+      "zh": "女人 / 妻子",
+      "example": {
+        "pt": "A mulher é médica.",
+        "zh": "这位女士是医生。"
+      }
+    },
+    {
+      "rank": 203,
+      "pt": "menino",
+      "pos": "名词",
+      "zh": "男孩",
+      "example": {
+        "pt": "O menino joga futebol.",
+        "zh": "男孩在踢足球。"
+      }
+    },
+    {
+      "rank": 204,
+      "pt": "menina",
+      "pos": "名词",
+      "zh": "女孩",
+      "example": {
+        "pt": "A menina estuda chinês.",
+        "zh": "女孩在学中文。"
+      }
+    },
+    {
+      "rank": 205,
+      "pt": "filho",
+      "pos": "名词",
+      "zh": "儿子",
+      "example": {
+        "pt": "O filho dele tem oito anos.",
+        "zh": "他儿子八岁。"
+      }
+    },
+    {
+      "rank": 206,
+      "pt": "filha",
+      "pos": "名词",
+      "zh": "女儿",
+      "example": {
+        "pt": "A filha dela mora no Rio.",
+        "zh": "她女儿住在里约。"
+      }
+    },
+    {
+      "rank": 207,
+      "pt": "pai",
+      "pos": "名词",
+      "zh": "父亲",
+      "example": {
+        "pt": "O meu pai é professor.",
+        "zh": "我爸爸是老师。"
+      }
+    },
+    {
+      "rank": 208,
+      "pt": "mãe",
+      "pos": "名词",
+      "zh": "母亲",
+      "example": {
+        "pt": "A minha mãe cozinha bem.",
+        "zh": "我妈妈做饭很好吃。"
+      }
+    },
+    {
+      "rank": 209,
+      "pt": "irmão",
+      "pos": "名词",
+      "zh": "兄弟",
+      "example": {
+        "pt": "O meu irmão mora em Pequim.",
+        "zh": "我哥哥/弟弟住在北京。"
+      }
+    },
+    {
+      "rank": 210,
+      "pt": "irmã",
+      "pos": "名词",
+      "zh": "姐妹",
+      "example": {
+        "pt": "A minha irmã fala português.",
+        "zh": "我姐姐/妹妹会说葡语。"
+      }
+    },
+    {
+      "rank": 211,
+      "pt": "amigo",
+      "pos": "名词",
+      "zh": "朋友（阳性）",
+      "example": {
+        "pt": "Ele é meu melhor amigo.",
+        "zh": "他是我最好的朋友。"
+      }
+    },
+    {
+      "rank": 212,
+      "pt": "família",
+      "pos": "名词",
+      "zh": "家庭",
+      "example": {
+        "pt": "A minha família é pequena.",
+        "zh": "我的家庭很小。"
+      }
+    },
+    {
+      "rank": 213,
+      "pt": "pessoa",
+      "pos": "名词",
+      "zh": "人",
+      "example": {
+        "pt": "Ela é uma pessoa simpática.",
+        "zh": "她是个友善的人。"
+      }
+    },
+    {
+      "rank": 214,
+      "pt": "gente",
+      "pos": "名词",
+      "zh": "人们 / 咱们（a gente=我们，口语）",
+      "example": {
+        "pt": "A gente vai à praia amanhã.",
+        "zh": "咱们明天去海滩。"
+      }
+    },
+    {
+      "rank": 215,
+      "pt": "nome",
+      "pos": "名词",
+      "zh": "名字",
+      "example": {
+        "pt": "Qual é o seu nome?",
+        "zh": "你叫什么名字？"
+      }
+    },
+    {
+      "rank": 216,
+      "pt": "casa",
+      "pos": "名词",
+      "zh": "家 / 房子",
+      "example": {
+        "pt": "Eu fico em casa hoje.",
+        "zh": "我今天待在家里。"
+      }
+    },
+    {
+      "rank": 217,
+      "pt": "apartamento",
+      "pos": "名词",
+      "zh": "公寓",
+      "example": {
+        "pt": "Eu moro num apartamento pequeno.",
+        "zh": "我住在一间小公寓。"
+      }
+    },
+    {
+      "rank": 218,
+      "pt": "quarto",
+      "pos": "名词",
+      "zh": "房间 / 卧室",
+      "example": {
+        "pt": "O quarto é grande.",
+        "zh": "房间很大。"
+      }
+    },
+    {
+      "rank": 219,
+      "pt": "cozinha",
+      "pos": "名词",
+      "zh": "厨房",
+      "example": {
+        "pt": "A cozinha é pequena.",
+        "zh": "厨房很小。"
+      }
+    },
+    {
+      "rank": 220,
+      "pt": "banheiro",
+      "pos": "名词",
+      "zh": "卫生间",
+      "example": {
+        "pt": "Onde fica o banheiro?",
+        "zh": "卫生间在哪里？"
+      }
+    },
+    {
+      "rank": 221,
+      "pt": "rua",
+      "pos": "名词",
+      "zh": "街道",
+      "example": {
+        "pt": "Eu moro nesta rua.",
+        "zh": "我住在这条街。"
+      }
+    },
+    {
+      "rank": 222,
+      "pt": "cidade",
+      "pos": "名词",
+      "zh": "城市",
+      "example": {
+        "pt": "A cidade é grande e bonita.",
+        "zh": "这座城市又大又美。"
+      }
+    },
+    {
+      "rank": 223,
+      "pt": "país",
+      "pos": "名词",
+      "zh": "国家",
+      "example": {
+        "pt": "O Brasil é um país grande.",
+        "zh": "巴西是个大国。"
+      }
+    },
+    {
+      "rank": 224,
+      "pt": "mundo",
+      "pos": "名词",
+      "zh": "世界",
+      "example": {
+        "pt": "Eu quero viajar pelo mundo.",
+        "zh": "我想环游世界。"
+      }
+    },
+    {
+      "rank": 225,
+      "pt": "lugar",
+      "pos": "名词",
+      "zh": "地方",
+      "example": {
+        "pt": "Este lugar é lindo.",
+        "zh": "这个地方很美。"
+      }
+    },
+    {
+      "rank": 226,
+      "pt": "centro",
+      "pos": "名词",
+      "zh": "市中心 / 中心",
+      "example": {
+        "pt": "Eu trabalho no centro.",
+        "zh": "我在市中心工作。"
+      }
+    },
+    {
+      "rank": 227,
+      "pt": "praia",
+      "pos": "名词",
+      "zh": "海滩",
+      "example": {
+        "pt": "Nós vamos à praia no sábado.",
+        "zh": "我们周六去海滩。"
+      }
+    },
+    {
+      "rank": 228,
+      "pt": "parque",
+      "pos": "名词",
+      "zh": "公园",
+      "example": {
+        "pt": "As crianças brincam no parque.",
+        "zh": "孩子们在公园玩。"
+      }
+    },
+    {
+      "rank": 229,
+      "pt": "escola",
+      "pos": "名词",
+      "zh": "学校",
+      "example": {
+        "pt": "Eu vou à escola de ônibus.",
+        "zh": "我坐公交上学。"
+      }
+    },
+    {
+      "rank": 230,
+      "pt": "universidade",
+      "pos": "名词",
+      "zh": "大学",
+      "example": {
+        "pt": "Ela trabalha numa universidade.",
+        "zh": "她在一所大学工作。"
+      }
+    },
+    {
+      "rank": 231,
+      "pt": "trabalho",
+      "pos": "名词",
+      "zh": "工作（名词）",
+      "example": {
+        "pt": "Eu gosto do meu trabalho.",
+        "zh": "我喜欢我的工作。"
+      }
+    },
+    {
+      "rank": 232,
+      "pt": "empresa",
+      "pos": "名词",
+      "zh": "公司",
+      "example": {
+        "pt": "Ele trabalha numa empresa chinesa.",
+        "zh": "他在一家中国公司工作。"
+      }
+    },
+    {
+      "rank": 233,
+      "pt": "escritório",
+      "pos": "名词",
+      "zh": "办公室",
+      "example": {
+        "pt": "O escritório fica no centro.",
+        "zh": "办公室在市中心。"
+      },
+      "falseFriend": "西语 escritorio=书桌；葡语'书桌'是 escrivaninha"
+    },
+    {
+      "rank": 234,
+      "pt": "loja",
+      "pos": "名词",
+      "zh": "商店",
+      "example": {
+        "pt": "A loja abre às nove.",
+        "zh": "商店九点开门。"
+      }
+    },
+    {
+      "rank": 235,
+      "pt": "mercado",
+      "pos": "名词",
+      "zh": "市场 / 超市",
+      "example": {
+        "pt": "Eu vou ao mercado comprar pão.",
+        "zh": "我去超市买面包。"
+      }
+    },
+    {
+      "rank": 236,
+      "pt": "restaurante",
+      "pos": "名词",
+      "zh": "餐厅",
+      "example": {
+        "pt": "O restaurante é muito bom.",
+        "zh": "这家餐厅很不错。"
+      }
+    },
+    {
+      "rank": 237,
+      "pt": "hospital",
+      "pos": "名词",
+      "zh": "医院",
+      "example": {
+        "pt": "Ela trabalha num hospital.",
+        "zh": "她在一家医院工作。"
+      }
+    },
+    {
+      "rank": 238,
+      "pt": "banco",
+      "pos": "名词",
+      "zh": "银行 / 长凳",
+      "example": {
+        "pt": "O banco fecha às cinco.",
+        "zh": "银行五点关门。"
+      }
+    },
+    {
+      "rank": 239,
+      "pt": "dinheiro",
+      "pos": "名词",
+      "zh": "钱",
+      "example": {
+        "pt": "Eu não tenho dinheiro.",
+        "zh": "我没有钱。"
+      }
+    },
+    {
+      "rank": 240,
+      "pt": "preço",
+      "pos": "名词",
+      "zh": "价格",
+      "example": {
+        "pt": "O preço é bom.",
+        "zh": "价格不错。"
+      }
+    },
+    {
+      "rank": 241,
+      "pt": "conta",
+      "pos": "名词",
+      "zh": "账单 / 账户",
+      "example": {
+        "pt": "A conta, por favor.",
+        "zh": "请买单。"
+      }
+    },
+    {
+      "rank": 242,
+      "pt": "tempo",
+      "pos": "名词",
+      "zh": "时间 / 天气",
+      "example": {
+        "pt": "Eu não tenho tempo hoje.",
+        "zh": "我今天没时间。"
+      }
+    },
+    {
+      "rank": 243,
+      "pt": "dia",
+      "pos": "名词",
+      "zh": "天 / 日（阳性）",
+      "example": {
+        "pt": "Bom dia!",
+        "zh": "早上好！"
+      }
+    },
+    {
+      "rank": 244,
+      "pt": "noite",
+      "pos": "名词",
+      "zh": "夜晚",
+      "example": {
+        "pt": "Boa noite!",
+        "zh": "晚上好 / 晚安！"
+      }
+    },
+    {
+      "rank": 245,
+      "pt": "manhã",
+      "pos": "名词",
+      "zh": "早晨",
+      "example": {
+        "pt": "Eu corro de manhã.",
+        "zh": "我早上跑步。"
+      }
+    },
+    {
+      "rank": 246,
+      "pt": "tarde",
+      "pos": "名词",
+      "zh": "下午",
+      "example": {
+        "pt": "Boa tarde!",
+        "zh": "下午好！"
+      }
+    },
+    {
+      "rank": 247,
+      "pt": "semana",
+      "pos": "名词",
+      "zh": "周 / 星期",
+      "example": {
+        "pt": "Na próxima semana eu viajo.",
+        "zh": "下周我去旅行。"
+      }
+    },
+    {
+      "rank": 248,
+      "pt": "mês",
+      "pos": "名词",
+      "zh": "月",
+      "example": {
+        "pt": "Este mês é muito quente.",
+        "zh": "这个月很热。"
+      }
+    },
+    {
+      "rank": 249,
+      "pt": "ano",
+      "pos": "名词",
+      "zh": "年",
+      "example": {
+        "pt": "Feliz Ano Novo!",
+        "zh": "新年快乐！"
+      }
+    },
+    {
+      "rank": 250,
+      "pt": "hora",
+      "pos": "名词",
+      "zh": "小时 / 点钟",
+      "example": {
+        "pt": "Que horas são?",
+        "zh": "现在几点？"
+      }
+    },
+    {
+      "rank": 251,
+      "pt": "minuto",
+      "pos": "名词",
+      "zh": "分钟",
+      "example": {
+        "pt": "Só um minuto!",
+        "zh": "就一分钟！"
+      }
+    },
+    {
+      "rank": 252,
+      "pt": "momento",
+      "pos": "名词",
+      "zh": "时刻",
+      "example": {
+        "pt": "Um momento, por favor.",
+        "zh": "请稍等片刻。"
+      }
+    },
+    {
+      "rank": 253,
+      "pt": "vez",
+      "pos": "名词",
+      "zh": "次 / 回",
+      "example": {
+        "pt": "às vezes = 有时",
+        "zh": "às vezes 是固定词组：有时"
+      }
+    },
+    {
+      "rank": 254,
+      "pt": "vida",
+      "pos": "名词",
+      "zh": "生活 / 生命",
+      "example": {
+        "pt": "A vida é boa.",
+        "zh": "生活很美好。"
+      }
+    },
+    {
+      "rank": 255,
+      "pt": "água",
+      "pos": "名词",
+      "zh": "水（阴性）",
+      "example": {
+        "pt": "Uma água, por favor.",
+        "zh": "请给我一杯水。"
+      }
+    },
+    {
+      "rank": 256,
+      "pt": "comida",
+      "pos": "名词",
+      "zh": "食物",
+      "example": {
+        "pt": "A comida brasileira é boa.",
+        "zh": "巴西菜很好吃。"
+      }
+    },
+    {
+      "rank": 257,
+      "pt": "café",
+      "pos": "名词",
+      "zh": "咖啡",
+      "example": {
+        "pt": "Eu bebo café de manhã.",
+        "zh": "我早上喝咖啡。"
+      }
+    },
+    {
+      "rank": 258,
+      "pt": "chá",
+      "pos": "名词",
+      "zh": "茶",
+      "example": {
+        "pt": "Você quer chá ou café?",
+        "zh": "你要茶还是咖啡？"
+      }
+    },
+    {
+      "rank": 259,
+      "pt": "suco",
+      "pos": "名词",
+      "zh": "果汁",
+      "example": {
+        "pt": "Um suco de laranja, por favor.",
+        "zh": "请给我一杯橙汁。"
+      }
+    },
+    {
+      "rank": 260,
+      "pt": "cerveja",
+      "pos": "名词",
+      "zh": "啤酒",
+      "example": {
+        "pt": "Uma cerveja gelada, por favor.",
+        "zh": "请给我一杯冰啤酒。"
+      }
+    },
+    {
+      "rank": 261,
+      "pt": "vinho",
+      "pos": "名词",
+      "zh": "葡萄酒",
+      "example": {
+        "pt": "Eu gosto de vinho tinto.",
+        "zh": "我喜欢红葡萄酒。"
+      }
+    },
+    {
+      "rank": 262,
+      "pt": "pão",
+      "pos": "名词",
+      "zh": "面包（鼻元音 ão）",
+      "example": {
+        "pt": "Eu compro pão todos os dias.",
+        "zh": "我每天买面包。"
+      }
+    },
+    {
+      "rank": 263,
+      "pt": "arroz",
+      "pos": "名词",
+      "zh": "米饭",
+      "example": {
+        "pt": "Eu como arroz e feijão.",
+        "zh": "我吃米饭和豆子。"
+      }
+    },
+    {
+      "rank": 264,
+      "pt": "feijão",
+      "pos": "名词",
+      "zh": "豆子（巴西国菜主料）",
+      "example": {
+        "pt": "O feijão está muito bom.",
+        "zh": "豆子很好吃。"
+      }
+    },
+    {
+      "rank": 265,
+      "pt": "carne",
+      "pos": "名词",
+      "zh": "肉",
+      "example": {
+        "pt": "Eu não como carne.",
+        "zh": "我不吃肉。"
+      }
+    },
+    {
+      "rank": 266,
+      "pt": "peixe",
+      "pos": "名词",
+      "zh": "鱼",
+      "example": {
+        "pt": "O peixe está fresco.",
+        "zh": "鱼很新鲜。"
+      }
+    },
+    {
+      "rank": 267,
+      "pt": "frango",
+      "pos": "名词",
+      "zh": "鸡肉",
+      "example": {
+        "pt": "Eu prefiro frango.",
+        "zh": "我更喜欢鸡肉。"
+      }
+    },
+    {
+      "rank": 268,
+      "pt": "fruta",
+      "pos": "名词",
+      "zh": "水果",
+      "example": {
+        "pt": "Eu como fruta de manhã.",
+        "zh": "我早上吃水果。"
+      }
+    },
+    {
+      "rank": 269,
+      "pt": "leite",
+      "pos": "名词",
+      "zh": "牛奶",
+      "example": {
+        "pt": "café com leite",
+        "zh": "加奶咖啡"
+      }
+    },
+    {
+      "rank": 270,
+      "pt": "queijo",
+      "pos": "名词",
+      "zh": "奶酪",
+      "example": {
+        "pt": "pão de queijo",
+        "zh": "芝士面包球（巴西名小吃）"
+      }
+    },
+    {
+      "rank": 271,
+      "pt": "ovo",
+      "pos": "名词",
+      "zh": "鸡蛋",
+      "example": {
+        "pt": "Eu como dois ovos de manhã.",
+        "zh": "我早上吃两个鸡蛋。"
+      }
+    },
+    {
+      "rank": 272,
+      "pt": "açúcar",
+      "pos": "名词",
+      "zh": "糖",
+      "example": {
+        "pt": "café sem açúcar",
+        "zh": "不加糖的咖啡"
+      }
+    },
+    {
+      "rank": 273,
+      "pt": "sal",
+      "pos": "名词",
+      "zh": "盐",
+      "example": {
+        "pt": "Passa o sal, por favor.",
+        "zh": "请把盐递给我。"
+      }
+    },
+    {
+      "rank": 274,
+      "pt": "livro",
+      "pos": "名词",
+      "zh": "书",
+      "example": {
+        "pt": "O livro está na mesa.",
+        "zh": "书在桌上。"
+      }
+    },
+    {
+      "rank": 275,
+      "pt": "jornal",
+      "pos": "名词",
+      "zh": "报纸",
+      "example": {
+        "pt": "Eu leio o jornal de manhã.",
+        "zh": "我早上读报。"
+      }
+    },
+    {
+      "rank": 276,
+      "pt": "revista",
+      "pos": "名词",
+      "zh": "杂志",
+      "example": {
+        "pt": "Ela compra uma revista.",
+        "zh": "她买一本杂志。"
+      }
+    },
+    {
+      "rank": 277,
+      "pt": "filme",
+      "pos": "名词",
+      "zh": "电影",
+      "example": {
+        "pt": "O filme é muito bom.",
+        "zh": "这部电影很好看。"
+      }
+    },
+    {
+      "rank": 278,
+      "pt": "música",
+      "pos": "名词",
+      "zh": "音乐",
+      "example": {
+        "pt": "Eu ouço música brasileira.",
+        "zh": "我听巴西音乐。"
+      }
+    },
+    {
+      "rank": 279,
+      "pt": "televisão",
+      "pos": "名词",
+      "zh": "电视",
+      "example": {
+        "pt": "Eu assisto televisão à noite.",
+        "zh": "我晚上看电视。"
+      }
+    },
+    {
+      "rank": 280,
+      "pt": "telefone",
+      "pos": "名词",
+      "zh": "电话",
+      "example": {
+        "pt": "O telefone está na mesa.",
+        "zh": "电话在桌上。"
+      }
+    },
+    {
+      "rank": 281,
+      "pt": "celular",
+      "pos": "名词",
+      "zh": "手机（巴西用语）",
+      "example": {
+        "pt": "O meu celular não funciona.",
+        "zh": "我的手机坏了。"
+      }
+    },
+    {
+      "rank": 282,
+      "pt": "computador",
+      "pos": "名词",
+      "zh": "电脑",
+      "example": {
+        "pt": "Eu trabalho no computador.",
+        "zh": "我在电脑上工作。"
+      }
+    },
+    {
+      "rank": 283,
+      "pt": "internet",
+      "pos": "名词",
+      "zh": "互联网",
+      "example": {
+        "pt": "A internet está lenta hoje.",
+        "zh": "今天网络很慢。"
+      }
+    },
+    {
+      "rank": 284,
+      "pt": "carro",
+      "pos": "名词",
+      "zh": "汽车（巴西）",
+      "example": {
+        "pt": "Eu tenho um carro novo.",
+        "zh": "我有一辆新车。"
+      }
+    },
+    {
+      "rank": 285,
+      "pt": "ônibus",
+      "pos": "名词",
+      "zh": "公交车",
+      "example": {
+        "pt": "Eu vou ao trabalho de ônibus.",
+        "zh": "我坐公交上班。"
+      }
+    },
+    {
+      "rank": 286,
+      "pt": "metrô",
+      "pos": "名词",
+      "zh": "地铁",
+      "example": {
+        "pt": "O metrô fica perto da minha casa.",
+        "zh": "地铁离我家很近。"
+      }
+    },
+    {
+      "rank": 287,
+      "pt": "trem",
+      "pos": "名词",
+      "zh": "火车",
+      "example": {
+        "pt": "O trem parte às oito.",
+        "zh": "火车八点出发。"
+      }
+    },
+    {
+      "rank": 288,
+      "pt": "avião",
+      "pos": "名词",
+      "zh": "飞机",
+      "example": {
+        "pt": "Eu vou de avião para o Rio.",
+        "zh": "我坐飞机去里约。"
+      }
+    },
+    {
+      "rank": 289,
+      "pt": "táxi",
+      "pos": "名词",
+      "zh": "出租车",
+      "example": {
+        "pt": "Eu vou de táxi para o aeroporto.",
+        "zh": "我打车去机场。"
+      }
+    },
+    {
+      "rank": 290,
+      "pt": "bicicleta",
+      "pos": "名词",
+      "zh": "自行车",
+      "example": {
+        "pt": "Eu ando de bicicleta no parque.",
+        "zh": "我在公园骑自行车。"
+      }
+    },
+    {
+      "rank": 291,
+      "pt": "chave",
+      "pos": "名词",
+      "zh": "钥匙（ch 发 /ʃ/）",
+      "example": {
+        "pt": "Eu procuro as chaves.",
+        "zh": "我在找钥匙。"
+      }
+    },
+    {
+      "rank": 292,
+      "pt": "porta",
+      "pos": "名词",
+      "zh": "门",
+      "example": {
+        "pt": "Fecha a porta, por favor.",
+        "zh": "请关门。"
+      }
+    },
+    {
+      "rank": 293,
+      "pt": "janela",
+      "pos": "名词",
+      "zh": "窗户",
+      "example": {
+        "pt": "Abre a janela, por favor.",
+        "zh": "请开窗。"
+      }
+    },
+    {
+      "rank": 294,
+      "pt": "mesa",
+      "pos": "名词",
+      "zh": "桌子",
+      "example": {
+        "pt": "O livro está na mesa.",
+        "zh": "书在桌上。"
+      }
+    },
+    {
+      "rank": 295,
+      "pt": "cadeira",
+      "pos": "名词",
+      "zh": "椅子",
+      "example": {
+        "pt": "A cadeira é nova.",
+        "zh": "椅子是新的。"
+      }
+    },
+    {
+      "rank": 296,
+      "pt": "cama",
+      "pos": "名词",
+      "zh": "床",
+      "example": {
+        "pt": "Eu vou para a cama cedo.",
+        "zh": "我很早上床睡觉。"
+      }
+    },
+    {
+      "rank": 297,
+      "pt": "roupa",
+      "pos": "名词",
+      "zh": "衣服",
+      "example": {
+        "pt": "Eu lavo a roupa no sábado.",
+        "zh": "我周六洗衣服。"
+      }
+    },
+    {
+      "rank": 298,
+      "pt": "sapato",
+      "pos": "名词",
+      "zh": "鞋",
+      "example": {
+        "pt": "Os sapatos são novos.",
+        "zh": "鞋子是新的。"
+      }
+    },
+    {
+      "rank": 299,
+      "pt": "bolsa",
+      "pos": "名词",
+      "zh": "包 / 手提袋",
+      "example": {
+        "pt": "A bolsa dela é bonita.",
+        "zh": "她的包很好看。"
+      }
+    },
+    {
+      "rank": 300,
+      "pt": "óculos",
+      "pos": "名词",
+      "zh": "眼镜",
+      "example": {
+        "pt": "Eu uso óculos para ler.",
+        "zh": "我戴眼镜看书。"
+      }
+    }
+  ],
+  "w4": [
+    {
+      "rank": 301,
+      "pt": "bom",
+      "pos": "形容词",
+      "zh": "好的（阳性）",
+      "example": {
+        "pt": "Bom dia!",
+        "zh": "早上好！"
+      }
+    },
+    {
+      "rank": 302,
+      "pt": "mau",
+      "pos": "形容词",
+      "zh": "坏的（阳性；阴性 má）",
+      "example": {
+        "pt": "O tempo está mau hoje.",
+        "zh": "今天天气不好。"
+      }
+    },
+    {
+      "rank": 303,
+      "pt": "grande",
+      "pos": "形容词",
+      "zh": "大的（两性同形）",
+      "example": {
+        "pt": "A casa é grande.",
+        "zh": "房子很大。"
+      }
+    },
+    {
+      "rank": 304,
+      "pt": "pequeno",
+      "pos": "形容词",
+      "zh": "小的",
+      "example": {
+        "pt": "O apartamento é pequeno.",
+        "zh": "公寓很小。"
+      }
+    },
+    {
+      "rank": 305,
+      "pt": "novo",
+      "pos": "形容词",
+      "zh": "新的",
+      "example": {
+        "pt": "Eu tenho um carro novo.",
+        "zh": "我有一辆新车。"
+      }
+    },
+    {
+      "rank": 306,
+      "pt": "velho",
+      "pos": "形容词",
+      "zh": "旧的 / 老的",
+      "example": {
+        "pt": "O meu carro é velho.",
+        "zh": "我的车很旧。"
+      }
+    },
+    {
+      "rank": 307,
+      "pt": "jovem",
+      "pos": "形容词",
+      "zh": "年轻的（两性同形）",
+      "example": {
+        "pt": "Ela é muito jovem.",
+        "zh": "她很年轻。"
+      }
+    },
+    {
+      "rank": 308,
+      "pt": "bonito",
+      "pos": "形容词",
+      "zh": "漂亮的",
+      "example": {
+        "pt": "A praia é bonita.",
+        "zh": "海滩很美。"
+      }
+    },
+    {
+      "rank": 309,
+      "pt": "lindo",
+      "pos": "形容词",
+      "zh": "美丽的（巴西更常用）",
+      "example": {
+        "pt": "Que dia lindo!",
+        "zh": "多美的一天！"
+      }
+    },
+    {
+      "rank": 310,
+      "pt": "feio",
+      "pos": "形容词",
+      "zh": "丑的",
+      "example": {
+        "pt": "O sapato é feio, mas confortável.",
+        "zh": "这鞋丑但舒服。"
+      }
+    },
+    {
+      "rank": 311,
+      "pt": "alto",
+      "pos": "形容词",
+      "zh": "高的",
+      "example": {
+        "pt": "Ele é alto.",
+        "zh": "他很高。"
+      }
+    },
+    {
+      "rank": 312,
+      "pt": "baixo",
+      "pos": "形容词",
+      "zh": "矮的 / 低的",
+      "example": {
+        "pt": "Ela é baixa.",
+        "zh": "她个子矮。"
+      }
+    },
+    {
+      "rank": 313,
+      "pt": "longo",
+      "pos": "形容词",
+      "zh": "长的",
+      "example": {
+        "pt": "O rio é longo.",
+        "zh": "这条河很长。"
+      }
+    },
+    {
+      "rank": 314,
+      "pt": "curto",
+      "pos": "形容词",
+      "zh": "短的",
+      "example": {
+        "pt": "O filme é curto.",
+        "zh": "电影很短。"
+      }
+    },
+    {
+      "rank": 315,
+      "pt": "fácil",
+      "pos": "形容词",
+      "zh": "容易的（复数 fáceis）",
+      "example": {
+        "pt": "O português é fácil para você.",
+        "zh": "葡语对你来说很容易。"
+      }
+    },
+    {
+      "rank": 316,
+      "pt": "difícil",
+      "pos": "形容词",
+      "zh": "难的（复数 difíceis）",
+      "example": {
+        "pt": "A pronúncia é difícil.",
+        "zh": "发音很难。"
+      }
+    },
+    {
+      "rank": 317,
+      "pt": "rápido",
+      "pos": "形容词/副词",
+      "zh": "快的",
+      "example": {
+        "pt": "O metrô é rápido.",
+        "zh": "地铁很快。"
+      }
+    },
+    {
+      "rank": 318,
+      "pt": "devagar",
+      "pos": "副词",
+      "zh": "慢地",
+      "example": {
+        "pt": "Fala devagar, por favor.",
+        "zh": "请说慢一点。"
+      }
+    },
+    {
+      "rank": 319,
+      "pt": "quente",
+      "pos": "形容词",
+      "zh": "热的",
+      "example": {
+        "pt": "O café está quente.",
+        "zh": "咖啡是热的。"
+      }
+    },
+    {
+      "rank": 320,
+      "pt": "frio",
+      "pos": "形容词",
+      "zh": "冷的",
+      "example": {
+        "pt": "A cerveja está fria.",
+        "zh": "啤酒是冰的。"
+      }
+    },
+    {
+      "rank": 321,
+      "pt": "feliz",
+      "pos": "形容词",
+      "zh": "幸福的 / 高兴的（复数 felizes）",
+      "example": {
+        "pt": "Eu estou muito feliz.",
+        "zh": "我很开心。"
+      }
+    },
+    {
+      "rank": 322,
+      "pt": "triste",
+      "pos": "形容词",
+      "zh": "悲伤的（两性同形）",
+      "example": {
+        "pt": "Ela está triste hoje.",
+        "zh": "她今天很难过。"
+      }
+    },
+    {
+      "rank": 323,
+      "pt": "cansado",
+      "pos": "形容词",
+      "zh": "累的",
+      "example": {
+        "pt": "Eu estou cansado hoje.",
+        "zh": "我今天很累。"
+      }
+    },
+    {
+      "rank": 324,
+      "pt": "doente",
+      "pos": "形容词",
+      "zh": "生病的（两性同形）",
+      "example": {
+        "pt": "Ele está doente.",
+        "zh": "他生病了。"
+      }
+    },
+    {
+      "rank": 325,
+      "pt": "saudável",
+      "pos": "形容词",
+      "zh": "健康的（复数 saudáveis）",
+      "example": {
+        "pt": "A comida é saudável.",
+        "zh": "这食物很健康。"
+      }
+    },
+    {
+      "rank": 326,
+      "pt": "forte",
+      "pos": "形容词",
+      "zh": "强壮的 / 浓的",
+      "example": {
+        "pt": "O café é forte.",
+        "zh": "这咖啡很浓。"
+      }
+    },
+    {
+      "rank": 327,
+      "pt": "fraco",
+      "pos": "形容词",
+      "zh": "弱的 / 淡的",
+      "example": {
+        "pt": "O chá está fraco.",
+        "zh": "茶很淡。"
+      }
+    },
+    {
+      "rank": 328,
+      "pt": "rico",
+      "pos": "形容词",
+      "zh": "富的",
+      "example": {
+        "pt": "Ele é muito rico.",
+        "zh": "他很有钱。"
+      }
+    },
+    {
+      "rank": 329,
+      "pt": "pobre",
+      "pos": "形容词",
+      "zh": "穷的（两性同形）",
+      "example": {
+        "pt": "O país era pobre.",
+        "zh": "这个国家曾经很穷。"
+      }
+    },
+    {
+      "rank": 330,
+      "pt": "caro",
+      "pos": "形容词",
+      "zh": "贵的",
+      "example": {
+        "pt": "O hotel é muito caro.",
+        "zh": "这家酒店很贵。"
+      }
+    },
+    {
+      "rank": 331,
+      "pt": "barato",
+      "pos": "形容词",
+      "zh": "便宜的",
+      "example": {
+        "pt": "O mercado é barato.",
+        "zh": "这家超市很便宜。"
+      }
+    },
+    {
+      "rank": 332,
+      "pt": "cheio",
+      "pos": "形容词",
+      "zh": "满的",
+      "example": {
+        "pt": "O ônibus está cheio.",
+        "zh": "公交车满了。"
+      }
+    },
+    {
+      "rank": 333,
+      "pt": "vazio",
+      "pos": "形容词",
+      "zh": "空的",
+      "example": {
+        "pt": "O trem está vazio.",
+        "zh": "火车很空。"
+      }
+    },
+    {
+      "rank": 334,
+      "pt": "limpo",
+      "pos": "形容词",
+      "zh": "干净的",
+      "example": {
+        "pt": "O quarto está limpo.",
+        "zh": "房间很干净。"
+      }
+    },
+    {
+      "rank": 335,
+      "pt": "sujo",
+      "pos": "形容词",
+      "zh": "脏的",
+      "example": {
+        "pt": "A roupa está suja.",
+        "zh": "衣服脏了。"
+      }
+    },
+    {
+      "rank": 336,
+      "pt": "certo",
+      "pos": "形容词",
+      "zh": "对的 / 确定的",
+      "example": {
+        "pt": "Você está certo.",
+        "zh": "你是对的。"
+      }
+    },
+    {
+      "rank": 337,
+      "pt": "errado",
+      "pos": "形容词",
+      "zh": "错的",
+      "example": {
+        "pt": "A resposta está errada.",
+        "zh": "答案错了。"
+      }
+    },
+    {
+      "rank": 338,
+      "pt": "importante",
+      "pos": "形容词",
+      "zh": "重要的（两性同形）",
+      "example": {
+        "pt": "Isso é muito importante.",
+        "zh": "这非常重要。"
+      }
+    },
+    {
+      "rank": 339,
+      "pt": "necessário",
+      "pos": "形容词",
+      "zh": "必要的",
+      "example": {
+        "pt": "É necessário praticar todos os dias.",
+        "zh": "必须每天练习。"
+      }
+    },
+    {
+      "rank": 340,
+      "pt": "possível",
+      "pos": "形容词",
+      "zh": "可能的（复数 possíveis）",
+      "example": {
+        "pt": "É possível?",
+        "zh": "可能吗？"
+      }
+    },
+    {
+      "rank": 341,
+      "pt": "pronto",
+      "pos": "形容词",
+      "zh": "准备好的 / 完成的",
+      "example": {
+        "pt": "O jantar está pronto.",
+        "zh": "晚饭做好了。"
+      },
+      "falseFriend": "西语 pronto=很快/不久；葡语'很快'是 logo/em breve"
+    },
+    {
+      "rank": 342,
+      "pt": "ocupado",
+      "pos": "形容词",
+      "zh": "忙的",
+      "example": {
+        "pt": "Eu estou ocupado agora.",
+        "zh": "我现在很忙。"
+      }
+    },
+    {
+      "rank": 343,
+      "pt": "livre",
+      "pos": "形容词",
+      "zh": "空闲的 / 自由的",
+      "example": {
+        "pt": "Você está livre amanhã?",
+        "zh": "你明天有空吗？"
+      }
+    },
+    {
+      "rank": 344,
+      "pt": "aberto",
+      "pos": "形容词",
+      "zh": "开着的",
+      "example": {
+        "pt": "A loja está aberta.",
+        "zh": "商店开着。"
+      }
+    },
+    {
+      "rank": 345,
+      "pt": "fechado",
+      "pos": "形容词",
+      "zh": "关着的",
+      "example": {
+        "pt": "O banco está fechado hoje.",
+        "zh": "银行今天关门。"
+      }
+    },
+    {
+      "rank": 346,
+      "pt": "primeiro",
+      "pos": "形容词/序数词",
+      "zh": "第一",
+      "example": {
+        "pt": "a primeira vez",
+        "zh": "第一次"
+      }
+    },
+    {
+      "rank": 347,
+      "pt": "último",
+      "pos": "形容词",
+      "zh": "最后的",
+      "example": {
+        "pt": "a última semana",
+        "zh": "最后一周"
+      }
+    },
+    {
+      "rank": 348,
+      "pt": "próximo",
+      "pos": "形容词",
+      "zh": "下一个 / 近的",
+      "example": {
+        "pt": "na próxima semana",
+        "zh": "下周"
+      }
+    },
+    {
+      "rank": 349,
+      "pt": "todo",
+      "pos": "形容词/代词",
+      "zh": "全部 / 每个",
+      "example": {
+        "pt": "Eu estudo todos os dias.",
+        "zh": "我每天学习。"
+      }
+    },
+    {
+      "rank": 350,
+      "pt": "algum",
+      "pos": "形容词/代词",
+      "zh": "某个 / 一些",
+      "example": {
+        "pt": "Você tem alguma pergunta?",
+        "zh": "你有什么问题吗？"
+      }
+    },
+    {
+      "rank": 351,
+      "pt": "nenhum",
+      "pos": "形容词/代词",
+      "zh": "没有一个",
+      "example": {
+        "pt": "Eu não tenho nenhuma dúvida.",
+        "zh": "我没有任何疑问。"
+      }
+    },
+    {
+      "rank": 352,
+      "pt": "quanto",
+      "pos": "疑问词",
+      "zh": "多少",
+      "example": {
+        "pt": "Quanto custa?",
+        "zh": "多少钱？"
+      }
+    },
+    {
+      "rank": 353,
+      "pt": "porque",
+      "pos": "连词",
+      "zh": "因为（连写=因为）",
+      "example": {
+        "pt": "Eu estudo porque gosto.",
+        "zh": "我学习是因为喜欢。"
+      }
+    },
+    {
+      "rank": 354,
+      "pt": "por quê",
+      "pos": "疑问词组",
+      "zh": "为什么（分写=为什么）",
+      "example": {
+        "pt": "Por quê você estuda português?",
+        "zh": "你为什么学葡语？"
+      }
+    },
+    {
+      "rank": 355,
+      "pt": "embora",
+      "pos": "连词/副词",
+      "zh": "尽管 / 走吧（Vamos embora!）",
+      "example": {
+        "pt": "Vamos embora!",
+        "zh": "我们走吧！"
+      }
+    },
+    {
+      "rank": 356,
+      "pt": "portanto",
+      "pos": "连词",
+      "zh": "因此",
+      "example": {
+        "pt": "Está chovendo, portanto fico em casa.",
+        "zh": "下雨了，所以我待在家。"
+      }
+    },
+    {
+      "rank": 357,
+      "pt": "então",
+      "pos": "连词/副词",
+      "zh": "那么 / 然后",
+      "example": {
+        "pt": "Então, vamos?",
+        "zh": "那么，我们走吗？"
+      }
+    },
+    {
+      "rank": 358,
+      "pt": "assim",
+      "pos": "副词",
+      "zh": "这样 / 如此",
+      "example": {
+        "pt": "É assim mesmo.",
+        "zh": "就是这样。"
+      }
+    },
+    {
+      "rank": 359,
+      "pt": "talvez",
+      "pos": "副词",
+      "zh": "也许",
+      "example": {
+        "pt": "Talvez amanhã.",
+        "zh": "也许明天吧。"
+      }
+    },
+    {
+      "rank": 360,
+      "pt": "claro",
+      "pos": "形容词/副词",
+      "zh": "当然 / 清楚的",
+      "example": {
+        "pt": "Claro que sim!",
+        "zh": "当然可以！"
+      }
+    },
+    {
+      "rank": 361,
+      "pt": "provavelmente",
+      "pos": "副词",
+      "zh": "很可能",
+      "example": {
+        "pt": "Provavelmente vai chover.",
+        "zh": "很可能会下雨。"
+      }
+    },
+    {
+      "rank": 362,
+      "pt": "sempre",
+      "pos": "副词",
+      "zh": "总是",
+      "example": {
+        "pt": "Eu sempre bebo café de manhã.",
+        "zh": "我总是早上喝咖啡。"
+      }
+    },
+    {
+      "rank": 363,
+      "pt": "nunca",
+      "pos": "副词",
+      "zh": "从不",
+      "example": {
+        "pt": "Eu nunca fumo.",
+        "zh": "我从不抽烟。"
+      }
+    },
+    {
+      "rank": 364,
+      "pt": "às vezes",
+      "pos": "副词词组",
+      "zh": "有时",
+      "example": {
+        "pt": "Às vezes eu cozinho em casa.",
+        "zh": "我有时在家做饭。"
+      }
+    },
+    {
+      "rank": 365,
+      "pt": "normalmente",
+      "pos": "副词",
+      "zh": "通常",
+      "example": {
+        "pt": "Eu normalmente acordo às sete.",
+        "zh": "我通常七点起床。"
+      }
+    },
+    {
+      "rank": 366,
+      "pt": "geralmente",
+      "pos": "副词",
+      "zh": "一般 / 通常",
+      "example": {
+        "pt": "Geralmente eu vou de ônibus.",
+        "zh": "我一般坐公交去。"
+      }
+    },
+    {
+      "rank": 367,
+      "pt": "quase",
+      "pos": "副词",
+      "zh": "几乎",
+      "example": {
+        "pt": "Está quase pronto.",
+        "zh": "快好了。"
+      }
+    },
+    {
+      "rank": 368,
+      "pt": "cedo",
+      "pos": "副词",
+      "zh": "早",
+      "example": {
+        "pt": "Eu acordo cedo.",
+        "zh": "我很早醒。"
+      }
+    },
+    {
+      "rank": 369,
+      "pt": "atrasado",
+      "pos": "形容词",
+      "zh": "迟到的",
+      "example": {
+        "pt": "O ônibus está atrasado.",
+        "zh": "公交晚点了。"
+      }
+    },
+    {
+      "rank": 370,
+      "pt": "longe",
+      "pos": "副词",
+      "zh": "远",
+      "example": {
+        "pt": "A praia fica longe.",
+        "zh": "海滩很远。"
+      }
+    },
+    {
+      "rank": 371,
+      "pt": "perto",
+      "pos": "副词",
+      "zh": "近",
+      "example": {
+        "pt": "O metrô fica perto.",
+        "zh": "地铁很近。"
+      }
+    },
+    {
+      "rank": 372,
+      "pt": "dentro",
+      "pos": "副词/介词",
+      "zh": "里面",
+      "example": {
+        "pt": "Está dentro da bolsa.",
+        "zh": "在包里面。"
+      }
+    },
+    {
+      "rank": 373,
+      "pt": "fora",
+      "pos": "副词/介词",
+      "zh": "外面",
+      "example": {
+        "pt": "Está frio lá fora.",
+        "zh": "外面很冷。"
+      }
+    },
+    {
+      "rank": 374,
+      "pt": "acima",
+      "pos": "副词/介词",
+      "zh": "在上面 / 以上",
+      "example": {
+        "pt": "O quadro está acima da cama.",
+        "zh": "画在床的上方。"
+      }
+    },
+    {
+      "rank": 375,
+      "pt": "abaixo",
+      "pos": "副词/介词",
+      "zh": "在下面 / 以下",
+      "example": {
+        "pt": "O mercado fica abaixo do meu prédio.",
+        "zh": "超市在我楼下。"
+      }
+    },
+    {
+      "rank": 376,
+      "pt": "antes",
+      "pos": "副词/介词",
+      "zh": "之前",
+      "example": {
+        "pt": "Eu como antes de sair.",
+        "zh": "我出门前吃饭。"
+      }
+    },
+    {
+      "rank": 377,
+      "pt": "durante",
+      "pos": "介词",
+      "zh": "在…期间",
+      "example": {
+        "pt": "Eu estudo durante a noite.",
+        "zh": "我晚上学习。"
+      }
+    },
+    {
+      "rank": 378,
+      "pt": "juntos",
+      "pos": "副词",
+      "zh": "一起",
+      "example": {
+        "pt": "Nós trabalhamos juntos.",
+        "zh": "我们一起工作。"
+      }
+    },
+    {
+      "rank": 379,
+      "pt": "sozinho",
+      "pos": "形容词/副词",
+      "zh": "独自",
+      "example": {
+        "pt": "Eu moro sozinho.",
+        "zh": "我一个人住。"
+      }
+    },
+    {
+      "rank": 380,
+      "pt": "obrigado",
+      "pos": "感叹词",
+      "zh": "谢谢（男性说；女性说 obrigada）",
+      "example": {
+        "pt": "Muito obrigado!",
+        "zh": "非常感谢！"
+      }
+    },
+    {
+      "rank": 381,
+      "pt": "desculpa",
+      "pos": "感叹词/名词",
+      "zh": "对不起 / 抱歉",
+      "example": {
+        "pt": "Desculpa pelo atraso.",
+        "zh": "对不起迟到了。"
+      }
+    },
+    {
+      "rank": 382,
+      "pt": "por favor",
+      "pos": "礼貌用语",
+      "zh": "请",
+      "example": {
+        "pt": "Um café, por favor.",
+        "zh": "请给我一杯咖啡。"
+      }
+    },
+    {
+      "rank": 383,
+      "pt": "com licença",
+      "pos": "礼貌用语",
+      "zh": "借过 / 打扰一下",
+      "example": {
+        "pt": "Com licença, onde fica o metrô?",
+        "zh": "打扰一下，地铁在哪里？"
+      }
+    },
+    {
+      "rank": 384,
+      "pt": "tudo bem",
+      "pos": "问候语",
+      "zh": "你好吗 / 都好",
+      "example": {
+        "pt": "— Tudo bem? — Tudo bem!",
+        "zh": "— 你好吗？— 都好！"
+      }
+    },
+    {
+      "rank": 385,
+      "pt": "de nada",
+      "pos": "礼貌用语",
+      "zh": "不客气",
+      "example": {
+        "pt": "— Obrigado! — De nada!",
+        "zh": "— 谢谢！— 不客气！"
+      }
+    },
+    {
+      "rank": 386,
+      "pt": "saúde",
+      "pos": "感叹词/名词",
+      "zh": "干杯 / 健康",
+      "example": {
+        "pt": "Saúde!",
+        "zh": "干杯！"
+      }
+    },
+    {
+      "rank": 387,
+      "pt": "parabéns",
+      "pos": "感叹词",
+      "zh": "恭喜 / 生日快乐",
+      "example": {
+        "pt": "Parabéns pelo aniversário!",
+        "zh": "生日快乐！"
+      }
+    },
+    {
+      "rank": 388,
+      "pt": "embaraçado",
+      "pos": "形容词",
+      "zh": "尴尬的",
+      "example": {
+        "pt": "Eu fiquei embaraçado.",
+        "zh": "我当时很尴尬。"
+      },
+      "falseFriend": "西语 embarazada=怀孕！葡语'怀孕'是 grávida。说错会非常尴尬"
+    },
+    {
+      "rank": 389,
+      "pt": "grávida",
+      "pos": "形容词",
+      "zh": "怀孕的",
+      "example": {
+        "pt": "Ela está grávida.",
+        "zh": "她怀孕了。"
+      },
+      "falseFriend": "西语 embarazada 的对应词是 grávida，不是 embaraçada"
+    },
+    {
+      "rank": 390,
+      "pt": "esquisito",
+      "pos": "形容词",
+      "zh": "奇怪的",
+      "example": {
+        "pt": "Que esquisito!",
+        "zh": "真奇怪！"
+      },
+      "falseFriend": "西语 exquisito=精美的；葡语'精美的'是 requintado"
+    },
+    {
+      "rank": 391,
+      "pt": "pasta",
+      "pos": "名词",
+      "zh": "文件夹 / 公文包",
+      "example": {
+        "pt": "A pasta está na mesa.",
+        "zh": "文件夹在桌上。"
+      },
+      "falseFriend": "西语 pasta=面团/意大利面/钱（口语）；葡语'面团'是 massa"
+    },
+    {
+      "rank": 392,
+      "pt": "borracha",
+      "pos": "名词",
+      "zh": "橡皮擦 / 橡胶",
+      "example": {
+        "pt": "Eu preciso de uma borracha.",
+        "zh": "我需要一块橡皮。"
+      },
+      "falseFriend": "西语 borracha=喝醉的女人！西语'橡皮'是 goma"
+    },
+    {
+      "rank": 393,
+      "pt": "cena",
+      "pos": "名词",
+      "zh": "场景 / 事儿（巴西口语）",
+      "example": {
+        "pt": "Que cena é essa?",
+        "zh": "这是怎么回事？"
+      },
+      "falseFriend": "西语 cena=晚餐；葡语'晚餐'是 jantar"
+    },
+    {
+      "rank": 394,
+      "pt": "polvo",
+      "pos": "名词",
+      "zh": "章鱼",
+      "example": {
+        "pt": "Eu gosto de polvo.",
+        "zh": "我喜欢吃章鱼。"
+      },
+      "falseFriend": "西语 polvo=灰尘；西语'章鱼'是 pulpo"
+    },
+    {
+      "rank": 395,
+      "pt": "presunto",
+      "pos": "名词",
+      "zh": "火腿",
+      "example": {
+        "pt": "um sanduíche de presunto",
+        "zh": "一个火腿三明治"
+      },
+      "falseFriend": "西语 presunto=所谓的/推定的；西语'火腿'是 jamón"
+    },
+    {
+      "rank": 396,
+      "pt": "cueca",
+      "pos": "名词",
+      "zh": "男士内裤",
+      "example": {
+        "pt": "Ele compra cuecas novas.",
+        "zh": "他买新内裤。"
+      },
+      "falseFriend": "在智利 cueca 是一种民族舞蹈；在巴西是男士内裤"
+    },
+    {
+      "rank": 397,
+      "pt": "massa",
+      "pos": "名词",
+      "zh": "面团 / 意大利面 / 很赞（口语）",
+      "example": {
+        "pt": "A massa está pronta.",
+        "zh": "意面做好了。"
+      },
+      "falseFriend": "口语 Que massa!=太赞了；西语 pasta 才是'意面'"
+    },
+    {
+      "rank": 398,
+      "pt": "oficina",
+      "pos": "名词",
+      "zh": "车间 / 维修店",
+      "example": {
+        "pt": "O carro está na oficina.",
+        "zh": "车在维修店。"
+      },
+      "falseFriend": "西语 oficina=办公室；葡语'办公室'是 escritório"
+    },
+    {
+      "rank": 399,
+      "pt": "largo",
+      "pos": "形容词",
+      "zh": "宽的",
+      "example": {
+        "pt": "A rua é larga.",
+        "zh": "这条街很宽。"
+      },
+      "falseFriend": "西语 largo=长的；葡语'长的'是 longo/comprido"
+    },
+    {
+      "rank": 400,
+      "pt": "vaso",
+      "pos": "名词",
+      "zh": "花瓶 / 容器",
+      "example": {
+        "pt": "O vaso está na janela.",
+        "zh": "花瓶在窗台上。"
+      },
+      "falseFriend": "西语 vaso=玻璃杯；葡语'玻璃杯'是 copo"
+    }
+  ]
+}

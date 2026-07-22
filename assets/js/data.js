@@ -40,5 +40,9 @@ const Data = (() => {
     return fetchJSON(basePath() + 'data/verb-conjugations.json');
   }
 
-  return { loadCurriculum, loadQuiz, loadVocabulary, loadVerbConjugations, basePath };
+  async function loadFrequencyVocab() {
+    return fetchJSON(basePath() + 'data/frequency-vocab.json');
+  }
+
+  return { loadCurriculum, loadQuiz, loadVocabulary, loadVerbConjugations, loadFrequencyVocab, basePath };
 })();

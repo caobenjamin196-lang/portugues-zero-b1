@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#009739">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="PT Zero→B1">
+  <link rel="apple-touch-icon" href="icon-source.png">  <title>每周词汇 100 词 · Português Zero → B1</title>
+  <meta name="description" content="按使用频率排序的巴西葡语每周100词：发音点读 + 动词现在时变位 + 西语假朋友警示">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <main class="container" id="vocab-root">
+    <div class="card text-center"><p>⏳ 正在加载词汇…</p></div>
+  </main>
+
+  <script src="assets/js/progress.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>
+  (() => {
+    const root = document.getElementById('vocab-root');
+    const week = Math.min(4, Math.max(1, parseInt(new URLSearchParams(location.search).get('week') || '1', 10)));
+
+    function esc(s) {
+      return String(s == null ? '' : s)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    /* ===== Web Speech API：pt-BR 发音，无需音频文件 ===== */
+    function ptVoice() {
+      if (!('speechSynthesis' in window)) return null;
+      const vs = speechSynthesis.getVoices();
+      const norm = l => String(l || '').toLowerCase().replace('_', '-');
+      return vs.find(v => norm(v.lang).startsWith('pt-br'))
+          || vs.find(v => norm(v.lang).startsWith('pt'))
+          || null;
+    }
+
+    function speak(text) {
+      if (!('speechSynthesis' in window)) { toast('⚠️ 此浏览器不支持语音合成'); return; }
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = 'pt-BR';
+      u.rate = 0.9;
+      const v = ptVoice();
+      if (v) u.voice = v;
+      speechSynthesis.cancel();
+      speechSynthesis.speak(u);
+    }
+
+    if ('speechSynthesis' in window) {
+      speechSynthesis.getVoices(); // 预热语音列表（iOS/Chrome 异步加载）
+      speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices();
+    }
+
+    /* 事件委托：🔊 按钮 + 变位展开 */
+    document.addEventListener('click', (ev) => {
+      const spk = ev.target.closest('.speak-btn');
+      if (spk) { speak(spk.dataset.say || ''); return; }
+      const tgl = ev.target.closest('.vw-conj-toggle');
+      if (tgl) {
+        const box = tgl.parentElement.querySelector('.vw-conj');
+        const open = box.classList.toggle('hidden');
+        tgl.textContent = open ? '🔁 现在时变位 ▸' : '🔁 现在时变位 ▾';
+      }
+    });
+
+    /* ===== 渲染 ===== */
+    function wordCard(e) {
+      const conj = e.conjugations
+        ? `<button class="btn btn-sm btn-outline vw-conj-toggle">🔁 现在时变位 ▸</button>
+           <div class="vw-conj hidden">
+             <div class="conj-table">${['eu', 'tu', 'ele/ela/você', 'nós', 'eles/elas/vocês'].map(p =>
+               `<div class="conj-cell"><span class="who">${esc(p)}</span><span class="form">${esc(e.conjugations[p] || '')}</span></div>`).join('')}
+             </div>
+             ${e.conjugations.es ? `<div class="vw-es">🇪🇸 ${esc(e.conjugations.es)}</div>` : ''}
+           </div>` : '';
+      return `<div class="vword-card">
+        <div class="vw-head">
+          <span class="vw-rank">#${e.rank}</span>
+          <span class="vw-word">${esc(e.pt)}</span>
+          <button class="speak-btn" data-say="${esc(e.pt)}" title="发音（pt-BR）">🔊</button>
+          <span class="badge badge-blue">${esc(e.pos)}</span>
+        </div>
+        <div class="vw-zh">${esc(e.zh)}</div>
+        <div class="vw-example">
+          <span class="pt">${esc(e.example.pt)}</span>
+          <button class="speak-btn speak-sm" data-say="${esc(e.example.pt)}" title="朗读例句">🔊</button>
+          <div class="zh">${esc(e.example.zh)}</div>
+        </div>
+        ${e.falseFriend ? `<div class="warning-box vw-ff">⚠️ <b>假朋友</b>：${esc(e.falseFriend)}</div>` : ''}
+        ${conj}
+      </div>`;
+    }
+
+    async function start() {
+      let data;
+      try {
+        data = await Data.loadFrequencyVocab();
+      } catch (e) {
+        root.innerHTML = `<div class="card"><h3>⚠️ 词汇数据加载失败</h3><p>${esc(e.message)}</p>
+          <p class="text-dim">请通过本地服务器访问（python3 -m http.server），不要直接双击 html 文件。</p>
+          <a class="btn btn-primary mt-2" href="index.html">返回仪表盘</a></div>`;
+        return;
+      }
+
+      const words = data['w' + week] || [];
+      const verbCount = words.filter(e => e.conjugations).length;
+      const ffCount = words.filter(e => e.falseFriend).length;
+      const r0 = words.length ? words[0].rank : 0;
+      const r1 = words.length ? words[words.length - 1].rank : 0;
+
+      const weekNav = [1, 2, 3, 4].map(w =>
+        `<a class="btn btn-sm ${w === week ? 'btn-primary' : 'btn-outline'}" href="vocab.html?week=${w}">W${w}</a>`).join('');
+
+      root.innerHTML = `
+        <div class="card card-accent-green no-hover">
+          <div class="flex-between">
+            <div>
+              <span class="badge badge-green">每周 100 频率词 · PT-BR</span>
+              <h1 class="mt-1">📚 W${week} 本周词汇 100 词</h1>
+              <p class="text-dim">频率排名 #${r0} – #${r1} · ${verbCount} 个动词（可展开变位表）· ${ffCount} 个假朋友警示 · 点 🔊 听发音</p>
+            </div>
+            <a class="btn btn-outline btn-sm" href="index.html">← 返回仪表盘</a>
+          </div>
+          <div class="vocab-week-nav mt-2">${weekNav}</div>
+        </div>
+        ${words.map(wordCard).join('')}
+        <div class="card text-center no-hover">
+          <div class="flex" style="justify-content:center">
+            <a class="btn btn-secondary" href="quiz.html?week=${week}">开始 W${week} 周考 📝</a>
+            <a class="btn btn-outline" href="index.html">返回仪表盘</a>
+          </div>
+        </div>`;
+
+      Progress.touchStudy(0);
+      Progress.addStudyTime(week, 0.25); // 学习本周词汇计 15 分钟
+    }
+
+    renderHeader('weeks');
+    renderFooter();
+    start();
+  })();
+  </script>
+</body>
+</html>
