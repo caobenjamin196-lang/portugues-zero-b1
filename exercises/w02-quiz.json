@@ -9,7 +9,12 @@
       "difficulty": 1,
       "topic": "词性转移 -ción→-ção",
       "prompt": "西语 información 的葡语对应形式是？",
-      "options": ["información", "informaçao", "informação", "informaçom"],
+      "options": [
+        "información",
+        "informaçao",
+        "informação",
+        "informaçom"
+      ],
       "answer": "informação",
       "explanation": "规则：西语 -ción → 葡语 -ção。nación→nação, decisión→decisão, televisión→televisão。注意 ç 和 ã 两个符号。",
       "spanishContrast": "información → informação。这类词全部为阴性（a informação），与西语一致。"
@@ -20,7 +25,12 @@
       "difficulty": 1,
       "topic": "词性转移 -dad→-dade",
       "prompt": "西语 universidad 的葡语对应形式是？",
-      "options": ["universidad", "universidade", "universidadi", "universidá"],
+      "options": [
+        "universidad",
+        "universidade",
+        "universidadi",
+        "universidá"
+      ],
       "answer": "universidade",
       "explanation": "规则：西语 -dad → 葡语 -dade。ciudad→cidade, verdad→verdade, libertad→liberdade。全部阴性。",
       "spanishContrast": "la universidad → a universidade。词尾 e 非重读，巴西发音为 /i/。"
@@ -31,7 +41,12 @@
       "difficulty": 1,
       "topic": "词性转移 -ón→-ão",
       "prompt": "西语 corazón 的葡语对应形式是？",
-      "options": ["corazón", "coração", "coraçom", "corazao"],
+      "options": [
+        "corazón",
+        "coração",
+        "coraçom",
+        "corazao"
+      ],
       "answer": "coração",
       "explanation": "规则：西语 -ón → 葡语 -ão。avión→avião, lección→lição, canción→canção。注意 z→ç 的音变（corazón→coração）。",
       "spanishContrast": "corazón → coração。西语 z 在葡语中对应 ç（都发 /s/）。"
@@ -42,7 +57,12 @@
       "difficulty": 1,
       "topic": "冠词",
       "prompt": "cidade（城市）应该用哪个定冠词？",
-      "options": ["o", "a", "os", "as"],
+      "options": [
+        "o",
+        "a",
+        "os",
+        "as"
+      ],
       "answer": "a",
       "explanation": "-dade 结尾的词全部阴性：a cidade。与西语 la ciudad 阴阳性一致。",
       "spanishContrast": "la ciudad → a cidade。葡语 o/a = 西语 el/la。"
@@ -53,7 +73,12 @@
       "difficulty": 2,
       "topic": "阴阳性例外",
       "prompt": "dia（天）应该用哪个定冠词？",
-      "options": ["a", "o", "uma", "as"],
+      "options": [
+        "a",
+        "o",
+        "uma",
+        "as"
+      ],
       "answer": "o",
       "explanation": "dia 是阳性：o dia。以 -a 结尾却阳性的词与西语高度一致（el día）。记忆法：西语阳性的不规则 -a 词，葡语通常也阳性。",
       "spanishContrast": "el día → o dia。两种语言都不规则得一样。"
@@ -64,7 +89,12 @@
       "difficulty": 2,
       "topic": "阴阳性例外",
       "prompt": "problema（问题）应该用哪个定冠词？",
-      "options": ["a", "o", "uma", "as"],
+      "options": [
+        "a",
+        "o",
+        "uma",
+        "as"
+      ],
       "answer": "o",
       "explanation": "希腊语源 -ma 结尾的词是阳性：o problema, o tema, o sistema, o programa。",
       "spanishContrast": "el problema → o problema。规则与西语完全相同，直接迁移。"
@@ -75,7 +105,12 @@
       "difficulty": 2,
       "topic": "阴阳性例外",
       "prompt": "mão（手）应该用哪个定冠词？",
-      "options": ["o", "a", "um", "os"],
+      "options": [
+        "o",
+        "a",
+        "um",
+        "os"
+      ],
       "answer": "a",
       "explanation": "mão 是阴性：a mão。与西语 la mano 阴阳性一致（都是不规则阴性）。",
       "spanishContrast": "la mano → a mão。又一个不规则得一致的词。"
@@ -86,7 +121,12 @@
       "difficulty": 2,
       "topic": "复数规则",
       "prompt": "azul（蓝色）的复数是？",
-      "options": ["azuls", "azules", "azuis", "azulês"],
+      "options": [
+        "azuls",
+        "azules",
+        "azuis",
+        "azulês"
+      ],
       "answer": "azuis",
       "explanation": "以 -l 结尾的词复数：去 -l 加 -is。azul→azuis, hotel→hotéis, papel→papéis（后两词还要补重音符号）。",
       "spanishContrast": "西语 azul→azules 直接加 -es。葡语 -l→-is 的替换是西语没有的规则。"
@@ -97,7 +137,12 @@
       "difficulty": 2,
       "topic": "复数规则",
       "prompt": "hotel（酒店）的复数是？",
-      "options": ["hotels", "hoteles", "hotéis", "hoteis"],
+      "options": [
+        "hotels",
+        "hoteles",
+        "hotéis",
+        "hoteis"
+      ],
       "answer": "hotéis",
       "explanation": "hotel→hotéis：-l→-is，且 é 处需补尖音符保持重音位置（ho-TÉIS）。",
       "spanishContrast": "西语 hotel→hoteles。葡语复数变化后重音不变（仍在倒数第二音节），所以必须标音。"
@@ -108,7 +153,12 @@
       "difficulty": 2,
       "topic": "复数规则",
       "prompt": "país（国家）的复数是？",
-      "options": ["paíss", "países", "pais", "paiseis"],
+      "options": [
+        "paíss",
+        "países",
+        "pais",
+        "paiseis"
+      ],
       "answer": "países",
       "explanation": "以 -s 结尾且重读末音节的词，复数加 -es：país→países, português→portugueses。",
       "spanishContrast": "西语 país→países，完全一致。直接迁移。"
@@ -119,7 +169,12 @@
       "difficulty": 2,
       "topic": "复数规则",
       "prompt": "lição（课）的复数是？",
-      "options": ["liçãos", "lições", "liçães", "liçonas"],
+      "options": [
+        "liçãos",
+        "lições",
+        "liçães",
+        "liçonas"
+      ],
       "answer": "lições",
       "explanation": "以 -ão 结尾的词复数多数变 -ões：lição→lições, coração→corações, nação→nações。（另有小部分变 -ães：pão→pães，或 -ãos：mão→mãos）",
       "spanishContrast": "西语 lección→lecciones。葡语 -ão→-ões 的鼻音复数是特色规则。"
@@ -130,7 +185,12 @@
       "difficulty": 2,
       "topic": "形容词位置",
       "prompt": "'一辆红色的车'用葡语怎么说？",
-      "options": ["um vermelho carro", "um carro vermelho", "uma carro vermelha", "um carros vermelho"],
+      "options": [
+        "um vermelho carro",
+        "um carro vermelho",
+        "uma carro vermelha",
+        "um carros vermelho"
+      ],
       "answer": "um carro vermelho",
       "explanation": "葡语形容词默认后置：um carro vermelho，且与名词保持性数一致（carro 阳性单数 → vermelho）。",
       "spanishContrast": "西语 un coche rojo / un carro rojo——形容词后置规则两语一致，可直接迁移。"
@@ -141,7 +201,12 @@
       "difficulty": 2,
       "topic": "形容词位置",
       "prompt": "'一朵美丽的花'最自然的葡语说法是？",
-      "options": ["uma bonita flor", "uma flor bonita", "um flor bonito", "uma flors bonitas"],
+      "options": [
+        "uma bonita flor",
+        "uma flor bonita",
+        "um flor bonito",
+        "uma flors bonitas"
+      ],
       "answer": "uma flor bonita",
       "explanation": "flor 阴性（a flor），形容词 bonita 后置并保持阴性单数：uma flor bonita。",
       "spanishContrast": "西语 una flor bonita，完全平行。"
@@ -152,8 +217,17 @@
       "difficulty": 3,
       "topic": "阴阳性",
       "prompt": "以下哪些名词是阴性？（多选）",
-      "options": ["mão（手）", "flor（花）", "nação（国家/民族）", "dia（天）"],
-      "answer": ["mão（手）", "flor（花）", "nação（国家/民族）"],
+      "options": [
+        "mão（手）",
+        "flor（花）",
+        "nação（国家/民族）",
+        "dia（天）"
+      ],
+      "answer": [
+        "mão（手）",
+        "flor（花）",
+        "nação（国家/民族）"
+      ],
       "explanation": "a mão、a flor、a nação 都是阴性；o dia 是阳性。以 -r 结尾的抽象名词（flor, cor, dor）多为阴性。",
       "spanishContrast": "西语 la mano, la flor, la nación 阴性；el día 阳性——阴阳性分配两语完全一致。"
     },
@@ -163,91 +237,143 @@
       "difficulty": 3,
       "topic": "词性转移 -aje→-agem",
       "prompt": "西语 el viaje（旅行，阳性）对应葡语 viagem，它的阴阳性是？",
-      "options": ["阳性（o viagem）", "阴性（a viagem）", "两性皆可", "无冠词"],
+      "options": [
+        "阳性（o viagem）",
+        "阴性（a viagem）",
+        "两性皆可",
+        "无冠词"
+      ],
       "answer": "阴性（a viagem）",
       "explanation": "规则：西语 -aje（阳性）→ 葡语 -agem（阴性！）：el viaje→a viagem, el paisaje→a paisagem, el mensaje→a mensagem。这是少数阴阳性发生翻转的词族，要特别记忆。",
       "spanishContrast": "el viaje（阳）→ a viagem（阴）。阴阳性翻转，高危假朋友！"
     },
-
     {
       "id": "w2_q016",
-      "type": "fill_blank",
+      "type": "single_choice",
       "difficulty": 1,
       "topic": "词性转换",
-      "prompt": "写出葡语对应词：acción（西）→ ___",
-      "answer": ["ação", "acao"],
+      "prompt": "西语 acción 的葡语对应词是？",
+      "answer": "ação",
       "explanation": "acción → ação。-cción 双写 c 在葡语中简化为 ç。",
-      "spanishContrast": "-cción → -ção。"
+      "spanishContrast": "-cción → -ção。",
+      "options": [
+        "ação",
+        "acão",
+        "accion",
+        "assão"
+      ]
     },
     {
       "id": "w2_q017",
-      "type": "fill_blank",
+      "type": "single_choice",
       "difficulty": 1,
       "topic": "词性转换",
-      "prompt": "写出葡语对应词：decisión（西）→ ___",
-      "answer": ["decisão", "decisao"],
+      "prompt": "西语 decisión 的葡语对应词是？",
+      "answer": "decisão",
       "explanation": "decisión → decisão。-sión → -são（s 保留，ó→ã）。",
-      "spanishContrast": "-sión → -são。同样阴性：a decisão。"
+      "spanishContrast": "-sión → -são。同样阴性：a decisão。",
+      "options": [
+        "decisão",
+        "decisao",
+        "decisión",
+        "decição"
+      ]
     },
     {
       "id": "w2_q018",
-      "type": "fill_blank",
+      "type": "single_choice",
       "difficulty": 1,
       "topic": "词性转换",
-      "prompt": "写出葡语对应词：libertad（西）→ ___",
-      "answer": ["liberdade"],
+      "prompt": "西语 libertad 的葡语对应词是？",
+      "answer": "liberdade",
       "explanation": "libertad → liberdade。-dad → -dade，阴性。",
-      "spanishContrast": "la libertad → a liberdade。"
+      "spanishContrast": "la libertad → a liberdade。",
+      "options": [
+        "liberdade",
+        "libertade",
+        "liberdad",
+        "libertá"
+      ]
     },
     {
       "id": "w2_q019",
-      "type": "fill_blank",
+      "type": "single_choice",
       "difficulty": 2,
       "topic": "词性转换",
-      "prompt": "写出葡语对应词：dificultad（西）→ ___",
-      "answer": ["dificuldade"],
+      "prompt": "西语 dificultad 的葡语对应词是？",
+      "answer": "dificuldade",
       "explanation": "dificultad → dificuldade。注意葡语保留了 ul 音节（difi-CUL-dade），重音在倒数第二音节。",
-      "spanishContrast": "西语 di-fi-cul-TAD（4音节）vs 葡语 di-fi-cul-DA-de（5音节）——葡语常比西语多一个音节。"
+      "spanishContrast": "西语 di-fi-cul-TAD（4音节）vs 葡语 di-fi-cul-DA-de（5音节）——葡语常比西语多一个音节。",
+      "options": [
+        "dificuldade",
+        "dificultade",
+        "dificultad",
+        "dificudade"
+      ]
     },
     {
       "id": "w2_q020",
-      "type": "fill_blank",
+      "type": "single_choice",
       "difficulty": 2,
       "topic": "复数规则",
-      "prompt": "填空：o livro → os ___（书，复数）",
-      "answer": ["livros"],
+      "prompt": "o livro 的复数形式是？（书）",
+      "answer": "livros",
       "explanation": "以 -o 结尾的阳性名词复数加 -s：livro→livros。规则与西语相同。",
-      "spanishContrast": "el libro → los libros；o livro → os livros。"
+      "spanishContrast": "el libro → los libros；o livro → os livros。",
+      "options": [
+        "livros",
+        "livres",
+        "livroes",
+        "livrões"
+      ]
     },
     {
       "id": "w2_q021",
-      "type": "fill_blank",
+      "type": "single_choice",
       "difficulty": 2,
       "topic": "复数规则",
-      "prompt": "填空：a casa → as ___（房子，复数）",
-      "answer": ["casas"],
+      "prompt": "a casa 的复数形式是？（房子）",
+      "answer": "casas",
       "explanation": "以 -a 结尾的阴性名词复数加 -s：casa→casas。",
-      "spanishContrast": "la casa → las casas；a casa → as casas。"
+      "spanishContrast": "la casa → las casas；a casa → as casas。",
+      "options": [
+        "casas",
+        "casaes",
+        "cazas",
+        "cãsas"
+      ]
     },
     {
       "id": "w2_q022",
-      "type": "fill_blank",
+      "type": "single_choice",
       "difficulty": 3,
       "topic": "复数+形容词一致",
-      "prompt": "填空：o carro azul → os carros ___（蓝色的车，复数）",
-      "answer": ["azuis"],
+      "prompt": "o carro azul → os carros ___（蓝色的车，复数）",
+      "answer": "azuis",
       "explanation": "形容词与名词保持数的一致：azul→azuis（-l→-is 规则同样适用于形容词）。",
-      "spanishContrast": "los coches azules。西语加 -es，葡语换 -is。"
+      "spanishContrast": "los coches azules。西语加 -es，葡语换 -is。",
+      "options": [
+        "azuis",
+        "azules",
+        "azuls",
+        "azeus"
+      ]
     },
     {
       "id": "w2_q023",
-      "type": "fill_blank",
+      "type": "single_choice",
       "difficulty": 3,
       "topic": "形容词性数一致",
-      "prompt": "填空：as meninas ___（漂亮的姑娘们，bonito 的阴性复数）",
-      "answer": ["bonitas"],
+      "prompt": "as meninas ___（漂亮的姑娘们，bonito 的阴性复数）",
+      "answer": "bonitas",
       "explanation": "bonito 有四种形式：bonito/bonita/bonitos/bonitas，与名词性数一致。meninas 阴性复数 → bonitas。",
-      "spanishContrast": "las chicas bonitas——性数一致规则两语相同。"
+      "spanishContrast": "las chicas bonitas——性数一致规则两语相同。",
+      "options": [
+        "bonitas",
+        "bonitos",
+        "bonita",
+        "bonitãs"
+      ]
     },
     {
       "id": "w2_q024",
@@ -255,7 +381,13 @@
       "difficulty": 2,
       "topic": "词性转移规则",
       "prompt": "把西语词尾与对应的葡语词尾连起来：",
-      "options": ["-ção", "-dade", "-ão", "-agem", "-mento"],
+      "options": [
+        "-ção",
+        "-dade",
+        "-ão",
+        "-agem",
+        "-mento"
+      ],
       "answer": {
         "-ción": "-ção",
         "-dad": "-dade",
@@ -272,7 +404,10 @@
       "difficulty": 2,
       "topic": "翻译",
       "prompt": "把西语翻译成葡语：La ciudad es grande y bonita.",
-      "answer": ["A cidade é grande e bonita", "A cidade e grande e bonita"],
+      "answer": [
+        "A cidade é grande e bonita",
+        "A cidade e grande e bonita"
+      ],
       "explanation": "ciudad→cidade（阴性）；grande 两性同形不变；é 是 ser 的第三人称单数（W3 详讲）。",
       "spanishContrast": "La ciudad es grande y bonita → A cidade é grande e bonita。注意西语 y → 葡语 e（葡语 e 永远不变形）。"
     },
@@ -282,7 +417,10 @@
       "difficulty": 2,
       "topic": "翻译",
       "prompt": "把西语翻译成葡语：Los hoteles son caros.",
-      "answer": ["Os hotéis são caros", "Os hoteis sao caros"],
+      "answer": [
+        "Os hotéis são caros",
+        "Os hoteis sao caros"
+      ],
       "explanation": "hotel→hotéis（复数）；son→são（ser 第三人称复数，鼻元音）；caro 阳性复数 → caros。",
       "spanishContrast": "Los hoteles son caros → Os hotéis são caros。son/são 对应工整。"
     },
@@ -292,7 +430,10 @@
       "difficulty": 3,
       "topic": "翻译",
       "prompt": "把西语翻译成葡语：Tengo dos libros y una flor.",
-      "answer": ["Eu tenho dois livros e uma flor", "Tenho dois livros e uma flor"],
+      "answer": [
+        "Eu tenho dois livros e uma flor",
+        "Tenho dois livros e uma flor"
+      ],
       "explanation": "tengo→tenho（ter 第一人称）；dos→dois（阳性复数）；y→e。巴西葡语倾向保留主语 Eu。",
       "spanishContrast": "tener→ter 变位完全不同（W3 详讲）；dos→dois 阴阳性：dois livros（阳）/ duas flores（阴）。"
     },
@@ -317,6 +458,266 @@
       "referenceAnswer": "示例：A minha família é pequena e bonita. O meu pai é uma pessoa muito simpática. A minha mãe trabalha numa universidade da cidade. Nós temos uma casa grande e dois carros vermelhos.",
       "scoringCriteria": "冠词使用正确(3分)、形容词后置+性数一致(3分)、至少2个规则词族词(2分)、句法正确(2分)",
       "spanishContrast": "注意葡语物主形容词前常加冠词：o meu pai（西语 mi padre 无冠词）。"
+    },
+    {
+      "id": "w2_vocab_q001",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "葡语动词 gostar 是什么意思？",
+      "options": [
+        "喜欢",
+        "需要",
+        "等待",
+        "希望"
+      ],
+      "answer": "喜欢",
+      "explanation": "gostar de = 喜欢：Eu gosto de café.（我喜欢咖啡。）必须带 de！",
+      "spanishContrast": "西语 Me gusta el café（gustar 倒装结构）→ 葡语 Eu gosto de café：主谓正常语序 + 介词 de。西语者极易漏掉 de。"
+    },
+    {
+      "id": "w2_vocab_q002",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "葡语动词 precisar 是什么意思？",
+      "options": [
+        "喜欢",
+        "需要",
+        "请求",
+        "决定"
+      ],
+      "answer": "需要",
+      "explanation": "precisar de = 需要：Eu preciso de ajuda.（我需要帮助。）",
+      "spanishContrast": "西语 Necesito un favor（直接及物）→ 葡语 Eu preciso de um favor，必须带 de——高频陷阱。"
+    },
+    {
+      "id": "w2_vocab_q003",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "葡语动词 voltar 是什么意思？",
+      "options": [
+        "离开",
+        "到达",
+        "回来",
+        "经过"
+      ],
+      "answer": "回来",
+      "explanation": "voltar = 回来、返回：Eu volto amanhã.（我明天回来。）",
+      "spanishContrast": "西语 volver: vuelvo 有 ue 双元音化；葡语 volto 没有词干变化。"
+    },
+    {
+      "id": "w2_vocab_q004",
+      "type": "single_choice",
+      "difficulty": 2,
+      "topic": "本周词汇",
+      "prompt": "葡语动词 esquecer 是什么意思？",
+      "options": [
+        "记得",
+        "忘记",
+        "明白",
+        "相信"
+      ],
+      "answer": "忘记",
+      "explanation": "esquecer = 忘记：Eu esqueço os nomes.（我老忘名字。）注意 eu 形式是 esqueço（ç）。",
+      "spanishContrast": "西语 olvidar → 葡语 esquecer，词形完全不同；'记得'是 lembrar。"
+    },
+    {
+      "id": "w2_vocab_q005",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "葡语动词 comprar 是什么意思？",
+      "options": [
+        "卖",
+        "买",
+        "付钱",
+        "花费"
+      ],
+      "answer": "买",
+      "explanation": "comprar = 买：Eu compro pão todos os dias.（我每天买面包。）",
+      "spanishContrast": "comprar 与西语同形同义；'卖'是 vender，'付钱'是 pagar。"
+    },
+    {
+      "id": "w2_vocab_q006",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "葡语动词 dormir 是什么意思？",
+      "options": [
+        "醒来",
+        "做梦",
+        "睡觉",
+        "休息"
+      ],
+      "answer": "睡觉",
+      "explanation": "dormir = 睡觉：Eu durmo oito horas.（我睡八小时。）eu durmo 是不规则形式。",
+      "spanishContrast": "西语 duermo → 葡语 durmo：两语都只在第一人称'变脸'（o→ue / o→u），平行好记。"
+    },
+    {
+      "id": "w2_vocab_q007",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "葡语动词 trabalhar 是什么意思？",
+      "options": [
+        "学习",
+        "工作",
+        "居住",
+        "旅行"
+      ],
+      "answer": "工作",
+      "explanation": "trabalhar = 工作：Eu trabalho numa empresa chinesa.（我在一家中国公司工作。）",
+      "spanishContrast": "西语 trabajar → 葡语 trabalhar：j → lh 对应（trabajo → trabalho）。"
+    },
+    {
+      "id": "w2_vocab_q008",
+      "type": "single_choice",
+      "difficulty": 2,
+      "topic": "本周词汇",
+      "prompt": "葡语动词 esperar 是什么意思？",
+      "options": [
+        "回答",
+        "等待 / 期待",
+        "提问",
+        "到达"
+      ],
+      "answer": "等待 / 期待",
+      "explanation": "esperar 兼表'等待'和'期待/希望'：Eu espero o ônibus.（我等公交。）",
+      "spanishContrast": "西语 esperar 同样兼义，直接迁移，零成本词。"
+    },
+    {
+      "id": "w2_vocab_q009",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "“吃”的葡语动词是？",
+      "options": [
+        "beber",
+        "comer",
+        "cozinhar",
+        "cortar"
+      ],
+      "answer": "comer",
+      "explanation": "comer = 吃：Eu como arroz e feijão.（我吃米饭和豆子。）",
+      "spanishContrast": "comer 两语同形，变位也完全一致：como/comes/come/comemos/comem。"
+    },
+    {
+      "id": "w2_vocab_q010",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "“喝”的葡语动词是？",
+      "options": [
+        "comer",
+        "beber",
+        "jogar",
+        "correr"
+      ],
+      "answer": "beber",
+      "explanation": "beber = 喝：Eu bebo café de manhã.（我早上喝咖啡。）",
+      "spanishContrast": "beber 两语同形，变位一致。comer=吃，jogar=玩/踢球，correr=跑。"
+    },
+    {
+      "id": "w2_vocab_q011",
+      "type": "single_choice",
+      "difficulty": 2,
+      "topic": "本周词汇",
+      "prompt": "表示“住（在某城市）”的葡语动词是？",
+      "options": [
+        "viver",
+        "morar",
+        "ficar",
+        "vir"
+      ],
+      "answer": "morar",
+      "explanation": "居住某地用 morar：Eu moro em São Paulo.（我住在圣保罗。）",
+      "spanishContrast": "西语 Vivo en São Paulo 用 vivir；葡语用 viver 表居住是典型西语腔——viver=生活/活着，morar=居住。"
+    },
+    {
+      "id": "w2_vocab_q012",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "“学习”的葡语动词是？",
+      "options": [
+        "ensinar",
+        "aprender",
+        "estudar",
+        "praticar"
+      ],
+      "answer": "estudar",
+      "explanation": "estudar = 学习（过程）：Eu estudo português todos os dias.（我每天学葡语。）",
+      "spanishContrast": "estudiar → estudar。ensinar=教，aprender=学会（结果），praticar=练习。"
+    },
+    {
+      "id": "w2_vocab_q013",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "“说 / 讲话”的葡语动词是？",
+      "options": [
+        "ouvir",
+        "olhar",
+        "falar",
+        "perguntar"
+      ],
+      "answer": "falar",
+      "explanation": "falar = 说：Eu falo português.（我说葡语。）",
+      "spanishContrast": "hablar → falar：西语词首 h- → 葡语 f- 的规则对应（hacer→fazer, hablar→falar）。ouvir=听，olhar=看，perguntar=问。"
+    },
+    {
+      "id": "w2_vocab_q014",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "Eu ___ português todos os dias.（falar 的正确形式）",
+      "options": [
+        "falo",
+        "falas",
+        "fala",
+        "falam"
+      ],
+      "answer": "falo",
+      "explanation": "falar 第一人称单数 falo：Eu falo português.（我说葡语。）",
+      "spanishContrast": "hablo → falo。-ar 第一人称 -o，两语一致。"
+    },
+    {
+      "id": "w2_vocab_q015",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "Você ___ muito café.（beber 的正确形式）",
+      "options": [
+        "bebe",
+        "bebo",
+        "bebem",
+        "bebes"
+      ],
+      "answer": "bebe",
+      "explanation": "você 搭配第三人称单数：Você bebe muito café.（你喝很多咖啡。）",
+      "spanishContrast": "西语 (usted) bebe 同样第三人称——você≈usted 的语法地位，但巴西 você 是日常默认的'你'。"
+    },
+    {
+      "id": "w2_vocab_q016",
+      "type": "multi_choice",
+      "difficulty": 2,
+      "topic": "本周词汇",
+      "prompt": "在句子 “Eu ___ português.” 中，哪些动词形式语法和语义都成立？（多选）",
+      "options": [
+        "falo（说）",
+        "entendo（懂）",
+        "estudo（学习）",
+        "durmo（睡觉）"
+      ],
+      "answer": [
+        "falo（说）",
+        "entendo（懂）",
+        "estudo（学习）"
+      ],
+      "explanation": "Eu falo/entendo/estudo português 都成立；durmo português（睡觉葡语）语义不通。",
+      "spanishContrast": "三个正确答案的第一人称 -o 形式与西语 hablo/entiendo/estudio 完全平行。"
     }
   ]
 }

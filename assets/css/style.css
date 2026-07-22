@@ -522,3 +522,70 @@ footer.site-footer {
   .site-header { padding: 12px 14px; }
   .week-item .meta .desc { white-space: normal; }
 }
+
+/* ===== 词汇页（vocab.html · 每周 100 频率词） ===== */
+.vocab-week-nav { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.vword-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  margin-bottom: 12px;
+}
+
+.vw-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+
+.vw-rank {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  min-width: 42px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.vw-word { font-size: 1.35rem; font-weight: 800; color: var(--br-green-light); }
+
+.speak-btn {
+  background: rgba(61, 90, 241, 0.15);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 4px 9px;
+  line-height: 1;
+  transition: all 0.12s;
+}
+.speak-btn:hover { border-color: var(--br-yellow); transform: scale(1.08); }
+.speak-sm { font-size: 0.78rem; padding: 2px 7px; }
+
+.vw-zh { margin-top: 4px; font-size: 1rem; }
+
+.vw-example {
+  margin-top: 8px;
+  background: rgba(0, 151, 57, 0.07);
+  border-left: 4px solid var(--br-green);
+  border-radius: 0 10px 10px 0;
+  padding: 10px 14px;
+}
+.vw-example .pt { font-weight: 600; }
+.vw-example .zh { color: var(--text-dim); font-size: 0.88rem; margin-top: 2px; }
+
+.vw-ff { margin: 10px 0 0; font-size: 0.9rem; padding: 10px 14px; }
+
+.vw-conj-toggle { margin-top: 10px; }
+.vw-conj { margin-top: 10px; }
+.vw-conj .conj-cell {
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+.vw-conj .conj-cell .who { display: block; font-size: 0.75rem; color: var(--text-dim); }
+.vw-conj .conj-cell .form { font-weight: 700; color: var(--br-yellow); }
+.vw-es {
+  margin-top: 8px;
+  color: var(--text-dim);
+  font-size: 0.88rem;
+  border-top: 1px dashed var(--border);
+  padding-top: 8px;
+}

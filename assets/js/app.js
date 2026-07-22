@@ -131,6 +131,18 @@ async function initDashboard() {
       <div class="flex mt-2">
         <a class="btn btn-primary" href="${Data.basePath()}theory/${cur.theoryPage}">继续学习 →</a>
         <a class="btn btn-secondary" href="${Data.basePath()}quiz.html?week=${cur.week}">开始周考 📝</a>
+        ${cur.week <= 4 ? `<a class="btn btn-outline" href="${Data.basePath()}vocab.html?week=${cur.week}">📚 本周词汇 100 词</a>` : ''}
+      </div>
+    </div>
+
+    <div class="card card-accent-blue no-hover">
+      <h3>📚 每周频率词汇（W1-W4 · 每周 100 词）</h3>
+      <p class="text-dim">按使用频率排序：W1 = 排名 1-100 · W2 = 101-200 · W3 = 201-300 · W4 = 301-400 · 🔊 点读发音（pt-BR）· 动词附现在时变位表与西语对照 · 假朋友警示</p>
+      <div class="flex mt-2">
+        <a class="btn btn-primary btn-sm" href="${Data.basePath()}vocab.html?week=1">W1 · 1-100</a>
+        <a class="btn btn-primary btn-sm" href="${Data.basePath()}vocab.html?week=2">W2 · 101-200</a>
+        <a class="btn btn-primary btn-sm" href="${Data.basePath()}vocab.html?week=3">W3 · 201-300</a>
+        <a class="btn btn-primary btn-sm" href="${Data.basePath()}vocab.html?week=4">W4 · 301-400</a>
       </div>
     </div>
 

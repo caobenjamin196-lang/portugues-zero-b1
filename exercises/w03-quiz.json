@@ -9,7 +9,12 @@
       "difficulty": 1,
       "topic": "ser vs estar",
       "prompt": "A menina ___ alta.（那个女孩很高——身高是固有特征）",
-      "options": ["está", "é", "são", "estou"],
+      "options": [
+        "está",
+        "é",
+        "são",
+        "estou"
+      ],
       "answer": "é",
       "explanation": "固有特征（身高、国籍、性格）用 ser：Ela é alta。estar 用于临时状态。",
       "spanishContrast": "西语 La chica es alta——ser/estar 的分工两语基本一致，这是西语者的巨大优势。"
@@ -20,7 +25,12 @@
       "difficulty": 1,
       "topic": "ser vs estar",
       "prompt": "Eu ___ cansado hoje.（我今天很累——临时状态）",
-      "options": ["sou", "é", "estou", "está"],
+      "options": [
+        "sou",
+        "é",
+        "estou",
+        "está"
+      ],
       "answer": "estou",
       "explanation": "疲劳是临时状态，用 estar；第一人称 estou。",
       "spanishContrast": "西语 Estoy cansado。estou≈estoy，对应工整。"
@@ -31,7 +41,12 @@
       "difficulty": 2,
       "topic": "ser vs estar",
       "prompt": "O livro ___ na mesa.（书在桌上——位置）",
-      "options": ["é", "está", "são", "estão"],
+      "options": [
+        "é",
+        "está",
+        "são",
+        "estão"
+      ],
       "answer": "está",
       "explanation": "位置用 estar：O livro está na mesa。na = em + a（W4 详讲）。",
       "spanishContrast": "西语 El libro está en la mesa。位置用 estar 两语一致。"
@@ -42,7 +57,12 @@
       "difficulty": 2,
       "topic": "ser vs estar",
       "prompt": "Eles ___ brasileiros.（他们是巴西人——国籍）",
-      "options": ["estão", "é", "são", "está"],
+      "options": [
+        "estão",
+        "é",
+        "são",
+        "está"
+      ],
       "answer": "são",
       "explanation": "国籍用 ser；第三人称复数 são（鼻元音！）。",
       "spanishContrast": "西语 Ellos son brasileños。son→são。"
@@ -53,7 +73,12 @@
       "difficulty": 1,
       "topic": "ter",
       "prompt": "Eu ___ um carro novo.（我有一辆新车）",
-      "options": ["tenho", "tengo", "tem", "têm"],
+      "options": [
+        "tenho",
+        "tengo",
+        "tem",
+        "têm"
+      ],
       "answer": "tenho",
       "explanation": "ter 第一人称单数 tenho。tengo 是西语形式，葡语里不存在！",
       "spanishContrast": "西语 tengo → 葡语 tenho。ter 与 tener 词根相同但变位全不同：tenho/tens/tem/temos/têm。"
@@ -64,7 +89,12 @@
       "difficulty": 2,
       "topic": "ter",
       "prompt": "Eles ___ dois filhos.（他们有两个孩子）",
-      "options": ["tem", "têm", "tenho", "temos"],
+      "options": [
+        "tem",
+        "têm",
+        "tenho",
+        "temos"
+      ],
       "answer": "têm",
       "explanation": "第三人称复数 têm（带尖音符以区分单数 tem）。这是葡语特有的正字法区别。",
       "spanishContrast": "西语 tienen 有双元音 ie；葡语 têm 无词干元音变化，只有 tem/têm 的单复数区分。"
@@ -75,7 +105,12 @@
       "difficulty": 1,
       "topic": "ir",
       "prompt": "Eu ___ ao trabalho de ônibus.（我坐公交去上班）",
-      "options": ["voy", "vou", "vai", "vamos"],
+      "options": [
+        "voy",
+        "vou",
+        "vai",
+        "vamos"
+      ],
       "answer": "vou",
       "explanation": "ir 第一人称 vou。voy 是西语！ao = a + o（W4 详讲）。",
       "spanishContrast": "西语 voy → 葡语 vou。ir 两语变位高度平行：vou/vais/vai/vamos/vão ≈ voy/vas/va/vamos/van。"
@@ -86,7 +121,12 @@
       "difficulty": 2,
       "topic": "ir",
       "prompt": "Nós ___ à praia no sábado.（我们周六去海滩）",
-      "options": ["vamos", "vão", "vais", "vai"],
+      "options": [
+        "vamos",
+        "vão",
+        "vais",
+        "vai"
+      ],
       "answer": "vamos",
       "explanation": "nós vamos 与西语 nosotros vamos 完全一致。à = a + a（去海滩）。",
       "spanishContrast": "西语 vamos a la playa → 葡语 vamos à praia。ir 是唯一两语变位几乎全等的动词。"
@@ -97,7 +137,12 @@
       "difficulty": 2,
       "topic": "fazer",
       "prompt": "Eu ___ exercício todos os dias.（我每天锻炼）",
-      "options": ["fazo", "faço", "fago", "faze"],
+      "options": [
+        "fazo",
+        "faço",
+        "fago",
+        "faze"
+      ],
       "answer": "faço",
       "explanation": "fazer 第一人称是不规则的 faço（ç 保持 /s/ 音），不是规则的 *fazo。",
       "spanishContrast": "对应西语 hago 的不规则：hacer→hago / fazer→faço。两语都在第一人称'搞特殊'。"
@@ -108,7 +153,12 @@
       "difficulty": 2,
       "topic": "haver",
       "prompt": "___ muita gente na festa.（聚会上有很多人——存在句）",
-      "options": ["Há", "Hão", "A", "Tem sido"],
+      "options": [
+        "Há",
+        "Hão",
+        "A",
+        "Tem sido"
+      ],
       "answer": "Há",
       "explanation": "存在义'有'用 haver 的 há（=西语 hay），无人称变化。巴西口语中 Tem muita gente 也极常见（用 ter 代替）。",
       "spanishContrast": "西语 Hay mucha gente。há=hay 都是无人称形式；注意巴西口语 Tem muita gente 相当于拉美口语的 había/tiene 混用。"
@@ -119,7 +169,12 @@
       "difficulty": 2,
       "topic": "主语规则",
       "prompt": "关于巴西葡语的主语代词，哪项正确？",
-      "options": ["像西语一样通常省略", "通常保留（Eu falo...）", "法律禁止使用", "只在句首保留"],
+      "options": [
+        "像西语一样通常省略",
+        "通常保留（Eu falo...）",
+        "法律禁止使用",
+        "只在句首保留"
+      ],
       "answer": "通常保留（Eu falo...）",
       "explanation": "PT-BR 倾向保留主语代词：Eu estudo português（不说 Estudo português 也不算错，但保留更自然）。você 的普及使第三人称变位模糊，保留主语有助于明确人称。",
       "spanishContrast": "西语习惯省略：(Yo) estudio。葡语保留 Eu 是重要语用差异——全篇省略主语会显得像欧洲葡语或书面语。"
@@ -130,7 +185,12 @@
       "difficulty": 2,
       "topic": "主语规则",
       "prompt": "você 在巴西葡语中搭配第几人称的动词变位？",
-      "options": ["第二人称（tu 的形式）", "第三人称单数（ele/ela 的形式）", "第一人称", "特殊 você 专属变位"],
+      "options": [
+        "第二人称（tu 的形式）",
+        "第三人称单数（ele/ela 的形式）",
+        "第一人称",
+        "特殊 você 专属变位"
+      ],
       "answer": "第三人称单数（ele/ela 的形式）",
       "explanation": "você 源自 Vossa Mercê（阁下），语法上搭配第三人称单数：você fala, você tem, você vai。tu 的专属变位（falas, tens, vais）在巴西仅南部等部分地区使用。",
       "spanishContrast": "西语 usted 同样搭第三人称——você≈usted 语法地位，但巴西 você 是日常默认的'你'，不正式。"
@@ -141,7 +201,12 @@
       "difficulty": 3,
       "topic": "主语规则",
       "prompt": "巴西口语中 a gente（我们）搭配的动词形式是？",
-      "options": ["nós 的形式（falamos）", "第三人称单数（fala）", "第三人称复数（falam）", "不定式（falar）"],
+      "options": [
+        "nós 的形式（falamos）",
+        "第三人称单数（fala）",
+        "第三人称复数（falam）",
+        "不定式（falar）"
+      ],
       "answer": "第三人称单数（fala）",
       "explanation": "a gente 字面上是'人们'，语法为第三人称单数：A gente fala português. 口语中几乎取代 nós falamos。",
       "spanishContrast": "类似西语 uno habla / la gente habla 的第三人称单数逻辑，但巴西 a gente=我们 是全民口语标配。"
@@ -152,8 +217,16 @@
       "difficulty": 3,
       "topic": "ser vs estar",
       "prompt": "以下哪些句子正确使用 ser？（多选）",
-      "options": ["Ela é médica.（职业）", "Ela está em casa.（位置）", "Ele é brasileiro.（国籍）", "Ele está feliz.（情绪）"],
-      "answer": ["Ela é médica.（职业）", "Ele é brasileiro.（国籍）"],
+      "options": [
+        "Ela é médica.（职业）",
+        "Ela está em casa.（位置）",
+        "Ele é brasileiro.（国籍）",
+        "Ele está feliz.（情绪）"
+      ],
+      "answer": [
+        "Ela é médica.（职业）",
+        "Ele é brasileiro.（国籍）"
+      ],
       "explanation": "职业、国籍、身份、时间用 ser；位置、情绪、临时状态用 estar。",
       "spanishContrast": "分类标准与西语完全一致：Es médica / Es brasileño 用 ser；Está en casa / Está feliz 用 estar。"
     },
@@ -163,91 +236,143 @@
       "difficulty": 3,
       "topic": "规则变位",
       "prompt": "Nós ___ português todos os dias. (estudar)",
-      "options": ["estudamos", "estudam", "estuda", "estudais"],
+      "options": [
+        "estudamos",
+        "estudam",
+        "estuda",
+        "estudais"
+      ],
       "answer": "estudamos",
       "explanation": "-ar 动词 nós 形式：-amos。estudamos 现在时与西语完全相同。",
       "spanishContrast": "西语 estudiamos → 葡语 estudamos（-ia- 脱落）。-ar 的 nós 形式西葡只差一个 i。"
     },
-
     {
       "id": "w3_q016",
-      "type": "fill_blank",
+      "type": "single_choice",
       "difficulty": 1,
       "topic": "规则变位",
       "prompt": "Eu ___ português todos os dias. (falar)",
-      "answer": ["falo"],
+      "answer": "falo",
       "explanation": "falar → eu falo。-ar 第一人称 -o。",
-      "spanishContrast": "西语 hablo。注意 PT-BR 保留主语 Eu。"
+      "spanishContrast": "西语 hablo。注意 PT-BR 保留主语 Eu。",
+      "options": [
+        "falo",
+        "falas",
+        "fala",
+        "falam"
+      ]
     },
     {
       "id": "w3_q017",
-      "type": "fill_blank",
+      "type": "single_choice",
       "difficulty": 1,
       "topic": "规则变位",
       "prompt": "Você ___ muito arroz. (comer)",
-      "answer": ["come"],
+      "answer": "come",
       "explanation": "comer → você come（第三人称单数，-er → -e）。",
-      "spanishContrast": "西语 (usted) come。você 搭第三人称。"
+      "spanishContrast": "西语 (usted) come。você 搭第三人称。",
+      "options": [
+        "come",
+        "como",
+        "comem",
+        "comes"
+      ]
     },
     {
       "id": "w3_q018",
-      "type": "fill_blank",
+      "type": "single_choice",
       "difficulty": 2,
       "topic": "规则变位",
       "prompt": "Nós ___ a loja às nove. (abrir)",
-      "answer": ["abrimos"],
+      "answer": "abrimos",
       "explanation": "abrir → nós abrimos（-ir → -imos）。",
-      "spanishContrast": "西语 abrimos 完全相同！-ir 的 nós 形式两语一致。"
+      "spanishContrast": "西语 abrimos 完全相同！-ir 的 nós 形式两语一致。",
+      "options": [
+        "abrimos",
+        "abremos",
+        "abres",
+        "abrem"
+      ]
     },
     {
       "id": "w3_q019",
-      "type": "fill_blank",
+      "type": "single_choice",
       "difficulty": 2,
       "topic": "规则变位",
       "prompt": "Eles ___ em São Paulo. (morar)",
-      "answer": ["moram"],
+      "answer": "moram",
       "explanation": "morar → eles moram（-ar → -am）。morar=居住（在某地），不要与 viver（生活/活着）混淆。",
-      "spanishContrast": "西语 viven en São Paulo（用 vivir）。葡语表'居住'首选 morar。"
+      "spanishContrast": "西语 viven en São Paulo（用 vivir）。葡语表'居住'首选 morar。",
+      "options": [
+        "moram",
+        "mora",
+        "moro",
+        "moramos"
+      ]
     },
     {
       "id": "w3_q020",
-      "type": "fill_blank",
+      "type": "single_choice",
       "difficulty": 1,
       "topic": "ser",
       "prompt": "Eu ___ estudante. (ser)",
-      "answer": ["sou"],
+      "answer": "sou",
       "explanation": "ser → eu sou。sou 与西语 soy 不对应，需单独记。",
-      "spanishContrast": "西语 soy → 葡语 sou。ser 全表：sou/és/é/somos/são。"
+      "spanishContrast": "西语 soy → 葡语 sou。ser 全表：sou/és/é/somos/são。",
+      "options": [
+        "sou",
+        "és",
+        "é",
+        "somos"
+      ]
     },
     {
       "id": "w3_q021",
-      "type": "fill_blank",
+      "type": "single_choice",
       "difficulty": 1,
       "topic": "estar",
       "prompt": "Ela ___ em casa agora. (estar)",
-      "answer": ["está", "esta"],
+      "answer": "está",
       "explanation": "estar → ela está。位置+临时状态都用 estar。",
-      "spanishContrast": "西语 está 同形同音，送分。"
+      "spanishContrast": "西语 está 同形同音，送分。",
+      "options": [
+        "está",
+        "estou",
+        "é",
+        "estão"
+      ]
     },
     {
       "id": "w3_q022",
-      "type": "fill_blank",
+      "type": "single_choice",
       "difficulty": 2,
       "topic": "ter",
       "prompt": "Ela ___ duas irmãs. (ter)",
-      "answer": ["tem"],
+      "answer": "tem",
       "explanation": "ter → ela tem（第三人称单数）。注意复数才用 têm。",
-      "spanishContrast": "西语 tiene（双元音 ie）→ 葡语 tem（无词干变化）。葡语现在时基本没有西语那种 e→ie、o→ue 的双元音化！"
+      "spanishContrast": "西语 tiene（双元音 ie）→ 葡语 tem（无词干变化）。葡语现在时基本没有西语那种 e→ie、o→ue 的双元音化！",
+      "options": [
+        "tem",
+        "têm",
+        "tenho",
+        "temos"
+      ]
     },
     {
       "id": "w3_q023",
-      "type": "fill_blank",
+      "type": "single_choice",
       "difficulty": 2,
       "topic": "haver",
       "prompt": "___ um problema com o carro. (haver，存在句'有')",
-      "answer": ["Há", "Ha", "Tem"],
+      "answer": "Há",
       "explanation": "存在句用 há（=hay）。巴西口语也常说 Tem um problema。",
-      "spanishContrast": "西语 Hay un problema。há/hay 对应；口语 tem 替代是巴西特色。"
+      "spanishContrast": "西语 Hay un problema。há/hay 对应；口语 tem 替代是巴西特色。",
+      "options": [
+        "Há",
+        "Hão",
+        "Hei",
+        "Havemos"
+      ]
     },
     {
       "id": "w3_q024",
@@ -285,8 +410,20 @@
       "difficulty": 2,
       "topic": "语序",
       "prompt": "把下面的词排成一个正确的句子（PT-BR 语序）：",
-      "options": ["português", "Eu", "todos", "estudo", "os dias"],
-      "answer": ["Eu", "estudo", "português", "todos", "os dias"],
+      "options": [
+        "português",
+        "Eu",
+        "todos",
+        "estudo",
+        "os dias"
+      ],
+      "answer": [
+        "Eu",
+        "estudo",
+        "português",
+        "todos",
+        "os dias"
+      ],
       "explanation": "Eu estudo português todos os dias. PT-BR 保留主语 + SVO + 时间状语后置，与西语语序一致。",
       "spanishContrast": "西语 (Yo) estudio portugués todos los días——语序相同，差别只在主语保留习惯。"
     },
@@ -296,7 +433,10 @@
       "difficulty": 2,
       "topic": "翻译",
       "prompt": "把西语翻译成葡语：Yo estudio portugués todos los días.",
-      "answer": ["Eu estudo português todos os dias", "Estudo português todos os dias"],
+      "answer": [
+        "Eu estudo português todos os dias",
+        "Estudo português todos os dias"
+      ],
       "explanation": "estudio→estudo；portugués→português（重音符方向相反：és→ês）。PT-BR 保留 Eu 更自然。",
       "spanishContrast": "西语尖音符向右 ´（portugués），葡语 ê 用扬抑符 ^（português）。"
     },
@@ -306,7 +446,10 @@
       "difficulty": 2,
       "topic": "翻译",
       "prompt": "把西语翻译成葡语：Ella está en casa.",
-      "answer": ["Ela está em casa", "Ela esta em casa"],
+      "answer": [
+        "Ela está em casa",
+        "Ela esta em casa"
+      ],
       "explanation": "en→em；ella→ela（单 l，发 /l/）。",
       "spanishContrast": "西语 ella 的 ll 在葡语只是单 l：ela /ˈelɐ/。en→em 是 W4 重点。"
     },
@@ -316,7 +459,11 @@
       "difficulty": 3,
       "topic": "翻译",
       "prompt": "把西语翻译成葡语：Tenemos dos coches y vamos al trabajo.",
-      "answer": ["Nós temos dois carros e vamos ao trabalho", "Temos dois carros e vamos ao trabalho", "A gente tem dois carros e vai ao trabalho"],
+      "answer": [
+        "Nós temos dois carros e vamos ao trabalho",
+        "Temos dois carros e vamos ao trabalho",
+        "A gente tem dois carros e vai ao trabalho"
+      ],
       "explanation": "tenemos→temos（无 ie）；coches→carros（巴西用 carro）；vamos 不变；al→ao（a+o 缩合）。",
       "spanishContrast": "coche 是西班牙本土用词，拉美和巴西都说 carro。al→ao 缩合 W4 详讲。"
     },
@@ -341,6 +488,266 @@
       "referenceAnswer": "示例：Eu sou estudante. / Eu sou chinês (ou chinesa). / Agora eu estou em casa. / Eu estou um pouco cansado(a), mas feliz.",
       "scoringCriteria": "ser 用于身份/职业/国籍(3分)、estar 用于位置/状态(3分)、变位正确 sou/estou(2分)、句法完整(2分)",
       "spanishContrast": "ser/estar 分工与西语一致，但变位不同：soy→sou, estoy→estou, son→são。"
+    },
+    {
+      "id": "w3_vocab_q001",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "葡语单词 mulher 是什么意思？",
+      "options": [
+        "男人",
+        "女人 / 妻子",
+        "女孩",
+        "母亲"
+      ],
+      "answer": "女人 / 妻子",
+      "explanation": "mulher = 女人、妻子：A mulher é médica.（这位女士是医生。）lh 发 /ʎ/。",
+      "spanishContrast": "西语 mujer → 葡语 mulher：j → lh 对应；'男人'是 homem。"
+    },
+    {
+      "id": "w3_vocab_q002",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "葡语单词 dinheiro 是什么意思？",
+      "options": [
+        "时间",
+        "钱",
+        "价格",
+        "账单"
+      ],
+      "answer": "钱",
+      "explanation": "dinheiro = 钱：Eu não tenho dinheiro.（我没有钱。）",
+      "spanishContrast": "西语 dinero → 葡语 dinheiro：nh 出现（n → nh）。'价格'是 preço，'账单'是 conta。"
+    },
+    {
+      "id": "w3_vocab_q003",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "葡语单词 pão 是什么意思？",
+      "options": [
+        "米饭",
+        "豆子",
+        "面包",
+        "奶酪"
+      ],
+      "answer": "面包",
+      "explanation": "pão = 面包，词尾 ão 是鼻化双元音：Eu compro pão todos os dias.（我每天买面包。）",
+      "spanishContrast": "西语 pan → 葡语 pão：n → 鼻化 ão。'米饭'是 arroz，'豆子'是 feijão。"
+    },
+    {
+      "id": "w3_vocab_q004",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "葡语单词 celular 是什么意思？",
+      "options": [
+        "电话",
+        "电脑",
+        "手机",
+        "电视"
+      ],
+      "answer": "手机",
+      "explanation": "celular = 手机（巴西固定用语）：O meu celular não funciona.（我的手机坏了。）",
+      "spanishContrast": "西语 móvil / celular 都可；巴西只说 celular。'电脑'是 computador。"
+    },
+    {
+      "id": "w3_vocab_q005",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "葡语单词 manhã 是什么意思？",
+      "options": [
+        "下午",
+        "夜晚",
+        "早晨",
+        "中午"
+      ],
+      "answer": "早晨",
+      "explanation": "manhã = 早晨：de manhã（在早上）Eu corro de manhã.（我早上跑步。）",
+      "spanishContrast": "西语 mañana 兼表'早晨/明天'；葡语 manhã=早晨、amanhã=明天，分工更清，别混！"
+    },
+    {
+      "id": "w3_vocab_q006",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "葡语单词 praia 是什么意思？",
+      "options": [
+        "公园",
+        "海滩",
+        "广场",
+        "街道"
+      ],
+      "answer": "海滩",
+      "explanation": "praia = 海滩：Nós vamos à praia no sábado.（我们周六去海滩。）",
+      "spanishContrast": "西语 playa → 葡语 praia：y → i 对应。'公园'是 parque。"
+    },
+    {
+      "id": "w3_vocab_q007",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "葡语单词 semana 是什么意思？",
+      "options": [
+        "月",
+        "年",
+        "天",
+        "周 / 星期"
+      ],
+      "answer": "周 / 星期",
+      "explanation": "semana = 周：Na próxima semana eu viajo.（下周我去旅行。）fim de semana=周末。",
+      "spanishContrast": "semana 与西语同形同义。'月'是 mês，'年'是 ano，'天'是 dia。"
+    },
+    {
+      "id": "w3_vocab_q008",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "葡语单词 ônibus 是什么意思？",
+      "options": [
+        "地铁",
+        "火车",
+        "公交车",
+        "出租车"
+      ],
+      "answer": "公交车",
+      "explanation": "ônibus = 公交车：Eu vou ao trabalho de ônibus.（我坐公交上班。）",
+      "spanishContrast": "西语 autobús → 葡语 ônibus。'地铁'是 metrô，'火车'是 trem，'出租车'是 táxi。"
+    },
+    {
+      "id": "w3_vocab_q009",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "“书”的葡语是？",
+      "options": [
+        "livro",
+        "jornal",
+        "revista",
+        "mesa"
+      ],
+      "answer": "livro",
+      "explanation": "livro = 书：O livro está na mesa.（书在桌上。）",
+      "spanishContrast": "西语 libro → 葡语 livro：b → v 对应。jornal=报纸，revista=杂志，mesa=桌子。"
+    },
+    {
+      "id": "w3_vocab_q010",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "“水”的葡语是？",
+      "options": [
+        "leite",
+        "suco",
+        "água",
+        "cerveja"
+      ],
+      "answer": "água",
+      "explanation": "água = 水（阴性）：Uma água, por favor.（请给我一杯水。）",
+      "spanishContrast": "西语 agua → 葡语 água，葡语 proparoxítona 必须标音。leite=牛奶，suco=果汁，cerveja=啤酒。"
+    },
+    {
+      "id": "w3_vocab_q011",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "“城市”的葡语是？",
+      "options": [
+        "país",
+        "cidade",
+        "rua",
+        "lugar"
+      ],
+      "answer": "cidade",
+      "explanation": "cidade = 城市（阴性）：A cidade é grande.（这座城市很大。）",
+      "spanishContrast": "西语 ciudad → 葡语 cidade：-dad → -dade 规则。país=国家，rua=街道，lugar=地方。"
+    },
+    {
+      "id": "w3_vocab_q012",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "“朋友（男性）”的葡语是？",
+      "options": [
+        "amiga",
+        "amigo",
+        "família",
+        "pessoa"
+      ],
+      "answer": "amigo",
+      "explanation": "amigo = 朋友（阳性）：Ele é meu melhor amigo.（他是我最好的朋友。）",
+      "spanishContrast": "amigo 与西语同形。amiga=女性朋友，família=家庭，pessoa=人。"
+    },
+    {
+      "id": "w3_vocab_q013",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "“今天”的葡语是？",
+      "options": [
+        "amanhã",
+        "ontem",
+        "hoje",
+        "agora"
+      ],
+      "answer": "hoje",
+      "explanation": "hoje = 今天：Hoje é segunda-feira.（今天是周一。）",
+      "spanishContrast": "西语 hoy → 葡语 hoje：y → j 对应。amanhã=明天，ontem=昨天，agora=现在。"
+    },
+    {
+      "id": "w3_vocab_q014",
+      "type": "single_choice",
+      "difficulty": 1,
+      "topic": "本周词汇",
+      "prompt": "“咖啡”的葡语是？",
+      "options": [
+        "chá",
+        "café",
+        "leite",
+        "vinho"
+      ],
+      "answer": "café",
+      "explanation": "café = 咖啡：Eu bebo café de manhã.（我早上喝咖啡。）",
+      "spanishContrast": "café 两语同形。chá=茶，leite=牛奶，vinho=葡萄酒。"
+    },
+    {
+      "id": "w3_vocab_q015",
+      "type": "single_choice",
+      "difficulty": 2,
+      "topic": "本周词汇",
+      "prompt": "Nós vamos à ___ no sábado.（我们周六去海滩）",
+      "options": [
+        "praia",
+        "praça",
+        "escola",
+        "loja"
+      ],
+      "answer": "praia",
+      "explanation": "praia = 海滩：vamos à praia（去海滩），à = a + a 缩合（crase）。",
+      "spanishContrast": "西语 vamos a la playa → 葡语 vamos à praia：playa→praia，且葡语必须写 crase à。"
+    },
+    {
+      "id": "w3_vocab_q016",
+      "type": "multi_choice",
+      "difficulty": 2,
+      "topic": "本周词汇",
+      "prompt": "以下哪些是饮品？（多选）",
+      "options": [
+        "café",
+        "suco",
+        "pão",
+        "cerveja"
+      ],
+      "answer": [
+        "café",
+        "suco",
+        "cerveja"
+      ],
+      "explanation": "café（咖啡）、suco（果汁）、cerveja（啤酒）都是饮品；pão（面包）是食物。",
+      "spanishContrast": "注意 pão vs pan 的鼻化；cerveja/cerveza 对应。"
     }
   ]
 }
