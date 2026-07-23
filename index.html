@@ -8,22 +8,34 @@
   <meta name="apple-mobile-web-app-title" content="PT Zero→B1">
   <link rel="apple-touch-icon" href="icon-source.png">  <title>🇧🇷 Português Zero → B1 · 学习仪表盘</title>
   <meta name="description" content="为西班牙语B2学习者设计的16周巴西葡语速成程序">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css?v=3">
 </head>
 <body>
   <main class="container" id="dashboard">
     <div class="card text-center"><p>⏳ 正在加载学习数据…</p></div>
   </main>
 
-  <script src="assets/js/progress.js"></script>
-  <script src="assets/js/data.js"></script>
-  <script src="assets/js/quiz-engine.js"></script>
-  <script src="assets/js/ai-grader.js"></script>
-  <script src="assets/js/app.js"></script>
+  <script src="assets/js/progress.js?v=3"></script>
+  <script src="assets/js/data.js?v=3"></script>
+  <script src="assets/js/quiz-engine.js?v=3"></script>
+  <script src="assets/js/ai-grader.js?v=3"></script>
+  <script src="assets/js/app.js?v=3"></script>
   <script>
-    renderHeader('dashboard');
-    renderFooter();
-    initDashboard();
+    /* 任何加载/运行错误都显示在页面上，不再无限转圈 */
+    function showDashError(msg) {
+      const root = document.getElementById('dashboard');
+      if (root) root.innerHTML = '<div class="card"><p>⚠️ 加载出错：' + msg + '</p>' +
+        '<p class="text-dim">请按 Cmd+Shift+R（Mac）或 Ctrl+Shift+R 强制刷新清缓存后重试。</p></div>';
+    }
+    window.addEventListener('error', e => showDashError(e.message));
+    window.addEventListener('unhandledrejection', e => showDashError(e.reason && e.reason.message || String(e.reason)));
+    try {
+      renderHeader('dashboard');
+      renderFooter();
+      initDashboard().catch(e => showDashError(e.message));
+    } catch (e) {
+      showDashError(e.message);
+    }
   </script>
 </body>
 </html>
