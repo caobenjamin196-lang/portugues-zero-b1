@@ -3,6 +3,7 @@
 
 输出：
   assets/audio/words/w{week}_{rank}_{safe}.mp3   —— 800 个单词
+  assets/audio/examples/w{week}_{rank}_{safe}.mp3 —— 800 条例句（example.pt）
   assets/audio/conj/{safe_verb}_{person}.mp3     —— 每个动词 5 人称变位
 
 可重复运行：已存在的文件自动跳过（断点续跑）。
@@ -19,6 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 VOCAB = ROOT / "data" / "frequency-vocab.json"
 OUT_WORDS = ROOT / "assets" / "audio" / "words"
+OUT_EXAMPLES = ROOT / "assets" / "audio" / "examples"
 OUT_CONJ = ROOT / "assets" / "audio" / "conj"
 VOICE = "pt-BR-FranciscaNeural"
 RATE = "-8%"  # 接近真人语速，略慢一点便于学习
@@ -46,6 +48,9 @@ def collect_jobs():
                 continue
             jobs.append((pt, OUT_WORDS / f"w{w}_{e['rank']}_{sw}.mp3"))
             n_words += 1
+            example = (e.get("example") or {}).get("pt")
+            if example:
+                jobs.append((example, OUT_EXAMPLES / f"w{w}_{e['rank']}_{sw}.mp3"))
             conj = e.get("conjugations")
             if conj:
                 n_verbs += 1
@@ -87,6 +92,7 @@ async def main():
     args = ap.parse_args()
 
     OUT_WORDS.mkdir(parents=True, exist_ok=True)
+    OUT_EXAMPLES.mkdir(parents=True, exist_ok=True)
     OUT_CONJ.mkdir(parents=True, exist_ok=True)
 
     jobs, n_words, n_verbs = collect_jobs()

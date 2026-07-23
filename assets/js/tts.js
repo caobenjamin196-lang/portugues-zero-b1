@@ -12,6 +12,10 @@ const TTS = (() => {
   const conjAudioUrl = (verb, personKey) =>
     `assets/audio/conj/${safeName(verb)}_${personKey}.mp3`;
 
+  /* 例句音频：与 words 同名规范，放在 examples/ 目录 */
+  const exampleAudioUrl = (entry, week) =>
+    `assets/audio/examples/w${week}_${entry.rank}_${safeName(entry.pt)}.mp3`;
+
   /* ===== Web Speech 回退 ===== */
   function ptVoice() {
     if (!('speechSynthesis' in window)) return null;
@@ -60,5 +64,5 @@ const TTS = (() => {
     }
   }
 
-  return { safeName, wordAudioUrl, conjAudioUrl, speak, speakFallback };
+  return { safeName, wordAudioUrl, conjAudioUrl, exampleAudioUrl, speak, speakFallback };
 })();

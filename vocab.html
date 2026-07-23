@@ -31,7 +31,7 @@
 
     /* ===== 发音：优先本地神经语音 mp3，回退 Web Speech（assets/js/tts.js） ===== */
 
-    /* 事件委托：🔊 按钮 + 变位展开 */
+    /* 事件委托：🔊 按钮 + 变位展开 + 派生跳转 */
     document.addEventListener('click', (ev) => {
       const spk = ev.target.closest('.speak-btn');
       if (spk) { TTS.speak(spk.dataset.say || '', spk.dataset.audio || null); return; }
@@ -40,8 +40,93 @@
         const box = tgl.parentElement.querySelector('.vw-conj');
         const open = box.classList.toggle('hidden');
         tgl.textContent = open ? '🔁 现在时变位 ▸' : '🔁 现在时变位 ▾';
+        return;
       }
+      const go = ev.target.closest('[data-goto-week]');
+      if (go) { gotoWord(parseInt(go.dataset.gotoWeek, 10), parseInt(go.dataset.gotoRank, 10)); }
     });
+
+    /* 跳转到词条卡片：本周滚动定位 + 高亮；跨周带锚点跳转 */
+    function gotoWord(weekN, rank) {
+      if (weekN === week) {
+        const el = document.getElementById('r' + rank);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          el.classList.add('flash');
+          setTimeout(() => el.classList.remove('flash'), 1800);
+        }
+      } else {
+        location.href = `vocab.html?week=${weekN}#r${rank}`;
+      }
+    }
+
+    /* ===== 词根派生索引（跨全部 8 周构建） ===== */
+    let rootIndex = {};   // 词根 pt -> [{week, rank, pt}] 派生词列表
+    let rootWordLoc = {}; // 任意词 pt -> {week, rank}（用于定位词根卡片）
+
+    function buildDerivIndex(data) {
+      rootIndex = {};
+      rootWordLoc = {};
+      for (let w = 1; w <= 8; w++) {
+        for (const e of (data['w' + w] || [])) rootWordLoc[e.pt] = { week: w, rank: e.rank };
+      }
+      for (let w = 1; w <= 8; w++) {
+        for (const e of (data['w' + w] || [])) {
+          if (!e.derivedFrom) continue;
+          const rootPt = String(e.derivedFrom).split(/[（(]/)[0].trim();
+          (rootIndex[rootPt] = rootIndex[rootPt] || []).push({ week: w, rank: e.rank, pt: e.pt });
+        }
+      }
+    }
+
+    /* 派生徽章文字：🌱 pôr 加前缀 pro- → propor */
+    function derivBadge(e) {
+      const rootPt = String(e.derivedFrom).split(/[（(]/)[0].trim();
+      const m = String(e.zh || '').match(/加前缀\s*([^\s（）()；;，,]+)/);
+      const label = m ? `🌱 ${rootPt} 加前缀 ${m[1]} → ${e.pt}` : `🌱 ${rootPt} 词形族 → ${e.pt}`;
+      const loc = rootWordLoc[rootPt];
+      const nav = loc ? ` data-goto-week="${loc.week}" data-goto-rank="${loc.rank}"` : '';
+      const wkTag = loc && loc.week !== week ? ` <em>W${loc.week}</em>` : '';
+      return `<button type="button" class="vw-deriv-badge"${nav} title="点击查看词根 ${esc(rootPt)}">${esc(label)}${wkTag}</button>`;
+    }
+
+    /* 词根卡片的“派生词”chips 区 */
+    function derivChildrenBox(e) {
+      const ds = rootIndex[e.pt];
+      if (!ds || !ds.length) return '';
+      const chips = ds.map(d =>
+        `<button type="button" class="deriv-chip" data-goto-week="${d.week}" data-goto-rank="${d.rank}" title="查看派生词 ${esc(d.pt)}">${esc(d.pt)}${d.week !== week ? ` <em>W${d.week}</em>` : ''}</button>`
+      ).join('');
+      return `<div class="vw-deriv-box">🌳 <b>派生词</b>：${chips}</div>`;
+    }
+
+    /* 页面顶部：本周词根派生树汇总块 */
+    function derivTreeBlock(words) {
+      const involved = [];
+      const seen = new Set();
+      for (const e of words) {
+        let rootPt = null;
+        if (e.derivedFrom) rootPt = String(e.derivedFrom).split(/[（(]/)[0].trim();
+        else if (rootIndex[e.pt]) rootPt = e.pt;
+        if (rootPt && !seen.has(rootPt)) { seen.add(rootPt); involved.push(rootPt); }
+      }
+      if (!involved.length) return '';
+      const rows = involved.map(rootPt => {
+        const loc = rootWordLoc[rootPt];
+        const rootChip = loc
+          ? `<button type="button" class="deriv-chip deriv-root" data-goto-week="${loc.week}" data-goto-rank="${loc.rank}">${esc(rootPt)}${loc.week !== week ? ` <em>W${loc.week}</em>` : ''}</button>`
+          : `<span class="deriv-chip deriv-root">${esc(rootPt)}</span>`;
+        const chips = (rootIndex[rootPt] || []).map(d =>
+          `<button type="button" class="deriv-chip" data-goto-week="${d.week}" data-goto-rank="${d.rank}">${esc(d.pt)}${d.week !== week ? ` <em>W${d.week}</em>` : ''}</button>`
+        ).join('');
+        return `<div class="deriv-tree-row">${rootChip}<span class="deriv-arrow">→</span><span class="deriv-tree-chips">${chips}</span></div>`;
+      }).join('');
+      return `<div class="card no-hover vocab-tree">
+        <h3>🌳 本周词根派生树</h3>
+        ${rows}
+        <p class="text-dim vocab-tree-hint">点 chip 跳转词条卡片；标 <em>Wn</em> 的在其他周（自动翻页定位）。</p>
+      </div>`;
+    }
 
     /* 变位人称 → 音频文件短名（与 tools/generate_audio.py 的 PERSONS 一致） */
     const CONJ_PERSONS = [['eu', 'eu'], ['tu', 'tu'], ['ele/ela/você', 'ele'], ['nós', 'nos'], ['eles/elas/vocês', 'eles']];
@@ -60,20 +145,22 @@
              </div>
              ${e.conjugations.es ? `<div class="vw-es">🇪🇸 ${esc(e.conjugations.es)}</div>` : ''}
            </div>` : '';
-      return `<div class="vword-card">
+      return `<div class="vword-card" id="r${e.rank}">
         <div class="vw-head">
           <span class="vw-rank">#${e.rank}</span>
           <span class="vw-word">${esc(e.pt)}</span>
           <button class="speak-btn" data-say="${esc(e.pt)}" data-audio="${esc(TTS.wordAudioUrl(e, week))}" title="发音（pt-BR）">🔊</button>
           <span class="badge badge-blue">${esc(e.pos)}</span>
         </div>
+        ${e.derivedFrom ? derivBadge(e) : ''}
         <div class="vw-zh">${esc(e.zh)}</div>
         <div class="vw-example">
           <span class="pt">${esc(e.example.pt)}</span>
-          <button class="speak-btn speak-sm" data-say="${esc(e.example.pt)}" title="朗读例句">🔊</button>
+          <button class="speak-btn speak-sm" data-say="${esc(e.example.pt)}" data-audio="${esc(TTS.exampleAudioUrl(e, week))}" title="朗读例句">🔊</button>
           <div class="zh">${esc(e.example.zh)}</div>
         </div>
         ${e.falseFriend ? `<div class="warning-box vw-ff">⚠️ <b>假朋友</b>：${esc(e.falseFriend)}</div>` : ''}
+        ${derivChildrenBox(e)}
         ${conj}
       </div>`;
     }
@@ -90,8 +177,11 @@
       }
 
       const words = data['w' + week] || [];
+      buildDerivIndex(data);
       const verbCount = words.filter(e => e.conjugations).length;
       const ffCount = words.filter(e => e.falseFriend).length;
+      const derivCount = words.filter(e => e.derivedFrom).length;
+      const rootCount = words.filter(e => rootIndex[e.pt]).length;
       const r0 = words.length ? words[0].rank : 0;
       const r1 = words.length ? words[words.length - 1].rank : 0;
 
@@ -104,12 +194,13 @@
             <div>
               <span class="badge badge-green">每周 100 频率词 · PT-BR</span>
               <h1 class="mt-1">📚 W${week} 本周词汇 100 词</h1>
-              <p class="text-dim">频率排名 #${r0} – #${r1} · ${verbCount} 个动词（可展开变位表）· ${ffCount} 个假朋友警示 · 点 🔊 听发音</p>
+              <p class="text-dim">频率排名 #${r0} – #${r1} · ${verbCount} 个动词（可展开变位表）· ${ffCount} 个假朋友警示 · 点 🔊 听发音${derivCount || rootCount ? ` · 🌱 ${derivCount} 个派生词 / 🌳 ${rootCount} 个词根` : ''}</p>
             </div>
             <a class="btn btn-outline btn-sm" href="index.html">← 返回仪表盘</a>
           </div>
           <div class="vocab-week-nav mt-2">${weekNav}</div>
         </div>
+        ${derivTreeBlock(words)}
         ${words.map(wordCard).join('')}
         <div class="card text-center no-hover">
           <div class="flex" style="justify-content:center">
@@ -120,6 +211,17 @@
 
       Progress.touchStudy(0);
       Progress.addStudyTime(week, 0.25); // 学习本周词汇计 15 分钟
+
+      /* 跨周跳转锚点：#r{rank} → 滚动定位 + 高亮 */
+      const hm = location.hash.match(/^#r(\d+)$/);
+      if (hm) {
+        const el = document.getElementById('r' + hm[1]);
+        if (el) setTimeout(() => {
+          el.scrollIntoView({ block: 'center' });
+          el.classList.add('flash');
+          setTimeout(() => el.classList.remove('flash'), 1800);
+        }, 80);
+      }
     }
 
     renderHeader('weeks');

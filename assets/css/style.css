@@ -591,6 +591,81 @@ footer.site-footer {
   padding-top: 8px;
 }
 
+/* ===== 词根派生可视化（vocab.html） ===== */
+.vw-deriv-badge {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 5px 12px;
+  border-radius: 99px;
+  border: 1px solid rgba(254, 221, 0, 0.45);
+  background: rgba(254, 221, 0, 0.1);
+  color: var(--br-yellow);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.12s;
+}
+.vw-deriv-badge:hover { background: rgba(254, 221, 0, 0.2); transform: translateY(-1px); }
+.vw-deriv-badge em, .deriv-chip em {
+  font-style: normal;
+  font-size: 0.72rem;
+  opacity: 0.75;
+  margin-left: 2px;
+}
+
+.vw-deriv-box {
+  margin-top: 10px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px dashed rgba(0, 200, 83, 0.45);
+  background: rgba(0, 151, 57, 0.08);
+  font-size: 0.9rem;
+  color: var(--br-green-light);
+}
+
+.deriv-chip {
+  display: inline-block;
+  margin: 3px 4px 3px 0;
+  padding: 3px 11px;
+  border-radius: 99px;
+  border: 1px solid rgba(0, 200, 83, 0.5);
+  background: rgba(0, 151, 57, 0.12);
+  color: var(--br-green-light);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.12s;
+}
+.deriv-chip:hover { background: rgba(0, 200, 83, 0.28); transform: translateY(-1px); }
+.deriv-chip.deriv-root {
+  border-color: rgba(254, 221, 0, 0.55);
+  background: rgba(254, 221, 0, 0.12);
+  color: var(--br-yellow);
+}
+.deriv-chip.deriv-root:hover { background: rgba(254, 221, 0, 0.24); }
+
+.vocab-tree h3 { margin: 0 0 10px; font-size: 1.05rem; color: var(--br-yellow); }
+.deriv-tree-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2px;
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--border);
+}
+.deriv-tree-row:last-of-type { border-bottom: none; }
+.deriv-arrow { color: var(--text-dim); margin: 0 6px; font-weight: 700; }
+.deriv-tree-chips { display: inline; }
+.vocab-tree-hint { font-size: 0.8rem; margin: 8px 0 0; }
+.vocab-tree-hint em { font-style: normal; color: var(--br-yellow); }
+
+/* 跳转定位高亮 */
+.vword-card { transition: box-shadow 0.3s, border-color 0.3s; }
+.vword-card.flash {
+  border-color: var(--br-yellow);
+  box-shadow: 0 0 0 3px rgba(254, 221, 0, 0.35), 0 0 22px rgba(254, 221, 0, 0.18);
+}
+
 /* ===== 单词卡（flashcards.html） ===== */
 .fc-card {
   background: var(--bg-card);
