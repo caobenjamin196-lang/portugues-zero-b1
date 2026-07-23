@@ -18,6 +18,7 @@
   <script src="assets/js/progress.js"></script>
   <script src="assets/js/data.js"></script>
   <script src="assets/js/app.js"></script>
+  <script src="assets/js/tts.js"></script>
   <script>
   (() => {
     const root = document.getElementById('vocab-root');
@@ -28,36 +29,12 @@
         .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
     }
 
-    /* ===== Web Speech API：pt-BR 发音，无需音频文件 ===== */
-    function ptVoice() {
-      if (!('speechSynthesis' in window)) return null;
-      const vs = speechSynthesis.getVoices();
-      const norm = l => String(l || '').toLowerCase().replace('_', '-');
-      return vs.find(v => norm(v.lang).startsWith('pt-br'))
-          || vs.find(v => norm(v.lang).startsWith('pt'))
-          || null;
-    }
-
-    function speak(text) {
-      if (!('speechSynthesis' in window)) { toast('⚠️ 此浏览器不支持语音合成'); return; }
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = 'pt-BR';
-      u.rate = 0.9;
-      const v = ptVoice();
-      if (v) u.voice = v;
-      speechSynthesis.cancel();
-      speechSynthesis.speak(u);
-    }
-
-    if ('speechSynthesis' in window) {
-      speechSynthesis.getVoices(); // 预热语音列表（iOS/Chrome 异步加载）
-      speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices();
-    }
+    /* ===== 发音：优先本地神经语音 mp3，回退 Web Speech（assets/js/tts.js） ===== */
 
     /* 事件委托：🔊 按钮 + 变位展开 */
     document.addEventListener('click', (ev) => {
       const spk = ev.target.closest('.speak-btn');
-      if (spk) { speak(spk.dataset.say || ''); return; }
+      if (spk) { TTS.speak(spk.dataset.say || '', spk.dataset.audio || null); return; }
       const tgl = ev.target.closest('.vw-conj-toggle');
       if (tgl) {
         const box = tgl.parentElement.querySelector('.vw-conj');
@@ -66,13 +43,20 @@
       }
     });
 
+    /* 变位人称 → 音频文件短名（与 tools/generate_audio.py 的 PERSONS 一致） */
+    const CONJ_PERSONS = [['eu', 'eu'], ['tu', 'tu'], ['ele/ela/você', 'ele'], ['nós', 'nos'], ['eles/elas/vocês', 'eles']];
+
     /* ===== 渲染 ===== */
     function wordCard(e) {
       const conj = e.conjugations
         ? `<button class="btn btn-sm btn-outline vw-conj-toggle">🔁 现在时变位 ▸</button>
            <div class="vw-conj hidden">
-             <div class="conj-table">${['eu', 'tu', 'ele/ela/você', 'nós', 'eles/elas/vocês'].map(p =>
-               `<div class="conj-cell"><span class="who">${esc(p)}</span><span class="form">${esc(e.conjugations[p] || '')}</span></div>`).join('')}
+             <div class="conj-table">${CONJ_PERSONS.map(([p, pk]) => {
+               const form = e.conjugations[p] || '';
+               return `<div class="conj-cell"><span class="who">${esc(p)}</span><span class="form">${esc(form)}</span>` +
+                 (form ? `<button class="speak-btn speak-sm conj-say" data-say="${esc(form)}" data-audio="${esc(TTS.conjAudioUrl(e.pt, pk))}" title="发音：${esc(form)}">🔊</button>` : '') +
+                 `</div>`;
+             }).join('')}
              </div>
              ${e.conjugations.es ? `<div class="vw-es">🇪🇸 ${esc(e.conjugations.es)}</div>` : ''}
            </div>` : '';
@@ -80,7 +64,7 @@
         <div class="vw-head">
           <span class="vw-rank">#${e.rank}</span>
           <span class="vw-word">${esc(e.pt)}</span>
-          <button class="speak-btn" data-say="${esc(e.pt)}" title="发音（pt-BR）">🔊</button>
+          <button class="speak-btn" data-say="${esc(e.pt)}" data-audio="${esc(TTS.wordAudioUrl(e, week))}" title="发音（pt-BR）">🔊</button>
           <span class="badge badge-blue">${esc(e.pos)}</span>
         </div>
         <div class="vw-zh">${esc(e.zh)}</div>

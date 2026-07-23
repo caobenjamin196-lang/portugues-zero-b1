@@ -23,6 +23,7 @@ function renderHeader(active) {
       <a href="${Data.basePath()}index.html" data-nav="dashboard">📊 仪表盘</a>
       <a href="${Data.basePath()}index.html#weeks" data-nav="weeks">📚 课程</a>
       <a href="${Data.basePath()}index.html#mistakes" data-nav="mistakes">📝 错题本</a>
+      <a href="${Data.basePath()}flashcards.html" data-nav="flashcards">🃏 单词卡</a>
       <a href="${Data.basePath()}index.html#settings" data-nav="settings">⚙️ 设置</a>
     </nav>`;
   document.body.prepend(header);
@@ -58,6 +59,7 @@ async function initDashboard() {
   const cur = curriculum.weeks.find(w => w.week === d.currentWeek) || curriculum.weeks[0];
   const curStats = d.weeklyStats['w' + cur.week] || { studyTime: 0, quizScore: null, completed: false };
   const pending = Progress.getPendingMistakes();
+  const fcPool = Progress.getFlashcards();
 
   const weekPct = Math.min(100, Math.round((curStats.studyTime / 3) * 100));
 
@@ -144,6 +146,14 @@ async function initDashboard() {
         <a class="btn btn-primary btn-sm" href="${Data.basePath()}vocab.html?week=3">W3 · 201-300</a>
         <a class="btn btn-primary btn-sm" href="${Data.basePath()}vocab.html?week=4">W4 · 301-400</a>
       </div>
+    </div>
+
+    <div class="card card-accent-yellow no-hover">
+      <div class="flex-between">
+        <h3>🃏 单词卡 · ${fcPool.length} 张待过关</h3>
+        <a class="btn btn-primary btn-sm" href="${Data.basePath()}flashcards.html">练习单词卡 →</a>
+      </div>
+      <p class="text-dim">周考答错的词汇题自动入卡 · 专项考试累计答对 3 次过关移出 · 任何考试再答错该词即重新入卡并清零进度</p>
     </div>
 
     <div class="card no-hover" id="mistakes">

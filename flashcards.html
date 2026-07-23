@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#009739">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="PT Zero→B1">
+  <link rel="apple-touch-icon" href="icon-source.png">
+  <title>单词卡 · Português Zero → B1</title>
+  <meta name="description" content="周考错词自动入卡的单词卡系统：专项考试累计答对3次过关，再错重新入卡">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <main class="container" id="fc-root">
+    <div class="card text-center"><p>⏳ 正在加载单词卡…</p></div>
+  </main>
+
+  <script src="assets/js/progress.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/quiz-engine.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/tts.js"></script>
+  <script>
+  (() => {
+    const root = document.getElementById('fc-root');
+    let freqEntries = [];   // 频率词表全部词条（干扰项来源）
+    let exam = null;        // 当前专项考试状态
+
+    function esc(s) {
+      return String(s == null ? '' : s)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    const norm = s => QuizEngine.normalizeAnswer(s);
+    const ptOf = e => e.pt || e.word || '';
+    const audioByWord = new Map(); // norm(pt) → 本地 mp3 路径（词表加载后填充）
+    const audioOf = w => audioByWord.get(norm(w)) || null;
+    const audAttr = w => { const u = audioOf(w); return u ? ` data-audio="${esc(u)}"` : ''; };
+
+    /* ===== 发音：优先本地神经语音 mp3，回退 Web Speech（assets/js/tts.js） ===== */
+    document.addEventListener('click', (ev) => {
+      const spk = ev.target.closest('.speak-btn');
+      if (spk) TTS.speak(spk.dataset.say || '', spk.dataset.audio || null);
+    });
+
+    /* ===== 工具 ===== */
+    function shuffle(arr) {
+      const a = arr.slice();
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    const pool = () => Progress.getFlashcards();
+
+    /* ===== 卡池列表 ===== */
+    function pips(n) {
+      return `<span class="fc-pips">${[0, 1, 2].map(i =>
+        `<span class="pip ${i < n ? 'on' : ''}"></span>`).join('')}<span class="fc-pip-num">${n}/3</span></span>`;
+    }
+
+    function cardItem(c) {
+      return `<div class="fc-card">
+        <div class="vw-head">
+          <span class="vw-word">${esc(c.word)}</span>
+          <button class="speak-btn" data-say="${esc(c.word)}"${audAttr(c.word)} title="发音（pt-BR）">🔊</button>
+          <span class="badge badge-blue">来自 W${c.week}</span>
+        </div>
+        <div class="vw-zh">${esc(c.zh)}</div>
+        <div class="fc-meta">
+          <span class="text-dim">最近答错：${esc(c.lastMiss || c.addedAt)} · 过关进度</span>
+          ${pips(c.progress)}
+        </div>
+      </div>`;
+    }
+
+    function renderList() {
+      exam = null;
+      const cards = pool();
+      const mastered = Progress.getMasteredFlashcards();
+
+      root.innerHTML = `
+        <div class="card card-accent-yellow no-hover">
+          <div class="flex-between">
+            <div>
+              <span class="badge badge-yellow">周考错词自动入卡 · 累计答对 3 次过关</span>
+              <h1 class="mt-1">🃏 单词卡 · ${cards.length} 张待过关</h1>
+              <p class="text-dim">已过关 ${mastered.length} 词 · 任何考试再答错即重新入卡并清零 · 点 🔊 听 pt-BR 发音</p>
+            </div>
+            <a class="btn btn-outline btn-sm" href="index.html">← 返回仪表盘</a>
+          </div>
+          ${cards.length ? `<div class="flex mt-2">
+            <button class="btn btn-primary" id="startExamBtn">🎯 开始专项考试（本轮 ${Math.min(10, cards.length)} 题）</button>
+          </div>` : ''}
+        </div>
+        ${cards.length ? cards.map(cardItem).join('') : `
+          <div class="card text-center no-hover">
+            <p style="font-size:2.2rem;margin-bottom:8px">🎉</p>
+            <p>卡池是空的，继续保持！</p>
+            <p class="text-dim">周考中答错的词汇题会自动进入卡池，在这里集中消灭它们。</p>
+            <div class="flex mt-2" style="justify-content:center">
+              <a class="btn btn-primary" href="index.html">去上课 / 周考</a>
+            </div>
+          </div>`}
+        ${mastered.length ? `
+          <div class="card no-hover">
+            <h3>✅ 已过关（${mastered.length} 词）</h3>
+            <p class="text-dim" style="font-size:0.85rem">已过关的词若在任何考试中再答错，会自动重新入卡。</p>
+            <div class="vocab-list mt-1">
+              ${mastered.map(c => `<div class="vocab-item">
+                <span class="w">${esc(c.word)}</span>
+                <span class="text-dim">${esc(c.zh)}</span>
+                <button class="speak-btn speak-sm" data-say="${esc(c.word)}"${audAttr(c.word)} title="发音（pt-BR）">🔊</button>
+              </div>`).join('')}
+            </div>
+          </div>` : ''}`;
+
+      const btn = document.getElementById('startExamBtn');
+      if (btn) btn.addEventListener('click', startExam);
+      Progress.touchStudy(0);
+    }
+
+    /* ===== 专项考试 ===== */
+    function startExam() {
+      const cards = pool();
+      if (!cards.length) { renderList(); return; }
+      // 优先抽进度低、最早入卡的词
+      const sorted = cards.slice().sort((a, b) =>
+        a.progress - b.progress || String(a.addedAt).localeCompare(String(b.addedAt)));
+      exam = {
+        queue: shuffle(sorted.slice(0, Math.min(10, sorted.length))),
+        idx: 0,
+        correct: 0,
+        wrong: 0,
+        masteredNow: [],
+        current: null
+      };
+      nextQuestion();
+    }
+
+    function buildQuestion(card) {
+      const dir = Math.random() < 0.5 ? 'pt2zh' : 'zh2pt';
+      const isPt2Zh = dir === 'pt2zh';
+      const answer = isPt2Zh ? card.zh : card.word;
+
+      // 干扰项：先取卡池内其他词，再从频率词表补齐
+      const others = shuffle(
+        pool().filter(c => norm(c.word) !== norm(card.word))
+          .concat(freqEntries.filter(e => norm(e.pt) !== norm(card.word)))
+      );
+      const seen = new Set([norm(answer)]);
+      const distractors = [];
+      for (const e of others) {
+        const val = isPt2Zh ? e.zh : ptOf(e);
+        if (!val || seen.has(norm(val))) continue;
+        seen.add(norm(val));
+        distractors.push(val);
+        if (distractors.length === 3) break;
+      }
+      return { card, dir, answer, options: shuffle([answer, ...distractors]) };
+    }
+
+    function nextQuestion() {
+      if (!exam) return;
+      if (exam.idx >= exam.queue.length) return renderExamSummary();
+      const q = buildQuestion(exam.queue[exam.idx]);
+      exam.current = q;
+      const isPt2Zh = q.dir === 'pt2zh';
+
+      root.innerHTML = `
+        <div class="card no-hover">
+          <div class="fc-exam-bar">
+            <span>🎯 单词卡专项考试 · 第 ${exam.idx + 1}/${exam.queue.length} 题</span>
+            <span>✅ ${exam.correct} · ❌ ${exam.wrong} · 本轮过关 ${exam.masteredNow.length}</span>
+          </div>
+        </div>
+        <div class="question-card">
+          <div class="q-head">
+            <span class="badge badge-yellow">${isPt2Zh ? '葡 → 中' : '中 → 葡'}</span>
+            <span class="badge badge-gray">「${esc(q.card.word)}」当前 ${q.card.progress}/3</span>
+          </div>
+          <div class="q-prompt">
+            ${isPt2Zh
+              ? `<span class="fc-quiz-word">${esc(q.card.word)}</span>
+                 <button class="speak-btn" data-say="${esc(q.card.word)}"${audAttr(q.card.word)} title="发音（pt-BR）">🔊</button>
+                 <div class="text-dim mt-1">这个词的中文意思是？</div>`
+              : `<div>「${esc(q.card.zh)}」对应的葡语单词是？</div>`}
+          </div>
+          <div class="option-list">
+            ${q.options.map((o, i) => `<div class="option-item" data-val="${esc(o)}" onclick="FCExam.pick(this)">
+              <span class="badge badge-gray">${String.fromCharCode(65 + i)}</span> ${esc(o)}</div>`).join('')}
+          </div>
+          <div class="feedback"></div>
+          <div class="flex mt-2"><button class="btn btn-sm btn-outline" onclick="FCExam.quit()">结束本轮</button></div>
+        </div>`;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    /* 过关鼓励动画 */
+    function celebrate(word) {
+      const el = document.createElement('div');
+      el.className = 'fc-celebrate';
+      el.innerHTML = `<div class="fc-celebrate-inner">
+        <div class="fc-emoji">🎉</div>
+        <div class="fc-msg">「${esc(word)}」过关！</div>
+        <div class="fc-sub">累计答对 3 次，已移出卡池 · Muito bem!</div>
+      </div>`;
+      document.body.appendChild(el);
+      setTimeout(() => {
+        el.classList.add('out');
+        setTimeout(() => el.remove(), 400);
+      }, 1500);
+    }
+
+    window.FCExam = {
+      pick(el) {
+        if (!exam || !exam.current) return;
+        const list = el.parentElement;
+        if (list.dataset.done) return;
+        list.dataset.done = '1';
+
+        const q = exam.current;
+        const ok = norm(el.dataset.val) === norm(q.answer);
+        const card = el.closest('.question-card');
+        const fb = card.querySelector('.feedback');
+
+        list.querySelectorAll('.option-item').forEach(x => {
+          x.classList.add('disabled');
+          if (norm(x.dataset.val) === norm(q.answer)) x.classList.add('correct');
+          x.onclick = null;
+        });
+
+        if (ok) {
+          exam.correct++;
+          el.classList.add('selected');
+          const r = Progress.recordFlashcardHit(q.card.word);
+          fb.className = 'feedback show ok';
+          if (r.mastered) {
+            exam.masteredNow.push(q.card.word);
+            fb.innerHTML = `<div class="fb-title">✅ 正确！「${esc(q.card.word)}」3/3 过关，移出卡池！</div>`;
+            celebrate(q.card.word);
+            exam.idx++;
+            setTimeout(nextQuestion, 1800);
+          } else {
+            fb.innerHTML = `<div class="fb-title">✅ 正确！「${esc(q.card.word)}」进度 ${r.progress}/3</div>`;
+            exam.idx++;
+            setTimeout(nextQuestion, 1000);
+          }
+        } else {
+          exam.wrong++;
+          el.classList.add('wrong');
+          Progress.recordFlashcardMiss(q.card.word);
+          fb.className = 'feedback show no';
+          fb.innerHTML = `
+            <div class="fb-title">❌ 答错了，「${esc(q.card.word)}」进度清零（0/3）</div>
+            <div>正确答案：<b style="color:var(--success)">${esc(q.answer)}</b></div>
+            <div class="mt-1">${esc(q.card.word)} = ${esc(q.card.zh)}</div>
+            <div class="flex mt-2"><button class="btn btn-sm btn-primary" onclick="FCExam.next()">下一题 →</button></div>`;
+        }
+      },
+      next() {
+        if (!exam) return;
+        exam.idx++;
+        nextQuestion();
+      },
+      quit() { renderExamSummary(); },
+      restart() { startExam(); },
+      back() { renderList(); }
+    };
+
+    function renderExamSummary() {
+      if (!exam) { renderList(); return; }
+      const total = exam.correct + exam.wrong;
+      const remaining = pool().length;
+      root.innerHTML = `
+        <div class="card quiz-result">
+          <div class="big-score">${exam.correct}/${total || 1}</div>
+          <div class="score-detail">
+            本轮答对 ${exam.correct} 题 · 答错 ${exam.wrong} 题 · 卡池还剩 ${remaining} 张待过关
+            ${exam.masteredNow.length ? `<br>🎉 新过关 ${exam.masteredNow.length} 词：${exam.masteredNow.map(w => `「${esc(w)}」`).join(' ')}` : ''}
+          </div>
+          <div class="flex" style="justify-content:center">
+            ${remaining ? `<button class="btn btn-primary" onclick="FCExam.restart()">🎯 再来一轮</button>` : ''}
+            <button class="btn btn-outline" onclick="FCExam.back()">返回卡池</button>
+            <a class="btn btn-outline" href="index.html">返回仪表盘</a>
+          </div>
+        </div>`;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      exam = null;
+    }
+
+    /* ===== 启动 ===== */
+    async function start() {
+      try {
+        const fv = await Data.loadFrequencyVocab();
+        freqEntries = [];
+        for (let w = 1; w <= 8; w++) {
+          const arr = fv['w' + w] || [];
+          freqEntries.push(...arr);
+          arr.forEach(e => { if (!audioByWord.has(norm(e.pt))) audioByWord.set(norm(e.pt), TTS.wordAudioUrl(e, w)); });
+        }
+      } catch (e) {
+        freqEntries = []; // 词表不可用时干扰项只取卡池内部
+      }
+      renderList();
+    }
+
+    renderHeader('flashcards');
+    renderFooter();
+    start();
+  })();
+  </script>
+</body>
+</html>
