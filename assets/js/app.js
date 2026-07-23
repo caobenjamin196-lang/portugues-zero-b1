@@ -59,7 +59,7 @@ async function initDashboard() {
   const cur = curriculum.weeks.find(w => w.week === d.currentWeek) || curriculum.weeks[0];
   const curStats = d.weeklyStats['w' + cur.week] || { studyTime: 0, quizScore: null, completed: false };
   const pending = Progress.getPendingMistakes();
-  const fcPool = Progress.getFlashcards();
+  const fcPool = (typeof Progress.getFlashcards === 'function') ? Progress.getFlashcards() : [];
 
   const weekPct = Math.min(100, Math.round((curStats.studyTime / 3) * 100));
 
