@@ -1,440 +1,623 @@
 {
-  "week": 6,
-  "title": "进行时与完成时：estar + gerúndio · pretérito composto",
-  "theoryPage": "w06-progressive-perfect.html",
-  "questions": [
-    {
-      "id": "w6_q001",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "gerúndio 构成 -ar",
-      "prompt": "falar 的 gerúndio（现在分词）是：",
-      "options": ["falando", "faliendo", "falanto", "falado"],
-      "answer": "falando",
-      "explanation": "-ar 动词 gerúndio 词尾 -ando：falando。falado 是 particípio（过去分词），别混。",
-      "spanishContrast": "西语 hablando → 葡语 falando：-ando 两语同形，直接迁移。"
-    },
-    {
-      "id": "w6_q002",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "gerúndio 构成 -er",
-      "prompt": "comer 的 gerúndio 是：",
-      "options": ["comiendo", "comendo", "comindo", "comido"],
-      "answer": "comendo",
-      "explanation": "-er 动词 gerúndio 词尾 -endo：comendo。",
-      "spanishContrast": "西语 comiendo → 葡语 comendo：-iendo→-endo，葡语没有 ie 双元音！写 *comiendo 是西语腔。"
-    },
-    {
-      "id": "w6_q003",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "gerúndio 构成 -ir",
-      "prompt": "partir 的 gerúndio 是：",
-      "options": ["partendo", "partiendo", "partindo", "partido"],
-      "answer": "partindo",
-      "explanation": "-ir 动词 gerúndio 词尾 -indo：partindo。",
-      "spanishContrast": "西语 partiendo → 葡语 partindo：-iendo→-indo。"
-    },
-    {
-      "id": "w6_q004",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "不规则 gerúndio：dizer",
-      "prompt": "dizer 的 gerúndio 是：",
-      "options": ["diciendo", "dizendo", "dicerendo", "dito"],
-      "answer": "dizendo",
-      "explanation": "dizer → dizendo：词干缩成 diz- + -endo。dito 是 particípio。",
-      "spanishContrast": "西语 diciendo → 葡语 dizendo：词干和词尾都不同，最高频陷阱之一。"
-    },
-    {
-      "id": "w6_q005",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "不规则 gerúndio：fazer",
-      "prompt": "fazer 的 gerúndio 是：",
-      "options": ["haciendo", "facendo", "fazendo", "feito"],
-      "answer": "fazendo",
-      "explanation": "fazer → fazendo：词干缩成 faz- + -endo。feito 是 particípio。",
-      "spanishContrast": "西语 haciendo → 葡语 fazendo：h 消失、词干缩短、-endo 词尾——三重差异。"
-    },
-    {
-      "id": "w6_q006",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "不规则 gerúndio：vir",
-      "prompt": "vir 的 gerúndio 是：",
-      "options": ["viniendo", "vindo", "virendo", "vido"],
-      "answer": "vindo",
-      "explanation": "vir → vindo。葡语形式反而比西语更规整。",
-      "spanishContrast": "西语 viniendo → 葡语 vindo：葡语没有 ni 序列。"
-    },
-    {
-      "id": "w6_q007",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "estar + gerúndio",
-      "prompt": "Eu ___ comendo agora.（estar——我正在吃饭）",
-      "options": ["sou", "estou", "tenho", "fico"],
-      "answer": "estou",
-      "explanation": "进行时 = estar 变位 + gerúndio：estou comendo。estar 现在时：estou / está / estamos / estão。",
-      "spanishContrast": "西语 Estoy comiendo → 葡语 Estou comendo：结构 100% 平行，estoy→estou。"
-    },
-    {
-      "id": "w6_q008",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "过去进行时",
-      "prompt": "Eu ___ estudando quando você ligou.（estar——你打电话时我正在学习）",
-      "options": ["estive", "estava", "estou", "estaria"],
-      "answer": "estava",
-      "explanation": "过去进行时 = estar 的 imperfeito + gerúndio：estava estudando。ligou 是打断事件（perfeito）。",
-      "spanishContrast": "西语 Estaba estudiando cuando llamaste → 葡语 Estava estudando quando você ligou：完全平行。"
-    },
-    {
-      "id": "w6_q009",
-      "type": "single_choice",
-      "difficulty": 3,
-      "topic": "composto 语义陷阱",
-      "prompt": "«Tenho estudado muito ultimamente.» 这句话的意思是：",
-      "options": ["我今天学过了（刚发生的单次动作）", "我最近一直在用功（持续到现在的反复动作）", "我将会学习", "我过去常常学习（已结束的习惯）"],
-      "answer": "我最近一直在用功（持续到现在的反复动作）",
-      "explanation": "pretérito composto（tenho + particípio）在巴西葡语里表'最近反复/持续到现在'，配 ultimamente / nos últimos anos 等状语。",
-      "spanishContrast": "西语 He estudiado mucho hoy 表'今天学过了'（单次、刚发生）——形式对应、语义完全不同，本周头号陷阱！"
-    },
-    {
-      "id": "w6_q010",
-      "type": "single_choice",
-      "difficulty": 3,
-      "topic": "acabar de 替代",
-      "prompt": "巴西人表达'我刚吃完'最地道的说法是：",
-      "options": ["Eu tenho comido.", "Eu acabei de comer.", "Eu estou comendo.", "Eu comia."],
-      "answer": "Eu acabei de comer.",
-      "explanation": "acabar de + 不定式 = 刚做完：acabei de comer。Tenho comido 在巴西意为'我最近一直在吃'，不是'我吃过了'。",
-      "spanishContrast": "西语 Acabo de comer → 葡语 Acabei de comer：结构一致。巴西人用它顶替西语 he comido 的语义。"
-    },
-    {
-      "id": "w6_q011",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "不规则 particípio：fazer",
-      "prompt": "fazer 的 particípio（过去分词）是：",
-      "options": ["fazido", "hecho", "feito", "fazendo"],
-      "answer": "feito",
-      "explanation": "fazer → feito（不规则 particípio，最高频）。fazendo 是 gerúndio。",
-      "spanishContrast": "西语 hecho → 葡语 feito：h→f、ch→it，两语都不规则但词形不同。"
-    },
-    {
-      "id": "w6_q012",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "不规则 particípio：pôr",
-      "prompt": "pôr 的 particípio 是：",
-      "options": ["puesto", "poido", "posto", "pondo"],
-      "answer": "posto",
-      "explanation": "pôr → posto（不规则）。pondo 是 gerúndio。",
-      "spanishContrast": "西语 puesto → 葡语 posto：ue→o，对应规律（muerto→morto 同理）。"
-    },
-    {
-      "id": "w6_q013",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "不规则 particípio：abrir",
-      "prompt": "abrir 的 particípio 是：",
-      "options": ["aberto", "abierto", "abrido", "abridu"],
-      "answer": "aberto",
-      "explanation": "abrir → aberto（不规则，两语都不规则）。",
-      "spanishContrast": "西语 abierto → 葡语 aberto：葡语少一个 i。"
-    },
-    {
-      "id": "w6_q014",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "andar + gerúndio",
-      "prompt": "Ela anda ___ muito ultimamente.（estudar——她最近一直在猛学，口语）",
-      "options": ["a estudar", "estudando", "estudar", "estudado"],
-      "answer": "estudando",
-      "explanation": "andar + gerúndio = 近来一直做（口语）：anda estudando。",
-      "spanishContrast": "西语 anda estudiando → 葡语 anda estudando：两语口语结构一致，只有 gerúndio 词尾不同。"
-    },
-    {
-      "id": "w6_q015",
-      "type": "single_choice",
-      "difficulty": 3,
-      "topic": "双分词现象",
-      "prompt": "«Ele tem ___ o convite todas as semanas.»（aceitar——配 ter 构成 composto，用规则形）",
-      "options": ["aceito", "aceitado", "aceitando", "aceite"],
-      "answer": "aceitado",
-      "explanation": "双分词动词：规则形 aceitado 配 ter（tem aceitado = 一直接受）；不规则形 aceito 作形容词（um homem aceito 被接纳的人）。",
-      "spanishContrast": "西语只有 aceptado 一种形式；葡语 aceitado/aceito 双分词是葡语特有现象（pago/entregue/gasto 同类）。"
-    },
-    {
-      "id": "w6_vocab_q001",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "本周词汇",
-      "prompt": "葡语单词 governo 是什么意思？",
-      "options": ["州长", "政府", "议会", "政党"],
-      "answer": "政府",
-      "explanation": "governo = 政府（阳性）：segundo o governo do estado（据州政府）。",
-      "spanishContrast": "西语 gobierno → 葡语 governo：b→v、ie→e，对应规律。"
-    },
-    {
-      "id": "w6_vocab_q002",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "本周词汇",
-      "prompt": "葡语单词 eleição 是什么意思？",
-      "options": ["选择（泛指）", "选举", "精英", "电力"],
-      "answer": "选举",
-      "explanation": "eleição = 选举（阴性，复数 eleições）：as eleições de 2026（2026 年大选）。'投票'是 voto。",
-      "spanishContrast": "西语 elección → 葡语 eleição：-ción→-ção，W2 的对应规律。"
-    },
-    {
-      "id": "w6_vocab_q003",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "本周词汇",
-      "prompt": "葡语单词 lei 是什么意思？",
-      "options": ["国王", "法律", "忠诚", "阅读"],
-      "answer": "法律",
-      "explanation": "lei = 法律（阴性）：a nova lei（新法律）。",
-      "spanishContrast": "西语 ley → 葡语 lei：y→i，送分词。"
-    },
-    {
-      "id": "w6_vocab_q004",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "本周词汇",
-      "prompt": "葡语单词 enchente 是什么意思？",
-      "options": ["干旱", "地震", "洪水/内涝", "暴风雨"],
-      "answer": "洪水/内涝",
-      "explanation": "enchente = 洪水、城市内涝（阴性）：A chuva forte causa enchentes.（暴雨引发洪水。）",
-      "spanishContrast": "西语 inundación → 葡语 enchente：完全不同，新闻高频词，硬记。"
-    },
-    {
-      "id": "w6_vocab_q005",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "本周词汇",
-      "prompt": "葡语单词 greve 是什么意思？",
-      "options": ["严重的", "罢工", "战争", "集会"],
-      "answer": "罢工",
-      "explanation": "greve = 罢工（阴性）：Os funcionários estão em greve.（员工们在罢工。）",
-      "spanishContrast": "西语 huelga → 葡语 greve：完全不同；注意葡语 grave（严重的）与 greve 形近易混。"
-    },
-    {
-      "id": "w6_vocab_q006",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "本周词汇",
-      "prompt": "葡语单词 ladrão 是什么意思？",
-      "options": ["警察", "小偷/盗贼", "律师", "囚犯"],
-      "answer": "小偷/盗贼",
-      "explanation": "ladrão = 小偷（复数 ladrões，-ão→-ões）：O ladrão roubou meu celular.（小偷偷了我的手机。）",
-      "spanishContrast": "西语 ladrón → 葡语 ladrão：-ón→-ão，W2 规律。"
-    },
-    {
-      "id": "w6_vocab_q007",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "本周词汇",
-      "prompt": "葡语单词 salário 是什么意思？",
-      "options": ["销售", "工资", "盐", "储蓄"],
-      "answer": "工资",
-      "explanation": "salário = 工资（阳性）：O salário aumentou este ano.（今年工资涨了。）",
-      "spanishContrast": "西语 salario/sueldo → 葡语 salário：同形同义，直接迁移。"
-    },
-    {
-      "id": "w6_vocab_q008",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "本周词汇",
-      "prompt": "葡语单词 desemprego 是什么意思？",
-      "options": ["就业", "失业", "退休", "加班"],
-      "answer": "失业",
-      "explanation": "desemprego = 失业（阳性）：O desemprego tem aumentado.（失业率一直在上升。）des- 否定前缀 + emprego 工作。",
-      "spanishContrast": "西语 desempleo → 葡语 desemprego：-eo→-ego，构词一致。"
-    },
-    {
-      "id": "w6_vocab_q009",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "本周词汇",
-      "prompt": "葡语单词 inflação 是什么意思？",
-      "options": ["通货紧缩", "通货膨胀", "投资", "基础设施"],
-      "answer": "通货膨胀",
-      "explanation": "inflação = 通货膨胀（阴性）：A inflação está alta.（通胀很高。）",
-      "spanishContrast": "西语 inflación → 葡语 inflação：-ción→-ção 规律，送分。"
-    },
-    {
-      "id": "w6_vocab_q010",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "本周词汇",
-      "prompt": "葡语单词 manchete 是什么意思？",
-      "options": ["报纸", "头条标题", "记者", "杂志"],
-      "answer": "头条标题",
-      "explanation": "manchete = （报纸）头条标题（阴性）：A manchete de hoje fala da enchente.（今天的头条讲洪水。）'报纸'是 jornal。",
-      "spanishContrast": "西语 titular → 葡语 manchete：完全不同，新闻阅读必备词。"
-    },
-    {
-      "id": "w6_vocab_q011",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "本周词汇",
-      "prompt": "中文'疫苗'对应的葡语是：",
-      "options": ["remédio", "vacina", "doença", "hospital"],
-      "answer": "vacina",
-      "explanation": "vacina = 疫苗（阴性）：A vacina é gratuita.（疫苗免费。）remédio 是'药'。",
-      "spanishContrast": "西语 vacuna → 葡语 vacina：un→in，好迁移。"
-    },
-    {
-      "id": "w6_vocab_q012",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "本周词汇",
-      "prompt": "中文'债务'对应的葡语是：",
-      "options": ["dívida", "lucro", "taxa", "moeda"],
-      "answer": "dívida",
-      "explanation": "dívida = 债务（阴性）：pagar sem dívidas（无债支付）。lucro 利润、taxa 费率、moeda 货币。",
-      "spanishContrast": "西语 deuda → 葡语 dívida：eu→ívi 差异大，需硬记。"
-    },
-    {
-      "id": "w6_vocab_q013",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "本周词汇",
-      "prompt": "中文'市民/公民'对应的葡语是：",
-      "options": ["morador", "cidadão", "prefeito", "cliente"],
-      "answer": "cidadão",
-      "explanation": "cidadão = 公民（复数 cidadãos）：Os cidadãos votam todo ano.（公民每年投票。）morador 是'居民'。",
-      "spanishContrast": "西语 ciudadano → 葡语 cidadão：iu→i、-ano→-ão。"
-    },
-    {
-      "id": "w6_vocab_q014",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "本周词汇",
-      "prompt": "中文'调查/研究（名词）'对应的葡语是：",
-      "options": ["resultado", "pesquisa", "reportagem", "notícia"],
-      "answer": "pesquisa",
-      "explanation": "pesquisa = 调查、研究（阴性）：Segundo a pesquisa, 60% aprovam.（据调查，60% 支持。）reportagem 是'报道'。",
-      "spanishContrast": "西语 encuesta/investigación → 葡语 pesquisa：新闻里'据调查'一律用 pesquisa。"
-    },
-    {
-      "id": "w6_vocab_q015",
-      "type": "single_choice",
-      "difficulty": 3,
-      "topic": "本周词汇·动词语境",
-      "prompt": "A polícia ___ o ladrão ontem à noite.（prender 逮捕）",
-      "options": ["prende", "prendeu", "prendia", "prenderá"],
-      "answer": "prendeu",
-      "explanation": "ontem à noite → perfeito；prender 规则 -er 动词 ele 形式 prendeu。",
-      "spanishContrast": "西语 detuvo/arrestó → 葡语 prendeu：用词不同——葡语'逮捕'用 prender，西语常用 detener。"
-    },
-    {
-      "id": "w6_vocab_q016",
-      "type": "single_choice",
-      "difficulty": 3,
-      "topic": "本周词汇·动词语境",
-      "prompt": "Os preços ___ muito nos últimos meses.（aumentar 上涨，强调'最近一直在涨'）",
-      "options": ["têm aumentado", "aumentaram ontem", "estão aumentar", "aumentam agora"],
-      "answer": "têm aumentado",
-      "explanation": "nos últimos meses + '一直在涨' → pretérito composto：têm aumentado（ter 复数 têm + particípio）。",
-      "spanishContrast": "西语 han aumentado 也说得通，但语义侧重不同——葡语 composto 专表'反复/持续到现在'，这是两语核心差异。"
-    },
-    {
-      "id": "w6_vocab_q017",
-      "type": "single_choice",
-      "difficulty": 3,
-      "topic": "本周词汇·动词语境",
-      "prompt": "Nós ___ na última eleição.（votar 投票——我们在上次大选中投了票）",
-      "options": ["votamos", "votámos", "votávamos", "votaremos"],
-      "answer": "votamos",
-      "explanation": "na última eleição → perfeito；votar nós 形式 votamos（与现在时同形，靠语境判断）。",
-      "spanishContrast": "西语 votamos 同样现在/过去同形；注意干扰项 votámos 是旧拼写/葡萄牙拼法，巴西规范拼写不带重音。"
-    },
-    {
-      "id": "w6_q016",
-      "type": "fill_blank",
-      "difficulty": 3,
-      "topic": "gerúndio 填空",
-      "prompt": "Estou ___ a mesa para o jantar.（pôr 的 gerúndio，「我正在摆桌子」）",
-      "answer": ["pondo"],
-      "explanation": "pôr → pondo（不规则 gerúndio：n 鼻化前接 õ）。",
-      "spanishContrast": "西语 poniendo → 葡语 pondo：词形差异大，硬记。"
-    },
-    {
-      "id": "w6_q017",
-      "type": "fill_blank",
-      "difficulty": 3,
-      "topic": "particípio 填空",
-      "prompt": "Ela tem ___ a mesma coisa todos os dias.（dizer 的 particípio，「她最近一直说同样的话」）",
-      "answer": ["dito"],
-      "explanation": "dizer → dito（不规则 particípio）。tem dito = 最近反复说。",
-      "spanishContrast": "西语 dicho → 葡语 dito：ch→t。"
-    },
-    {
-      "id": "w6_q018",
-      "type": "fill_blank",
-      "difficulty": 3,
-      "topic": "particípio 填空",
-      "prompt": "Eu tenho ___ exercício ultimamente.（fazer 的 particípio）",
-      "answer": ["feito"],
-      "explanation": "fazer → feito。tenho feito exercício = 我最近一直在锻炼。",
-      "spanishContrast": "西语 hecho → 葡语 feito：最高频不规则 particípio。"
-    },
-    {
-      "id": "w6_q019",
-      "type": "conjugation",
-      "difficulty": 2,
-      "topic": "完整变位：estar 现在时",
-      "prompt": "写出动词 estar 的现在时变位（eu / você / nós / eles）：",
-      "answer": { "eu": "estou", "você": "está", "nós": "estamos", "eles": "estão" },
-      "explanation": "estar 现在时：estou / está / estamos / estão（tu 形式 estás）。进行时的助动词，必须滚瓜烂熟。",
-      "spanishContrast": "西语 estoy/está/estamos/están → 葡语 estou/está/estamos/estão：y→ou、án→ão。"
-    },
-    {
-      "id": "w6_q020",
-      "type": "conjugation",
-      "difficulty": 2,
-      "topic": "完整变位：ter 现在时",
-      "prompt": "写出动词 ter 的现在时变位（eu / você / nós / eles）：",
-      "answer": { "eu": "tenho", "você": "tem", "nós": "temos", "eles": "têm" },
-      "explanation": "ter 现在时：tenho / tem / temos / têm（tu 形式 tens）。composto 的助动词；eles 形式 têm 带尖音符，与单数 tem 区分。",
-      "spanishContrast": "西语 tengo/tiene/tenemos/tienen → 葡语 tenho/tem/temos/têm：葡语无 ie 双元音化，复数 têm 的尖音符是葡语特有。"
-    },
-    {
-      "id": "w6_q021",
-      "type": "translation",
-      "difficulty": 2,
-      "topic": "翻译",
-      "prompt": "把西语翻译成葡语：Estoy trabajando ahora, te llamo después.",
-      "answer": ["Estou trabalhando agora, te ligo depois", "Eu estou trabalhando agora, eu te ligo depois"],
-      "explanation": "estoy→estou；trabajando→trabalhando（-ando 同形）；te llamo→te ligo（ll→ch？不——llamar→ligar 是词汇替换：葡语'打电话'用 ligar）。",
-      "spanishContrast": "西语 llamar → 葡语 ligar（打电话）：假朋友！葡语 chamar 是'叫名字/呼唤'，不是打电话。"
-    },
-    {
-      "id": "w6_q022",
-      "type": "translation",
-      "difficulty": 3,
-      "topic": "翻译",
-      "prompt": "把西语翻译成葡语：Últimamente he estudiado mucho portugués.（注意语义：最近一直在学）",
-      "answer": ["Ultimamente eu tenho estudado muito português", "Eu tenho estudado muito português ultimamente", "Tenho estudado muito português ultimamente"],
-      "explanation": "这是西语 perfecto 与葡语 composto 语义恰好重合的少数场景：'最近反复做' → 葡语 tenho estudado。",
-      "spanishContrast": "关键判断：西语 he estudiado 配 ultimamente 表'反复'时，葡语用 tenho estudado；但西语 he estudiado 配 hoy 表'刚学过'时，葡语用 estudei/acabei de estudar——状语决定译法！"
-    },
-    {
-      "id": "w6_q023",
-      "type": "translation",
-      "difficulty": 4,
-      "topic": "段落翻译",
-      "aiGraded": true,
-      "prompt": "【AI 批改 · 段落翻译】把下面这段约 70 词的西语新闻翻译成巴西葡语，注意进行时与 pretérito composto 的用法：\n\nLluvias fuertes están causando inundaciones en varias ciudades del sur de Brasil. Según el gobierno, más de mil familias están dejando sus casas en este momento. Los equipos de rescate están trabajando toda la noche. «El problema ha empeorado en los últimos años», declaró la alcaldesa esta mañana. La policía pide que la población evite salir de casa.",
-      "referenceAnswer": "Chuvas fortes estão causando enchentes em várias cidades do sul do Brasil. Segundo o governo, mais de mil famílias estão deixando suas casas neste momento. As equipes de resgate estão trabalhando a noite toda. «O problema tem piorado nos últimos anos», declarou a prefeita esta manhã. A polícia pede que a população evite sair de casa.",
-      "scoringCriteria": "进行时（estão causando/estão deixando/estão trabalhando）用 estar+gerúndio 正确(3分)、composto（tem piorado）译出'近年持续恶化'而非 perfeito 单次(2分)、新闻词汇迁移（inundaciones→enchentes, alcaldesa→prefeita, rescate→resgate）(3分)、缩合与冠词（do sul, neste momento, a noite toda）正确(2分)",
-      "spanishContrast": "高频错误自查：*inundações（巴西新闻说 enchentes）、alcaldesa→prefeita（不是 *alcaldesa）、ha empeorado→tem piorado（配 nos últimos anos 必须用 composto）。"
-    }
-  ]
+ "week": 6,
+ "title": "进行时与完成时：estar + gerúndio · pretérito composto",
+ "theoryPage": "w06-progressive-perfect.html",
+ "questions": [
+  {
+   "id": "w6_q001",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "gerúndio 构成 -ar",
+   "prompt": "falar 的 gerúndio（现在分词）是：",
+   "options": [
+    "falando",
+    "faliendo",
+    "falanto",
+    "falado"
+   ],
+   "answer": "falando",
+   "explanation": "-ar 动词 gerúndio 词尾 -ando：falando。falado 是 particípio（过去分词），别混。",
+   "spanishContrast": "西语 hablando → 葡语 falando：-ando 两语同形，直接迁移。"
+  },
+  {
+   "id": "w6_q002",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "gerúndio 构成 -er",
+   "prompt": "comer 的 gerúndio 是：",
+   "options": [
+    "comiendo",
+    "comendo",
+    "comindo",
+    "comido"
+   ],
+   "answer": "comendo",
+   "explanation": "-er 动词 gerúndio 词尾 -endo：comendo。",
+   "spanishContrast": "西语 comiendo → 葡语 comendo：-iendo→-endo，葡语没有 ie 双元音！写 *comiendo 是西语腔。"
+  },
+  {
+   "id": "w6_q003",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "gerúndio 构成 -ir",
+   "prompt": "partir 的 gerúndio 是：",
+   "options": [
+    "partendo",
+    "partiendo",
+    "partindo",
+    "partido"
+   ],
+   "answer": "partindo",
+   "explanation": "-ir 动词 gerúndio 词尾 -indo：partindo。",
+   "spanishContrast": "西语 partiendo → 葡语 partindo：-iendo→-indo。"
+  },
+  {
+   "id": "w6_q004",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "不规则 gerúndio：dizer",
+   "prompt": "dizer 的 gerúndio 是：",
+   "options": [
+    "diciendo",
+    "dizendo",
+    "dicerendo",
+    "dito"
+   ],
+   "answer": "dizendo",
+   "explanation": "dizer → dizendo：词干缩成 diz- + -endo。dito 是 particípio。",
+   "spanishContrast": "西语 diciendo → 葡语 dizendo：词干和词尾都不同，最高频陷阱之一。"
+  },
+  {
+   "id": "w6_q005",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "不规则 gerúndio：fazer",
+   "prompt": "fazer 的 gerúndio 是：",
+   "options": [
+    "haciendo",
+    "facendo",
+    "fazendo",
+    "feito"
+   ],
+   "answer": "fazendo",
+   "explanation": "fazer → fazendo：词干缩成 faz- + -endo。feito 是 particípio。",
+   "spanishContrast": "西语 haciendo → 葡语 fazendo：h 消失、词干缩短、-endo 词尾——三重差异。"
+  },
+  {
+   "id": "w6_q006",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "不规则 gerúndio：vir",
+   "prompt": "vir 的 gerúndio 是：",
+   "options": [
+    "viniendo",
+    "vindo",
+    "virendo",
+    "vido"
+   ],
+   "answer": "vindo",
+   "explanation": "vir → vindo。葡语形式反而比西语更规整。",
+   "spanishContrast": "西语 viniendo → 葡语 vindo：葡语没有 ni 序列。"
+  },
+  {
+   "id": "w6_q007",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "estar + gerúndio",
+   "prompt": "Eu ___ comendo agora.（estar——我正在吃饭）",
+   "options": [
+    "sou",
+    "estou",
+    "tenho",
+    "fico"
+   ],
+   "answer": "estou",
+   "explanation": "进行时 = estar 变位 + gerúndio：estou comendo。estar 现在时：estou / está / estamos / estão。",
+   "spanishContrast": "西语 Estoy comiendo → 葡语 Estou comendo：结构 100% 平行，estoy→estou。"
+  },
+  {
+   "id": "w6_q008",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "过去进行时",
+   "prompt": "Eu ___ estudando quando você ligou.（estar——你打电话时我正在学习）",
+   "options": [
+    "estive",
+    "estava",
+    "estou",
+    "estaria"
+   ],
+   "answer": "estava",
+   "explanation": "过去进行时 = estar 的 imperfeito + gerúndio：estava estudando。ligou 是打断事件（perfeito）。",
+   "spanishContrast": "西语 Estaba estudiando cuando llamaste → 葡语 Estava estudando quando você ligou：完全平行。"
+  },
+  {
+   "id": "w6_q009",
+   "type": "single_choice",
+   "difficulty": 3,
+   "topic": "composto 语义陷阱",
+   "prompt": "«Tenho estudado muito ultimamente.» 这句话的意思是：",
+   "options": [
+    "我今天学过了（刚发生的单次动作）",
+    "我最近一直在用功（持续到现在的反复动作）",
+    "我将会学习",
+    "我过去常常学习（已结束的习惯）"
+   ],
+   "answer": "我最近一直在用功（持续到现在的反复动作）",
+   "explanation": "pretérito composto（tenho + particípio）在巴西葡语里表'最近反复/持续到现在'，配 ultimamente / nos últimos anos 等状语。",
+   "spanishContrast": "西语 He estudiado mucho hoy 表'今天学过了'（单次、刚发生）——形式对应、语义完全不同，本周头号陷阱！"
+  },
+  {
+   "id": "w6_q010",
+   "type": "single_choice",
+   "difficulty": 3,
+   "topic": "acabar de 替代",
+   "prompt": "巴西人表达'我刚吃完'最地道的说法是：",
+   "options": [
+    "Eu tenho comido.",
+    "Eu acabei de comer.",
+    "Eu estou comendo.",
+    "Eu comia."
+   ],
+   "answer": "Eu acabei de comer.",
+   "explanation": "acabar de + 不定式 = 刚做完：acabei de comer。Tenho comido 在巴西意为'我最近一直在吃'，不是'我吃过了'。",
+   "spanishContrast": "西语 Acabo de comer → 葡语 Acabei de comer：结构一致。巴西人用它顶替西语 he comido 的语义。"
+  },
+  {
+   "id": "w6_q011",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "不规则 particípio：fazer",
+   "prompt": "fazer 的 particípio（过去分词）是：",
+   "options": [
+    "fazido",
+    "hecho",
+    "feito",
+    "fazendo"
+   ],
+   "answer": "feito",
+   "explanation": "fazer → feito（不规则 particípio，最高频）。fazendo 是 gerúndio。",
+   "spanishContrast": "西语 hecho → 葡语 feito：h→f、ch→it，两语都不规则但词形不同。"
+  },
+  {
+   "id": "w6_q012",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "不规则 particípio：pôr",
+   "prompt": "pôr 的 particípio 是：",
+   "options": [
+    "puesto",
+    "poido",
+    "posto",
+    "pondo"
+   ],
+   "answer": "posto",
+   "explanation": "pôr → posto（不规则）。pondo 是 gerúndio。",
+   "spanishContrast": "西语 puesto → 葡语 posto：ue→o，对应规律（muerto→morto 同理）。"
+  },
+  {
+   "id": "w6_q013",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "不规则 particípio：abrir",
+   "prompt": "abrir 的 particípio 是：",
+   "options": [
+    "aberto",
+    "abierto",
+    "abrido",
+    "abridu"
+   ],
+   "answer": "aberto",
+   "explanation": "abrir → aberto（不规则，两语都不规则）。",
+   "spanishContrast": "西语 abierto → 葡语 aberto：葡语少一个 i。"
+  },
+  {
+   "id": "w6_q014",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "andar + gerúndio",
+   "prompt": "Ela anda ___ muito ultimamente.（estudar——她最近一直在猛学，口语）",
+   "options": [
+    "a estudar",
+    "estudando",
+    "estudar",
+    "estudado"
+   ],
+   "answer": "estudando",
+   "explanation": "andar + gerúndio = 近来一直做（口语）：anda estudando。",
+   "spanishContrast": "西语 anda estudiando → 葡语 anda estudando：两语口语结构一致，只有 gerúndio 词尾不同。"
+  },
+  {
+   "id": "w6_q015",
+   "type": "single_choice",
+   "difficulty": 3,
+   "topic": "双分词现象",
+   "prompt": "«Ele tem ___ o convite todas as semanas.»（aceitar——配 ter 构成 composto，用规则形）",
+   "options": [
+    "aceito",
+    "aceitado",
+    "aceitando",
+    "aceite"
+   ],
+   "answer": "aceitado",
+   "explanation": "双分词动词：规则形 aceitado 配 ter（tem aceitado = 一直接受）；不规则形 aceito 作形容词（um homem aceito 被接纳的人）。",
+   "spanishContrast": "西语只有 aceptado 一种形式；葡语 aceitado/aceito 双分词是葡语特有现象（pago/entregue/gasto 同类）。"
+  },
+  {
+   "id": "w6_vocab_q001",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "本周词汇",
+   "prompt": "葡语单词 governo 是什么意思？",
+   "options": [
+    "州长",
+    "政府",
+    "议会",
+    "政党"
+   ],
+   "answer": "政府",
+   "explanation": "governo = 政府（阳性）：segundo o governo do estado（据州政府）。",
+   "spanishContrast": "西语 gobierno → 葡语 governo：b→v、ie→e，对应规律。"
+  },
+  {
+   "id": "w6_vocab_q002",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "本周词汇",
+   "prompt": "葡语单词 eleição 是什么意思？",
+   "options": [
+    "选择（泛指）",
+    "选举",
+    "精英",
+    "电力"
+   ],
+   "answer": "选举",
+   "explanation": "eleição = 选举（阴性，复数 eleições）：as eleições de 2026（2026 年大选）。'投票'是 voto。",
+   "spanishContrast": "西语 elección → 葡语 eleição：-ción→-ção，W2 的对应规律。"
+  },
+  {
+   "id": "w6_vocab_q003",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "本周词汇",
+   "prompt": "葡语单词 lei 是什么意思？",
+   "options": [
+    "国王",
+    "法律",
+    "忠诚",
+    "阅读"
+   ],
+   "answer": "法律",
+   "explanation": "lei = 法律（阴性）：a nova lei（新法律）。",
+   "spanishContrast": "西语 ley → 葡语 lei：y→i，送分词。"
+  },
+  {
+   "id": "w6_vocab_q004",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "本周词汇",
+   "prompt": "葡语单词 enchente 是什么意思？",
+   "options": [
+    "干旱",
+    "地震",
+    "洪水/内涝",
+    "暴风雨"
+   ],
+   "answer": "洪水/内涝",
+   "explanation": "enchente = 洪水、城市内涝（阴性）：A chuva forte causa enchentes.（暴雨引发洪水。）",
+   "spanishContrast": "西语 inundación → 葡语 enchente：完全不同，新闻高频词，硬记。"
+  },
+  {
+   "id": "w6_vocab_q005",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "本周词汇",
+   "prompt": "葡语单词 greve 是什么意思？",
+   "options": [
+    "严重的",
+    "罢工",
+    "战争",
+    "集会"
+   ],
+   "answer": "罢工",
+   "explanation": "greve = 罢工（阴性）：Os funcionários estão em greve.（员工们在罢工。）",
+   "spanishContrast": "西语 huelga → 葡语 greve：完全不同；注意葡语 grave（严重的）与 greve 形近易混。"
+  },
+  {
+   "id": "w6_vocab_q006",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "本周词汇",
+   "prompt": "葡语单词 ladrão 是什么意思？",
+   "options": [
+    "警察",
+    "小偷/盗贼",
+    "律师",
+    "囚犯"
+   ],
+   "answer": "小偷/盗贼",
+   "explanation": "ladrão = 小偷（复数 ladrões，-ão→-ões）：O ladrão roubou meu celular.（小偷偷了我的手机。）",
+   "spanishContrast": "西语 ladrón → 葡语 ladrão：-ón→-ão，W2 规律。"
+  },
+  {
+   "id": "w6_vocab_q007",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "本周词汇",
+   "prompt": "葡语单词 salário 是什么意思？",
+   "options": [
+    "销售",
+    "工资",
+    "盐",
+    "储蓄"
+   ],
+   "answer": "工资",
+   "explanation": "salário = 工资（阳性）：O salário aumentou este ano.（今年工资涨了。）",
+   "spanishContrast": "西语 salario/sueldo → 葡语 salário：同形同义，直接迁移。"
+  },
+  {
+   "id": "w6_vocab_q008",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "本周词汇",
+   "prompt": "葡语单词 desemprego 是什么意思？",
+   "options": [
+    "就业",
+    "失业",
+    "退休",
+    "加班"
+   ],
+   "answer": "失业",
+   "explanation": "desemprego = 失业（阳性）：O desemprego tem aumentado.（失业率一直在上升。）des- 否定前缀 + emprego 工作。",
+   "spanishContrast": "西语 desempleo → 葡语 desemprego：-eo→-ego，构词一致。"
+  },
+  {
+   "id": "w6_vocab_q009",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "本周词汇",
+   "prompt": "葡语单词 inflação 是什么意思？",
+   "options": [
+    "通货紧缩",
+    "通货膨胀",
+    "投资",
+    "基础设施"
+   ],
+   "answer": "通货膨胀",
+   "explanation": "inflação = 通货膨胀（阴性）：A inflação está alta.（通胀很高。）",
+   "spanishContrast": "西语 inflación → 葡语 inflação：-ción→-ção 规律，送分。"
+  },
+  {
+   "id": "w6_vocab_q010",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "本周词汇",
+   "prompt": "葡语单词 manchete 是什么意思？",
+   "options": [
+    "报纸",
+    "头条标题",
+    "记者",
+    "杂志"
+   ],
+   "answer": "头条标题",
+   "explanation": "manchete = （报纸）头条标题（阴性）：A manchete de hoje fala da enchente.（今天的头条讲洪水。）'报纸'是 jornal。",
+   "spanishContrast": "西语 titular → 葡语 manchete：完全不同，新闻阅读必备词。"
+  },
+  {
+   "id": "w6_vocab_q011",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "本周词汇",
+   "prompt": "中文'疫苗'对应的葡语是：",
+   "options": [
+    "remédio",
+    "vacina",
+    "doença",
+    "saúde"
+   ],
+   "answer": "vacina",
+   "explanation": "vacina = 疫苗（阴性）：A vacina é gratuita.（疫苗免费。）remédio 是'药'。",
+   "spanishContrast": "西语 vacuna → 葡语 vacina：un→in，好迁移。"
+  },
+  {
+   "id": "w6_vocab_q012",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "本周词汇",
+   "prompt": "中文'债务'对应的葡语是：",
+   "options": [
+    "dívida",
+    "lucro",
+    "taxa",
+    "moeda"
+   ],
+   "answer": "dívida",
+   "explanation": "dívida = 债务（阴性）：pagar sem dívidas（无债支付）。lucro 利润、taxa 费率、moeda 货币。",
+   "spanishContrast": "西语 deuda → 葡语 dívida：eu→ívi 差异大，需硬记。"
+  },
+  {
+   "id": "w6_vocab_q013",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "本周词汇",
+   "prompt": "中文'市民/公民'对应的葡语是：",
+   "options": [
+    "morador",
+    "cidadão",
+    "prefeito",
+    "cliente"
+   ],
+   "answer": "cidadão",
+   "explanation": "cidadão = 公民（复数 cidadãos）：Os cidadãos votam todo ano.（公民每年投票。）morador 是'居民'。",
+   "spanishContrast": "西语 ciudadano → 葡语 cidadão：iu→i、-ano→-ão。"
+  },
+  {
+   "id": "w6_vocab_q014",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "本周词汇",
+   "prompt": "中文'调查/研究（名词）'对应的葡语是：",
+   "options": [
+    "resultado",
+    "pesquisa",
+    "reportagem",
+    "notícia"
+   ],
+   "answer": "pesquisa",
+   "explanation": "pesquisa = 调查、研究（阴性）：Segundo a pesquisa, 60% aprovam.（据调查，60% 支持。）reportagem 是'报道'。",
+   "spanishContrast": "西语 encuesta/investigación → 葡语 pesquisa：新闻里'据调查'一律用 pesquisa。"
+  },
+  {
+   "id": "w6_vocab_q015",
+   "type": "single_choice",
+   "difficulty": 3,
+   "topic": "本周词汇·动词语境",
+   "prompt": "A polícia ___ o ladrão ontem à noite.（prender 逮捕）",
+   "options": [
+    "prende",
+    "prendeu",
+    "prendia",
+    "prenderá"
+   ],
+   "answer": "prendeu",
+   "explanation": "ontem à noite → perfeito；prender 规则 -er 动词 ele 形式 prendeu。",
+   "spanishContrast": "西语 detuvo/arrestó → 葡语 prendeu：用词不同——葡语'逮捕'用 prender，西语常用 detener。"
+  },
+  {
+   "id": "w6_vocab_q016",
+   "type": "single_choice",
+   "difficulty": 3,
+   "topic": "本周词汇·动词语境",
+   "prompt": "Os preços ___ muito nos últimos meses.（aumentar 上涨，强调'最近一直在涨'）",
+   "options": [
+    "têm aumentado",
+    "aumentaram ontem",
+    "estão aumentar",
+    "aumentam agora"
+   ],
+   "answer": "têm aumentado",
+   "explanation": "nos últimos meses + '一直在涨' → pretérito composto：têm aumentado（ter 复数 têm + particípio）。",
+   "spanishContrast": "西语 han aumentado 也说得通，但语义侧重不同——葡语 composto 专表'反复/持续到现在'，这是两语核心差异。"
+  },
+  {
+   "id": "w6_vocab_q017",
+   "type": "single_choice",
+   "difficulty": 3,
+   "topic": "本周词汇·动词语境",
+   "prompt": "Nós ___ na última eleição.（votar 投票——我们在上次大选中投了票）",
+   "options": [
+    "votamos",
+    "votámos",
+    "votávamos",
+    "votaremos"
+   ],
+   "answer": "votamos",
+   "explanation": "na última eleição → perfeito；votar nós 形式 votamos（与现在时同形，靠语境判断）。",
+   "spanishContrast": "西语 votamos 同样现在/过去同形；注意干扰项 votámos 是旧拼写/葡萄牙拼法，巴西规范拼写不带重音。"
+  },
+  {
+   "id": "w6_q016",
+   "type": "fill_blank",
+   "difficulty": 3,
+   "topic": "gerúndio 填空",
+   "prompt": "Estou ___ a mesa para o jantar.（pôr 的 gerúndio，「我正在摆桌子」）",
+   "answer": [
+    "pondo"
+   ],
+   "explanation": "pôr → pondo（不规则 gerúndio：n 鼻化前接 õ）。",
+   "spanishContrast": "西语 poniendo → 葡语 pondo：词形差异大，硬记。"
+  },
+  {
+   "id": "w6_q017",
+   "type": "fill_blank",
+   "difficulty": 3,
+   "topic": "particípio 填空",
+   "prompt": "Ela tem ___ a mesma coisa todos os dias.（dizer 的 particípio，「她最近一直说同样的话」）",
+   "answer": [
+    "dito"
+   ],
+   "explanation": "dizer → dito（不规则 particípio）。tem dito = 最近反复说。",
+   "spanishContrast": "西语 dicho → 葡语 dito：ch→t。"
+  },
+  {
+   "id": "w6_q018",
+   "type": "fill_blank",
+   "difficulty": 3,
+   "topic": "particípio 填空",
+   "prompt": "Eu tenho ___ exercício ultimamente.（fazer 的 particípio）",
+   "answer": [
+    "feito"
+   ],
+   "explanation": "fazer → feito。tenho feito exercício = 我最近一直在锻炼。",
+   "spanishContrast": "西语 hecho → 葡语 feito：最高频不规则 particípio。"
+  },
+  {
+   "id": "w6_q019",
+   "type": "conjugation",
+   "difficulty": 2,
+   "topic": "完整变位：estar 现在时",
+   "prompt": "写出动词 estar 的现在时变位（eu / você / nós / eles）：",
+   "answer": {
+    "eu": "estou",
+    "você": "está",
+    "nós": "estamos",
+    "eles": "estão"
+   },
+   "explanation": "estar 现在时：estou / está / estamos / estão（tu 形式 estás）。进行时的助动词，必须滚瓜烂熟。",
+   "spanishContrast": "西语 estoy/está/estamos/están → 葡语 estou/está/estamos/estão：y→ou、án→ão。"
+  },
+  {
+   "id": "w6_q020",
+   "type": "conjugation",
+   "difficulty": 2,
+   "topic": "完整变位：ter 现在时",
+   "prompt": "写出动词 ter 的现在时变位（eu / você / nós / eles）：",
+   "answer": {
+    "eu": "tenho",
+    "você": "tem",
+    "nós": "temos",
+    "eles": "têm"
+   },
+   "explanation": "ter 现在时：tenho / tem / temos / têm（tu 形式 tens）。composto 的助动词；eles 形式 têm 带尖音符，与单数 tem 区分。",
+   "spanishContrast": "西语 tengo/tiene/tenemos/tienen → 葡语 tenho/tem/temos/têm：葡语无 ie 双元音化，复数 têm 的尖音符是葡语特有。"
+  },
+  {
+   "id": "w6_q021",
+   "type": "translation",
+   "difficulty": 2,
+   "topic": "翻译",
+   "prompt": "把西语翻译成葡语：Estoy trabajando ahora, te llamo después.",
+   "answer": [
+    "Estou trabalhando agora, te ligo depois",
+    "Eu estou trabalhando agora, eu te ligo depois"
+   ],
+   "explanation": "estoy→estou；trabajando→trabalhando（-ando 同形）；te llamo→te ligo（ll→ch？不——llamar→ligar 是词汇替换：葡语'打电话'用 ligar）。",
+   "spanishContrast": "西语 llamar → 葡语 ligar（打电话）：假朋友！葡语 chamar 是'叫名字/呼唤'，不是打电话。"
+  },
+  {
+   "id": "w6_q022",
+   "type": "translation",
+   "difficulty": 3,
+   "topic": "翻译",
+   "prompt": "把西语翻译成葡语：Últimamente he estudiado mucho portugués.（注意语义：最近一直在学）",
+   "answer": [
+    "Ultimamente eu tenho estudado muito português",
+    "Eu tenho estudado muito português ultimamente",
+    "Tenho estudado muito português ultimamente"
+   ],
+   "explanation": "这是西语 perfecto 与葡语 composto 语义恰好重合的少数场景：'最近反复做' → 葡语 tenho estudado。",
+   "spanishContrast": "关键判断：西语 he estudiado 配 ultimamente 表'反复'时，葡语用 tenho estudado；但西语 he estudiado 配 hoy 表'刚学过'时，葡语用 estudei/acabei de estudar——状语决定译法！"
+  },
+  {
+   "id": "w6_q023",
+   "type": "translation",
+   "difficulty": 4,
+   "topic": "段落翻译",
+   "aiGraded": true,
+   "prompt": "【AI 批改 · 段落翻译】把下面这段约 70 词的西语新闻翻译成巴西葡语，注意进行时与 pretérito composto 的用法：\n\nLluvias fuertes están causando inundaciones en varias ciudades del sur de Brasil. Según el gobierno, más de mil familias están dejando sus casas en este momento. Los equipos de rescate están trabajando toda la noche. «El problema ha empeorado en los últimos años», declaró la alcaldesa esta mañana. La policía pide que la población evite salir de casa.",
+   "referenceAnswer": "Chuvas fortes estão causando enchentes em várias cidades do sul do Brasil. Segundo o governo, mais de mil famílias estão deixando suas casas neste momento. As equipes de resgate estão trabalhando a noite toda. «O problema tem piorado nos últimos anos», declarou a prefeita esta manhã. A polícia pede que a população evite sair de casa.",
+   "scoringCriteria": "进行时（estão causando/estão deixando/estão trabalhando）用 estar+gerúndio 正确(3分)、composto（tem piorado）译出'近年持续恶化'而非 perfeito 单次(2分)、新闻词汇迁移（inundaciones→enchentes, alcaldesa→prefeita, rescate→resgate）(3分)、缩合与冠词（do sul, neste momento, a noite toda）正确(2分)",
+   "spanishContrast": "高频错误自查：*inundações（巴西新闻说 enchentes）、alcaldesa→prefeita（不是 *alcaldesa）、ha empeorado→tem piorado（配 nos últimos anos 必须用 composto）。"
+  }
+ ]
 }

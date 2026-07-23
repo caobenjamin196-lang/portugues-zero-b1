@@ -27,6 +27,7 @@
     const answers = {};       // id -> 用户答案
     const graded = {};        // id -> 批改结果
     const aiQuestions = [];   // aiGraded 题
+    let freqVocabMap = null;  // 归一化 pt -> {pt, zh}，用于错词入单词卡池
 
     const TYPE_LABEL = {
       single_choice: '单选', multi_choice: '多选', fill_blank: '填空',
@@ -136,6 +137,43 @@
       }
     }
 
+    /* ===== 单词卡池：词汇题答错自动入卡 ===== */
+    async function loadFreqVocabMap() {
+      try {
+        const fv = await Data.loadFrequencyVocab();
+        const map = {};
+        for (let w = 1; w <= 8; w++) {
+          (fv['w' + w] || []).forEach(e => {
+            map[QuizEngine.normalizeAnswer(e.pt)] = { pt: e.pt, zh: e.zh };
+          });
+        }
+        freqVocabMap = map;
+      } catch (e) {
+        freqVocabMap = null; // 词表不可用则跳过入卡，不影响判分
+      }
+    }
+
+    function isVocabQuestion(q) {
+      return /vocab/i.test(q.id || '') || /词汇|单词/.test(q.topic || '');
+    }
+
+    /* 从词汇题提取对应单词，必须在频率词表中才返回（否则跳过不入卡） */
+    function extractVocabWord(q) {
+      if (!freqVocabMap) return null;
+      const cands = [];
+      let m = (q.prompt || '').match(/葡语单词\s+([^\s，。？！]+?)\s*是什么意思/);
+      if (m) cands.push(m[1]);
+      m = (q.prompt || '').match(/（([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ'\-]*)/);
+      if (m) cands.push(m[1]);
+      if (typeof q.answer === 'string') cands.push(q.answer);
+      (q.prompt || '').split(/[^A-Za-zÀ-ÿ'\-]+/).forEach(t => { if (t.length > 1) cands.push(t); });
+      for (const c of cands) {
+        const hit = freqVocabMap[QuizEngine.normalizeAnswer(c)];
+        if (hit) return hit;
+      }
+      return null;
+    }
+
     /* ===== 单题批改 + 即时反馈 ===== */
     function gradeOne(q) {
       const ua = collect(q);
@@ -166,6 +204,13 @@
       if (btn) btn.disabled = true;
       if (!r.correct) {
         Progress.addMistake(QuizEngine.mistakeEntry(week, q, ua));
+        if (isVocabQuestion(q)) {
+          const hit = extractVocabWord(q);
+          if (hit) {
+            Progress.addFlashcard({ word: hit.pt, zh: hit.zh, week });
+            toast(`🃏 「${hit.pt}」已加入单词卡池`);
+          }
+        }
       }
       updateScoreLine();
     }
@@ -309,6 +354,7 @@
 
     /* ===== 启动 ===== */
     async function start() {
+      loadFreqVocabMap(); // 异步预热频率词表（入卡用），不阻塞题库加载
       try {
         quiz = await Data.loadQuiz(week);
       } catch (e) {

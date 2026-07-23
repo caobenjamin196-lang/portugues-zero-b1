@@ -9,6 +9,7 @@ const Progress = (() => {
     totalStudyHours: 0,
     weeklyStats: {},          // { "w1": { studyTime, quizScore, completed } }
     mistakeBank: [],          // { week, question, userAnswer, correctAnswer, topic, reviewCount, lastReview, mastered }
+    flashcardDeck: [],        // { word, zh, week, progress(0-3), addedAt, lastMiss, mastered }
     streak: { current: 0, best: 0, lastStudy: null }
   });
 
@@ -142,6 +143,72 @@ const Progress = (() => {
     return d;
   }
 
+  /* ===== 单词卡池（flashcardDeck） ===== */
+
+  const today = () => new Date().toISOString().slice(0, 10);
+  const sameWord = (a, b) => String(a).toLowerCase() === String(b).toLowerCase();
+
+  /* 错词入卡：新词加入卡池；已在池/已过关的词重新入卡且进度清零 */
+  function addFlashcard(entry) {
+    const d = load();
+    const existing = d.flashcardDeck.find(c => sameWord(c.word, entry.word));
+    if (existing) {
+      existing.progress = 0;
+      existing.mastered = false;
+      existing.lastMiss = today();
+      existing.week = entry.week;
+      if (entry.zh) existing.zh = entry.zh;
+    } else {
+      d.flashcardDeck.push({
+        word: entry.word,
+        zh: entry.zh || '',
+        week: entry.week,
+        progress: 0,
+        addedAt: today(),
+        lastMiss: today(),
+        mastered: false
+      });
+    }
+    save(d);
+    return d;
+  }
+
+  /* 卡池 = 未过关的卡 */
+  function getFlashcards() {
+    return load().flashcardDeck.filter(c => !c.mastered);
+  }
+
+  function getMasteredFlashcards() {
+    return load().flashcardDeck.filter(c => c.mastered);
+  }
+
+  /* 专项考试答对：进度 +1，满 3 次标记 mastered 移出卡池 */
+  function recordFlashcardHit(word) {
+    const d = load();
+    const c = d.flashcardDeck.find(x => sameWord(x.word, word));
+    if (!c) return { progress: 0, mastered: false };
+    c.progress += 1;
+    if (c.progress >= 3) {
+      c.progress = 3;
+      c.mastered = true;
+    }
+    save(d);
+    return { progress: c.progress, mastered: c.mastered };
+  }
+
+  /* 任何考试答错：进度清零、重新入卡（若在池中） */
+  function recordFlashcardMiss(word) {
+    const d = load();
+    const c = d.flashcardDeck.find(x => sameWord(x.word, word));
+    if (c) {
+      c.progress = 0;
+      c.mastered = false;
+      c.lastMiss = today();
+      save(d);
+    }
+    return d;
+  }
+
   /* 导出 / 导入 */
   function exportJSON() {
     return JSON.stringify({ progress: load(), settings: loadSettings(), exportedAt: new Date().toISOString() }, null, 2);
@@ -164,6 +231,8 @@ const Progress = (() => {
     load, save, loadSettings, saveSettings,
     touchStudy, addStudyTime, recordQuizScore,
     addMistake, getPendingMistakes, markMistakeReviewed, removeMistake,
+    addFlashcard, getFlashcards, getMasteredFlashcards,
+    recordFlashcardHit, recordFlashcardMiss,
     exportJSON, importJSON, resetAll
   };
 })();

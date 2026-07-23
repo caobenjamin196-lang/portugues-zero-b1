@@ -1,757 +1,757 @@
 {
-  "week": 4,
-  "title": "介词与连词（Phase 1 结业考）",
-  "theoryPage": "w04-prepositions-conjunctions.html",
-  "questions": [
-    {
-      "id": "w4_q001",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "介词 em",
-      "prompt": "Eu moro ___ São Paulo.",
-      "options": [
-        "en",
-        "em",
-        "no",
-        "na"
-      ],
-      "answer": "em",
-      "explanation": "城市名前用 em（不带冠词）：em São Paulo, em Pequim。en 是西语，葡语不存在！",
-      "spanishContrast": "西语 Vivo en São Paulo → 葡语 Eu moro em São Paulo。en→em 是最高频的介词迁移。"
-    },
-    {
-      "id": "w4_q002",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "缩合 em+a",
-      "prompt": "O livro está ___ mesa.（书在桌上）",
-      "options": [
-        "em a",
-        "na",
-        "no",
-        "da"
-      ],
-      "answer": "na",
-      "explanation": "em + a = na（强制缩合）。mesa 阴性 → na mesa。",
-      "spanishContrast": "西语 en la mesa 不缩合；葡语 em+a→na 是强制性的，写成 em a 是错误。"
-    },
-    {
-      "id": "w4_q003",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "缩合 a+a",
-      "prompt": "Eu vou ___ praia no sábado.（我周六去海滩）",
-      "options": [
-        "a a",
-        "à",
-        "ao",
-        "na"
-      ],
-      "answer": "à",
-      "explanation": "a + a = à（crase，重音符号标记缩合）。praia 阴性 → à praia。",
-      "spanishContrast": "西语 voy a la playa 不缩合。葡语 à 是 a+a 的强制缩合，书写上必须有 grave accent（`）。"
-    },
-    {
-      "id": "w4_q004",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "缩合 de+o",
-      "prompt": "Ele vem ___ Brasil.（他从巴西来）",
-      "options": [
-        "de o",
-        "do",
-        "da",
-        "no"
-      ],
-      "answer": "do",
-      "explanation": "de + o = do。Brasil 带阳性冠词（o Brasil）→ do Brasil。",
-      "spanishContrast": "西语 Viene de Brasil（不带冠词）。葡语国名常带冠词：o Brasil, a China, o Japão——这是重要差异。"
-    },
-    {
-      "id": "w4_q005",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "para vs por",
-      "prompt": "Este presente é ___ você.（这个礼物是给你的）",
-      "options": [
-        "por",
-        "para",
-        "pra",
-        "pelo"
-      ],
-      "answer": "para",
-      "explanation": "对象/归属用 para：é para você。巴西口语常缩成 pra（ê pra você），书写正式场合用 para。",
-      "spanishContrast": "西语 Este regalo es para ti——用法一致。西语 ti → 葡语 você（巴西不说 ti）。"
-    },
-    {
-      "id": "w4_q006",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "para vs por",
-      "prompt": "Eu estudo português ___ viajar pelo Brasil.（我学葡语是为了在巴西旅行）",
-      "options": [
-        "por",
-        "para",
-        "a",
-        "de"
-      ],
-      "answer": "para",
-      "explanation": "目的用 para + 不定式：para viajar。",
-      "spanishContrast": "西语 para viajar 相同。目的→para 两语一致，直接迁移。"
-    },
-    {
-      "id": "w4_q007",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "por",
-      "prompt": "Eu passo ___ parque todos os dias.（我每天经过公园）",
-      "options": [
-        "para o",
-        "pelo",
-        "no",
-        "ao"
-      ],
-      "answer": "pelo",
-      "explanation": "经过/通过某地用 por；por + o = pelo。",
-      "spanishContrast": "西语 paso por el parque。por 表'经由'两语一致；缩合 pelo=p or+o。"
-    },
-    {
-      "id": "w4_q008",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "por",
-      "prompt": "Obrigado ___ ajuda!（谢谢你的帮助）",
-      "options": [
-        "para a",
-        "pela",
-        "da",
-        "na"
-      ],
-      "answer": "pela",
-      "explanation": "感谢的原因用 por：obrigado por + 名词；por + a = pela。",
-      "spanishContrast": "西语 Gracias por la ayuda / Gracias por tu ayuda。por 表原因两语一致。"
-    },
-    {
-      "id": "w4_q009",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "de",
-      "prompt": "Eu sou ___ China.（我来自中国）",
-      "options": [
-        "de",
-        "da",
-        "do",
-        "em"
-      ],
-      "answer": "da",
-      "explanation": "来源地用 de；China 带阴性冠词（a China）→ de + a = da。",
-      "spanishContrast": "西语 Soy de China（不带冠词）。葡语国名带冠词：a China→da China, o Brasil→do Brasil, 但 Portugal 例外不带冠词（de Portugal）。"
-    },
-    {
-      "id": "w4_q010",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "动词+介词",
-      "prompt": "Eu gosto ___ café.（我喜欢咖啡）",
-      "options": [
-        "de",
-        "em",
-        "com",
-        "（无需介词）"
-      ],
-      "answer": "de",
-      "explanation": "gostar 必须搭配 de：gostar de。这是葡语最高频的动词+介词搭配。",
-      "spanishContrast": "西语 Me gusta el café（gustar 结构完全不同）。葡语 gostar de 是及物结构：Eu gosto de café。西语者极易漏掉 de！"
-    },
-    {
-      "id": "w4_q011",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "动词+介词",
-      "prompt": "Eu preciso ___ um favor.（我需要一个帮助）",
-      "options": [
-        "de",
-        "para",
-        "com",
-        "（无需介词）"
-      ],
-      "answer": "de",
-      "explanation": "precisar 搭配 de：precisar de。",
-      "spanishContrast": "西语 Necesito un favor（直接及物）。葡语 precisar de 必须带 de——高频陷阱。"
-    },
-    {
-      "id": "w4_q012",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "连词",
-      "prompt": "Quero café, ___ não tenho dinheiro.（我想喝咖啡，但是没钱）",
-      "options": [
-        "pero",
-        "mas",
-        "e",
-        "ou"
-      ],
-      "answer": "mas",
-      "explanation": "转折用 mas（=西语 pero/mas）。pero 在葡语中不存在！",
-      "spanishContrast": "西语 pero/mas → 葡语只有 mas。西语者容易脱口说 pero，这是标志性西语腔错误。"
-    },
-    {
-      "id": "w4_q013",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "连词",
-      "prompt": "Você quer chá ___ café?（你要茶还是咖啡？）",
-      "options": [
-        "o",
-        "ou",
-        "e",
-        "u"
-      ],
-      "answer": "ou",
-      "explanation": "选择用 ou（=西语 o）。注意发音 /o/，与西语 o 相近但拼写双字母。",
-      "spanishContrast": "西语 o（在 o- 前变 u）→ 葡语永远是 ou，无变形规则。"
-    },
-    {
-      "id": "w4_q014",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "复习 W3",
-      "prompt": "（复习）Ela ___ médica. (ser)",
-      "options": [
-        "está",
-        "é",
-        "são",
-        "tem"
-      ],
-      "answer": "é",
-      "explanation": "职业用 ser：Ela é médica。",
-      "spanishContrast": "西语 Ella es médica——ser 表职业两语一致。"
-    },
-    {
-      "id": "w4_q015",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "复习 W1",
-      "prompt": "（复习）não 中的 ão 是什么音？",
-      "options": [
-        "口元音 a + o",
-        "鼻化双元音",
-        "鼻辅音",
-        "半元音"
-      ],
-      "answer": "鼻化双元音",
-      "explanation": "ão = /ɐ̃w̃/，鼻化双元音。",
-      "spanishContrast": "西语 no 无鼻化。ão 是葡语标志性音。"
-    },
-    {
-      "id": "w4_q016",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "缩合",
-      "prompt": "em + o = ___（选出正确缩合形式）",
-      "answer": "no",
-      "explanation": "em + o = no：Eu moro no Brasil。",
-      "spanishContrast": "西语 en el 不缩合（区别于 del/al）。葡语缩合更系统、更强制。",
-      "options": [
-        "no",
-        "na",
-        "do",
-        "ao"
-      ]
-    },
-    {
-      "id": "w4_q017",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "缩合",
-      "prompt": "de + a = ___（选出正确缩合形式）",
-      "answer": "da",
-      "explanation": "de + a = da：a capital da China。",
-      "spanishContrast": "西语 de la 不缩合（只有 de+el→del）。",
-      "options": [
-        "da",
-        "do",
-        "na",
-        "à"
-      ]
-    },
-    {
-      "id": "w4_q018",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "缩合",
-      "prompt": "a + o = ___（选出正确缩合形式）",
-      "answer": "ao",
-      "explanation": "a + o = ao：Eu vou ao mercado。复数 aos。",
-      "spanishContrast": "西语 a + el = al → 葡语 ao。对应工整：al→ao, del→do。",
-      "options": [
-        "ao",
-        "à",
-        "do",
-        "no"
-      ]
-    },
-    {
-      "id": "w4_q019",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "缩合",
-      "prompt": "a + a = ___（选出正确缩合形式，注意符号）",
-      "answer": "à",
-      "explanation": "a + a = à（crase）。书写必须带 grave accent：Vou à escola。复数 às。",
-      "spanishContrast": "西语 a la 不缩合。à 是葡语特有的书写符号。",
-      "options": [
-        "à",
-        "ao",
-        "da",
-        "aa"
-      ]
-    },
-    {
-      "id": "w4_q020",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "缩合",
-      "prompt": "por + o = ___（选出正确缩合形式）",
-      "answer": "pelo",
-      "explanation": "por + o = pelo；por + a = pela：passar pelo parque, pela manhã。",
-      "spanishContrast": "西语 por el 不缩合。pelo/pela 是葡语独有缩合。",
-      "options": [
-        "pelo",
-        "pola",
-        "poro",
-        "pro"
-      ]
-    },
-    {
-      "id": "w4_q021",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "缩合应用",
-      "prompt": "Eu vou ___ mercado comprar pão.（a + o 缩合）",
-      "answer": "ao",
-      "explanation": "ir a + o mercado = ao mercado。",
-      "spanishContrast": "西语 Voy al mercado——al→ao。",
-      "options": [
-        "ao",
-        "à",
-        "no",
-        "do"
-      ]
-    },
-    {
-      "id": "w4_q022",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "介词应用",
-      "prompt": "Eu moro ___ uma casa pequena perto da praia.（em 与不定冠词的口语缩合）",
-      "answer": "numa",
-      "explanation": "em + uma = numa（口语缩合，正式写作可用 em uma）。em + um = num。",
-      "spanishContrast": "西语 en una 不缩合。num/numa 是巴西口语高频形式。",
-      "options": [
-        "numa",
-        "num",
-        "na",
-        "nuna"
-      ]
-    },
-    {
-      "id": "w4_q023",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "连词",
-      "prompt": "Eu gosto de café, ___ prefiro chá.（转折连词）",
-      "answer": "mas",
-      "explanation": "mas = 但是。葡语没有 pero。",
-      "spanishContrast": "西语 pero → 葡语 mas。",
-      "options": [
-        "mas",
-        "pero",
-        "e",
-        "ou"
-      ]
-    },
-    {
-      "id": "w4_q024",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "复习 W2",
-      "prompt": "（复习）西语 información 的葡语对应词是？",
-      "answer": "informação",
-      "explanation": "-ción → -ção。",
-      "spanishContrast": "información → informação。",
-      "options": [
-        "informação",
-        "informaçao",
-        "información",
-        "informaçom"
-      ]
-    },
-    {
-      "id": "w4_q025",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "复习 W3",
-      "prompt": "（复习）Eu ___ tempo hoje. (ter)",
-      "answer": "tenho",
-      "explanation": "ter → eu tenho。",
-      "spanishContrast": "西语 tengo → 葡语 tenho。",
-      "options": [
-        "tenho",
-        "tengo",
-        "tem",
-        "têm"
-      ]
-    },
-    {
-      "id": "w4_q026",
-      "type": "single_choice",
-      "difficulty": 3,
-      "topic": "复习 W3",
-      "prompt": "（复习）Nós ___ bem, obrigado. (estar)",
-      "answer": "estamos",
-      "explanation": "estar → nós estamos。",
-      "spanishContrast": "西语 estamos 完全相同。",
-      "options": [
-        "estamos",
-        "estão",
-        "está",
-        "estáis"
-      ]
-    },
-    {
-      "id": "w4_q027",
-      "type": "single_choice",
-      "difficulty": 3,
-      "topic": "复习 W1",
-      "prompt": "（复习）葡语中发 /ɲ/（对应西语 ñ）的字母组合是？",
-      "answer": "nh",
-      "explanation": "nh = ñ：senhor/señor。",
-      "spanishContrast": "ñ（西）= nh（葡）。",
-      "options": [
-        "nh",
-        "ñ",
-        "lh",
-        "gn"
-      ]
-    },
-    {
-      "id": "w4_q028",
-      "type": "translation",
-      "difficulty": 2,
-      "topic": "翻译",
-      "prompt": "把西语翻译成葡语：Voy al mercado.",
-      "answer": [
-        "Eu vou ao mercado",
-        "Vou ao mercado"
-      ],
-      "explanation": "al → ao；voy → vou。",
-      "spanishContrast": "al= a+el, ao= a+o——缩合逻辑一致，形式不同。"
-    },
-    {
-      "id": "w4_q029",
-      "type": "translation",
-      "difficulty": 2,
-      "topic": "翻译",
-      "prompt": "把西语翻译成葡语：El libro es de Juan.",
-      "answer": [
-        "O livro é do João",
-        "O livro e do Joao",
-        "O livro é de João"
-      ],
-      "explanation": "Juan 的葡语对应名是 João；de + o = do。人名前葡语常带冠词（巴西口语）：do João。",
-      "spanishContrast": "西语 de Juan 不带冠词；巴西葡语人名前带冠词很普遍：o João, a Maria。"
-    },
-    {
-      "id": "w4_q030",
-      "type": "translation",
-      "difficulty": 3,
-      "topic": "翻译",
-      "prompt": "把西语翻译成葡语：Vivo en Brasil con mi familia, pero trabajo para una empresa china.",
-      "answer": [
-        "Eu moro no Brasil com minha família, mas trabalho para uma empresa chinesa",
-        "Moro no Brasil com minha família, mas trabalho para uma empresa chinesa"
-      ],
-      "explanation": "en Brasil→no Brasil（em+o 缩合）；pero→mas；para 不变；china→chinesa（阴性形容词配合 empresa）。",
-      "spanishContrast": "三个考点：en→no（缩合）、pero→mas、empresa china→empresa chinesa（ch 发 /ʃ/）。"
-    },
-    {
-      "id": "w4_q031",
-      "type": "translation",
-      "difficulty": 4,
-      "topic": "段落翻译",
-      "aiGraded": true,
-      "prompt": "【Phase 1 结业考 · 段落翻译】把下面这段约 80 词的西语翻译成巴西葡语：\n\nHola, me llamo Carlos. Soy de España, pero ahora vivo en São Paulo con mi familia. Tengo dos hijos: un niño de ocho años y una niña de cinco. Trabajo en una universidad de la ciudad y estudio portugués todos los días. Me gusta mucho Brasil: la gente es simpática, la comida es buena y las playas son bonitas. Los fines de semana vamos a la playa o al parque. Estoy muy contento aquí.",
-      "referenceAnswer": "Olá, eu me chamo Carlos. Sou da Espanha, mas agora moro em São Paulo com minha família. Tenho dois filhos: um menino de oito anos e uma menina de cinco. Trabalho numa universidade da cidade e estudo português todos os dias. Eu gosto muito do Brasil: as pessoas são simpáticas, a comida é boa e as praias são bonitas. Nos fins de semana, nós vamos à praia ou ao parque. Estou muito contente aqui.",
-      "scoringCriteria": "me llamo→me chamo/sou(2分)、vivo→moro(2分)、en la universidad→numa universidade 缩合(2分)、Me gusta→Eu gosto de 结构转换(3分)、vamos a la playa→vamos à praia crase(2分)、niño/niña→menino/menina(2分)、pero→mas(1分)、整体流畅与主语保留(1分)",
-      "spanishContrast": "重点转换：vivo→moro（居住）、Me gusta Brasil→Eu gosto do Brasil（gustar 结构→gostar de）、a la playa→à praia（crase）、niño→menino（葡语'孩子'用 menino，niño 不存在）、en→em。"
-    },
-    {
-      "id": "w4_q032",
-      "type": "translation",
-      "difficulty": 4,
-      "topic": "自我介绍写作",
-      "aiGraded": true,
-      "prompt": "【Phase 1 结业考 · 写作】用巴西葡语写一段约 50 词的自我介绍。必须包含：\n① ser（身份/国籍）② estar（当前状态或位置）③ ter（拥有）④ morar（居住）⑤ 至少一个介词缩合（no/na/do/da/ao/à/num/numa）",
-      "referenceAnswer": "示例：Olá! Eu sou Li Ming e sou chinês. Moro num apartamento pequeno no centro de São Paulo. Eu tenho dois gatos e um cachorro. Trabalho numa empresa brasileira e estudo português todos os dias. Agora estou muito feliz porque gosto muito do Brasil. Nos fins de semana, eu vou à praia com meus amigos.",
-      "scoringCriteria": "ser 用法正确(2分)、estar 用法正确(2分)、ter 变位正确(1分)、morar 表居住(1分)、至少一个正确缩合(2分)、词数约50且表达连贯(2分)",
-      "spanishContrast": "常见错误自查：不要用 vivo 表居住（用 moro）；不要忘记 gostar 的 de；不要忘记国名冠词 do Brasil/da China。"
-    },
-    {
-      "id": "w4_vocab_q001",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "本周词汇",
-      "prompt": "葡语单词 barato 是什么意思？",
-      "options": [
-        "贵的",
-        "便宜的",
-        "免费的",
-        "大的"
-      ],
-      "answer": "便宜的",
-      "explanation": "barato = 便宜：O mercado é barato.（这家超市很便宜。）",
-      "spanishContrast": "barato 与西语同形同义；'贵的'是 caro。"
-    },
-    {
-      "id": "w4_vocab_q002",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "本周词汇",
-      "prompt": "葡语单词 difícil 是什么意思？",
-      "options": [
-        "容易的",
-        "难的",
-        "快的",
-        "慢的"
-      ],
-      "answer": "难的",
-      "explanation": "difícil = 难（复数 difíceis）：A pronúncia é difícil.（发音很难。）",
-      "spanishContrast": "difícil 与西语同形；复数 difíceis ≠ 西语 difíciles。'容易的'是 fácil。"
-    },
-    {
-      "id": "w4_vocab_q003",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "本周词汇",
-      "prompt": "葡语单词 sempre 是什么意思？",
-      "options": [
-        "从不",
-        "有时",
-        "总是",
-        "也许"
-      ],
-      "answer": "总是",
-      "explanation": "sempre = 总是：Eu sempre bebo café de manhã.（我总是早上喝咖啡。）",
-      "spanishContrast": "西语 siempre → 葡语 sempre：i 脱落。'从不'是 nunca。"
-    },
-    {
-      "id": "w4_vocab_q004",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "本周词汇",
-      "prompt": "葡语单词 nunca 是什么意思？",
-      "options": [
-        "总是",
-        "经常",
-        "有时",
-        "从不"
-      ],
-      "answer": "从不",
-      "explanation": "nunca = 从不：Eu nunca fumo.（我从不抽烟。）",
-      "spanishContrast": "nunca 两语同形同义，送分词。"
-    },
-    {
-      "id": "w4_vocab_q005",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "本周词汇",
-      "prompt": "葡语单词 talvez 是什么意思？",
-      "options": [
-        "当然",
-        "也许",
-        "总是",
-        "真的"
-      ],
-      "answer": "也许",
-      "explanation": "talvez = 也许：Talvez amanhã.（也许明天吧。）",
-      "spanishContrast": "西语 tal vez（分写）→ 葡语 talvez（连写），注意拼写差异。"
-    },
-    {
-      "id": "w4_vocab_q006",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "本周词汇",
-      "prompt": "葡语单词 longe 是什么意思？",
-      "options": [
-        "近",
-        "远",
-        "里面",
-        "外面"
-      ],
-      "answer": "远",
-      "explanation": "longe = 远：A praia fica longe.（海滩很远。）",
-      "spanishContrast": "西语 lejos → 葡语 longe，词形不同需单独记；'近'是 perto。"
-    },
-    {
-      "id": "w4_vocab_q007",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "本周词汇",
-      "prompt": "葡语单词 perto 是什么意思？",
-      "options": [
-        "远",
-        "近",
-        "上面",
-        "下面"
-      ],
-      "answer": "近",
-      "explanation": "perto = 近：O metrô fica perto da minha casa.（地铁离我家很近。）",
-      "spanishContrast": "西语 cerca → 葡语 perto；longe=远。"
-    },
-    {
-      "id": "w4_vocab_q008",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "本周词汇",
-      "prompt": "葡语单词 ocupado 是什么意思？",
-      "options": [
-        "空闲的",
-        "忙的",
-        "累的",
-        "生病的"
-      ],
-      "answer": "忙的",
-      "explanation": "ocupado = 忙：Eu estou ocupado agora.（我现在很忙。）",
-      "spanishContrast": "ocupado 与西语同形。'空闲的'是 livre，'累的'是 cansado。"
-    },
-    {
-      "id": "w4_vocab_q009",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "本周词汇",
-      "prompt": "“大的”的葡语是？",
-      "options": [
-        "pequeno",
-        "grande",
-        "alto",
-        "longo"
-      ],
-      "answer": "grande",
-      "explanation": "grande = 大（两性同形）：A casa é grande. / O carro é grande.",
-      "spanishContrast": "grande 两语同形同义，两性通用。pequeno=小，alto=高，longo=长。"
-    },
-    {
-      "id": "w4_vocab_q010",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "本周词汇",
-      "prompt": "“新的”的葡语是？",
-      "options": [
-        "velho",
-        "novo",
-        "jovem",
-        "bonito"
-      ],
-      "answer": "novo",
-      "explanation": "novo = 新：Eu tenho um carro novo.（我有一辆新车。）",
-      "spanishContrast": "西语 nuevo → 葡语 novo：ue → o 的规则对应。velho=旧，jovem=年轻，bonito=漂亮。"
-    },
-    {
-      "id": "w4_vocab_q011",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "本周词汇",
-      "prompt": "“贵的”的葡语是？",
-      "options": [
-        "barato",
-        "caro",
-        "rico",
-        "cheio"
-      ],
-      "answer": "caro",
-      "explanation": "caro = 贵：O hotel é muito caro.（这家酒店很贵。）",
-      "spanishContrast": "caro 两语同形同义。barato=便宜，rico=富，cheio=满。"
-    },
-    {
-      "id": "w4_vocab_q012",
-      "type": "single_choice",
-      "difficulty": 1,
-      "topic": "本周词汇",
-      "prompt": "“累的”的葡语是？",
-      "options": [
-        "feliz",
-        "triste",
-        "cansado",
-        "doente"
-      ],
-      "answer": "cansado",
-      "explanation": "cansado = 累：Eu estou cansado hoje.（我今天很累。）",
-      "spanishContrast": "cansado 两语同形同义。feliz=幸福，triste=悲伤，doente=生病。"
-    },
-    {
-      "id": "w4_vocab_q013",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "本周词汇",
-      "prompt": "【假朋友】葡语 embaraçada 的真正意思是？",
-      "options": [
-        "怀孕的",
-        "尴尬的",
-        "兴奋的",
-        "生气的"
-      ],
-      "answer": "尴尬的",
-      "explanation": "embaraçada = 尴尬的：Eu fiquei embaraçado.（我当时很尴尬。）葡语'怀孕'是 grávida！",
-      "spanishContrast": "西语 embarazada=怀孕 vs 葡语 embaraçada=尴尬——最经典的假朋友，说错会非常尴尬！"
-    },
-    {
-      "id": "w4_vocab_q014",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "本周词汇",
-      "prompt": "【假朋友】葡语 pasta 最常用的意思是？",
-      "options": [
-        "面条",
-        "面团",
-        "文件夹 / 公文包",
-        "钱"
-      ],
-      "answer": "文件夹 / 公文包",
-      "explanation": "pasta = 文件夹、公文包：A pasta está na mesa.（文件夹在桌上。）葡语'面团/意面'是 massa。",
-      "spanishContrast": "西语 pasta=面团/意大利面/钱（口语）；葡语 pasta=文件夹——餐厅和办公室场景都容易踩雷。"
-    },
-    {
-      "id": "w4_vocab_q015",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "本周词汇",
-      "prompt": "A loja está ___ hoje.（商店今天关门）",
-      "options": [
-        "fechada",
-        "fechado",
-        "aberta",
-        "aberto"
-      ],
-      "answer": "fechada",
-      "explanation": "loja 是阴性 → fechada：A loja está fechada.（商店关着。）形容词须与名词性一致。",
-      "spanishContrast": "西语 cerrada → 葡语 fechada：cerrar→fechar 的过去分词。"
-    },
-    {
-      "id": "w4_vocab_q016",
-      "type": "single_choice",
-      "difficulty": 2,
-      "topic": "本周词汇",
-      "prompt": "O metrô fica ___ da minha casa.（地铁离我家很近）",
-      "options": [
-        "perto",
-        "longe",
-        "dentro",
-        "fora"
-      ],
-      "answer": "perto",
-      "explanation": "perto de = 离…近：fica perto da minha casa（离我家近）。",
-      "spanishContrast": "西语 cerca de → 葡语 perto de；longe de=离…远。"
-    }
-  ]
+ "week": 4,
+ "title": "介词与连词（Phase 1 结业考）",
+ "theoryPage": "w04-prepositions-conjunctions.html",
+ "questions": [
+  {
+   "id": "w4_q001",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "介词 em",
+   "prompt": "Eu moro ___ São Paulo.",
+   "options": [
+    "en",
+    "em",
+    "no",
+    "na"
+   ],
+   "answer": "em",
+   "explanation": "城市名前用 em（不带冠词）：em São Paulo, em Pequim。en 是西语，葡语不存在！",
+   "spanishContrast": "西语 Vivo en São Paulo → 葡语 Eu moro em São Paulo。en→em 是最高频的介词迁移。"
+  },
+  {
+   "id": "w4_q002",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "缩合 em+a",
+   "prompt": "O livro está ___ mesa.（书在桌上）",
+   "options": [
+    "em a",
+    "na",
+    "no",
+    "da"
+   ],
+   "answer": "na",
+   "explanation": "em + a = na（强制缩合）。mesa 阴性 → na mesa。",
+   "spanishContrast": "西语 en la mesa 不缩合；葡语 em+a→na 是强制性的，写成 em a 是错误。"
+  },
+  {
+   "id": "w4_q003",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "缩合 a+a",
+   "prompt": "Eu vou ___ praia no sábado.（我周六去海滩）",
+   "options": [
+    "a a",
+    "à",
+    "ao",
+    "na"
+   ],
+   "answer": "à",
+   "explanation": "a + a = à（crase，重音符号标记缩合）。praia 阴性 → à praia。",
+   "spanishContrast": "西语 voy a la playa 不缩合。葡语 à 是 a+a 的强制缩合，书写上必须有 grave accent（`）。"
+  },
+  {
+   "id": "w4_q004",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "缩合 de+o",
+   "prompt": "Ele vem ___ Brasil.（他从巴西来）",
+   "options": [
+    "de o",
+    "do",
+    "da",
+    "no"
+   ],
+   "answer": "do",
+   "explanation": "de + o = do。Brasil 带阳性冠词（o Brasil）→ do Brasil。",
+   "spanishContrast": "西语 Viene de Brasil（不带冠词）。葡语国名常带冠词：o Brasil, a China, o Japão——这是重要差异。"
+  },
+  {
+   "id": "w4_q005",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "para vs por",
+   "prompt": "Este presente é ___ você.（这个礼物是给你的）",
+   "options": [
+    "por",
+    "para",
+    "pra",
+    "pelo"
+   ],
+   "answer": "para",
+   "explanation": "对象/归属用 para：é para você。巴西口语常缩成 pra（ê pra você），书写正式场合用 para。",
+   "spanishContrast": "西语 Este regalo es para ti——用法一致。西语 ti → 葡语 você（巴西不说 ti）。"
+  },
+  {
+   "id": "w4_q006",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "para vs por",
+   "prompt": "Eu estudo português ___ viajar pelo Brasil.（我学葡语是为了在巴西旅行）",
+   "options": [
+    "por",
+    "para",
+    "a",
+    "de"
+   ],
+   "answer": "para",
+   "explanation": "目的用 para + 不定式：para viajar。",
+   "spanishContrast": "西语 para viajar 相同。目的→para 两语一致，直接迁移。"
+  },
+  {
+   "id": "w4_q007",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "por",
+   "prompt": "Eu passo ___ parque todos os dias.（我每天经过公园）",
+   "options": [
+    "para o",
+    "pelo",
+    "no",
+    "ao"
+   ],
+   "answer": "pelo",
+   "explanation": "经过/通过某地用 por；por + o = pelo。",
+   "spanishContrast": "西语 paso por el parque。por 表'经由'两语一致；缩合 pelo=p or+o。"
+  },
+  {
+   "id": "w4_q008",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "por",
+   "prompt": "Obrigado ___ ajuda!（谢谢你的帮助）",
+   "options": [
+    "para a",
+    "pela",
+    "da",
+    "na"
+   ],
+   "answer": "pela",
+   "explanation": "感谢的原因用 por：obrigado por + 名词；por + a = pela。",
+   "spanishContrast": "西语 Gracias por la ayuda / Gracias por tu ayuda。por 表原因两语一致。"
+  },
+  {
+   "id": "w4_q009",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "de",
+   "prompt": "Eu sou ___ China.（我来自中国）",
+   "options": [
+    "de",
+    "da",
+    "do",
+    "em"
+   ],
+   "answer": "da",
+   "explanation": "来源地用 de；China 带阴性冠词（a China）→ de + a = da。",
+   "spanishContrast": "西语 Soy de China（不带冠词）。葡语国名带冠词：a China→da China, o Brasil→do Brasil, 但 Portugal 例外不带冠词（de Portugal）。"
+  },
+  {
+   "id": "w4_q010",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "动词+介词",
+   "prompt": "Eu gosto ___ café.（我喜欢咖啡）",
+   "options": [
+    "de",
+    "em",
+    "com",
+    "（无需介词）"
+   ],
+   "answer": "de",
+   "explanation": "gostar 必须搭配 de：gostar de。这是葡语最高频的动词+介词搭配。",
+   "spanishContrast": "西语 Me gusta el café（gustar 结构完全不同）。葡语 gostar de 是及物结构：Eu gosto de café。西语者极易漏掉 de！"
+  },
+  {
+   "id": "w4_q011",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "动词+介词",
+   "prompt": "Eu preciso ___ um favor.（我需要一个帮助）",
+   "options": [
+    "de",
+    "para",
+    "com",
+    "（无需介词）"
+   ],
+   "answer": "de",
+   "explanation": "precisar 搭配 de：precisar de。",
+   "spanishContrast": "西语 Necesito un favor（直接及物）。葡语 precisar de 必须带 de——高频陷阱。"
+  },
+  {
+   "id": "w4_q012",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "连词",
+   "prompt": "Quero café, ___ não tenho dinheiro.（我想喝咖啡，但是没钱）",
+   "options": [
+    "pero",
+    "mas",
+    "e",
+    "ou"
+   ],
+   "answer": "mas",
+   "explanation": "转折用 mas（=西语 pero/mas）。pero 在葡语中不存在！",
+   "spanishContrast": "西语 pero/mas → 葡语只有 mas。西语者容易脱口说 pero，这是标志性西语腔错误。"
+  },
+  {
+   "id": "w4_q013",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "连词",
+   "prompt": "Você quer chá ___ café?（你要茶还是咖啡？）",
+   "options": [
+    "o",
+    "ou",
+    "e",
+    "u"
+   ],
+   "answer": "ou",
+   "explanation": "选择用 ou（=西语 o）。注意发音 /o/，与西语 o 相近但拼写双字母。",
+   "spanishContrast": "西语 o（在 o- 前变 u）→ 葡语永远是 ou，无变形规则。"
+  },
+  {
+   "id": "w4_q014",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "复习 W3",
+   "prompt": "（复习）Ela ___ médica. (ser)",
+   "options": [
+    "está",
+    "é",
+    "são",
+    "tem"
+   ],
+   "answer": "é",
+   "explanation": "职业用 ser：Ela é médica。",
+   "spanishContrast": "西语 Ella es médica——ser 表职业两语一致。"
+  },
+  {
+   "id": "w4_q015",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "复习 W1",
+   "prompt": "（复习）não 中的 ão 是什么音？",
+   "options": [
+    "口元音 a + o",
+    "鼻化双元音",
+    "鼻辅音",
+    "半元音"
+   ],
+   "answer": "鼻化双元音",
+   "explanation": "ão = /ɐ̃w̃/，鼻化双元音。",
+   "spanishContrast": "西语 no 无鼻化。ão 是葡语标志性音。"
+  },
+  {
+   "id": "w4_q016",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "缩合",
+   "prompt": "em + o = ___（选出正确缩合形式）",
+   "answer": "no",
+   "explanation": "em + o = no：Eu moro no Brasil。",
+   "spanishContrast": "西语 en el 不缩合（区别于 del/al）。葡语缩合更系统、更强制。",
+   "options": [
+    "no",
+    "na",
+    "do",
+    "ao"
+   ]
+  },
+  {
+   "id": "w4_q017",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "缩合",
+   "prompt": "de + a = ___（选出正确缩合形式）",
+   "answer": "da",
+   "explanation": "de + a = da：a capital da China。",
+   "spanishContrast": "西语 de la 不缩合（只有 de+el→del）。",
+   "options": [
+    "da",
+    "do",
+    "na",
+    "à"
+   ]
+  },
+  {
+   "id": "w4_q018",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "缩合",
+   "prompt": "a + o = ___（选出正确缩合形式）",
+   "answer": "ao",
+   "explanation": "a + o = ao：Eu vou ao mercado。复数 aos。",
+   "spanishContrast": "西语 a + el = al → 葡语 ao。对应工整：al→ao, del→do。",
+   "options": [
+    "ao",
+    "à",
+    "do",
+    "no"
+   ]
+  },
+  {
+   "id": "w4_q019",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "缩合",
+   "prompt": "a + a = ___（选出正确缩合形式，注意符号）",
+   "answer": "à",
+   "explanation": "a + a = à（crase）。书写必须带 grave accent：Vou à escola。复数 às。",
+   "spanishContrast": "西语 a la 不缩合。à 是葡语特有的书写符号。",
+   "options": [
+    "à",
+    "ao",
+    "da",
+    "aa"
+   ]
+  },
+  {
+   "id": "w4_q020",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "缩合",
+   "prompt": "por + o = ___（选出正确缩合形式）",
+   "answer": "pelo",
+   "explanation": "por + o = pelo；por + a = pela：passar pelo parque, pela manhã。",
+   "spanishContrast": "西语 por el 不缩合。pelo/pela 是葡语独有缩合。",
+   "options": [
+    "pelo",
+    "pola",
+    "poro",
+    "pro"
+   ]
+  },
+  {
+   "id": "w4_q021",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "缩合应用",
+   "prompt": "Eu vou ___ mercado comprar pão.（a + o 缩合）",
+   "answer": "ao",
+   "explanation": "ir a + o mercado = ao mercado。",
+   "spanishContrast": "西语 Voy al mercado——al→ao。",
+   "options": [
+    "ao",
+    "à",
+    "no",
+    "do"
+   ]
+  },
+  {
+   "id": "w4_q022",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "介词应用",
+   "prompt": "Eu moro ___ uma casa pequena perto da praia.（em 与不定冠词的口语缩合）",
+   "answer": "numa",
+   "explanation": "em + uma = numa（口语缩合，正式写作可用 em uma）。em + um = num。",
+   "spanishContrast": "西语 en una 不缩合。num/numa 是巴西口语高频形式。",
+   "options": [
+    "numa",
+    "num",
+    "na",
+    "nuna"
+   ]
+  },
+  {
+   "id": "w4_q023",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "连词",
+   "prompt": "Eu gosto de café, ___ prefiro chá.（转折连词）",
+   "answer": "mas",
+   "explanation": "mas = 但是。葡语没有 pero。",
+   "spanishContrast": "西语 pero → 葡语 mas。",
+   "options": [
+    "mas",
+    "pero",
+    "e",
+    "ou"
+   ]
+  },
+  {
+   "id": "w4_q024",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "复习 W2",
+   "prompt": "（复习）西语 información 的葡语对应词是？",
+   "answer": "informação",
+   "explanation": "-ción → -ção。",
+   "spanishContrast": "información → informação。",
+   "options": [
+    "informação",
+    "informaçao",
+    "información",
+    "informaçom"
+   ]
+  },
+  {
+   "id": "w4_q025",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "复习 W3",
+   "prompt": "（复习）Eu ___ tempo hoje. (ter)",
+   "answer": "tenho",
+   "explanation": "ter → eu tenho。",
+   "spanishContrast": "西语 tengo → 葡语 tenho。",
+   "options": [
+    "tenho",
+    "tengo",
+    "tem",
+    "têm"
+   ]
+  },
+  {
+   "id": "w4_q026",
+   "type": "single_choice",
+   "difficulty": 3,
+   "topic": "复习 W3",
+   "prompt": "（复习）Nós ___ bem, obrigado. (estar)",
+   "answer": "estamos",
+   "explanation": "estar → nós estamos。",
+   "spanishContrast": "西语 estamos 完全相同。",
+   "options": [
+    "estamos",
+    "estão",
+    "está",
+    "estáis"
+   ]
+  },
+  {
+   "id": "w4_q027",
+   "type": "single_choice",
+   "difficulty": 3,
+   "topic": "复习 W1",
+   "prompt": "（复习）葡语中发 /ɲ/（对应西语 ñ）的字母组合是？",
+   "answer": "nh",
+   "explanation": "nh = ñ：senhor/señor。",
+   "spanishContrast": "ñ（西）= nh（葡）。",
+   "options": [
+    "nh",
+    "ñ",
+    "lh",
+    "gn"
+   ]
+  },
+  {
+   "id": "w4_q028",
+   "type": "translation",
+   "difficulty": 2,
+   "topic": "翻译",
+   "prompt": "把西语翻译成葡语：Voy al mercado.",
+   "answer": [
+    "Eu vou ao mercado",
+    "Vou ao mercado"
+   ],
+   "explanation": "al → ao；voy → vou。",
+   "spanishContrast": "al= a+el, ao= a+o——缩合逻辑一致，形式不同。"
+  },
+  {
+   "id": "w4_q029",
+   "type": "translation",
+   "difficulty": 2,
+   "topic": "翻译",
+   "prompt": "把西语翻译成葡语：El libro es de Juan.",
+   "answer": [
+    "O livro é do João",
+    "O livro e do Joao",
+    "O livro é de João"
+   ],
+   "explanation": "Juan 的葡语对应名是 João；de + o = do。人名前葡语常带冠词（巴西口语）：do João。",
+   "spanishContrast": "西语 de Juan 不带冠词；巴西葡语人名前带冠词很普遍：o João, a Maria。"
+  },
+  {
+   "id": "w4_q030",
+   "type": "translation",
+   "difficulty": 3,
+   "topic": "翻译",
+   "prompt": "把西语翻译成葡语：Vivo en Brasil con mi familia, pero trabajo para una empresa china.",
+   "answer": [
+    "Eu moro no Brasil com minha família, mas trabalho para uma empresa chinesa",
+    "Moro no Brasil com minha família, mas trabalho para uma empresa chinesa"
+   ],
+   "explanation": "en Brasil→no Brasil（em+o 缩合）；pero→mas；para 不变；china→chinesa（阴性形容词配合 empresa）。",
+   "spanishContrast": "三个考点：en→no（缩合）、pero→mas、empresa china→empresa chinesa（ch 发 /ʃ/）。"
+  },
+  {
+   "id": "w4_q031",
+   "type": "translation",
+   "difficulty": 4,
+   "topic": "段落翻译",
+   "aiGraded": true,
+   "prompt": "【Phase 1 结业考 · 段落翻译】把下面这段约 80 词的西语翻译成巴西葡语：\n\nHola, me llamo Carlos. Soy de España, pero ahora vivo en São Paulo con mi familia. Tengo dos hijos: un niño de ocho años y una niña de cinco. Trabajo en una universidad de la ciudad y estudio portugués todos los días. Me gusta mucho Brasil: la gente es simpática, la comida es buena y las playas son bonitas. Los fines de semana vamos a la playa o al parque. Estoy muy contento aquí.",
+   "referenceAnswer": "Olá, eu me chamo Carlos. Sou da Espanha, mas agora moro em São Paulo com minha família. Tenho dois filhos: um menino de oito anos e uma menina de cinco. Trabalho numa universidade da cidade e estudo português todos os dias. Eu gosto muito do Brasil: as pessoas são simpáticas, a comida é boa e as praias são bonitas. Nos fins de semana, nós vamos à praia ou ao parque. Estou muito contente aqui.",
+   "scoringCriteria": "me llamo→me chamo/sou(2分)、vivo→moro(2分)、en la universidad→numa universidade 缩合(2分)、Me gusta→Eu gosto de 结构转换(3分)、vamos a la playa→vamos à praia crase(2分)、niño/niña→menino/menina(2分)、pero→mas(1分)、整体流畅与主语保留(1分)",
+   "spanishContrast": "重点转换：vivo→moro（居住）、Me gusta Brasil→Eu gosto do Brasil（gustar 结构→gostar de）、a la playa→à praia（crase）、niño→menino（葡语'孩子'用 menino，niño 不存在）、en→em。"
+  },
+  {
+   "id": "w4_q032",
+   "type": "translation",
+   "difficulty": 4,
+   "topic": "自我介绍写作",
+   "aiGraded": true,
+   "prompt": "【Phase 1 结业考 · 写作】用巴西葡语写一段约 50 词的自我介绍。必须包含：\n① ser（身份/国籍）② estar（当前状态或位置）③ ter（拥有）④ morar（居住）⑤ 至少一个介词缩合（no/na/do/da/ao/à/num/numa）",
+   "referenceAnswer": "示例：Olá! Eu sou Li Ming e sou chinês. Moro num apartamento pequeno no centro de São Paulo. Eu tenho dois gatos e um cachorro. Trabalho numa empresa brasileira e estudo português todos os dias. Agora estou muito feliz porque gosto muito do Brasil. Nos fins de semana, eu vou à praia com meus amigos.",
+   "scoringCriteria": "ser 用法正确(2分)、estar 用法正确(2分)、ter 变位正确(1分)、morar 表居住(1分)、至少一个正确缩合(2分)、词数约50且表达连贯(2分)",
+   "spanishContrast": "常见错误自查：不要用 vivo 表居住（用 moro）；不要忘记 gostar 的 de；不要忘记国名冠词 do Brasil/da China。"
+  },
+  {
+   "id": "w4_vocab_q001",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "本周词汇",
+   "prompt": "葡语单词 barato 是什么意思？",
+   "options": [
+    "贵的",
+    "便宜的",
+    "免费的",
+    "大的"
+   ],
+   "answer": "便宜的",
+   "explanation": "barato = 便宜：O mercado é barato.（这家超市很便宜。）",
+   "spanishContrast": "barato 与西语同形同义；'贵的'是 caro。"
+  },
+  {
+   "id": "w4_vocab_q002",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "本周词汇",
+   "prompt": "葡语单词 difícil 是什么意思？",
+   "options": [
+    "容易的",
+    "难的",
+    "快的",
+    "慢的"
+   ],
+   "answer": "难的",
+   "explanation": "difícil = 难（复数 difíceis）：A pronúncia é difícil.（发音很难。）",
+   "spanishContrast": "difícil 与西语同形；复数 difíceis ≠ 西语 difíciles。'容易的'是 fácil。"
+  },
+  {
+   "id": "w4_vocab_q003",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "本周词汇",
+   "prompt": "葡语单词 sempre 是什么意思？",
+   "options": [
+    "从不",
+    "有时",
+    "总是",
+    "也许"
+   ],
+   "answer": "总是",
+   "explanation": "sempre = 总是：Eu sempre bebo café de manhã.（我总是早上喝咖啡。）",
+   "spanishContrast": "西语 siempre → 葡语 sempre：i 脱落。'从不'是 nunca。"
+  },
+  {
+   "id": "w4_vocab_q004",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "本周词汇",
+   "prompt": "葡语单词 nunca 是什么意思？",
+   "options": [
+    "总是",
+    "经常",
+    "有时",
+    "从不"
+   ],
+   "answer": "从不",
+   "explanation": "nunca = 从不：Eu nunca fumo.（我从不抽烟。）",
+   "spanishContrast": "nunca 两语同形同义，送分词。"
+  },
+  {
+   "id": "w4_vocab_q005",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "本周词汇",
+   "prompt": "葡语单词 talvez 是什么意思？",
+   "options": [
+    "当然",
+    "也许",
+    "总是",
+    "真的"
+   ],
+   "answer": "也许",
+   "explanation": "talvez = 也许：Talvez amanhã.（也许明天吧。）",
+   "spanishContrast": "西语 tal vez（分写）→ 葡语 talvez（连写），注意拼写差异。"
+  },
+  {
+   "id": "w4_vocab_q006",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "本周词汇",
+   "prompt": "葡语单词 longe 是什么意思？",
+   "options": [
+    "近",
+    "远",
+    "里面",
+    "外面"
+   ],
+   "answer": "远",
+   "explanation": "longe = 远：A praia fica longe.（海滩很远。）",
+   "spanishContrast": "西语 lejos → 葡语 longe，词形不同需单独记；'近'是 perto。"
+  },
+  {
+   "id": "w4_vocab_q007",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "本周词汇",
+   "prompt": "葡语单词 perto 是什么意思？",
+   "options": [
+    "远",
+    "近",
+    "上面",
+    "下面"
+   ],
+   "answer": "近",
+   "explanation": "perto = 近：O metrô fica perto da minha casa.（地铁离我家很近。）",
+   "spanishContrast": "西语 cerca → 葡语 perto；longe=远。"
+  },
+  {
+   "id": "w4_vocab_q008",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "本周词汇",
+   "prompt": "葡语单词 ocupado 是什么意思？",
+   "options": [
+    "空闲的",
+    "忙的",
+    "累的",
+    "生病的"
+   ],
+   "answer": "忙的",
+   "explanation": "ocupado = 忙：Eu estou ocupado agora.（我现在很忙。）",
+   "spanishContrast": "ocupado 与西语同形。'空闲的'是 livre，'累的'是 cansado。"
+  },
+  {
+   "id": "w4_vocab_q009",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "本周词汇",
+   "prompt": "“大的”的葡语是？",
+   "options": [
+    "pequeno",
+    "grande",
+    "alto",
+    "longo"
+   ],
+   "answer": "grande",
+   "explanation": "grande = 大（两性同形）：A casa é grande. / O carro é grande.",
+   "spanishContrast": "grande 两语同形同义，两性通用。pequeno=小，alto=高，longo=长。"
+  },
+  {
+   "id": "w4_vocab_q010",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "本周词汇",
+   "prompt": "“新的”的葡语是？",
+   "options": [
+    "velho",
+    "novo",
+    "jovem",
+    "bonito"
+   ],
+   "answer": "novo",
+   "explanation": "novo = 新：Eu tenho um carro novo.（我有一辆新车。）",
+   "spanishContrast": "西语 nuevo → 葡语 novo：ue → o 的规则对应。velho=旧，jovem=年轻，bonito=漂亮。"
+  },
+  {
+   "id": "w4_vocab_q011",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "本周词汇",
+   "prompt": "“贵的”的葡语是？",
+   "options": [
+    "barato",
+    "caro",
+    "rico",
+    "cheio"
+   ],
+   "answer": "caro",
+   "explanation": "caro = 贵：O hotel é muito caro.（这家酒店很贵。）",
+   "spanishContrast": "caro 两语同形同义。barato=便宜，rico=富，cheio=满。"
+  },
+  {
+   "id": "w4_vocab_q012",
+   "type": "single_choice",
+   "difficulty": 1,
+   "topic": "本周词汇",
+   "prompt": "“累的”的葡语是？",
+   "options": [
+    "feliz",
+    "triste",
+    "cansado",
+    "doente"
+   ],
+   "answer": "cansado",
+   "explanation": "cansado = 累：Eu estou cansado hoje.（我今天很累。）",
+   "spanishContrast": "cansado 两语同形同义。feliz=幸福，triste=悲伤，doente=生病。"
+  },
+  {
+   "id": "w4_vocab_q013",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "本周词汇",
+   "prompt": "【假朋友】葡语 embaraçada 的真正意思是？",
+   "options": [
+    "怀孕的",
+    "尴尬的",
+    "兴奋的",
+    "生气的"
+   ],
+   "answer": "尴尬的",
+   "explanation": "embaraçada = 尴尬的：Eu fiquei embaraçado.（我当时很尴尬。）葡语'怀孕'是 grávida！",
+   "spanishContrast": "西语 embarazada=怀孕 vs 葡语 embaraçada=尴尬——最经典的假朋友，说错会非常尴尬！"
+  },
+  {
+   "id": "w4_vocab_q014",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "本周词汇",
+   "prompt": "【假朋友】葡语 pasta 最常用的意思是？",
+   "options": [
+    "面条",
+    "面团",
+    "文件夹 / 公文包",
+    "钱"
+   ],
+   "answer": "文件夹 / 公文包",
+   "explanation": "pasta = 文件夹、公文包：A pasta está na mesa.（文件夹在桌上。）千万别按西语 pasta 理解成「面条」。",
+   "spanishContrast": "西语 pasta=面团/意大利面/钱（口语）；葡语 pasta=文件夹——餐厅和办公室场景都容易踩雷。"
+  },
+  {
+   "id": "w4_vocab_q015",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "本周词汇",
+   "prompt": "A loja está ___ hoje.（商店今天关门）",
+   "options": [
+    "fechada",
+    "fechado",
+    "aberta",
+    "aberto"
+   ],
+   "answer": "fechada",
+   "explanation": "loja 是阴性 → fechada：A loja está fechada.（商店关着。）形容词须与名词性一致。",
+   "spanishContrast": "西语 cerrada → 葡语 fechada：cerrar→fechar 的过去分词。"
+  },
+  {
+   "id": "w4_vocab_q016",
+   "type": "single_choice",
+   "difficulty": 2,
+   "topic": "本周词汇",
+   "prompt": "O metrô fica ___ da minha casa.（地铁离我家很近）",
+   "options": [
+    "perto",
+    "longe",
+    "dentro",
+    "fora"
+   ],
+   "answer": "perto",
+   "explanation": "perto de = 离…近：fica perto da minha casa（离我家近）。",
+   "spanishContrast": "西语 cerca de → 葡语 perto de；longe de=离…远。"
+  }
+ ]
 }
