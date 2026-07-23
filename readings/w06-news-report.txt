@@ -1,0 +1,82 @@
+==============================================================
+W6 阅读 · 新闻报道（Notícia，约 200 词）
+==============================================================
+
+【新闻】Chuva forte causa enchentes no Rio de Janeiro
+
+RIO DE JANEIRO — A chuva forte que cai desde ontem à noite está
+causando enchentes em vários bairros do Rio de Janeiro. Segundo a
+prefeitura, mais de duzentas famílias estão deixando suas casas
+neste momento.
+
+"Estamos acompanhando a situação minuto a minuto", declarou o
+prefeito na manhã de hoje. "As equipes da Defesa Civil estão
+trabalhando nas regiões mais afetadas e estão ajudando os moradores."
+
+Nos últimos meses, a cidade tem enfrentado chuvas cada vez mais
+fortes. "O problema tem piorado nos últimos anos", explica a
+pesquisadora Ana Costa, da universidade federal. "As mudanças
+climáticas têm aumentado a frequência das tempestades."
+
+Na zona oeste, o trânsito está parado desde as seis horas. Várias
+avenidas estão fechadas e os ônibus não estão circulando. A polícia
+pede que a população evite sair de casa.
+
+Moradores do bairro de Bangu estão usando barcos para sair de suas
+ruas. "A água está subindo rápido. Estamos com medo", disse a
+moradora Maria Souza, que mora na região há trinta anos.
+
+A Defesa Civil anunciou que abrigos estão recebendo as famílias
+desabrigadas e que equipes médicas estão atendendo nos pontos mais
+críticos. A previsão é que a chuva continue até amanhã.
+
+(Adaptado de notícias do G1 — texto didático)
+
+--------------------------------------------------------------
+词汇表（★ = 假朋友/易混）
+--------------------------------------------------------------
+enchente          洪水/内涝（阴性；★ 西语 inundación 不同）
+cai (a chuva que cai)  下（雨）——cair 表"下雨"，★ 西语 llover 不可直译成 *chover caindo
+prefeitura        市政府（阴性）
+estão deixando    正在离开（estar + gerúndio，本周语法点）
+acompanhar        跟踪/关注（acompanhar a situação）
+Declarar          宣布（declarou/declarou o prefeito 新闻体高频）
+Defesa Civil      民防（巴西应急机构）
+equipes           队伍（阴性复数）
+afetadas          受影响的（afetar → afetado；阴性复数配合）
+tem enfrentado    一直在面对（pretérito composto = 最近反复/持续，本周头号语法点）
+pesquisadora      女研究员（阳性 pesquisador）
+mudanças climáticas  气候变化
+têm aumentado     一直在增加（composto，持续到现在）
+trânsito          交通（阳性；★ 西语 tráfico/tránsito，葡语 trânsito 带重音）
+fechadas          被关闭的（fechar → fechado）
+evite (evitar)    避免（pede que a população evite = 虚拟式预告 W8）
+barcos            小船（barco 的复数）
+subindo           上涨（subir 的 gerúndio）
+abrigos           收容所/避难所（abrigo 的复数）
+desabrigadas      无家可归的（des- + abrigo）
+pontos críticos   重灾区/关键点位
+previsão          预报/预测（阴性；a previsão é que… 预计……）
+
+--------------------------------------------------------------
+阅读理解题（答案在文末）
+--------------------------------------------------------------
+1. 里约发生了什么？什么时候开始下雨的？
+2. 目前有多少家庭在撤离？市政府在做什么？
+3. 研究员 Ana Costa 怎么解释暴雨越来越频繁？
+4. 西区的交通状况如何？警方有什么建议？
+5. Bangu 区的居民现在怎么出行？Maria Souza 有什么感受？
+
+答案：
+1. 强降雨在多个街区引发洪水（enchentes）；雨从昨晚开始下（desde ontem à noite）。
+2. 两百多个家庭正在撤离（mais de duzentas famílias estão deixando suas casas）；民防队伍在重灾区救援，市政府每分钟跟踪情况。
+3. 她说问题近年一直在恶化（tem piorado），气候变化一直在增加暴风雨的频率（têm aumentado a frequência das tempestades）。
+4. 交通从六点起瘫痪，多条大道封闭、公交停运；警方呼吁市民避免出门（evite sair de casa）。
+5. 居民们坐船（usando barcos）离开自己的街道；Maria 说水涨得很快、大家很害怕（estamos com medo）。
+
+【语法观察】本周知识点：
+- 进行时密集：está causando, estão deixando, estão trabalhando, está parado, estão circulando, está subindo, estão recebendo, estão atendendo——新闻"正在发生"的标准写法
+- pretérito composto（tenho/tem + particípio）表"近来持续"：tem enfrentado, tem piorado, têm aumentado——注意 ≠ 西语 he enfrentado（单次刚发生）
+- particípio 不规则：afetadas, fechadas（规则）vs W6 表中的 feito/dito/posto 等
+- 预告 W8 虚拟式：a polícia pede que a população evite（pede que + 虚拟式）
+- 复习 W5：há trinta anos（há + 时长）；declarou / anunciou / disse（perfeito 新闻引语）
