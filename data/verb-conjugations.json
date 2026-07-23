@@ -1,5 +1,5 @@
 {
-  "description": "W1-W4 每周 100 频率词中全部动词的现在时变位表（PT-BR），含西语对照",
+  "description": "W1-W8 每周 100 频率词中全部动词的现在时变位表（PT-BR），含西语对照",
   "tense": "presente do indicativo",
   "verbs": [
     {
@@ -242,7 +242,7 @@
       "meaning": "待在/变得/位于",
       "type": "regular -ar",
       "conjugation": {
-        "eu": "fiço",
+        "eu": "fico",
         "tu": "ficas",
         "ele/ela/você": "fica",
         "nós": "ficamos",
@@ -820,7 +820,7 @@
       "meaning": "玩耍/开玩笑",
       "type": "regular -ar",
       "conjugation": {
-        "eu": "brinço",
+        "eu": "brinco",
         "tu": "brincas",
         "ele/ela/você": "brinca",
         "nós": "brincamos",
@@ -943,13 +943,13 @@
       "meaning": "放置",
       "type": "regular -ar",
       "conjugation": {
-        "eu": "coloço",
+        "eu": "coloco",
         "tu": "colocas",
         "ele/ela/você": "coloca",
         "nós": "colocamos",
         "eles/elas/vocês": "colocam"
       },
-      "spanish": "poner: pono/pones/pone/ponemos/ponen",
+      "spanish": "poner: pongo/pones/pone/ponemos/ponen",
       "note": "eu coloco；colocar a mesa 摆桌子"
     },
     {
@@ -1271,7 +1271,7 @@
       "meaning": "练习",
       "type": "regular -ar",
       "conjugation": {
-        "eu": "pratiço",
+        "eu": "pratico",
         "tu": "praticas",
         "ele/ela/você": "pratica",
         "nós": "praticamos",
@@ -1457,7 +1457,7 @@
       "meaning": "值得",
       "type": "regular -er",
       "conjugation": {
-        "eu": "valo",
+        "eu": "valho",
         "tu": "vales",
         "ele/ela/você": "vale",
         "nós": "valemos",
@@ -1534,6 +1534,1112 @@
       },
       "spanish": "preferir: prefiero/prefieres/prefiere/preferimos/prefieren",
       "note": "eu prefiro（e→i）"
+    },
+    {
+      "infinitive": "assistir",
+      "meaning": "观看/出席",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "assisto",
+        "tu": "assistes",
+        "ele/ela/você": "assiste",
+        "nós": "assistimos",
+        "eles/elas/vocês": "assistem"
+      },
+      "spanish": "asistir: asisto/asistes/asiste/asistimos/asisten",
+      "note": "assistir a + 观看对象：assisto ao jogo；巴西口语 assistir TV 常省略 a"
+    },
+    {
+      "infinitive": "contar",
+      "meaning": "讲述/数",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "conto",
+        "tu": "contas",
+        "ele/ela/você": "conta",
+        "nós": "contamos",
+        "eles/elas/vocês": "contam"
+      },
+      "spanish": "contar: cuento/cuentas/cuenta/contamos/cuentan",
+      "note": "西语 cuento 双元音化，葡语 conto 没有；contar uma história 讲故事"
+    },
+    {
+      "infinitive": "terminar",
+      "meaning": "结束",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "termino",
+        "tu": "terminas",
+        "ele/ela/você": "termina",
+        "nós": "terminamos",
+        "eles/elas/vocês": "terminam"
+      },
+      "spanish": "terminar: termino/terminas/termina/terminamos/terminan"
+    },
+    {
+      "infinitive": "visitar",
+      "meaning": "拜访/参观",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "visito",
+        "tu": "visitas",
+        "ele/ela/você": "visita",
+        "nós": "visitamos",
+        "eles/elas/vocês": "visitam"
+      },
+      "spanish": "visitar: visito/visitas/visita/visitamos/visitan"
+    },
+    {
+      "infinitive": "pôr",
+      "meaning": "放/摆",
+      "type": "irregular",
+      "conjugation": {
+        "eu": "ponho",
+        "tu": "pões",
+        "ele/ela/você": "põe",
+        "nós": "pomos",
+        "eles/elas/vocês": "põem"
+      },
+      "spanish": "poner: pongo/pones/pone/ponemos/ponen",
+      "note": "eu ponho 不规则；põe/pões/põem 带尖音符；pôr a mesa 摆桌子"
+    },
+    {
+      "infinitive": "faltar",
+      "meaning": "缺少/没到",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "falto",
+        "tu": "faltas",
+        "ele/ela/você": "falta",
+        "nós": "faltamos",
+        "eles/elas/vocês": "faltam"
+      },
+      "spanish": "faltar: falto/faltas/falta/faltamos/faltan",
+      "note": "Falta sal 没盐了；faltar à aula 缺课"
+    },
+    {
+      "infinitive": "nascer",
+      "meaning": "出生",
+      "type": "regular -er",
+      "conjugation": {
+        "eu": "nasço",
+        "tu": "nasces",
+        "ele/ela/você": "nasce",
+        "nós": "nascemos",
+        "eles/elas/vocês": "nascem"
+      },
+      "spanish": "nacer: nazco/naces/nace/nacemos/nacen",
+      "note": "eu nasço（c→ç）；西语 nazco 也不规则"
+    },
+    {
+      "infinitive": "morrer",
+      "meaning": "死/去世",
+      "type": "regular -er",
+      "conjugation": {
+        "eu": "morro",
+        "tu": "morres",
+        "ele/ela/você": "morre",
+        "nós": "morremos",
+        "eles/elas/vocês": "morrem"
+      },
+      "spanish": "morir: muero/mueres/muere/morimos/mueren",
+      "note": "西语 muero 双元音化，葡语 morro 没有"
+    },
+    {
+      "infinitive": "crescer",
+      "meaning": "长大/成长",
+      "type": "regular -er",
+      "conjugation": {
+        "eu": "cresço",
+        "tu": "cresces",
+        "ele/ela/você": "cresce",
+        "nós": "crescemos",
+        "eles/elas/vocês": "crescem"
+      },
+      "spanish": "crecer: crezco/creces/crece/crecemos/crecen",
+      "note": "eu cresço（c→ç）"
+    },
+    {
+      "infinitive": "casar",
+      "meaning": "结婚",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "caso",
+        "tu": "casas",
+        "ele/ela/você": "casa",
+        "nós": "casamos",
+        "eles/elas/vocês": "casam"
+      },
+      "spanish": "casar: caso/casas/casa/casamos/casan",
+      "note": "casar(-se) com：Ela casou com um brasileiro"
+    },
+    {
+      "infinitive": "namorar",
+      "meaning": "谈恋爱",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "namoro",
+        "tu": "namoras",
+        "ele/ela/você": "namora",
+        "nós": "namoramos",
+        "eles/elas/vocês": "namoram"
+      },
+      "spanish": "西语 enamorarse: me enamoro/te enamoras/se enamora/nos enamoramos/se enamoran",
+      "note": "西语 enamorarse: me enamoro/te enamoras/se enamora/nos enamoramos/se enamoran——葡语 namorar=和某人谈恋爱（稳定交往）"
+    },
+    {
+      "infinitive": "divorciar",
+      "meaning": "离婚",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "divorcio",
+        "tu": "divorcias",
+        "ele/ela/você": "divorcia",
+        "nós": "divorciamos",
+        "eles/elas/vocês": "divorciam"
+      },
+      "spanish": "divorciar: divorcio/divorcias/divorcia/divorciamos/divorcian",
+      "note": "divorciar-se：Eles se divorciaram"
+    },
+    {
+      "infinitive": "convidar",
+      "meaning": "邀请",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "convido",
+        "tu": "convidas",
+        "ele/ela/você": "convida",
+        "nós": "convidamos",
+        "eles/elas/vocês": "convidam"
+      },
+      "spanish": "invitar: invito/invitas/invita/invitamos/invitan",
+      "note": "convidar para：convidei ele para o jantar"
+    },
+    {
+      "infinitive": "ligar",
+      "meaning": "打电话/打开（电器）",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "ligo",
+        "tu": "ligas",
+        "ele/ela/você": "liga",
+        "nós": "ligamos",
+        "eles/elas/vocês": "ligam"
+      },
+      "spanish": "llamar: llamo/llamas/llama/llamamos/llaman",
+      "note": "ligar para alguém 打电话给某人；ligar a TV 开电视"
+    },
+    {
+      "infinitive": "sonhar",
+      "meaning": "做梦/梦想",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "sonho",
+        "tu": "sonhas",
+        "ele/ela/você": "sonha",
+        "nós": "sonhamos",
+        "eles/elas/vocês": "sonham"
+      },
+      "spanish": "soñar: sueño/sueñas/sueña/soñamos/sueñan",
+      "note": "sonhar com：Sonhei com você"
+    },
+    {
+      "infinitive": "descansar",
+      "meaning": "休息",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "descanso",
+        "tu": "descansas",
+        "ele/ela/você": "descansa",
+        "nós": "descansamos",
+        "eles/elas/vocês": "descansam"
+      },
+      "spanish": "descansar: descanso/descansas/descansa/descansamos/descansan"
+    },
+    {
+      "infinitive": "celebrar",
+      "meaning": "庆祝",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "celebro",
+        "tu": "celebras",
+        "ele/ela/você": "celebra",
+        "nós": "celebramos",
+        "eles/elas/vocês": "celebram"
+      },
+      "spanish": "celebrar: celebro/celebras/celebra/celebramos/celebran"
+    },
+    {
+      "infinitive": "chorar",
+      "meaning": "哭",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "choro",
+        "tu": "choras",
+        "ele/ela/você": "chora",
+        "nós": "choramos",
+        "eles/elas/vocês": "choram"
+      },
+      "spanish": "llorar: lloro/lloras/llora/lloramos/lloran",
+      "note": "西语 ll→葡语 ch：llorar→chorar"
+    },
+    {
+      "infinitive": "rir",
+      "meaning": "笑",
+      "type": "irregular",
+      "conjugation": {
+        "eu": "rio",
+        "tu": "ris",
+        "ele/ela/você": "ri",
+        "nós": "rimos",
+        "eles/elas/vocês": "riem"
+      },
+      "spanish": "reír: río/ríes/ríe/reímos/ríen",
+      "note": "现在时 rio/ris/ri/rimos/riem；rio 也是'河流'，语境区分"
+    },
+    {
+      "infinitive": "publicar",
+      "meaning": "发表/刊登",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "publico",
+        "tu": "publicas",
+        "ele/ela/você": "publica",
+        "nós": "publicamos",
+        "eles/elas/vocês": "publicam"
+      },
+      "spanish": "publicar: publico/publicas/publica/publicamos/publican"
+    },
+    {
+      "infinitive": "anunciar",
+      "meaning": "宣布",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "anuncio",
+        "tu": "anuncias",
+        "ele/ela/você": "anuncia",
+        "nós": "anunciamos",
+        "eles/elas/vocês": "anunciam"
+      },
+      "spanish": "anunciar: anuncio/anuncias/anuncia/anunciamos/anuncian"
+    },
+    {
+      "infinitive": "declarar",
+      "meaning": "声明",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "declaro",
+        "tu": "declaras",
+        "ele/ela/você": "declara",
+        "nós": "declaramos",
+        "eles/elas/vocês": "declaram"
+      },
+      "spanish": "declarar: declaro/declaras/declara/declaramos/declaran"
+    },
+    {
+      "infinitive": "explicar",
+      "meaning": "解释",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "explico",
+        "tu": "explicas",
+        "ele/ela/você": "explica",
+        "nós": "explicamos",
+        "eles/elas/vocês": "explicam"
+      },
+      "spanish": "explicar: explico/explicas/explica/explicamos/explican"
+    },
+    {
+      "infinitive": "discutir",
+      "meaning": "讨论",
+      "type": "regular -ir",
+      "conjugation": {
+        "eu": "discuto",
+        "tu": "discutes",
+        "ele/ela/você": "discute",
+        "nós": "discutimos",
+        "eles/elas/vocês": "discutem"
+      },
+      "spanish": "discutir: discuto/discutes/discute/discutimos/discuten"
+    },
+    {
+      "infinitive": "votar",
+      "meaning": "投票/表决",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "voto",
+        "tu": "votas",
+        "ele/ela/você": "vota",
+        "nós": "votamos",
+        "eles/elas/vocês": "votam"
+      },
+      "spanish": "votar: voto/votas/vota/votamos/votan",
+      "note": "votar em alguém 投票给某人"
+    },
+    {
+      "infinitive": "eleger",
+      "meaning": "选举",
+      "type": "regular -er",
+      "conjugation": {
+        "eu": "elejo",
+        "tu": "eleges",
+        "ele/ela/você": "elege",
+        "nós": "elegemos",
+        "eles/elas/vocês": "elegem"
+      },
+      "spanish": "elegir: elijo/eliges/elige/elegimos/eligen",
+      "note": "eu elejo（g→j）"
+    },
+    {
+      "infinitive": "governar",
+      "meaning": "治理/执政",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "governo",
+        "tu": "governas",
+        "ele/ela/você": "governa",
+        "nós": "governamos",
+        "eles/elas/vocês": "governam"
+      },
+      "spanish": "gobernar: gobierno/gobiernas/gobierna/gobernamos/gobiernan",
+      "note": "西语 gobierno 双元音化，葡语 governo 没有"
+    },
+    {
+      "infinitive": "protestar",
+      "meaning": "抗议",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "protesto",
+        "tu": "protestas",
+        "ele/ela/você": "protesta",
+        "nós": "protestamos",
+        "eles/elas/vocês": "protestam"
+      },
+      "spanish": "protestar: protesto/protestas/protesta/protestamos/protestan",
+      "note": "protestar contra 抗议…"
+    },
+    {
+      "infinitive": "reclamar",
+      "meaning": "抱怨/投诉",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "reclamo",
+        "tu": "reclamas",
+        "ele/ela/você": "reclama",
+        "nós": "reclamamos",
+        "eles/elas/vocês": "reclamam"
+      },
+      "spanish": "reclamar: reclamo/reclamas/reclama/reclamamos/reclaman",
+      "note": "reclamar de：reclamar do serviço 投诉服务"
+    },
+    {
+      "infinitive": "roubar",
+      "meaning": "偷/抢",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "roubo",
+        "tu": "roubas",
+        "ele/ela/você": "rouba",
+        "nós": "roubamos",
+        "eles/elas/vocês": "roubam"
+      },
+      "spanish": "robar: robo/robas/roba/robamos/roban"
+    },
+    {
+      "infinitive": "prender",
+      "meaning": "逮捕",
+      "type": "regular -er",
+      "conjugation": {
+        "eu": "prendo",
+        "tu": "prendes",
+        "ele/ela/você": "prende",
+        "nós": "prendemos",
+        "eles/elas/vocês": "prendem"
+      },
+      "spanish": "prender: prendo/prendes/prende/prendemos/prenden"
+    },
+    {
+      "infinitive": "matar",
+      "meaning": "杀死",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "mato",
+        "tu": "matas",
+        "ele/ela/você": "mata",
+        "nós": "matamos",
+        "eles/elas/vocês": "matam"
+      },
+      "spanish": "matar: mato/matas/mata/matamos/matan"
+    },
+    {
+      "infinitive": "investigar",
+      "meaning": "调查",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "investigo",
+        "tu": "investigas",
+        "ele/ela/você": "investiga",
+        "nós": "investigamos",
+        "eles/elas/vocês": "investigam"
+      },
+      "spanish": "investigar: investigo/investigas/investiga/investigamos/investigan"
+    },
+    {
+      "infinitive": "proteger",
+      "meaning": "保护",
+      "type": "regular -er",
+      "conjugation": {
+        "eu": "protejo",
+        "tu": "proteges",
+        "ele/ela/você": "protege",
+        "nós": "protegemos",
+        "eles/elas/vocês": "protegem"
+      },
+      "spanish": "proteger: protego/proteges/protege/protegemos/protegen",
+      "note": "eu protejo（g→j）"
+    },
+    {
+      "infinitive": "aumentar",
+      "meaning": "增加/上涨",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "aumento",
+        "tu": "aumentas",
+        "ele/ela/você": "aumenta",
+        "nós": "aumentamos",
+        "eles/elas/vocês": "aumentam"
+      },
+      "spanish": "aumentar: aumento/aumentas/aumenta/aumentamos/aumentan"
+    },
+    {
+      "infinitive": "diminuir",
+      "meaning": "减少",
+      "type": "irregular",
+      "conjugation": {
+        "eu": "diminuo",
+        "tu": "diminuis",
+        "ele/ela/você": "diminui",
+        "nós": "diminuímos",
+        "eles/elas/vocês": "diminuem"
+      },
+      "spanish": "disminuir: disminuyo/disminuyes/disminuye/disminuimos/disminuyen",
+      "note": "nós diminuímos（í 带音符，同 caímos 模式）；西语 disminuyo 不规则"
+    },
+    {
+      "infinitive": "cair",
+      "meaning": "下降/跌倒",
+      "type": "irregular",
+      "conjugation": {
+        "eu": "caio",
+        "tu": "cais",
+        "ele/ela/você": "cai",
+        "nós": "caímos",
+        "eles/elas/vocês": "caem"
+      },
+      "spanish": "caer: caigo/caes/cae/caemos/caen",
+      "note": "eu caio；nós caímos（同 sair 模式）；O dólar caiu 美元跌了"
+    },
+    {
+      "infinitive": "dever",
+      "meaning": "欠/应该",
+      "type": "regular -er",
+      "conjugation": {
+        "eu": "devo",
+        "tu": "deves",
+        "ele/ela/você": "deve",
+        "nós": "devemos",
+        "eles/elas/vocês": "devem"
+      },
+      "spanish": "deber: debo/debes/debe/debemos/deben",
+      "note": "Eu devo estudar 我应该学习；dever dinheiro 欠钱"
+    },
+    {
+      "infinitive": "participar",
+      "meaning": "参加",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "participo",
+        "tu": "participas",
+        "ele/ela/você": "participa",
+        "nós": "participamos",
+        "eles/elas/vocês": "participam"
+      },
+      "spanish": "participar: participo/participas/participa/participamos/participan",
+      "note": "participar de：participar da reunião 参加会议"
+    },
+    {
+      "infinitive": "atender",
+      "meaning": "接待/接听/满足",
+      "type": "regular -er",
+      "conjugation": {
+        "eu": "atendo",
+        "tu": "atendes",
+        "ele/ela/você": "atende",
+        "nós": "atendemos",
+        "eles/elas/vocês": "atendem"
+      },
+      "spanish": "atender: atiendo/atiendes/atiende/atendemos/atienden",
+      "note": "atender o telefone 接电话；atender clientes 接待客户；atender um pedido 满足请求"
+    },
+    {
+      "infinitive": "planejar",
+      "meaning": "计划/规划",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "planejo",
+        "tu": "planejas",
+        "ele/ela/você": "planeja",
+        "nós": "planejamos",
+        "eles/elas/vocês": "planejam"
+      },
+      "spanish": "planear: planeo/planeas/planea/planeamos/planean",
+      "note": "对应西语 planear；巴西也常用 planejar=planificar"
+    },
+    {
+      "infinitive": "organizar",
+      "meaning": "组织/安排",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "organizo",
+        "tu": "organizas",
+        "ele/ela/você": "organiza",
+        "nós": "organizamos",
+        "eles/elas/vocês": "organizam"
+      },
+      "spanish": "organizar: organizo/organizas/organiza/organizamos/organizan"
+    },
+    {
+      "infinitive": "arrumar",
+      "meaning": "收拾/整理",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "arrumo",
+        "tu": "arrumas",
+        "ele/ela/você": "arruma",
+        "nós": "arrumamos",
+        "eles/elas/vocês": "arrumam"
+      },
+      "spanish": "西语 arreglar: arreglo/arreglas/arregla/arreglamos/arreglan",
+      "note": "西语 arreglar: arreglo/arreglas/arregla/arreglamos/arreglan——葡语 arrumar=收拾/整理/打包：arrumar a mala"
+    },
+    {
+      "infinitive": "reservar",
+      "meaning": "预订",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "reservo",
+        "tu": "reservas",
+        "ele/ela/você": "reserva",
+        "nós": "reservamos",
+        "eles/elas/vocês": "reservam"
+      },
+      "spanish": "reservar: reservo/reservas/reserva/reservamos/reservan"
+    },
+    {
+      "infinitive": "confirmar",
+      "meaning": "确认",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "confirmo",
+        "tu": "confirmas",
+        "ele/ela/você": "confirma",
+        "nós": "confirmamos",
+        "eles/elas/vocês": "confirmam"
+      },
+      "spanish": "confirmar: confirmo/confirmas/confirma/confirmamos/confirman"
+    },
+    {
+      "infinitive": "cancelar",
+      "meaning": "取消",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "cancelo",
+        "tu": "cancelas",
+        "ele/ela/você": "cancela",
+        "nós": "cancelamos",
+        "eles/elas/vocês": "cancelam"
+      },
+      "spanish": "cancelar: cancelo/cancelas/cancela/cancelamos/cancelan"
+    },
+    {
+      "infinitive": "adiar",
+      "meaning": "推迟",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "adio",
+        "tu": "adias",
+        "ele/ela/você": "adia",
+        "nós": "adiamos",
+        "eles/elas/vocês": "adiam"
+      },
+      "spanish": "adiar: adio/adias/adia/adiamos/adian"
+    },
+    {
+      "infinitive": "embarcar",
+      "meaning": "登机/上船",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "embarco",
+        "tu": "embarcas",
+        "ele/ela/você": "embarca",
+        "nós": "embarcamos",
+        "eles/elas/vocês": "embarcam"
+      },
+      "spanish": "embarcar: embarco/embarcas/embarca/embarcamos/embarcan"
+    },
+    {
+      "infinitive": "voar",
+      "meaning": "飞",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "voo",
+        "tu": "voas",
+        "ele/ela/você": "voa",
+        "nós": "voamos",
+        "eles/elas/vocês": "voam"
+      },
+      "spanish": "volar: vuelo/vuelas/vuela/volamos/vuelan",
+      "note": "西语 vuelo 双元音化，葡语 voo 没有"
+    },
+    {
+      "infinitive": "pousar",
+      "meaning": "降落",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "pouso",
+        "tu": "pousas",
+        "ele/ela/você": "pousa",
+        "nós": "pousamos",
+        "eles/elas/vocês": "pousam"
+      },
+      "spanish": "aterrizar: aterrizo/aterrizas/aterriza/aterrizamos/aterrizan",
+      "note": "反义词 decolar=起飞"
+    },
+    {
+      "infinitive": "decolar",
+      "meaning": "起飞",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "decolo",
+        "tu": "decolas",
+        "ele/ela/você": "decola",
+        "nós": "decolamos",
+        "eles/elas/vocês": "decolam"
+      },
+      "spanish": "despegar: despego/despegas/despega/despegamos/despegan",
+      "note": "反义词 pousar=降落"
+    },
+    {
+      "infinitive": "nadar",
+      "meaning": "游泳",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "nado",
+        "tu": "nadas",
+        "ele/ela/você": "nada",
+        "nós": "nadamos",
+        "eles/elas/vocês": "nadam"
+      },
+      "spanish": "nadar: nado/nadas/nada/nadamos/nadan"
+    },
+    {
+      "infinitive": "caminhar",
+      "meaning": "徒步/走路",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "caminho",
+        "tu": "caminhas",
+        "ele/ela/você": "caminha",
+        "nós": "caminhamos",
+        "eles/elas/vocês": "caminham"
+      },
+      "spanish": "caminar: camino/caminas/camina/caminamos/caminan"
+    },
+    {
+      "infinitive": "relaxar",
+      "meaning": "放松",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "relaxo",
+        "tu": "relaxas",
+        "ele/ela/você": "relaxa",
+        "nós": "relaxamos",
+        "eles/elas/vocês": "relaxam"
+      },
+      "spanish": "relajar: relajo/relajas/relaja/relajamos/relajan"
+    },
+    {
+      "infinitive": "aproveitar",
+      "meaning": "享受/利用",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "aproveito",
+        "tu": "aproveitas",
+        "ele/ela/você": "aproveita",
+        "nós": "aproveitamos",
+        "eles/elas/vocês": "aproveitam"
+      },
+      "spanish": "aprovechar: aprovecho/aprovechas/aprovecha/aprovechamos/aprovechan",
+      "note": "Aproveite! 好好享受吧！；aproveitar o tempo 利用时间"
+    },
+    {
+      "infinitive": "prever",
+      "meaning": "预测/预见",
+      "type": "irregular",
+      "conjugation": {
+        "eu": "prevejo",
+        "tu": "prevês",
+        "ele/ela/você": "prevê",
+        "nós": "prevemos",
+        "eles/elas/vocês": "preveem"
+      },
+      "spanish": "prever: preveo/prevés/prevé/prevemos/prevén",
+      "note": "变位同 ver：prevejo/prevês/prevê/prevemos/preveem"
+    },
+    {
+      "infinitive": "prometer",
+      "meaning": "答应",
+      "type": "regular -er",
+      "conjugation": {
+        "eu": "prometo",
+        "tu": "prometes",
+        "ele/ela/você": "promete",
+        "nós": "prometemos",
+        "eles/elas/vocês": "prometem"
+      },
+      "spanish": "prometer: prometo/prometes/promete/prometemos/prometen",
+      "note": "变位与西语完全一致"
+    },
+    {
+      "infinitive": "gastar",
+      "meaning": "花费/花钱",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "gasto",
+        "tu": "gastas",
+        "ele/ela/você": "gasta",
+        "nós": "gastamos",
+        "eles/elas/vocês": "gastam"
+      },
+      "spanish": "gastar: gasto/gastas/gasta/gastamos/gastan",
+      "note": "gastar dinheiro/tempo 花钱/花时间"
+    },
+    {
+      "infinitive": "trocar",
+      "meaning": "换/兑换/交换",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "troco",
+        "tu": "trocas",
+        "ele/ela/você": "troca",
+        "nós": "trocamos",
+        "eles/elas/vocês": "trocam"
+      },
+      "spanish": "cambiar: cambio/cambias/cambia/cambiamos/cambian",
+      "note": "trocar dinheiro 换钱；trocar de roupa 换衣服；trocar A por B 用 A 换 B"
+    },
+    {
+      "infinitive": "alugar",
+      "meaning": "租",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "alugo",
+        "tu": "alugas",
+        "ele/ela/você": "aluga",
+        "nós": "alugamos",
+        "eles/elas/vocês": "alugam"
+      },
+      "spanish": "alquilar: alquilo/alquilas/alquila/alquilamos/alquilan",
+      "note": "alugar um carro/apartamento 租车/租房"
+    },
+    {
+      "infinitive": "amar",
+      "meaning": "爱",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "amo",
+        "tu": "amas",
+        "ele/ela/você": "ama",
+        "nós": "amamos",
+        "eles/elas/vocês": "amam"
+      },
+      "spanish": "amar: amo/amas/ama/amamos/aman"
+    },
+    {
+      "infinitive": "desejar",
+      "meaning": "祝愿/渴望",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "desejo",
+        "tu": "desejas",
+        "ele/ela/você": "deseja",
+        "nós": "desejamos",
+        "eles/elas/vocês": "desejam"
+      },
+      "spanish": "desear: deseo/deseas/desea/deseamos/desean",
+      "note": "desejar que + 虚拟式：Desejo que tudo corra bem"
+    },
+    {
+      "infinitive": "duvidar",
+      "meaning": "怀疑",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "duvido",
+        "tu": "duvidas",
+        "ele/ela/você": "duvida",
+        "nós": "duvidamos",
+        "eles/elas/vocês": "duvidam"
+      },
+      "spanish": "dudar: dudo/dudas/duda/dudamos/dudan",
+      "note": "duvidar que + 虚拟式：Duvido que ele venha"
+    },
+    {
+      "infinitive": "temer",
+      "meaning": "害怕/担心",
+      "type": "regular -er",
+      "conjugation": {
+        "eu": "temo",
+        "tu": "temes",
+        "ele/ela/você": "teme",
+        "nós": "tememos",
+        "eles/elas/vocês": "temem"
+      },
+      "spanish": "temer: temo/temes/teme/tememos/temen",
+      "note": "temer que + 虚拟式：Temo que chova"
+    },
+    {
+      "infinitive": "imaginar",
+      "meaning": "想象",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "imagino",
+        "tu": "imaginas",
+        "ele/ela/você": "imagina",
+        "nós": "imaginamos",
+        "eles/elas/vocês": "imaginam"
+      },
+      "spanish": "imaginar: imagino/imaginas/imagina/imaginamos/imaginan",
+      "note": "Imagina! 你想想看！；imaginar que + 虚拟式（表疑虑）"
+    },
+    {
+      "infinitive": "supor",
+      "meaning": "猜想",
+      "type": "irregular",
+      "conjugation": {
+        "eu": "suponho",
+        "tu": "supões",
+        "ele/ela/você": "supõe",
+        "nós": "supomos",
+        "eles/elas/vocês": "supõem"
+      },
+      "spanish": "suponer: supongo/supones/supone/suponemos/suponen",
+      "note": "变位同 pôr：suponho/supões/supõe/supomos/supõem"
+    },
+    {
+      "infinitive": "sugerir",
+      "meaning": "建议",
+      "type": "irregular",
+      "conjugation": {
+        "eu": "sugiro",
+        "tu": "sugeres",
+        "ele/ela/você": "sugere",
+        "nós": "sugerimos",
+        "eles/elas/vocês": "sugerem"
+      },
+      "spanish": "sugerir: sugiero/sugieres/sugiere/sugerimos/sugieren",
+      "note": "eu sugiro（e→i）；sugerir que + 虚拟式"
+    },
+    {
+      "infinitive": "exigir",
+      "meaning": "要求",
+      "type": "regular -ir",
+      "conjugation": {
+        "eu": "exijo",
+        "tu": "exiges",
+        "ele/ela/você": "exige",
+        "nós": "exigimos",
+        "eles/elas/vocês": "exigem"
+      },
+      "spanish": "exigir: exigo/exiges/exige/exigimos/exigen",
+      "note": "eu exijo（g→j）；exigir que + 虚拟式"
+    },
+    {
+      "infinitive": "lamentar",
+      "meaning": "遗憾/惋惜",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "lamento",
+        "tu": "lamentas",
+        "ele/ela/você": "lamenta",
+        "nós": "lamentamos",
+        "eles/elas/vocês": "lamentam"
+      },
+      "spanish": "lamentar: lamento/lamentas/lamenta/lamentamos/lamentan",
+      "note": "lamentar que + 虚拟式：Lamento que não possas vir"
+    },
+    {
+      "infinitive": "confiar",
+      "meaning": "信任",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "confio",
+        "tu": "confias",
+        "ele/ela/você": "confia",
+        "nós": "confiamos",
+        "eles/elas/vocês": "confiam"
+      },
+      "spanish": "confiar: confío/confías/confía/confiamos/confían",
+      "note": "confiar em：Confio em você"
+    },
+    {
+      "infinitive": "aceitar",
+      "meaning": "接受",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "aceito",
+        "tu": "aceitas",
+        "ele/ela/você": "aceita",
+        "nós": "aceitamos",
+        "eles/elas/vocês": "aceitam"
+      },
+      "spanish": "aceitar: aceito/aceitas/aceita/aceitamos/aceitan"
+    },
+    {
+      "infinitive": "recusar",
+      "meaning": "拒绝",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "recuso",
+        "tu": "recusas",
+        "ele/ela/você": "recusa",
+        "nós": "recusamos",
+        "eles/elas/vocês": "recusam"
+      },
+      "spanish": "rechazar: rechazo/rechazas/rechaza/rechazamos/rechazan"
+    },
+    {
+      "infinitive": "proibir",
+      "meaning": "禁止",
+      "type": "irregular",
+      "conjugation": {
+        "eu": "proíbo",
+        "tu": "proíbes",
+        "ele/ela/você": "proíbe",
+        "nós": "proibimos",
+        "eles/elas/vocês": "proíbem"
+      },
+      "spanish": "prohibir: prohíbo/prohíbes/prohíbe/prohibimos/prohíben",
+      "note": "eu proíbo（í 带音符）；proibir que + 虚拟式；É proibido fumar"
+    },
+    {
+      "infinitive": "aconselhar",
+      "meaning": "劝告",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "aconselho",
+        "tu": "aconselhas",
+        "ele/ela/você": "aconselha",
+        "nós": "aconselhamos",
+        "eles/elas/vocês": "aconselham"
+      },
+      "spanish": "aconsejar: aconsejo/aconsejas/aconseja/aconsejamos/aconsejan",
+      "note": "aconselhar alguém a + 不定式：Aconselho você a descansar"
+    },
+    {
+      "infinitive": "elogiar",
+      "meaning": "表扬",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "elogio",
+        "tu": "elogias",
+        "ele/ela/você": "elogia",
+        "nós": "elogiamos",
+        "eles/elas/vocês": "elogiam"
+      },
+      "spanish": "elogiar: elogio/elogias/elogia/elogiamos/elogian"
+    },
+    {
+      "infinitive": "perdoar",
+      "meaning": "原谅",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "perdoo",
+        "tu": "perdoas",
+        "ele/ela/você": "perdoa",
+        "nós": "perdoamos",
+        "eles/elas/vocês": "perdoam"
+      },
+      "spanish": "perdonar: perdono/perdonas/perdona/perdonamos/perdonan"
+    },
+    {
+      "infinitive": "agradecer",
+      "meaning": "感谢",
+      "type": "regular -er",
+      "conjugation": {
+        "eu": "agradeço",
+        "tu": "agradeces",
+        "ele/ela/você": "agradece",
+        "nós": "agradecemos",
+        "eles/elas/vocês": "agradecem"
+      },
+      "spanish": "agradecer: agradezco/agradeces/agradece/agradecemos/agradecen",
+      "note": "eu agradeço（c→ç）；agradecer por：Agradeço pela ajuda"
+    },
+    {
+      "infinitive": "mentir",
+      "meaning": "说谎",
+      "type": "irregular",
+      "conjugation": {
+        "eu": "minto",
+        "tu": "mentes",
+        "ele/ela/você": "mente",
+        "nós": "mentimos",
+        "eles/elas/vocês": "mentem"
+      },
+      "spanish": "mentir: miento/mientes/miente/mentimos/mienten",
+      "note": "eu minto（e→i，同 sentir 模式）"
+    },
+    {
+      "infinitive": "concordar",
+      "meaning": "同意",
+      "type": "regular -ar",
+      "conjugation": {
+        "eu": "concordo",
+        "tu": "concordas",
+        "ele/ela/você": "concorda",
+        "nós": "concordamos",
+        "eles/elas/vocês": "concordam"
+      },
+      "spanish": "concordar: concuerdo/concuerdas/concuerda/concordamos/concuerdan",
+      "note": "concordar com：Concordo com você"
+    },
+    {
+      "infinitive": "insistir",
+      "meaning": "坚持",
+      "type": "regular -ir",
+      "conjugation": {
+        "eu": "insisto",
+        "tu": "insistes",
+        "ele/ela/você": "insiste",
+        "nós": "insistimos",
+        "eles/elas/vocês": "insistem"
+      },
+      "spanish": "insistir: insisto/insistes/insiste/insistimos/insisten",
+      "note": "insistir em：Ele insiste em ir；insistir que + 虚拟式"
+    },
+    {
+      "infinitive": "reconhecer",
+      "meaning": "承认/认出",
+      "type": "regular -er",
+      "conjugation": {
+        "eu": "reconheço",
+        "tu": "reconheces",
+        "ele/ela/você": "reconhece",
+        "nós": "reconhecemos",
+        "eles/elas/vocês": "reconhecem"
+      },
+      "spanish": "reconocer: reconozco/reconoces/reconoce/reconocemos/reconocen",
+      "note": "eu reconheço（c→ç）"
     }
   ]
 }

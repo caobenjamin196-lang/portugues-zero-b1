@@ -1,5 +1,5 @@
 {
-  "description": "每周 100 个频率词汇（PT-BR）。W1=频率排名1-100，W2=101-200，W3=201-300，W4=301-400。选词参考 Corpus do Português / Routledge Frequency Dictionary 高频区。动词附现在时完整变位与西语对照；falseFriend 为西语假朋友警示。",
+  "description": "每周 100 个频率词汇（PT-BR）。W1=频率排名1-100，W2=101-200，W3=201-300，W4=301-400，W5=401-500，W6=501-600，W7=601-700，W8=701-800。选词参考 Corpus do Português / Routledge Frequency Dictionary 高频区（按教学需要微调）。动词附现在时完整变位与西语对照；falseFriend 为西语假朋友警示。",
   "source": "Corpus do Português / Routledge Frequency Dictionary of Portuguese（高频区，按教学需要微调）",
   "variant": "PT-BR",
   "w1": [
@@ -1201,7 +1201,7 @@
         "zh": "我今天待在家里。"
       },
       "conjugations": {
-        "eu": "fiço",
+        "eu": "fico",
         "tu": "ficas",
         "ele/ela/você": "fica",
         "nós": "ficamos",
@@ -1957,7 +1957,7 @@
         "zh": "孩子们在公园玩。"
       },
       "conjugations": {
-        "eu": "brinço",
+        "eu": "brinco",
         "tu": "brincas",
         "ele/ela/você": "brinca",
         "nós": "brincamos",
@@ -2119,12 +2119,12 @@
         "zh": "我把书放在桌上。"
       },
       "conjugations": {
-        "eu": "coloço",
+        "eu": "coloco",
         "tu": "colocas",
         "ele/ela/você": "coloca",
         "nós": "colocamos",
         "eles/elas/vocês": "colocam",
-        "es": "poner: pono/pones/pone/ponemos/ponen"
+        "es": "poner: pongo/pones/pone/ponemos/ponen"
       }
     },
     {
@@ -2551,7 +2551,7 @@
         "zh": "我每天练习。"
       },
       "conjugations": {
-        "eu": "pratiço",
+        "eu": "pratico",
         "tu": "praticas",
         "ele/ela/você": "pratica",
         "nós": "praticamos",
@@ -2803,7 +2803,7 @@
         "zh": "值得。"
       },
       "conjugations": {
-        "eu": "valo",
+        "eu": "valho",
         "tu": "vales",
         "ele/ela/você": "vale",
         "nós": "valemos",
@@ -4919,6 +4919,4680 @@
         "zh": "花瓶在窗台上。"
       },
       "falseFriend": "西语 vaso=玻璃杯；葡语'玻璃杯'是 copo"
+    }
+  ],
+  "w5": [
+    {
+      "rank": 401,
+      "pt": "ontem",
+      "pos": "副词",
+      "zh": "昨天",
+      "example": {
+        "pt": "Eu estudei ontem à noite.",
+        "zh": "我昨晚学习了。"
+      }
+    },
+    {
+      "rank": 402,
+      "pt": "anteontem",
+      "pos": "副词",
+      "zh": "前天",
+      "example": {
+        "pt": "Anteontem foi feriado.",
+        "zh": "前天是假日。"
+      }
+    },
+    {
+      "rank": 403,
+      "pt": "madrugada",
+      "pos": "名词",
+      "zh": "凌晨",
+      "example": {
+        "pt": "O ônibus chegou de madrugada.",
+        "zh": "公交车凌晨才到。"
+      }
+    },
+    {
+      "rank": 404,
+      "pt": "feriado",
+      "pos": "名词",
+      "zh": "假日",
+      "example": {
+        "pt": "Ontem foi feriado nacional.",
+        "zh": "昨天是全国假日。"
+      }
+    },
+    {
+      "rank": 405,
+      "pt": "aniversário",
+      "pos": "名词",
+      "zh": "生日 / 周年",
+      "example": {
+        "pt": "O aniversário dela é em julho.",
+        "zh": "她的生日在七月。"
+      }
+    },
+    {
+      "rank": 406,
+      "pt": "data",
+      "pos": "名词",
+      "zh": "日期",
+      "example": {
+        "pt": "Que data é hoje?",
+        "zh": "今天几号？"
+      }
+    },
+    {
+      "rank": 407,
+      "pt": "calendário",
+      "pos": "名词",
+      "zh": "日历",
+      "example": {
+        "pt": "O calendário está na parede.",
+        "zh": "日历挂在墙上。"
+      }
+    },
+    {
+      "rank": 408,
+      "pt": "século",
+      "pos": "名词",
+      "zh": "世纪",
+      "example": {
+        "pt": "O prédio é do século passado.",
+        "zh": "这栋楼是上世纪的。"
+      }
+    },
+    {
+      "rank": 409,
+      "pt": "década",
+      "pos": "名词",
+      "zh": "十年",
+      "example": {
+        "pt": "Eles moraram aqui por uma década.",
+        "zh": "他们在这里住过十年。"
+      }
+    },
+    {
+      "rank": 410,
+      "pt": "fim de semana",
+      "pos": "名词词组",
+      "zh": "周末",
+      "example": {
+        "pt": "No fim de semana eu descansei.",
+        "zh": "周末我休息了。"
+      }
+    },
+    {
+      "rank": 411,
+      "pt": "semana passada",
+      "pos": "词组",
+      "zh": "上周",
+      "example": {
+        "pt": "Na semana passada eu viajei.",
+        "zh": "上周我去旅行了。"
+      }
+    },
+    {
+      "rank": 412,
+      "pt": "passado",
+      "pos": "形容词/名词",
+      "zh": "过去的 / 过去",
+      "example": {
+        "pt": "o ano passado",
+        "zh": "去年"
+      }
+    },
+    {
+      "rank": 413,
+      "pt": "infância",
+      "pos": "名词",
+      "zh": "童年",
+      "example": {
+        "pt": "A minha infância foi feliz.",
+        "zh": "我的童年很幸福。"
+      }
+    },
+    {
+      "rank": 414,
+      "pt": "juventude",
+      "pos": "名词",
+      "zh": "青春",
+      "example": {
+        "pt": "Na juventude ele jogava futebol.",
+        "zh": "年轻时他常踢足球。"
+      }
+    },
+    {
+      "rank": 415,
+      "pt": "velhice",
+      "pos": "名词",
+      "zh": "晚年",
+      "example": {
+        "pt": "Na velhice ela morou com os filhos.",
+        "zh": "晚年她和孩子们住在一起。"
+      }
+    },
+    {
+      "rank": 416,
+      "pt": "nascimento",
+      "pos": "名词",
+      "zh": "出生",
+      "example": {
+        "pt": "a data de nascimento",
+        "zh": "出生日期"
+      }
+    },
+    {
+      "rank": 417,
+      "pt": "morte",
+      "pos": "名词",
+      "zh": "死亡",
+      "example": {
+        "pt": "A morte do avô foi triste.",
+        "zh": "外公的去世令人悲伤。"
+      }
+    },
+    {
+      "rank": 418,
+      "pt": "história",
+      "pos": "名词",
+      "zh": "故事 / 历史",
+      "example": {
+        "pt": "A avó contava histórias.",
+        "zh": "奶奶以前常讲故事。"
+      }
+    },
+    {
+      "rank": 419,
+      "pt": "começo",
+      "pos": "名词",
+      "zh": "开始 / 开头",
+      "example": {
+        "pt": "no começo do ano",
+        "zh": "在年初"
+      }
+    },
+    {
+      "rank": 420,
+      "pt": "início",
+      "pos": "名词",
+      "zh": "起初 / 开始",
+      "example": {
+        "pt": "no início da história",
+        "zh": "在故事的开头"
+      }
+    },
+    {
+      "rank": 421,
+      "pt": "meio",
+      "pos": "名词/形容词",
+      "zh": "中间 / 半",
+      "example": {
+        "pt": "no meio do caminho",
+        "zh": "在半路上"
+      }
+    },
+    {
+      "rank": 422,
+      "pt": "fim",
+      "pos": "名词",
+      "zh": "结束",
+      "example": {
+        "pt": "no fim do filme",
+        "zh": "在电影结尾"
+      }
+    },
+    {
+      "rank": 423,
+      "pt": "final",
+      "pos": "名词/形容词",
+      "zh": "结局 / 最后的",
+      "example": {
+        "pt": "o final da história",
+        "zh": "故事的结局"
+      }
+    },
+    {
+      "rank": 424,
+      "pt": "parte",
+      "pos": "名词",
+      "zh": "部分",
+      "example": {
+        "pt": "a primeira parte do livro",
+        "zh": "书的第一部分"
+      }
+    },
+    {
+      "rank": 425,
+      "pt": "memória",
+      "pos": "名词",
+      "zh": "记忆",
+      "example": {
+        "pt": "Tenho boa memória da infância.",
+        "zh": "我对童年记忆犹新。"
+      }
+    },
+    {
+      "rank": 426,
+      "pt": "lembrança",
+      "pos": "名词",
+      "zh": "回忆 / 纪念品",
+      "example": {
+        "pt": "Essa foto é uma boa lembrança.",
+        "zh": "这张照片是美好的回忆。"
+      }
+    },
+    {
+      "rank": 427,
+      "pt": "sonho",
+      "pos": "名词",
+      "zh": "梦 / 梦想",
+      "example": {
+        "pt": "O sonho dele era ser piloto.",
+        "zh": "他的梦想是当飞行员。"
+      }
+    },
+    {
+      "rank": 428,
+      "pt": "pesadelo",
+      "pos": "名词",
+      "zh": "噩梦",
+      "example": {
+        "pt": "Eu tive um pesadelo ontem.",
+        "zh": "我昨晚做了个噩梦。"
+      }
+    },
+    {
+      "rank": 429,
+      "pt": "conto",
+      "pos": "名词",
+      "zh": "短篇小说",
+      "example": {
+        "pt": "O conto é muito famoso.",
+        "zh": "这篇短篇小说很有名。"
+      }
+    },
+    {
+      "rank": 430,
+      "pt": "segunda-feira",
+      "pos": "名词",
+      "zh": "星期一",
+      "example": {
+        "pt": "Na segunda-feira eu trabalhei.",
+        "zh": "周一我上班了。"
+      }
+    },
+    {
+      "rank": 431,
+      "pt": "terça-feira",
+      "pos": "名词",
+      "zh": "星期二",
+      "example": {
+        "pt": "A reunião foi na terça-feira.",
+        "zh": "会议是在周二开的。"
+      }
+    },
+    {
+      "rank": 432,
+      "pt": "quarta-feira",
+      "pos": "名词",
+      "zh": "星期三",
+      "example": {
+        "pt": "Na quarta-feira choveu muito.",
+        "zh": "周三雨下得很大。"
+      }
+    },
+    {
+      "rank": 433,
+      "pt": "quinta-feira",
+      "pos": "名词",
+      "zh": "星期四",
+      "example": {
+        "pt": "Ela chegou na quinta-feira.",
+        "zh": "她周四到的。"
+      }
+    },
+    {
+      "rank": 434,
+      "pt": "sexta-feira",
+      "pos": "名词",
+      "zh": "星期五",
+      "example": {
+        "pt": "Sexta-feira passada fomos ao bar.",
+        "zh": "上周五我们去了酒吧。"
+      }
+    },
+    {
+      "rank": 435,
+      "pt": "sábado",
+      "pos": "名词",
+      "zh": "星期六",
+      "example": {
+        "pt": "No sábado eu dormi até tarde.",
+        "zh": "周六我睡到很晚。"
+      }
+    },
+    {
+      "rank": 436,
+      "pt": "domingo",
+      "pos": "名词",
+      "zh": "星期日",
+      "example": {
+        "pt": "No domingo almoçamos em família.",
+        "zh": "周日我们全家一起吃了午饭。"
+      }
+    },
+    {
+      "rank": 437,
+      "pt": "janeiro",
+      "pos": "名词",
+      "zh": "一月",
+      "example": {
+        "pt": "Em janeiro faz muito calor no Brasil.",
+        "zh": "巴西一月很热。"
+      }
+    },
+    {
+      "rank": 438,
+      "pt": "agosto",
+      "pos": "名词",
+      "zh": "八月",
+      "example": {
+        "pt": "Agosto é seco em São Paulo.",
+        "zh": "圣保罗八月很干燥。"
+      }
+    },
+    {
+      "rank": 439,
+      "pt": "setembro",
+      "pos": "名词",
+      "zh": "九月",
+      "example": {
+        "pt": "Ela nasceu em setembro.",
+        "zh": "她出生在九月。"
+      }
+    },
+    {
+      "rank": 440,
+      "pt": "dezembro",
+      "pos": "名词",
+      "zh": "十二月",
+      "example": {
+        "pt": "Em dezembro tem festa na empresa.",
+        "zh": "十二月公司有聚会。"
+      }
+    },
+    {
+      "rank": 441,
+      "pt": "zero",
+      "pos": "数词",
+      "zh": "零",
+      "example": {
+        "pt": "O time perdeu por dois a zero.",
+        "zh": "球队零比二输了。"
+      }
+    },
+    {
+      "rank": 442,
+      "pt": "mil",
+      "pos": "数词",
+      "zh": "一千",
+      "example": {
+        "pt": "O carro custou trinta mil reais.",
+        "zh": "这辆车花了三万雷亚尔。"
+      }
+    },
+    {
+      "rank": 443,
+      "pt": "milhão",
+      "pos": "数词",
+      "zh": "百万",
+      "example": {
+        "pt": "São Paulo tem doze milhões de pessoas.",
+        "zh": "圣保罗有一千两百万人口。"
+      }
+    },
+    {
+      "rank": 444,
+      "pt": "número",
+      "pos": "名词",
+      "zh": "数字 / 号码",
+      "example": {
+        "pt": "Qual é o seu número de telefone?",
+        "zh": "你的电话号码是多少？"
+      }
+    },
+    {
+      "rank": 445,
+      "pt": "metade",
+      "pos": "名词",
+      "zh": "一半",
+      "example": {
+        "pt": "Eu comi a metade do bolo.",
+        "zh": "我吃了一半蛋糕。"
+      }
+    },
+    {
+      "rank": 446,
+      "pt": "dobro",
+      "pos": "名词",
+      "zh": "双倍",
+      "example": {
+        "pt": "O preço subiu para o dobro.",
+        "zh": "价格涨了一倍。"
+      }
+    },
+    {
+      "rank": 447,
+      "pt": "par",
+      "pos": "形容词/名词",
+      "zh": "双数的 / 一双",
+      "example": {
+        "pt": "um número par",
+        "zh": "一个偶数"
+      }
+    },
+    {
+      "rank": 448,
+      "pt": "ímpar",
+      "pos": "形容词",
+      "zh": "单数的",
+      "example": {
+        "pt": "um número ímpar",
+        "zh": "一个奇数"
+      }
+    },
+    {
+      "rank": 449,
+      "pt": "marido",
+      "pos": "名词",
+      "zh": "丈夫",
+      "example": {
+        "pt": "O marido dela é médico.",
+        "zh": "她丈夫是医生。"
+      }
+    },
+    {
+      "rank": 450,
+      "pt": "esposa",
+      "pos": "名词",
+      "zh": "妻子",
+      "example": {
+        "pt": "A esposa dele nasceu no Rio.",
+        "zh": "他妻子出生在里约。"
+      },
+      "falseFriend": "西语 esposa=妻子（同义），但复数 esposas=手铐！葡语'手铐'是 algemas"
+    },
+    {
+      "rank": 451,
+      "pt": "casal",
+      "pos": "名词",
+      "zh": "夫妻 / 情侣",
+      "example": {
+        "pt": "O casal se conheceu na faculdade.",
+        "zh": "这对夫妻是在大学认识的。"
+      }
+    },
+    {
+      "rank": 452,
+      "pt": "avô",
+      "pos": "名词",
+      "zh": "祖父 / 外公",
+      "example": {
+        "pt": "O meu avô era professor.",
+        "zh": "我爷爷以前是老师。"
+      }
+    },
+    {
+      "rank": 453,
+      "pt": "avó",
+      "pos": "名词",
+      "zh": "祖母 / 外婆",
+      "example": {
+        "pt": "A minha avó fazia bolo no domingo.",
+        "zh": "我奶奶以前周日总做蛋糕。"
+      }
+    },
+    {
+      "rank": 454,
+      "pt": "neto",
+      "pos": "名词",
+      "zh": "孙子 / 外孙",
+      "example": {
+        "pt": "A avó tem cinco netos.",
+        "zh": "奶奶有五个孙辈。"
+      }
+    },
+    {
+      "rank": 455,
+      "pt": "neta",
+      "pos": "名词",
+      "zh": "孙女 / 外孙女",
+      "example": {
+        "pt": "A neta dela nasceu em 2020.",
+        "zh": "她的孙女 2020 年出生。"
+      }
+    },
+    {
+      "rank": 456,
+      "pt": "tio",
+      "pos": "名词",
+      "zh": "叔叔 / 舅舅",
+      "example": {
+        "pt": "O meu tio morava perto da gente.",
+        "zh": "我叔叔以前住得离我们很近。"
+      }
+    },
+    {
+      "rank": 457,
+      "pt": "tia",
+      "pos": "名词",
+      "zh": "阿姨 / 姑姑",
+      "example": {
+        "pt": "A tia trouxe presentes.",
+        "zh": "阿姨带来了礼物。"
+      }
+    },
+    {
+      "rank": 458,
+      "pt": "primo",
+      "pos": "名词",
+      "zh": "堂 / 表兄弟",
+      "example": {
+        "pt": "Eu brincava com os meus primos.",
+        "zh": "我以前常和表兄弟们玩。"
+      }
+    },
+    {
+      "rank": 459,
+      "pt": "prima",
+      "pos": "名词",
+      "zh": "堂 / 表姐妹",
+      "example": {
+        "pt": "A prima dela se casou em maio.",
+        "zh": "她的表姐五月结婚了。"
+      }
+    },
+    {
+      "rank": 460,
+      "pt": "sobrinho",
+      "pos": "名词",
+      "zh": "侄子 / 外甥",
+      "example": {
+        "pt": "O sobrinho dele tem dez anos.",
+        "zh": "他的侄子十岁。"
+      }
+    },
+    {
+      "rank": 461,
+      "pt": "sogro",
+      "pos": "名词",
+      "zh": "岳父 / 公公",
+      "example": {
+        "pt": "O sogro dela era muito simpático.",
+        "zh": "她的岳父人很好。"
+      }
+    },
+    {
+      "rank": 462,
+      "pt": "sogra",
+      "pos": "名词",
+      "zh": "岳母 / 婆婆",
+      "example": {
+        "pt": "A sogra cozinha muito bem.",
+        "zh": "岳母做饭特别好吃。"
+      }
+    },
+    {
+      "rank": 463,
+      "pt": "cunhado",
+      "pos": "名词",
+      "zh": "姐夫 / 内兄（姻亲男性）",
+      "example": {
+        "pt": "O cunhado dele é engenheiro.",
+        "zh": "他的姐夫是工程师。"
+      }
+    },
+    {
+      "rank": 464,
+      "pt": "genro",
+      "pos": "名词",
+      "zh": "女婿",
+      "example": {
+        "pt": "O genro dela é chinês.",
+        "zh": "她的女婿是中国人。"
+      }
+    },
+    {
+      "rank": 465,
+      "pt": "nora",
+      "pos": "名词",
+      "zh": "儿媳",
+      "example": {
+        "pt": "A nora dela fala três línguas.",
+        "zh": "她的儿媳会说三种语言。"
+      }
+    },
+    {
+      "rank": 466,
+      "pt": "bebê",
+      "pos": "名词",
+      "zh": "婴儿",
+      "example": {
+        "pt": "O bebê chorou a noite toda.",
+        "zh": "宝宝哭了一整夜。"
+      }
+    },
+    {
+      "rank": 467,
+      "pt": "criança",
+      "pos": "名词",
+      "zh": "孩子",
+      "example": {
+        "pt": "As crianças brincavam no quintal.",
+        "zh": "孩子们当时在院子里玩。"
+      },
+      "falseFriend": "西语'孩子'是 niño；crianza 在西语=养育（名词）。葡语 criança 只指孩子"
+    },
+    {
+      "rank": 468,
+      "pt": "adolescente",
+      "pos": "名词",
+      "zh": "青少年",
+      "example": {
+        "pt": "Ele era adolescente em 2010.",
+        "zh": "2010 年他还是个青少年。"
+      }
+    },
+    {
+      "rank": 469,
+      "pt": "adulto",
+      "pos": "名词",
+      "zh": "成年人",
+      "example": {
+        "pt": "Quando adulto, ele saiu de casa.",
+        "zh": "成年后他搬出了家。"
+      }
+    },
+    {
+      "rank": 470,
+      "pt": "idoso",
+      "pos": "名词",
+      "zh": "老人",
+      "example": {
+        "pt": "O idoso caminhava devagar.",
+        "zh": "老人慢慢地走着。"
+      }
+    },
+    {
+      "rank": 471,
+      "pt": "parente",
+      "pos": "名词",
+      "zh": "亲戚",
+      "example": {
+        "pt": "Os parentes vieram para a festa.",
+        "zh": "亲戚们都来参加聚会了。（注意：葡语'父母'是 pais）"
+      }
+    },
+    {
+      "rank": 472,
+      "pt": "padrinho",
+      "pos": "名词",
+      "zh": "教父 / 证婚人（阴性 madrinha）",
+      "example": {
+        "pt": "O padrinho do casamento era o tio.",
+        "zh": "婚礼的证婚人是叔叔。"
+      }
+    },
+    {
+      "rank": 473,
+      "pt": "casamento",
+      "pos": "名词",
+      "zh": "婚礼",
+      "example": {
+        "pt": "O casamento foi na praia.",
+        "zh": "婚礼是在海滩举行的。"
+      }
+    },
+    {
+      "rank": 474,
+      "pt": "festa",
+      "pos": "名词",
+      "zh": "聚会 / 派对",
+      "example": {
+        "pt": "A festa foi muito boa.",
+        "zh": "聚会很棒。"
+      }
+    },
+    {
+      "rank": 475,
+      "pt": "presente",
+      "pos": "名词",
+      "zh": "礼物",
+      "example": {
+        "pt": "Ele ganhou um presente de aniversário.",
+        "zh": "他收到了一份生日礼物。"
+      },
+      "falseFriend": "西语'礼物'是 regalo；presente 在西语=出席的/现在（时态）"
+    },
+    {
+      "rank": 476,
+      "pt": "bolo",
+      "pos": "名词",
+      "zh": "蛋糕",
+      "example": {
+        "pt": "O bolo de chocolate estava ótimo.",
+        "zh": "巧克力蛋糕特别好吃。"
+      }
+    },
+    {
+      "rank": 477,
+      "pt": "jantar",
+      "pos": "名词",
+      "zh": "晚餐",
+      "example": {
+        "pt": "O jantar foi servido às oito.",
+        "zh": "晚餐八点上的。"
+      }
+    },
+    {
+      "rank": 478,
+      "pt": "churrasco",
+      "pos": "名词",
+      "zh": "巴西烤肉",
+      "example": {
+        "pt": "No domingo teve churrasco.",
+        "zh": "周日吃了巴西烤肉。"
+      }
+    },
+    {
+      "rank": 479,
+      "pt": "reunião",
+      "pos": "名词",
+      "zh": "会议 / 聚会",
+      "example": {
+        "pt": "A reunião começou atrasada.",
+        "zh": "会议晚开始了。"
+      }
+    },
+    {
+      "rank": 480,
+      "pt": "encontro",
+      "pos": "名词",
+      "zh": "见面 / 约会",
+      "example": {
+        "pt": "O encontro foi num café.",
+        "zh": "见面是在一家咖啡馆。"
+      }
+    },
+    {
+      "rank": 481,
+      "pt": "rato",
+      "pos": "名词",
+      "zh": "老鼠",
+      "example": {
+        "pt": "Um rato passou pela cozinha.",
+        "zh": "一只老鼠跑过了厨房。"
+      },
+      "falseFriend": "西语 rato=片刻；葡语'片刻'是 momento；西语'老鼠'是 ratón/rata"
+    },
+    {
+      "rank": 482,
+      "pt": "assistir",
+      "pos": "动词",
+      "zh": "观看 / 出席",
+      "example": {
+        "pt": "Nós assistimos ao jogo no bar.",
+        "zh": "我们在酒吧看了比赛。"
+      },
+      "falseFriend": "西语 asistir=参加/出席；葡语 assistir (a)=观看；葡语'参加'是 participar/comparecer",
+      "conjugations": {
+        "eu": "assisto",
+        "tu": "assistes",
+        "ele/ela/você": "assiste",
+        "nós": "assistimos",
+        "eles/elas/vocês": "assistem",
+        "es": "asistir: asisto/asistes/asiste/asistimos/asisten"
+      }
+    },
+    {
+      "rank": 483,
+      "pt": "contar",
+      "pos": "动词",
+      "zh": "讲述 / 数",
+      "example": {
+        "pt": "A avó contou uma história.",
+        "zh": "奶奶讲了一个故事。"
+      },
+      "conjugations": {
+        "eu": "conto",
+        "tu": "contas",
+        "ele/ela/você": "conta",
+        "nós": "contamos",
+        "eles/elas/vocês": "contam",
+        "es": "contar: cuento/cuentas/cuenta/contamos/cuentan"
+      }
+    },
+    {
+      "rank": 484,
+      "pt": "terminar",
+      "pos": "动词",
+      "zh": "结束",
+      "example": {
+        "pt": "O filme terminou às dez.",
+        "zh": "电影十点结束的。"
+      },
+      "conjugations": {
+        "eu": "termino",
+        "tu": "terminas",
+        "ele/ela/você": "termina",
+        "nós": "terminamos",
+        "eles/elas/vocês": "terminam",
+        "es": "terminar: termino/terminas/termina/terminamos/terminan"
+      }
+    },
+    {
+      "rank": 485,
+      "pt": "visitar",
+      "pos": "动词",
+      "zh": "拜访 / 参观",
+      "example": {
+        "pt": "Nós visitamos a avó no domingo.",
+        "zh": "我们周日去看望了奶奶。"
+      },
+      "conjugations": {
+        "eu": "visito",
+        "tu": "visitas",
+        "ele/ela/você": "visita",
+        "nós": "visitamos",
+        "eles/elas/vocês": "visitam",
+        "es": "visitar: visito/visitas/visita/visitamos/visitan"
+      }
+    },
+    {
+      "rank": 486,
+      "pt": "pôr",
+      "pos": "动词",
+      "zh": "放 / 摆",
+      "example": {
+        "pt": "Ele pôs o livro na mesa.",
+        "zh": "他把书放在了桌上。"
+      },
+      "conjugations": {
+        "eu": "ponho",
+        "tu": "pões",
+        "ele/ela/você": "põe",
+        "nós": "pomos",
+        "eles/elas/vocês": "põem",
+        "es": "poner: pongo/pones/pone/ponemos/ponen"
+      }
+    },
+    {
+      "rank": 487,
+      "pt": "faltar",
+      "pos": "动词",
+      "zh": "缺少 / 没到",
+      "example": {
+        "pt": "Faltou água na festa?",
+        "zh": "聚会上水不够了吗？"
+      },
+      "conjugations": {
+        "eu": "falto",
+        "tu": "faltas",
+        "ele/ela/você": "falta",
+        "nós": "faltamos",
+        "eles/elas/vocês": "faltam",
+        "es": "faltar: falto/faltas/falta/faltamos/faltan"
+      }
+    },
+    {
+      "rank": 488,
+      "pt": "nascer",
+      "pos": "动词",
+      "zh": "出生",
+      "example": {
+        "pt": "Eu nasci numa cidade pequena.",
+        "zh": "我出生在一个小城。"
+      },
+      "conjugations": {
+        "eu": "nasço",
+        "tu": "nasces",
+        "ele/ela/você": "nasce",
+        "nós": "nascemos",
+        "eles/elas/vocês": "nascem",
+        "es": "nacer: nazco/naces/nace/nacemos/nacen"
+      }
+    },
+    {
+      "rank": 489,
+      "pt": "morrer",
+      "pos": "动词",
+      "zh": "死 / 去世",
+      "example": {
+        "pt": "O avô dele morreu em 2019.",
+        "zh": "他爷爷 2019 年去世了。"
+      },
+      "conjugations": {
+        "eu": "morro",
+        "tu": "morres",
+        "ele/ela/você": "morre",
+        "nós": "morremos",
+        "eles/elas/vocês": "morrem",
+        "es": "morir: muero/mueres/muere/morimos/mueren"
+      }
+    },
+    {
+      "rank": 490,
+      "pt": "crescer",
+      "pos": "动词",
+      "zh": "长大 / 成长",
+      "example": {
+        "pt": "Eu cresci no interior.",
+        "zh": "我在内地长大。"
+      },
+      "conjugations": {
+        "eu": "cresço",
+        "tu": "cresces",
+        "ele/ela/você": "cresce",
+        "nós": "crescemos",
+        "eles/elas/vocês": "crescem",
+        "es": "crecer: crezco/creces/crece/crecemos/crecen"
+      }
+    },
+    {
+      "rank": 491,
+      "pt": "casar",
+      "pos": "动词",
+      "zh": "结婚",
+      "example": {
+        "pt": "Eles se casaram em 2015.",
+        "zh": "他们 2015 年结的婚。"
+      },
+      "conjugations": {
+        "eu": "caso",
+        "tu": "casas",
+        "ele/ela/você": "casa",
+        "nós": "casamos",
+        "eles/elas/vocês": "casam",
+        "es": "casar: caso/casas/casa/casamos/casan"
+      }
+    },
+    {
+      "rank": 492,
+      "pt": "namorar",
+      "pos": "动词",
+      "zh": "谈恋爱",
+      "example": {
+        "pt": "Eles namoraram por dois anos.",
+        "zh": "他们谈了两年恋爱。"
+      },
+      "conjugations": {
+        "eu": "namoro",
+        "tu": "namoras",
+        "ele/ela/você": "namora",
+        "nós": "namoramos",
+        "eles/elas/vocês": "namoram",
+        "es": "西语 enamorarse: me enamoro/te enamoras/se enamora/nos enamoramos/se enamoran"
+      }
+    },
+    {
+      "rank": 493,
+      "pt": "divorciar",
+      "pos": "动词",
+      "zh": "离婚",
+      "example": {
+        "pt": "Eles se divorciaram no ano passado.",
+        "zh": "他们去年离婚了。"
+      },
+      "conjugations": {
+        "eu": "divorcio",
+        "tu": "divorcias",
+        "ele/ela/você": "divorcia",
+        "nós": "divorciamos",
+        "eles/elas/vocês": "divorciam",
+        "es": "divorciar: divorcio/divorcias/divorcia/divorciamos/divorcian"
+      }
+    },
+    {
+      "rank": 494,
+      "pt": "convidar",
+      "pos": "动词",
+      "zh": "邀请",
+      "example": {
+        "pt": "Ela convidou os amigos para o jantar.",
+        "zh": "她邀请了朋友们吃晚饭。"
+      },
+      "conjugations": {
+        "eu": "convido",
+        "tu": "convidas",
+        "ele/ela/você": "convida",
+        "nós": "convidamos",
+        "eles/elas/vocês": "convidam",
+        "es": "invitar: invito/invitas/invita/invitamos/invitan"
+      }
+    },
+    {
+      "rank": 495,
+      "pt": "ligar",
+      "pos": "动词",
+      "zh": "打电话 / 打开（电器）",
+      "example": {
+        "pt": "Eu liguei para a minha mãe ontem.",
+        "zh": "我昨天给妈妈打了电话。"
+      },
+      "falseFriend": "西语 ligar=绑/调情；葡语'绑'是 amarrar；葡语 ligar=打电话/接通（电器）",
+      "conjugations": {
+        "eu": "ligo",
+        "tu": "ligas",
+        "ele/ela/você": "liga",
+        "nós": "ligamos",
+        "eles/elas/vocês": "ligam",
+        "es": "llamar: llamo/llamas/llama/llamamos/llaman"
+      }
+    },
+    {
+      "rank": 496,
+      "pt": "sonhar",
+      "pos": "动词",
+      "zh": "做梦 / 梦想",
+      "example": {
+        "pt": "Eu sonhei com você ontem.",
+        "zh": "我昨晚梦到你了。"
+      },
+      "conjugations": {
+        "eu": "sonho",
+        "tu": "sonhas",
+        "ele/ela/você": "sonha",
+        "nós": "sonhamos",
+        "eles/elas/vocês": "sonham",
+        "es": "soñar: sueño/sueñas/sueña/soñamos/sueñan"
+      }
+    },
+    {
+      "rank": 497,
+      "pt": "descansar",
+      "pos": "动词",
+      "zh": "休息",
+      "example": {
+        "pt": "No sábado eu descansei o dia todo.",
+        "zh": "周六我休息了一整天。"
+      },
+      "conjugations": {
+        "eu": "descanso",
+        "tu": "descansas",
+        "ele/ela/você": "descansa",
+        "nós": "descansamos",
+        "eles/elas/vocês": "descansam",
+        "es": "descansar: descanso/descansas/descansa/descansamos/descansan"
+      }
+    },
+    {
+      "rank": 498,
+      "pt": "celebrar",
+      "pos": "动词",
+      "zh": "庆祝",
+      "example": {
+        "pt": "Nós celebramos o aniversário dela.",
+        "zh": "我们庆祝了她的生日。"
+      },
+      "conjugations": {
+        "eu": "celebro",
+        "tu": "celebras",
+        "ele/ela/você": "celebra",
+        "nós": "celebramos",
+        "eles/elas/vocês": "celebram",
+        "es": "celebrar: celebro/celebras/celebra/celebramos/celebran"
+      }
+    },
+    {
+      "rank": 499,
+      "pt": "chorar",
+      "pos": "动词",
+      "zh": "哭",
+      "example": {
+        "pt": "A criança chorou muito.",
+        "zh": "孩子哭得很厉害。"
+      },
+      "conjugations": {
+        "eu": "choro",
+        "tu": "choras",
+        "ele/ela/você": "chora",
+        "nós": "choramos",
+        "eles/elas/vocês": "choram",
+        "es": "llorar: lloro/lloras/llora/lloramos/lloran"
+      }
+    },
+    {
+      "rank": 500,
+      "pt": "rir",
+      "pos": "动词",
+      "zh": "笑",
+      "example": {
+        "pt": "Todos riram da piada.",
+        "zh": "大家都被这个笑话逗笑了。"
+      },
+      "conjugations": {
+        "eu": "rio",
+        "tu": "ris",
+        "ele/ela/você": "ri",
+        "nós": "rimos",
+        "eles/elas/vocês": "riem",
+        "es": "reír: río/ríes/ríe/reímos/ríen"
+      }
+    }
+  ],
+  "w6": [
+    {
+      "rank": 501,
+      "pt": "governo",
+      "pos": "名词",
+      "zh": "政府",
+      "example": {
+        "pt": "O governo anunciou novas medidas.",
+        "zh": "政府宣布了新措施。"
+      }
+    },
+    {
+      "rank": 502,
+      "pt": "presidente",
+      "pos": "名词",
+      "zh": "总统 / 主席",
+      "example": {
+        "pt": "O presidente falou à imprensa.",
+        "zh": "总统对媒体讲了话。"
+      }
+    },
+    {
+      "rank": 503,
+      "pt": "ministro",
+      "pos": "名词",
+      "zh": "部长",
+      "example": {
+        "pt": "O ministro da Saúde deu entrevista.",
+        "zh": "卫生部长接受了采访。"
+      }
+    },
+    {
+      "rank": 504,
+      "pt": "política",
+      "pos": "名词",
+      "zh": "政治 / 政策",
+      "example": {
+        "pt": "A política econômica mudou.",
+        "zh": "经济政策变了。"
+      }
+    },
+    {
+      "rank": 505,
+      "pt": "eleição",
+      "pos": "名词",
+      "zh": "选举",
+      "example": {
+        "pt": "A eleição foi em outubro.",
+        "zh": "选举在十月举行。"
+      }
+    },
+    {
+      "rank": 506,
+      "pt": "voto",
+      "pos": "名词",
+      "zh": "选票",
+      "example": {
+        "pt": "Cada voto é importante.",
+        "zh": "每一票都很重要。"
+      }
+    },
+    {
+      "rank": 507,
+      "pt": "partido",
+      "pos": "名词",
+      "zh": "政党",
+      "example": {
+        "pt": "O partido ganhou a eleição.",
+        "zh": "该党赢得了选举。"
+      }
+    },
+    {
+      "rank": 508,
+      "pt": "lei",
+      "pos": "名词",
+      "zh": "法律",
+      "example": {
+        "pt": "A nova lei começa em janeiro.",
+        "zh": "新法律一月生效。"
+      }
+    },
+    {
+      "rank": 509,
+      "pt": "direito",
+      "pos": "名词",
+      "zh": "权利 / 法学",
+      "example": {
+        "pt": "Todos têm direito à saúde.",
+        "zh": "人人享有健康权。"
+      }
+    },
+    {
+      "rank": 510,
+      "pt": "justiça",
+      "pos": "名词",
+      "zh": "司法 / 公正",
+      "example": {
+        "pt": "O caso foi para a justiça.",
+        "zh": "案子进入了司法程序。"
+      }
+    },
+    {
+      "rank": 511,
+      "pt": "tribunal",
+      "pos": "名词",
+      "zh": "法院",
+      "example": {
+        "pt": "O tribunal julga o caso hoje.",
+        "zh": "法院今天审理此案。"
+      }
+    },
+    {
+      "rank": 512,
+      "pt": "juiz",
+      "pos": "名词",
+      "zh": "法官",
+      "example": {
+        "pt": "O juiz decidiu o caso.",
+        "zh": "法官对案件作出了裁决。"
+      }
+    },
+    {
+      "rank": 513,
+      "pt": "crime",
+      "pos": "名词",
+      "zh": "犯罪",
+      "example": {
+        "pt": "O crime aconteceu à noite.",
+        "zh": "犯罪发生在夜里。"
+      }
+    },
+    {
+      "rank": 514,
+      "pt": "polícia",
+      "pos": "名词",
+      "zh": "警察 / 警方",
+      "example": {
+        "pt": "A polícia investiga o caso.",
+        "zh": "警方正在调查此案。"
+      }
+    },
+    {
+      "rank": 515,
+      "pt": "policial",
+      "pos": "名词",
+      "zh": "警察（个体）",
+      "example": {
+        "pt": "O policial prendeu o ladrão.",
+        "zh": "警察抓住了小偷。"
+      }
+    },
+    {
+      "rank": 516,
+      "pt": "ladrão",
+      "pos": "名词",
+      "zh": "小偷",
+      "example": {
+        "pt": "O ladrão roubou um celular.",
+        "zh": "小偷偷了一部手机。"
+      }
+    },
+    {
+      "rank": 517,
+      "pt": "prisão",
+      "pos": "名词",
+      "zh": "监狱 / 逮捕",
+      "example": {
+        "pt": "Ele foi levado para a prisão.",
+        "zh": "他被送进了监狱。"
+      }
+    },
+    {
+      "rank": 518,
+      "pt": "segurança",
+      "pos": "名词",
+      "zh": "安全",
+      "example": {
+        "pt": "A segurança da cidade melhorou.",
+        "zh": "城市治安改善了。"
+      }
+    },
+    {
+      "rank": 519,
+      "pt": "violência",
+      "pos": "名词",
+      "zh": "暴力",
+      "example": {
+        "pt": "A violência é um problema social.",
+        "zh": "暴力是一个社会问题。"
+      }
+    },
+    {
+      "rank": 520,
+      "pt": "acidente",
+      "pos": "名词",
+      "zh": "事故",
+      "example": {
+        "pt": "O acidente foi na avenida principal.",
+        "zh": "事故发生在主干道。"
+      }
+    },
+    {
+      "rank": 521,
+      "pt": "incêndio",
+      "pos": "名词",
+      "zh": "火灾",
+      "example": {
+        "pt": "O incêndio destruiu o prédio.",
+        "zh": "大火烧毁了大楼。"
+      }
+    },
+    {
+      "rank": 522,
+      "pt": "enchente",
+      "pos": "名词",
+      "zh": "洪水",
+      "example": {
+        "pt": "A enchente deixou famílias sem casa.",
+        "zh": "洪水让一些家庭无家可归。"
+      }
+    },
+    {
+      "rank": 523,
+      "pt": "guerra",
+      "pos": "名词",
+      "zh": "战争",
+      "example": {
+        "pt": "A guerra mudou o país.",
+        "zh": "战争改变了这个国家。"
+      }
+    },
+    {
+      "rank": 524,
+      "pt": "paz",
+      "pos": "名词",
+      "zh": "和平",
+      "example": {
+        "pt": "Todos querem a paz.",
+        "zh": "人人都渴望和平。"
+      }
+    },
+    {
+      "rank": 525,
+      "pt": "ataque",
+      "pos": "名词",
+      "zh": "袭击",
+      "example": {
+        "pt": "O ataque foi na madrugada.",
+        "zh": "袭击发生在凌晨。"
+      }
+    },
+    {
+      "rank": 526,
+      "pt": "greve",
+      "pos": "名词",
+      "zh": "罢工",
+      "example": {
+        "pt": "A greve dos ônibus começou hoje.",
+        "zh": "公交罢工今天开始。"
+      }
+    },
+    {
+      "rank": 527,
+      "pt": "avenida",
+      "pos": "名词",
+      "zh": "大街",
+      "example": {
+        "pt": "O acidente foi na Avenida Paulista.",
+        "zh": "事故发生在保利斯塔大街。"
+      }
+    },
+    {
+      "rank": 528,
+      "pt": "bairro",
+      "pos": "名词",
+      "zh": "街区",
+      "example": {
+        "pt": "O bairro é tranquilo e seguro.",
+        "zh": "这个街区安静又安全。"
+      }
+    },
+    {
+      "rank": 529,
+      "pt": "prefeitura",
+      "pos": "名词",
+      "zh": "市政府",
+      "example": {
+        "pt": "A prefeitura vai construir uma escola.",
+        "zh": "市政府将建一所学校。"
+      }
+    },
+    {
+      "rank": 530,
+      "pt": "prefeito",
+      "pos": "名词",
+      "zh": "市长",
+      "example": {
+        "pt": "O prefeito inaugurou o parque.",
+        "zh": "市长为公园揭幕。"
+      }
+    },
+    {
+      "rank": 531,
+      "pt": "trânsito",
+      "pos": "名词",
+      "zh": "交通",
+      "example": {
+        "pt": "O trânsito está parado no centro.",
+        "zh": "市中心交通堵死了。"
+      }
+    },
+    {
+      "rank": 532,
+      "pt": "morador",
+      "pos": "名词",
+      "zh": "居民",
+      "example": {
+        "pt": "Os moradores reclamam do barulho.",
+        "zh": "居民们抱怨噪音。"
+      }
+    },
+    {
+      "rank": 533,
+      "pt": "cidadão",
+      "pos": "名词",
+      "zh": "公民 / 市民",
+      "example": {
+        "pt": "O cidadão tem direitos e deveres.",
+        "zh": "公民有权利也有义务。"
+      }
+    },
+    {
+      "rank": 534,
+      "pt": "população",
+      "pos": "名词",
+      "zh": "人口 / 民众",
+      "example": {
+        "pt": "A população da cidade cresceu.",
+        "zh": "本市人口增长了。"
+      }
+    },
+    {
+      "rank": 535,
+      "pt": "economia",
+      "pos": "名词",
+      "zh": "经济",
+      "example": {
+        "pt": "A economia do país cresceu este ano.",
+        "zh": "今年国家经济增长了。"
+      }
+    },
+    {
+      "rank": 536,
+      "pt": "crise",
+      "pos": "名词",
+      "zh": "危机",
+      "example": {
+        "pt": "A crise afetou muitas empresas.",
+        "zh": "危机影响了很多公司。"
+      }
+    },
+    {
+      "rank": 537,
+      "pt": "negócio",
+      "pos": "名词",
+      "zh": "生意 / 商业",
+      "example": {
+        "pt": "O negócio foi fechado ontem.",
+        "zh": "生意昨天谈成了。"
+      }
+    },
+    {
+      "rank": 538,
+      "pt": "indústria",
+      "pos": "名词",
+      "zh": "工业",
+      "example": {
+        "pt": "A indústria cresce na região.",
+        "zh": "该地区工业在增长。"
+      }
+    },
+    {
+      "rank": 539,
+      "pt": "fábrica",
+      "pos": "名词",
+      "zh": "工厂",
+      "example": {
+        "pt": "A fábrica fechou as portas.",
+        "zh": "工厂倒闭了。"
+      }
+    },
+    {
+      "rank": 540,
+      "pt": "funcionário",
+      "pos": "名词",
+      "zh": "职员 / 雇员",
+      "example": {
+        "pt": "A empresa tem cem funcionários.",
+        "zh": "这家公司有一百名员工。"
+      }
+    },
+    {
+      "rank": 541,
+      "pt": "chefe",
+      "pos": "名词",
+      "zh": "老板 / 上司",
+      "example": {
+        "pt": "O chefe convocou uma reunião.",
+        "zh": "老板召集了会议。"
+      }
+    },
+    {
+      "rank": 542,
+      "pt": "gerente",
+      "pos": "名词",
+      "zh": "经理",
+      "example": {
+        "pt": "O gerente apresentou os resultados.",
+        "zh": "经理公布了业绩。"
+      }
+    },
+    {
+      "rank": 543,
+      "pt": "cliente",
+      "pos": "名词",
+      "zh": "客户",
+      "example": {
+        "pt": "O cliente reclamou do serviço.",
+        "zh": "客户投诉了服务。"
+      }
+    },
+    {
+      "rank": 544,
+      "pt": "salário",
+      "pos": "名词",
+      "zh": "工资",
+      "example": {
+        "pt": "O salário mínimo vai aumentar.",
+        "zh": "最低工资要涨了。"
+      }
+    },
+    {
+      "rank": 545,
+      "pt": "emprego",
+      "pos": "名词",
+      "zh": "工作 / 职位",
+      "example": {
+        "pt": "Ele conseguiu um emprego novo.",
+        "zh": "他找到了一份新工作。"
+      }
+    },
+    {
+      "rank": 546,
+      "pt": "desemprego",
+      "pos": "名词",
+      "zh": "失业",
+      "example": {
+        "pt": "O desemprego caiu este ano.",
+        "zh": "今年失业率下降了。"
+      }
+    },
+    {
+      "rank": 547,
+      "pt": "imposto",
+      "pos": "名词",
+      "zh": "税",
+      "example": {
+        "pt": "O imposto sobre produtos subiu.",
+        "zh": "产品税上调了。"
+      }
+    },
+    {
+      "rank": 548,
+      "pt": "inflação",
+      "pos": "名词",
+      "zh": "通货膨胀",
+      "example": {
+        "pt": "A inflação subiu no último mês.",
+        "zh": "上个月通胀上升了。"
+      }
+    },
+    {
+      "rank": 549,
+      "pt": "dólar",
+      "pos": "名词",
+      "zh": "美元",
+      "example": {
+        "pt": "O dólar subiu hoje.",
+        "zh": "美元今天涨了。"
+      }
+    },
+    {
+      "rank": 550,
+      "pt": "real",
+      "pos": "名词/形容词",
+      "zh": "雷亚尔 / 真实的",
+      "example": {
+        "pt": "O produto custa cinquenta reais.",
+        "zh": "这个产品五十雷亚尔。"
+      },
+      "falseFriend": "巴西货币 real（复数 reais）；西语 real=真实的/皇家的，西语没有这种货币"
+    },
+    {
+      "rank": 551,
+      "pt": "moeda",
+      "pos": "名词",
+      "zh": "货币",
+      "example": {
+        "pt": "O real é a moeda do Brasil.",
+        "zh": "雷亚尔是巴西的货币。"
+      }
+    },
+    {
+      "rank": 552,
+      "pt": "dívida",
+      "pos": "名词",
+      "zh": "债务 / 欠款",
+      "example": {
+        "pt": "A empresa pagou as dívidas.",
+        "zh": "公司还清了债务。"
+      }
+    },
+    {
+      "rank": 553,
+      "pt": "lucro",
+      "pos": "名词",
+      "zh": "利润",
+      "example": {
+        "pt": "O lucro da empresa aumentou.",
+        "zh": "公司利润增加了。"
+      }
+    },
+    {
+      "rank": 554,
+      "pt": "investimento",
+      "pos": "名词",
+      "zh": "投资",
+      "example": {
+        "pt": "O investimento gerou empregos.",
+        "zh": "这项投资创造了就业。"
+      }
+    },
+    {
+      "rank": 555,
+      "pt": "aumento",
+      "pos": "名词",
+      "zh": "上涨 / 增加",
+      "example": {
+        "pt": "O aumento do preço começou ontem.",
+        "zh": "涨价是从昨天开始的。"
+      }
+    },
+    {
+      "rank": 556,
+      "pt": "taxa",
+      "pos": "名词",
+      "zh": "费率 / 税率",
+      "example": {
+        "pt": "A taxa de juros caiu.",
+        "zh": "利率下降了。"
+      }
+    },
+    {
+      "rank": 557,
+      "pt": "crescimento",
+      "pos": "名词",
+      "zh": "增长",
+      "example": {
+        "pt": "O crescimento da economia foi bom.",
+        "zh": "经济增长表现不错。"
+      }
+    },
+    {
+      "rank": 558,
+      "pt": "produto",
+      "pos": "名词",
+      "zh": "产品",
+      "example": {
+        "pt": "O produto chega às lojas em maio.",
+        "zh": "产品五月上架。"
+      }
+    },
+    {
+      "rank": 559,
+      "pt": "serviço",
+      "pos": "名词",
+      "zh": "服务",
+      "example": {
+        "pt": "O serviço da empresa é bom.",
+        "zh": "这家公司的服务不错。"
+      }
+    },
+    {
+      "rank": 560,
+      "pt": "projeto",
+      "pos": "名词",
+      "zh": "项目",
+      "example": {
+        "pt": "O projeto foi aprovado ontem.",
+        "zh": "项目昨天获批了。"
+      }
+    },
+    {
+      "rank": 561,
+      "pt": "contrato",
+      "pos": "名词",
+      "zh": "合同",
+      "example": {
+        "pt": "O contrato foi assinado hoje.",
+        "zh": "合同今天签了。"
+      }
+    },
+    {
+      "rank": 562,
+      "pt": "doença",
+      "pos": "名词",
+      "zh": "疾病",
+      "example": {
+        "pt": "A doença se espalhou rápido.",
+        "zh": "疾病传播得很快。"
+      }
+    },
+    {
+      "rank": 563,
+      "pt": "médico",
+      "pos": "名词",
+      "zh": "医生",
+      "example": {
+        "pt": "O médico atendeu vinte pacientes.",
+        "zh": "医生接诊了二十个病人。"
+      }
+    },
+    {
+      "rank": 564,
+      "pt": "remédio",
+      "pos": "名词",
+      "zh": "药",
+      "example": {
+        "pt": "O remédio está na farmácia.",
+        "zh": "这药在药店有售。"
+      }
+    },
+    {
+      "rank": 565,
+      "pt": "vacina",
+      "pos": "名词",
+      "zh": "疫苗",
+      "example": {
+        "pt": "A vacina chegou aos postos de saúde.",
+        "zh": "疫苗已到达卫生站。"
+      }
+    },
+    {
+      "rank": 566,
+      "pt": "notícia",
+      "pos": "名词",
+      "zh": "新闻 / 消息",
+      "example": {
+        "pt": "A notícia saiu no jornal de hoje.",
+        "zh": "这条新闻上了今天的报纸。"
+      }
+    },
+    {
+      "rank": 567,
+      "pt": "reportagem",
+      "pos": "名词",
+      "zh": "报道",
+      "example": {
+        "pt": "A reportagem mostrou a enchente.",
+        "zh": "报道播出了洪水的情况。"
+      }
+    },
+    {
+      "rank": 568,
+      "pt": "jornalista",
+      "pos": "名词",
+      "zh": "记者",
+      "example": {
+        "pt": "A jornalista entrevistou o prefeito.",
+        "zh": "记者采访了市长。"
+      }
+    },
+    {
+      "rank": 569,
+      "pt": "imprensa",
+      "pos": "名词",
+      "zh": "新闻界 / 报刊",
+      "example": {
+        "pt": "A imprensa divulgou o caso.",
+        "zh": "媒体公开了此案。"
+      }
+    },
+    {
+      "rank": 570,
+      "pt": "mídia",
+      "pos": "名词",
+      "zh": "媒体",
+      "example": {
+        "pt": "A mídia falou sobre a crise.",
+        "zh": "媒体报道了这场危机。"
+      }
+    },
+    {
+      "rank": 571,
+      "pt": "manchete",
+      "pos": "名词",
+      "zh": "头条",
+      "example": {
+        "pt": "A manchete de hoje é sobre a eleição.",
+        "zh": "今天的头条是关于选举的。"
+      }
+    },
+    {
+      "rank": 572,
+      "pt": "programa",
+      "pos": "名词",
+      "zh": "节目 / 方案",
+      "example": {
+        "pt": "O programa de TV começou tarde.",
+        "zh": "电视节目很晚才开始。"
+      }
+    },
+    {
+      "rank": 573,
+      "pt": "pesquisa",
+      "pos": "名词",
+      "zh": "调查 / 研究",
+      "example": {
+        "pt": "A pesquisa mostra o resultado.",
+        "zh": "调查显示了结果。"
+      }
+    },
+    {
+      "rank": 574,
+      "pt": "resultado",
+      "pos": "名词",
+      "zh": "结果",
+      "example": {
+        "pt": "O resultado saiu na sexta-feira.",
+        "zh": "结果周五出来了。"
+      }
+    },
+    {
+      "rank": 575,
+      "pt": "problema",
+      "pos": "名词",
+      "zh": "问题",
+      "example": {
+        "pt": "O problema foi resolvido.",
+        "zh": "问题解决了。"
+      }
+    },
+    {
+      "rank": 576,
+      "pt": "caso",
+      "pos": "名词",
+      "zh": "案件 / 情况",
+      "example": {
+        "pt": "O caso está com a polícia.",
+        "zh": "案件在警方手里。"
+      }
+    },
+    {
+      "rank": 577,
+      "pt": "fato",
+      "pos": "名词",
+      "zh": "事实 / 西装",
+      "example": {
+        "pt": "O jornal publicou os fatos.",
+        "zh": "报纸刊出了事实。"
+      },
+      "falseFriend": "葡语 fato=事实；也=西装（=西语 traje）；西语'事实'是 hecho/facto"
+    },
+    {
+      "rank": 578,
+      "pt": "sucesso",
+      "pos": "名词",
+      "zh": "成功",
+      "example": {
+        "pt": "O filme fez muito sucesso.",
+        "zh": "这部电影大获成功。"
+      },
+      "falseFriend": "西语 suceso=事件（新闻常用）；葡语'事件'是 acontecimento/incidente；sucesso=成功"
+    },
+    {
+      "rank": 579,
+      "pt": "propina",
+      "pos": "名词",
+      "zh": "贿赂（巴西）",
+      "example": {
+        "pt": "O político recebeu propina.",
+        "zh": "这名政客收受了贿赂。"
+      },
+      "falseFriend": "西语 propina=小费；巴西葡语 propina=贿赂/黑钱；葡语'小费'是 gorjeta"
+    },
+    {
+      "rank": 580,
+      "pt": "publicar",
+      "pos": "动词",
+      "zh": "发表 / 刊登",
+      "example": {
+        "pt": "O jornal publicou a entrevista.",
+        "zh": "报纸刊登了采访。"
+      },
+      "conjugations": {
+        "eu": "publico",
+        "tu": "publicas",
+        "ele/ela/você": "publica",
+        "nós": "publicamos",
+        "eles/elas/vocês": "publicam",
+        "es": "publicar: publico/publicas/publica/publicamos/publican"
+      }
+    },
+    {
+      "rank": 581,
+      "pt": "anunciar",
+      "pos": "动词",
+      "zh": "宣布",
+      "example": {
+        "pt": "O governo anunciou o novo plano.",
+        "zh": "政府宣布了新方案。"
+      },
+      "conjugations": {
+        "eu": "anuncio",
+        "tu": "anuncias",
+        "ele/ela/você": "anuncia",
+        "nós": "anunciamos",
+        "eles/elas/vocês": "anunciam",
+        "es": "anunciar: anuncio/anuncias/anuncia/anunciamos/anuncian"
+      }
+    },
+    {
+      "rank": 582,
+      "pt": "declarar",
+      "pos": "动词",
+      "zh": "声明",
+      "example": {
+        "pt": "O presidente declarou emergência.",
+        "zh": "总统宣布进入紧急状态。"
+      },
+      "conjugations": {
+        "eu": "declaro",
+        "tu": "declaras",
+        "ele/ela/você": "declara",
+        "nós": "declaramos",
+        "eles/elas/vocês": "declaram",
+        "es": "declarar: declaro/declaras/declara/declaramos/declaran"
+      }
+    },
+    {
+      "rank": 583,
+      "pt": "explicar",
+      "pos": "动词",
+      "zh": "解释",
+      "example": {
+        "pt": "O ministro explicou a decisão.",
+        "zh": "部长解释了这项决定。"
+      },
+      "conjugations": {
+        "eu": "explico",
+        "tu": "explicas",
+        "ele/ela/você": "explica",
+        "nós": "explicamos",
+        "eles/elas/vocês": "explicam",
+        "es": "explicar: explico/explicas/explica/explicamos/explican"
+      }
+    },
+    {
+      "rank": 584,
+      "pt": "discutir",
+      "pos": "动词",
+      "zh": "讨论",
+      "example": {
+        "pt": "O Congresso discute a nova lei.",
+        "zh": "国会正在讨论新法律。"
+      },
+      "conjugations": {
+        "eu": "discuto",
+        "tu": "discutes",
+        "ele/ela/você": "discute",
+        "nós": "discutimos",
+        "eles/elas/vocês": "discutem",
+        "es": "discutir: discuto/discutes/discute/discutimos/discuten"
+      }
+    },
+    {
+      "rank": 585,
+      "pt": "votar",
+      "pos": "动词",
+      "zh": "投票 / 表决",
+      "example": {
+        "pt": "Os deputados votam amanhã.",
+        "zh": "议员们明天表决。"
+      },
+      "conjugations": {
+        "eu": "voto",
+        "tu": "votas",
+        "ele/ela/você": "vota",
+        "nós": "votamos",
+        "eles/elas/vocês": "votam",
+        "es": "votar: voto/votas/vota/votamos/votan"
+      }
+    },
+    {
+      "rank": 586,
+      "pt": "eleger",
+      "pos": "动词",
+      "zh": "选举",
+      "example": {
+        "pt": "O povo elegeu o novo prefeito.",
+        "zh": "民众选出了新市长。"
+      },
+      "conjugations": {
+        "eu": "elejo",
+        "tu": "eleges",
+        "ele/ela/você": "elege",
+        "nós": "elegemos",
+        "eles/elas/vocês": "elegem",
+        "es": "elegir: elijo/eliges/elige/elegimos/eligen"
+      }
+    },
+    {
+      "rank": 587,
+      "pt": "governar",
+      "pos": "动词",
+      "zh": "治理 / 执政",
+      "example": {
+        "pt": "Ela governa o estado há quatro anos.",
+        "zh": "她治理这个州已经四年了。"
+      },
+      "conjugations": {
+        "eu": "governo",
+        "tu": "governas",
+        "ele/ela/você": "governa",
+        "nós": "governamos",
+        "eles/elas/vocês": "governam",
+        "es": "gobernar: gobierno/gobiernas/gobierna/gobernamos/gobiernan"
+      }
+    },
+    {
+      "rank": 588,
+      "pt": "protestar",
+      "pos": "动词",
+      "zh": "抗议",
+      "example": {
+        "pt": "Os estudantes protestaram contra o aumento.",
+        "zh": "学生们抗议涨价。"
+      },
+      "conjugations": {
+        "eu": "protesto",
+        "tu": "protestas",
+        "ele/ela/você": "protesta",
+        "nós": "protestamos",
+        "eles/elas/vocês": "protestam",
+        "es": "protestar: protesto/protestas/protesta/protestamos/protestan"
+      }
+    },
+    {
+      "rank": 589,
+      "pt": "reclamar",
+      "pos": "动词",
+      "zh": "抱怨 / 投诉",
+      "example": {
+        "pt": "Os moradores reclamaram do barulho.",
+        "zh": "居民们抱怨噪音。"
+      },
+      "conjugations": {
+        "eu": "reclamo",
+        "tu": "reclamas",
+        "ele/ela/você": "reclama",
+        "nós": "reclamamos",
+        "eles/elas/vocês": "reclamam",
+        "es": "reclamar: reclamo/reclamas/reclama/reclamamos/reclaman"
+      }
+    },
+    {
+      "rank": 590,
+      "pt": "roubar",
+      "pos": "动词",
+      "zh": "偷 / 抢",
+      "example": {
+        "pt": "Roubaram o banco da cidade.",
+        "zh": "城里的银行被抢了。"
+      },
+      "conjugations": {
+        "eu": "roubo",
+        "tu": "roubas",
+        "ele/ela/você": "rouba",
+        "nós": "roubamos",
+        "eles/elas/vocês": "roubam",
+        "es": "robar: robo/robas/roba/robamos/roban"
+      }
+    },
+    {
+      "rank": 591,
+      "pt": "prender",
+      "pos": "动词",
+      "zh": "逮捕",
+      "example": {
+        "pt": "A polícia prendeu o suspeito.",
+        "zh": "警方逮捕了嫌疑人。"
+      },
+      "conjugations": {
+        "eu": "prendo",
+        "tu": "prendes",
+        "ele/ela/você": "prende",
+        "nós": "prendemos",
+        "eles/elas/vocês": "prendem",
+        "es": "prender: prendo/prendes/prende/prendemos/prenden"
+      }
+    },
+    {
+      "rank": 592,
+      "pt": "matar",
+      "pos": "动词",
+      "zh": "杀死",
+      "example": {
+        "pt": "O ladrão matou o dono da loja.",
+        "zh": "小偷杀害了店主。"
+      },
+      "conjugations": {
+        "eu": "mato",
+        "tu": "matas",
+        "ele/ela/você": "mata",
+        "nós": "matamos",
+        "eles/elas/vocês": "matam",
+        "es": "matar: mato/matas/mata/matamos/matan"
+      }
+    },
+    {
+      "rank": 593,
+      "pt": "investigar",
+      "pos": "动词",
+      "zh": "调查",
+      "example": {
+        "pt": "A polícia investiga o crime.",
+        "zh": "警方在调查这起犯罪。"
+      },
+      "conjugations": {
+        "eu": "investigo",
+        "tu": "investigas",
+        "ele/ela/você": "investiga",
+        "nós": "investigamos",
+        "eles/elas/vocês": "investigam",
+        "es": "investigar: investigo/investigas/investiga/investigamos/investigan"
+      }
+    },
+    {
+      "rank": 594,
+      "pt": "proteger",
+      "pos": "动词",
+      "zh": "保护",
+      "example": {
+        "pt": "O programa protege as crianças.",
+        "zh": "该项目保护儿童。"
+      },
+      "conjugations": {
+        "eu": "protejo",
+        "tu": "proteges",
+        "ele/ela/você": "protege",
+        "nós": "protegemos",
+        "eles/elas/vocês": "protegem",
+        "es": "proteger: protego/proteges/protege/protegemos/protegen"
+      }
+    },
+    {
+      "rank": 595,
+      "pt": "aumentar",
+      "pos": "动词",
+      "zh": "增加 / 上涨",
+      "example": {
+        "pt": "Os preços aumentaram de novo.",
+        "zh": "物价又涨了。"
+      },
+      "conjugations": {
+        "eu": "aumento",
+        "tu": "aumentas",
+        "ele/ela/você": "aumenta",
+        "nós": "aumentamos",
+        "eles/elas/vocês": "aumentam",
+        "es": "aumentar: aumento/aumentas/aumenta/aumentamos/aumentan"
+      }
+    },
+    {
+      "rank": 596,
+      "pt": "diminuir",
+      "pos": "动词",
+      "zh": "减少",
+      "example": {
+        "pt": "O desemprego diminuiu este ano.",
+        "zh": "今年失业减少了。"
+      },
+      "conjugations": {
+        "eu": "diminuo",
+        "tu": "diminuis",
+        "ele/ela/você": "diminui",
+        "nós": "diminuímos",
+        "eles/elas/vocês": "diminuem",
+        "es": "disminuir: disminuyo/disminuyes/disminuye/disminuimos/disminuyen"
+      }
+    },
+    {
+      "rank": 597,
+      "pt": "cair",
+      "pos": "动词",
+      "zh": "下降 / 跌倒",
+      "example": {
+        "pt": "O dólar caiu hoje.",
+        "zh": "美元今天跌了。"
+      },
+      "conjugations": {
+        "eu": "caio",
+        "tu": "cais",
+        "ele/ela/você": "cai",
+        "nós": "caímos",
+        "eles/elas/vocês": "caem",
+        "es": "caer: caigo/caes/cae/caemos/caen"
+      }
+    },
+    {
+      "rank": 598,
+      "pt": "dever",
+      "pos": "动词",
+      "zh": "欠 / 应该",
+      "example": {
+        "pt": "A empresa deve milhões ao banco.",
+        "zh": "公司欠银行数百万。"
+      },
+      "conjugations": {
+        "eu": "devo",
+        "tu": "deves",
+        "ele/ela/você": "deve",
+        "nós": "devemos",
+        "eles/elas/vocês": "devem",
+        "es": "deber: debo/debes/debe/debemos/deben"
+      }
+    },
+    {
+      "rank": 599,
+      "pt": "participar",
+      "pos": "动词",
+      "zh": "参加",
+      "example": {
+        "pt": "Mil pessoas participaram do protesto.",
+        "zh": "一千人参加了抗议。"
+      },
+      "conjugations": {
+        "eu": "participo",
+        "tu": "participas",
+        "ele/ela/você": "participa",
+        "nós": "participamos",
+        "eles/elas/vocês": "participam",
+        "es": "participar: participo/participas/participa/participamos/participan"
+      }
+    },
+    {
+      "rank": 600,
+      "pt": "atender",
+      "pos": "动词",
+      "zh": "接待 / 接听 / 满足",
+      "example": {
+        "pt": "O hospital atendeu cem pacientes.",
+        "zh": "医院接诊了一百位病人。"
+      },
+      "falseFriend": "西语 atender=注意/接待；葡语 atender=接待/接听(电话)/满足(要求)；'注意'葡语是 prestar atenção",
+      "conjugations": {
+        "eu": "atendo",
+        "tu": "atendes",
+        "ele/ela/você": "atende",
+        "nós": "atendemos",
+        "eles/elas/vocês": "atendem",
+        "es": "atender: atiendo/atiendes/atiende/atendemos/atienden"
+      }
+    }
+  ],
+  "w7": [
+    {
+      "rank": 601,
+      "pt": "viagem",
+      "pos": "名词",
+      "zh": "旅行",
+      "example": {
+        "pt": "A viagem será em julho.",
+        "zh": "旅行将在七月。"
+      }
+    },
+    {
+      "rank": 602,
+      "pt": "passagem",
+      "pos": "名词",
+      "zh": "机票 / 车票",
+      "example": {
+        "pt": "Comprei a passagem para o Rio.",
+        "zh": "我买好了去里约的票。"
+      }
+    },
+    {
+      "rank": 603,
+      "pt": "bilhete",
+      "pos": "名词",
+      "zh": "票",
+      "example": {
+        "pt": "O bilhete custa cem reais.",
+        "zh": "票一百雷亚尔。"
+      }
+    },
+    {
+      "rank": 604,
+      "pt": "passaporte",
+      "pos": "名词",
+      "zh": "护照",
+      "example": {
+        "pt": "O passaporte está na gaveta.",
+        "zh": "护照在抽屉里。"
+      }
+    },
+    {
+      "rank": 605,
+      "pt": "visto",
+      "pos": "名词",
+      "zh": "签证",
+      "example": {
+        "pt": "O visto sai na próxima semana.",
+        "zh": "签证下周就下来。"
+      }
+    },
+    {
+      "rank": 606,
+      "pt": "bagagem",
+      "pos": "名词",
+      "zh": "行李",
+      "example": {
+        "pt": "A bagagem chega na esteira três.",
+        "zh": "行李在三号传送带上。"
+      }
+    },
+    {
+      "rank": 607,
+      "pt": "mala",
+      "pos": "名词",
+      "zh": "行李箱",
+      "example": {
+        "pt": "A mala está no táxi.",
+        "zh": "行李箱在出租车上。"
+      },
+      "falseFriend": "西语'行李箱'是 maleta；mala 在西语是 malo 的阴性（坏的）"
+    },
+    {
+      "rank": 608,
+      "pt": "mochila",
+      "pos": "名词",
+      "zh": "背包",
+      "example": {
+        "pt": "A mochila está pesada.",
+        "zh": "背包很重。"
+      }
+    },
+    {
+      "rank": 609,
+      "pt": "hotel",
+      "pos": "名词",
+      "zh": "酒店",
+      "example": {
+        "pt": "O hotel fica perto da praia.",
+        "zh": "酒店离海滩很近。"
+      }
+    },
+    {
+      "rank": 610,
+      "pt": "pousada",
+      "pos": "名词",
+      "zh": "客栈 / 民宿",
+      "example": {
+        "pt": "A pousada é simples e aconchegante.",
+        "zh": "客栈简朴又温馨。"
+      }
+    },
+    {
+      "rank": 611,
+      "pt": "reserva",
+      "pos": "名词",
+      "zh": "预订",
+      "example": {
+        "pt": "A reserva está no seu nome.",
+        "zh": "预订用的是你的名字。"
+      }
+    },
+    {
+      "rank": 612,
+      "pt": "recepção",
+      "pos": "名词",
+      "zh": "前台",
+      "example": {
+        "pt": "A chave está na recepção.",
+        "zh": "钥匙在前台。"
+      }
+    },
+    {
+      "rank": 613,
+      "pt": "aeroporto",
+      "pos": "名词",
+      "zh": "机场",
+      "example": {
+        "pt": "O aeroporto fica longe do centro.",
+        "zh": "机场离市中心很远。"
+      }
+    },
+    {
+      "rank": 614,
+      "pt": "voo",
+      "pos": "名词",
+      "zh": "航班",
+      "example": {
+        "pt": "O voo sai às sete da manhã.",
+        "zh": "航班早上七点起飞。"
+      }
+    },
+    {
+      "rank": 615,
+      "pt": "passageiro",
+      "pos": "名词",
+      "zh": "乘客",
+      "example": {
+        "pt": "Os passageiros embarcam agora.",
+        "zh": "乘客们现在开始登机。"
+      }
+    },
+    {
+      "rank": 616,
+      "pt": "assento",
+      "pos": "名词",
+      "zh": "座位",
+      "example": {
+        "pt": "O meu assento é na janela.",
+        "zh": "我的座位靠窗。"
+      }
+    },
+    {
+      "rank": 617,
+      "pt": "atraso",
+      "pos": "名词",
+      "zh": "延误",
+      "example": {
+        "pt": "O voo teve um atraso de duas horas.",
+        "zh": "航班延误了两小时。"
+      }
+    },
+    {
+      "rank": 618,
+      "pt": "destino",
+      "pos": "名词",
+      "zh": "目的地",
+      "example": {
+        "pt": "O destino final é Lisboa.",
+        "zh": "最终目的地是里斯本。"
+      }
+    },
+    {
+      "rank": 619,
+      "pt": "passeio",
+      "pos": "名词",
+      "zh": "短途游 / 游览",
+      "example": {
+        "pt": "O passeio de barco foi ótimo.",
+        "zh": "乘船游览很棒。"
+      }
+    },
+    {
+      "rank": 620,
+      "pt": "turista",
+      "pos": "名词",
+      "zh": "游客",
+      "example": {
+        "pt": "Os turistas vão adorar a cidade.",
+        "zh": "游客们会喜欢这座城市。"
+      }
+    },
+    {
+      "rank": 621,
+      "pt": "turismo",
+      "pos": "名词",
+      "zh": "旅游业",
+      "example": {
+        "pt": "O turismo cresce na região.",
+        "zh": "该地区的旅游业在增长。"
+      }
+    },
+    {
+      "rank": 622,
+      "pt": "guia",
+      "pos": "名词",
+      "zh": "导游 / 指南",
+      "example": {
+        "pt": "O guia explicou a história do lugar.",
+        "zh": "导游讲解了这个地方的历史。"
+      }
+    },
+    {
+      "rank": 623,
+      "pt": "mapa",
+      "pos": "名词",
+      "zh": "地图",
+      "example": {
+        "pt": "O mapa está no celular.",
+        "zh": "地图在手机上。"
+      }
+    },
+    {
+      "rank": 624,
+      "pt": "foto",
+      "pos": "名词",
+      "zh": "照片",
+      "example": {
+        "pt": "Vou tirar muitas fotos na viagem.",
+        "zh": "旅行中我要拍很多照片。"
+      }
+    },
+    {
+      "rank": 625,
+      "pt": "estação",
+      "pos": "名词",
+      "zh": "车站 / 季节",
+      "example": {
+        "pt": "A estação de trem fica no centro.",
+        "zh": "火车站在市中心。"
+      }
+    },
+    {
+      "rank": 626,
+      "pt": "plataforma",
+      "pos": "名词",
+      "zh": "站台",
+      "example": {
+        "pt": "O trem sai da plataforma dois.",
+        "zh": "火车从二号站台出发。"
+      }
+    },
+    {
+      "rank": 627,
+      "pt": "rodovia",
+      "pos": "名词",
+      "zh": "公路",
+      "example": {
+        "pt": "A rodovia está cheia no feriado.",
+        "zh": "假日公路很堵。"
+      }
+    },
+    {
+      "rank": 628,
+      "pt": "estrada",
+      "pos": "名词",
+      "zh": "道路 / 公路",
+      "example": {
+        "pt": "A estrada é bonita e perigosa.",
+        "zh": "这条路风景美但危险。"
+      }
+    },
+    {
+      "rank": 629,
+      "pt": "pedágio",
+      "pos": "名词",
+      "zh": "过路费",
+      "example": {
+        "pt": "O pedágio custa dez reais.",
+        "zh": "过路费十雷亚尔。"
+      }
+    },
+    {
+      "rank": 630,
+      "pt": "carona",
+      "pos": "名词",
+      "zh": "搭便车",
+      "example": {
+        "pt": "Ele vai me dar carona até o aeroporto.",
+        "zh": "他会顺路送我去机场。"
+      }
+    },
+    {
+      "rank": 631,
+      "pt": "norte",
+      "pos": "名词",
+      "zh": "北方",
+      "example": {
+        "pt": "O norte do Brasil é quente.",
+        "zh": "巴西北部很热。"
+      }
+    },
+    {
+      "rank": 632,
+      "pt": "sul",
+      "pos": "名词",
+      "zh": "南方",
+      "example": {
+        "pt": "No sul faz frio no inverno.",
+        "zh": "南方冬天冷。"
+      }
+    },
+    {
+      "rank": 633,
+      "pt": "leste",
+      "pos": "名词",
+      "zh": "东方（注意：西语 este→葡语 leste）",
+      "example": {
+        "pt": "O sol nasce a leste.",
+        "zh": "太阳从东边升起。"
+      }
+    },
+    {
+      "rank": 634,
+      "pt": "oeste",
+      "pos": "名词",
+      "zh": "西方",
+      "example": {
+        "pt": "O sol se põe a oeste.",
+        "zh": "太阳在西边落下。"
+      }
+    },
+    {
+      "rank": 635,
+      "pt": "fronteira",
+      "pos": "名词",
+      "zh": "边境",
+      "example": {
+        "pt": "A fronteira fica a cem quilômetros.",
+        "zh": "边境在一百公里外。"
+      }
+    },
+    {
+      "rank": 636,
+      "pt": "alfândega",
+      "pos": "名词",
+      "zh": "海关",
+      "example": {
+        "pt": "A mala parou na alfândega.",
+        "zh": "行李在海关被拦下了。"
+      }
+    },
+    {
+      "rank": 637,
+      "pt": "navio",
+      "pos": "名词",
+      "zh": "轮船",
+      "example": {
+        "pt": "O navio sai no sábado.",
+        "zh": "轮船周六起航。"
+      }
+    },
+    {
+      "rank": 638,
+      "pt": "barco",
+      "pos": "名词",
+      "zh": "小船",
+      "example": {
+        "pt": "Vamos de barco até a ilha.",
+        "zh": "我们坐船去岛上。"
+      }
+    },
+    {
+      "rank": 639,
+      "pt": "mar",
+      "pos": "名词",
+      "zh": "大海",
+      "example": {
+        "pt": "O mar está calmo hoje.",
+        "zh": "今天海面很平静。"
+      }
+    },
+    {
+      "rank": 640,
+      "pt": "oceano",
+      "pos": "名词",
+      "zh": "大洋",
+      "example": {
+        "pt": "O oceano Atlântico é enorme.",
+        "zh": "大西洋浩瀚无边。"
+      }
+    },
+    {
+      "rank": 641,
+      "pt": "onda",
+      "pos": "名词",
+      "zh": "浪",
+      "example": {
+        "pt": "As ondas estão grandes hoje.",
+        "zh": "今天浪很大。"
+      }
+    },
+    {
+      "rank": 642,
+      "pt": "areia",
+      "pos": "名词",
+      "zh": "沙",
+      "example": {
+        "pt": "A areia é branca e fina.",
+        "zh": "沙子又白又细。"
+      }
+    },
+    {
+      "rank": 643,
+      "pt": "ilha",
+      "pos": "名词",
+      "zh": "岛",
+      "example": {
+        "pt": "A ilha tem praias lindas.",
+        "zh": "岛上有美丽的海滩。"
+      }
+    },
+    {
+      "rank": 644,
+      "pt": "montanha",
+      "pos": "名词",
+      "zh": "山",
+      "example": {
+        "pt": "A montanha fica a duas horas daqui.",
+        "zh": "山离这里两小时车程。"
+      }
+    },
+    {
+      "rank": 645,
+      "pt": "serra",
+      "pos": "名词",
+      "zh": "山脉 / 山区",
+      "example": {
+        "pt": "A serra é fria à noite.",
+        "zh": "山区夜里冷。"
+      }
+    },
+    {
+      "rank": 646,
+      "pt": "rio",
+      "pos": "名词",
+      "zh": "河流",
+      "example": {
+        "pt": "O rio atravessa a cidade.",
+        "zh": "河流穿过城市。"
+      }
+    },
+    {
+      "rank": 647,
+      "pt": "lago",
+      "pos": "名词",
+      "zh": "湖",
+      "example": {
+        "pt": "O lago é perfeito para nadar.",
+        "zh": "这个湖很适合游泳。"
+      }
+    },
+    {
+      "rank": 648,
+      "pt": "floresta",
+      "pos": "名词",
+      "zh": "森林",
+      "example": {
+        "pt": "A floresta Amazônica é enorme.",
+        "zh": "亚马孙森林广袤无边。"
+      }
+    },
+    {
+      "rank": 649,
+      "pt": "mata",
+      "pos": "名词",
+      "zh": "树林",
+      "example": {
+        "pt": "A mata tem muitos pássaros.",
+        "zh": "树林里有很多鸟。"
+      }
+    },
+    {
+      "rank": 650,
+      "pt": "campo",
+      "pos": "名词",
+      "zh": "田野 / 乡下",
+      "example": {
+        "pt": "No campo o céu é mais limpo.",
+        "zh": "乡下的天空更清澈。"
+      }
+    },
+    {
+      "rank": 651,
+      "pt": "natureza",
+      "pos": "名词",
+      "zh": "大自然",
+      "example": {
+        "pt": "Eu adoro o contato com a natureza.",
+        "zh": "我热爱亲近大自然。"
+      }
+    },
+    {
+      "rank": 652,
+      "pt": "paisagem",
+      "pos": "名词",
+      "zh": "风景",
+      "example": {
+        "pt": "A paisagem da estrada é linda.",
+        "zh": "沿途风景很美。"
+      }
+    },
+    {
+      "rank": 653,
+      "pt": "cachoeira",
+      "pos": "名词",
+      "zh": "瀑布",
+      "example": {
+        "pt": "A cachoeira fica no meio da mata.",
+        "zh": "瀑布在树林深处。"
+      }
+    },
+    {
+      "rank": 654,
+      "pt": "árvore",
+      "pos": "名词",
+      "zh": "树",
+      "example": {
+        "pt": "A árvore dá uma sombra boa.",
+        "zh": "这棵树的树荫很舒服。"
+      }
+    },
+    {
+      "rank": 655,
+      "pt": "planta",
+      "pos": "名词",
+      "zh": "植物",
+      "example": {
+        "pt": "As plantas precisam de água.",
+        "zh": "植物需要水。"
+      }
+    },
+    {
+      "rank": 656,
+      "pt": "animal",
+      "pos": "名词",
+      "zh": "动物",
+      "example": {
+        "pt": "Os animais vivem livres na reserva.",
+        "zh": "动物们在保护区里自由生活。"
+      }
+    },
+    {
+      "rank": 657,
+      "pt": "pássaro",
+      "pos": "名词",
+      "zh": "鸟",
+      "example": {
+        "pt": "Os pássaros cantam de manhã.",
+        "zh": "鸟儿清晨歌唱。"
+      }
+    },
+    {
+      "rank": 658,
+      "pt": "sol",
+      "pos": "名词",
+      "zh": "太阳",
+      "example": {
+        "pt": "O sol vai brilhar o fim de semana todo.",
+        "zh": "整个周末都会出太阳。"
+      }
+    },
+    {
+      "rank": 659,
+      "pt": "lua",
+      "pos": "名词",
+      "zh": "月亮",
+      "example": {
+        "pt": "A lua está cheia hoje.",
+        "zh": "今晚的月亮很圆。"
+      }
+    },
+    {
+      "rank": 660,
+      "pt": "estrela",
+      "pos": "名词",
+      "zh": "星星",
+      "example": {
+        "pt": "No campo dá para ver muitas estrelas.",
+        "zh": "在乡下能看到很多星星。"
+      }
+    },
+    {
+      "rank": 661,
+      "pt": "céu",
+      "pos": "名词",
+      "zh": "天空",
+      "example": {
+        "pt": "O céu está limpo e azul.",
+        "zh": "天空晴朗湛蓝。"
+      }
+    },
+    {
+      "rank": 662,
+      "pt": "nuvem",
+      "pos": "名词",
+      "zh": "云",
+      "example": {
+        "pt": "As nuvens indicam chuva.",
+        "zh": "这些云预示着要下雨。"
+      }
+    },
+    {
+      "rank": 663,
+      "pt": "chuva",
+      "pos": "名词",
+      "zh": "雨",
+      "example": {
+        "pt": "A chuva vai começar à tarde.",
+        "zh": "雨下午开始下。"
+      }
+    },
+    {
+      "rank": 664,
+      "pt": "tempestade",
+      "pos": "名词",
+      "zh": "暴风雨",
+      "example": {
+        "pt": "A tempestade vem do mar.",
+        "zh": "暴风雨从海上而来。"
+      }
+    },
+    {
+      "rank": 665,
+      "pt": "vento",
+      "pos": "名词",
+      "zh": "风",
+      "example": {
+        "pt": "O vento derrubou a árvore.",
+        "zh": "大风刮倒了树。"
+      }
+    },
+    {
+      "rank": 666,
+      "pt": "neve",
+      "pos": "名词",
+      "zh": "雪",
+      "example": {
+        "pt": "No sul do Brasil às vezes neva.",
+        "zh": "巴西南部有时会下雪。"
+      }
+    },
+    {
+      "rank": 667,
+      "pt": "pôr do sol",
+      "pos": "名词词组",
+      "zh": "日落",
+      "example": {
+        "pt": "O pôr do sol na praia é lindo.",
+        "zh": "海滩的日落很美。"
+      }
+    },
+    {
+      "rank": 668,
+      "pt": "clima",
+      "pos": "名词",
+      "zh": "气候",
+      "example": {
+        "pt": "O clima da serra é perfeito.",
+        "zh": "山区的气候很舒服。"
+      }
+    },
+    {
+      "rank": 669,
+      "pt": "temperatura",
+      "pos": "名词",
+      "zh": "气温",
+      "example": {
+        "pt": "A temperatura vai cair amanhã.",
+        "zh": "明天气温会下降。"
+      }
+    },
+    {
+      "rank": 670,
+      "pt": "grau",
+      "pos": "名词",
+      "zh": "度（温度）",
+      "example": {
+        "pt": "Hoje faz trinta graus.",
+        "zh": "今天三十度。"
+      }
+    },
+    {
+      "rank": 671,
+      "pt": "calor",
+      "pos": "名词",
+      "zh": "热",
+      "example": {
+        "pt": "O calor vai até março.",
+        "zh": "炎热的天气会持续到三月。"
+      }
+    },
+    {
+      "rank": 672,
+      "pt": "previsão",
+      "pos": "名词",
+      "zh": "预报",
+      "example": {
+        "pt": "A previsão do tempo indica sol.",
+        "zh": "天气预报说是晴天。"
+      }
+    },
+    {
+      "rank": 673,
+      "pt": "verão",
+      "pos": "名词",
+      "zh": "夏天",
+      "example": {
+        "pt": "No verão as praias ficam cheias.",
+        "zh": "夏天海滩上人很多。"
+      }
+    },
+    {
+      "rank": 674,
+      "pt": "inverno",
+      "pos": "名词",
+      "zh": "冬天",
+      "example": {
+        "pt": "No inverno faz frio na serra.",
+        "zh": "冬天山区很冷。"
+      }
+    },
+    {
+      "rank": 675,
+      "pt": "primavera",
+      "pos": "名词",
+      "zh": "春天",
+      "example": {
+        "pt": "A primavera começa em setembro.",
+        "zh": "春天九月开始。"
+      }
+    },
+    {
+      "rank": 676,
+      "pt": "outono",
+      "pos": "名词",
+      "zh": "秋天",
+      "example": {
+        "pt": "No outono as folhas caem.",
+        "zh": "秋天树叶落下。"
+      }
+    },
+    {
+      "rank": 677,
+      "pt": "rede",
+      "pos": "名词",
+      "zh": "吊床 / 网络 / 网",
+      "example": {
+        "pt": "Vou descansar na rede.",
+        "zh": "我要在吊床上休息。"
+      },
+      "falseFriend": "西语 red=网/网络；葡语 rede 还指'吊床'（西语是 hamaca）"
+    },
+    {
+      "rank": 678,
+      "pt": "logo",
+      "pos": "副词",
+      "zh": "马上 / 回头",
+      "example": {
+        "pt": "Eu ligo logo para você.",
+        "zh": "我马上给你打电话。"
+      },
+      "falseFriend": "西语 luego=稍后/然后；葡语 logo=马上，比 luego 更'立刻'"
+    },
+    {
+      "rank": 679,
+      "pt": "futuro",
+      "pos": "名词",
+      "zh": "未来",
+      "example": {
+        "pt": "O futuro da empresa é promissor.",
+        "zh": "公司的未来很有前景。"
+      }
+    },
+    {
+      "rank": 680,
+      "pt": "plano",
+      "pos": "名词",
+      "zh": "计划",
+      "example": {
+        "pt": "O plano é viajar em dezembro.",
+        "zh": "计划是十二月去旅行。"
+      }
+    },
+    {
+      "rank": 681,
+      "pt": "planejar",
+      "pos": "动词",
+      "zh": "计划 / 规划",
+      "example": {
+        "pt": "Nós planejamos a viagem juntos.",
+        "zh": "我们一起规划旅行。"
+      },
+      "conjugations": {
+        "eu": "planejo",
+        "tu": "planejas",
+        "ele/ela/você": "planeja",
+        "nós": "planejamos",
+        "eles/elas/vocês": "planejam",
+        "es": "planear: planeo/planeas/planea/planeamos/planean"
+      }
+    },
+    {
+      "rank": 682,
+      "pt": "organizar",
+      "pos": "动词",
+      "zh": "组织 / 安排",
+      "example": {
+        "pt": "Ela organizou tudo em uma semana.",
+        "zh": "她一周内安排好了一切。"
+      },
+      "conjugations": {
+        "eu": "organizo",
+        "tu": "organizas",
+        "ele/ela/você": "organiza",
+        "nós": "organizamos",
+        "eles/elas/vocês": "organizam",
+        "es": "organizar: organizo/organizas/organiza/organizamos/organizan"
+      }
+    },
+    {
+      "rank": 683,
+      "pt": "arrumar",
+      "pos": "动词",
+      "zh": "收拾 / 整理",
+      "example": {
+        "pt": "Eu arrumo a mala hoje à noite.",
+        "zh": "我今晚收拾行李。"
+      },
+      "conjugations": {
+        "eu": "arrumo",
+        "tu": "arrumas",
+        "ele/ela/você": "arruma",
+        "nós": "arrumamos",
+        "eles/elas/vocês": "arrumam",
+        "es": "西语 arreglar: arreglo/arreglas/arregla/arreglamos/arreglan"
+      }
+    },
+    {
+      "rank": 684,
+      "pt": "reservar",
+      "pos": "动词",
+      "zh": "预订",
+      "example": {
+        "pt": "Já reservei o hotel.",
+        "zh": "我已经订好了酒店。"
+      },
+      "conjugations": {
+        "eu": "reservo",
+        "tu": "reservas",
+        "ele/ela/você": "reserva",
+        "nós": "reservamos",
+        "eles/elas/vocês": "reservam",
+        "es": "reservar: reservo/reservas/reserva/reservamos/reservan"
+      }
+    },
+    {
+      "rank": 685,
+      "pt": "confirmar",
+      "pos": "动词",
+      "zh": "确认",
+      "example": {
+        "pt": "Confirma o voo amanhã.",
+        "zh": "明天确认一下航班。"
+      },
+      "conjugations": {
+        "eu": "confirmo",
+        "tu": "confirmas",
+        "ele/ela/você": "confirma",
+        "nós": "confirmamos",
+        "eles/elas/vocês": "confirmam",
+        "es": "confirmar: confirmo/confirmas/confirma/confirmamos/confirman"
+      }
+    },
+    {
+      "rank": 686,
+      "pt": "cancelar",
+      "pos": "动词",
+      "zh": "取消",
+      "example": {
+        "pt": "Eles cancelaram o passeio.",
+        "zh": "他们取消了游览。"
+      },
+      "conjugations": {
+        "eu": "cancelo",
+        "tu": "cancelas",
+        "ele/ela/você": "cancela",
+        "nós": "cancelamos",
+        "eles/elas/vocês": "cancelam",
+        "es": "cancelar: cancelo/cancelas/cancela/cancelamos/cancelan"
+      }
+    },
+    {
+      "rank": 687,
+      "pt": "adiar",
+      "pos": "动词",
+      "zh": "推迟",
+      "example": {
+        "pt": "A viagem foi adiada para julho.",
+        "zh": "旅行推迟到七月了。"
+      },
+      "conjugations": {
+        "eu": "adio",
+        "tu": "adias",
+        "ele/ela/você": "adia",
+        "nós": "adiamos",
+        "eles/elas/vocês": "adiam",
+        "es": "adiar: adio/adias/adia/adiamos/adian"
+      }
+    },
+    {
+      "rank": 688,
+      "pt": "embarcar",
+      "pos": "动词",
+      "zh": "登机 / 上船",
+      "example": {
+        "pt": "Nós embarcamos às oito.",
+        "zh": "我们八点登机。"
+      },
+      "conjugations": {
+        "eu": "embarco",
+        "tu": "embarcas",
+        "ele/ela/você": "embarca",
+        "nós": "embarcamos",
+        "eles/elas/vocês": "embarcam",
+        "es": "embarcar: embarco/embarcas/embarca/embarcamos/embarcan"
+      }
+    },
+    {
+      "rank": 689,
+      "pt": "voar",
+      "pos": "动词",
+      "zh": "飞",
+      "example": {
+        "pt": "O avião voa sobre o mar.",
+        "zh": "飞机飞过大海。"
+      },
+      "conjugations": {
+        "eu": "voo",
+        "tu": "voas",
+        "ele/ela/você": "voa",
+        "nós": "voamos",
+        "eles/elas/vocês": "voam",
+        "es": "volar: vuelo/vuelas/vuela/volamos/vuelan"
+      }
+    },
+    {
+      "rank": 690,
+      "pt": "pousar",
+      "pos": "动词",
+      "zh": "降落",
+      "example": {
+        "pt": "O avião pousa às nove.",
+        "zh": "飞机九点降落。"
+      },
+      "conjugations": {
+        "eu": "pouso",
+        "tu": "pousas",
+        "ele/ela/você": "pousa",
+        "nós": "pousamos",
+        "eles/elas/vocês": "pousam",
+        "es": "aterrizar: aterrizo/aterrizas/aterriza/aterrizamos/aterrizan"
+      }
+    },
+    {
+      "rank": 691,
+      "pt": "decolar",
+      "pos": "动词",
+      "zh": "起飞",
+      "example": {
+        "pt": "O avião decola em dez minutos.",
+        "zh": "飞机十分钟后起飞。"
+      },
+      "conjugations": {
+        "eu": "decolo",
+        "tu": "decolas",
+        "ele/ela/você": "decola",
+        "nós": "decolamos",
+        "eles/elas/vocês": "decolam",
+        "es": "despegar: despego/despegas/despega/despegamos/despegan"
+      }
+    },
+    {
+      "rank": 692,
+      "pt": "nadar",
+      "pos": "动词",
+      "zh": "游泳",
+      "example": {
+        "pt": "Nós nadamos no mar todo dia.",
+        "zh": "我们每天在海里游泳。"
+      },
+      "conjugations": {
+        "eu": "nado",
+        "tu": "nadas",
+        "ele/ela/você": "nada",
+        "nós": "nadamos",
+        "eles/elas/vocês": "nadam",
+        "es": "nadar: nado/nadas/nada/nadamos/nadan"
+      }
+    },
+    {
+      "rank": 693,
+      "pt": "caminhar",
+      "pos": "动词",
+      "zh": "徒步 / 走路",
+      "example": {
+        "pt": "Vamos caminhar até a cachoeira.",
+        "zh": "我们要徒步走到瀑布。"
+      },
+      "conjugations": {
+        "eu": "caminho",
+        "tu": "caminhas",
+        "ele/ela/você": "caminha",
+        "nós": "caminhamos",
+        "eles/elas/vocês": "caminham",
+        "es": "caminar: camino/caminas/camina/caminamos/caminan"
+      }
+    },
+    {
+      "rank": 694,
+      "pt": "relaxar",
+      "pos": "动词",
+      "zh": "放松",
+      "example": {
+        "pt": "Na praia eu só relaxo.",
+        "zh": "在海滩我只放松。"
+      },
+      "conjugations": {
+        "eu": "relaxo",
+        "tu": "relaxas",
+        "ele/ela/você": "relaxa",
+        "nós": "relaxamos",
+        "eles/elas/vocês": "relaxam",
+        "es": "relajar: relajo/relajas/relaja/relajamos/relajan"
+      }
+    },
+    {
+      "rank": 695,
+      "pt": "aproveitar",
+      "pos": "动词",
+      "zh": "享受 / 利用",
+      "example": {
+        "pt": "Aproveita o feriado!",
+        "zh": "好好享受假期吧！"
+      },
+      "conjugations": {
+        "eu": "aproveito",
+        "tu": "aproveitas",
+        "ele/ela/você": "aproveita",
+        "nós": "aproveitamos",
+        "eles/elas/vocês": "aproveitam",
+        "es": "aprovechar: aprovecho/aprovechas/aprovecha/aprovechamos/aprovechan"
+      }
+    },
+    {
+      "rank": 696,
+      "pt": "prever",
+      "pos": "动词",
+      "zh": "预测 / 预见",
+      "example": {
+        "pt": "O instituto prevê chuva para amanhã.",
+        "zh": "气象部门预计明天有雨。"
+      },
+      "conjugations": {
+        "eu": "prevejo",
+        "tu": "prevês",
+        "ele/ela/você": "prevê",
+        "nós": "prevemos",
+        "eles/elas/vocês": "preveem",
+        "es": "prever: preveo/prevés/prevé/prevemos/prevén"
+      }
+    },
+    {
+      "rank": 697,
+      "pt": "prometer",
+      "pos": "动词",
+      "zh": "答应",
+      "example": {
+        "pt": "Eu prometo que vou visitar você.",
+        "zh": "我答应你会去看你。"
+      },
+      "conjugations": {
+        "eu": "prometo",
+        "tu": "prometes",
+        "ele/ela/você": "promete",
+        "nós": "prometemos",
+        "eles/elas/vocês": "prometem",
+        "es": "prometer: prometo/prometes/promete/prometemos/prometen"
+      }
+    },
+    {
+      "rank": 698,
+      "pt": "gastar",
+      "pos": "动词",
+      "zh": "花费 / 花钱",
+      "example": {
+        "pt": "Eu gasto pouco nas viagens.",
+        "zh": "我旅行花钱不多。"
+      },
+      "conjugations": {
+        "eu": "gasto",
+        "tu": "gastas",
+        "ele/ela/você": "gasta",
+        "nós": "gastamos",
+        "eles/elas/vocês": "gastam",
+        "es": "gastar: gasto/gastas/gasta/gastamos/gastan"
+      }
+    },
+    {
+      "rank": 699,
+      "pt": "trocar",
+      "pos": "动词",
+      "zh": "换 / 兑换 / 交换",
+      "example": {
+        "pt": "Preciso trocar dólares por reais.",
+        "zh": "我得把美元换成雷亚尔。"
+      },
+      "falseFriend": "西语 trocar=以物易物（少用）；葡语 trocar=换/兑换（高频）；西语'换钱'是 cambiar",
+      "conjugations": {
+        "eu": "troco",
+        "tu": "trocas",
+        "ele/ela/você": "troca",
+        "nós": "trocamos",
+        "eles/elas/vocês": "trocam",
+        "es": "cambiar: cambio/cambias/cambia/cambiamos/cambian"
+      }
+    },
+    {
+      "rank": 700,
+      "pt": "alugar",
+      "pos": "动词",
+      "zh": "租",
+      "example": {
+        "pt": "Vamos alugar um carro na viagem.",
+        "zh": "旅行中我们要租一辆车。"
+      },
+      "conjugations": {
+        "eu": "alugo",
+        "tu": "alugas",
+        "ele/ela/você": "aluga",
+        "nós": "alugamos",
+        "eles/elas/vocês": "alugam",
+        "es": "alquilar: alquilo/alquilas/alquila/alquilamos/alquilan"
+      }
+    }
+  ],
+  "w8": [
+    {
+      "rank": 701,
+      "pt": "sentimento",
+      "pos": "名词",
+      "zh": "感情",
+      "example": {
+        "pt": "O amor é um sentimento forte.",
+        "zh": "爱是一种强烈的感情。"
+      }
+    },
+    {
+      "rank": 702,
+      "pt": "emoção",
+      "pos": "名词",
+      "zh": "情绪 / 激动",
+      "example": {
+        "pt": "A emoção do jogo foi grande.",
+        "zh": "比赛令人非常激动。"
+      }
+    },
+    {
+      "rank": 703,
+      "pt": "amor",
+      "pos": "名词",
+      "zh": "爱",
+      "example": {
+        "pt": "O amor de mãe é único.",
+        "zh": "母爱是独一无二的。"
+      }
+    },
+    {
+      "rank": 704,
+      "pt": "alegria",
+      "pos": "名词",
+      "zh": "喜悦",
+      "example": {
+        "pt": "A notícia trouxe muita alegria.",
+        "zh": "这条消息带来了巨大的喜悦。"
+      }
+    },
+    {
+      "rank": 705,
+      "pt": "tristeza",
+      "pos": "名词",
+      "zh": "悲伤",
+      "example": {
+        "pt": "A tristeza passou com o tempo.",
+        "zh": "悲伤随时间消散了。"
+      }
+    },
+    {
+      "rank": 706,
+      "pt": "raiva",
+      "pos": "名词",
+      "zh": "愤怒",
+      "example": {
+        "pt": "Ele falou com raiva.",
+        "zh": "他愤怒地说。"
+      }
+    },
+    {
+      "rank": 707,
+      "pt": "ciúme",
+      "pos": "名词",
+      "zh": "嫉妒 / 吃醋",
+      "example": {
+        "pt": "O ciúme estraga relações.",
+        "zh": "嫉妒会毁掉关系。"
+      }
+    },
+    {
+      "rank": 708,
+      "pt": "inveja",
+      "pos": "名词",
+      "zh": "羡慕 / 嫉妒",
+      "example": {
+        "pt": "A inveja é um sentimento ruim.",
+        "zh": "嫉妒是一种糟糕的情绪。"
+      }
+    },
+    {
+      "rank": 709,
+      "pt": "orgulho",
+      "pos": "名词",
+      "zh": "骄傲 / 自豪",
+      "example": {
+        "pt": "Os pais sentem orgulho do filho.",
+        "zh": "父母为儿子感到骄傲。"
+      }
+    },
+    {
+      "rank": 710,
+      "pt": "vergonha",
+      "pos": "名词",
+      "zh": "羞愧",
+      "example": {
+        "pt": "Ele sentiu vergonha do erro.",
+        "zh": "他为自己的错误感到羞愧。"
+      }
+    },
+    {
+      "rank": 711,
+      "pt": "saudade",
+      "pos": "名词",
+      "zh": "思念（葡语特有词，西语无对应）",
+      "example": {
+        "pt": "Eu sinto saudade da minha família.",
+        "zh": "我想念我的家人。"
+      }
+    },
+    {
+      "rank": 712,
+      "pt": "medo",
+      "pos": "名词",
+      "zh": "恐惧",
+      "example": {
+        "pt": "O medo do escuro é comum.",
+        "zh": "怕黑很常见。"
+      }
+    },
+    {
+      "rank": 713,
+      "pt": "esperança",
+      "pos": "名词",
+      "zh": "希望",
+      "example": {
+        "pt": "A esperança é a última que morre.",
+        "zh": "希望是最后消逝的（谚语）。"
+      }
+    },
+    {
+      "rank": 714,
+      "pt": "ansiedade",
+      "pos": "名词",
+      "zh": "焦虑",
+      "example": {
+        "pt": "A ansiedade atrapalha o sono.",
+        "zh": "焦虑影响睡眠。"
+      }
+    },
+    {
+      "rank": 715,
+      "pt": "estresse",
+      "pos": "名词",
+      "zh": "压力",
+      "example": {
+        "pt": "O estresse do trabalho é grande.",
+        "zh": "工作压力很大。"
+      }
+    },
+    {
+      "rank": 716,
+      "pt": "calma",
+      "pos": "名词",
+      "zh": "平静",
+      "example": {
+        "pt": "A calma do mar é bonita.",
+        "zh": "海面的平静很美。"
+      }
+    },
+    {
+      "rank": 717,
+      "pt": "felicidade",
+      "pos": "名词",
+      "zh": "幸福",
+      "example": {
+        "pt": "Desejo muita felicidade para você.",
+        "zh": "祝你幸福满满。"
+      }
+    },
+    {
+      "rank": 718,
+      "pt": "sofrimento",
+      "pos": "名词",
+      "zh": "痛苦",
+      "example": {
+        "pt": "O sofrimento passou.",
+        "zh": "痛苦过去了。"
+      }
+    },
+    {
+      "rank": 719,
+      "pt": "prazer",
+      "pos": "名词",
+      "zh": "快乐 / 荣幸",
+      "example": {
+        "pt": "É um prazer conhecer você.",
+        "zh": "很荣幸认识你。"
+      }
+    },
+    {
+      "rank": 720,
+      "pt": "dor",
+      "pos": "名词",
+      "zh": "疼痛 / 痛苦",
+      "example": {
+        "pt": "A dor de cabeça passou.",
+        "zh": "头痛好了。"
+      }
+    },
+    {
+      "rank": 721,
+      "pt": "coragem",
+      "pos": "名词",
+      "zh": "勇气",
+      "example": {
+        "pt": "É preciso coragem para mudar.",
+        "zh": "改变需要勇气。"
+      }
+    },
+    {
+      "rank": 722,
+      "pt": "paciência",
+      "pos": "名词",
+      "zh": "耐心",
+      "example": {
+        "pt": "Ensinar exige paciência.",
+        "zh": "教书需要耐心。"
+      }
+    },
+    {
+      "rank": 723,
+      "pt": "confiança",
+      "pos": "名词",
+      "zh": "信任",
+      "example": {
+        "pt": "A confiança leva tempo.",
+        "zh": "信任需要时间。"
+      }
+    },
+    {
+      "rank": 724,
+      "pt": "ideia",
+      "pos": "名词",
+      "zh": "想法 / 主意",
+      "example": {
+        "pt": "A ideia dela é ótima.",
+        "zh": "她的主意很棒。"
+      }
+    },
+    {
+      "rank": 725,
+      "pt": "opinião",
+      "pos": "名词",
+      "zh": "观点",
+      "example": {
+        "pt": "Na minha opinião, ele tem razão.",
+        "zh": "在我看来，他是对的。"
+      }
+    },
+    {
+      "rank": 726,
+      "pt": "pensamento",
+      "pos": "名词",
+      "zh": "思想 / 想法",
+      "example": {
+        "pt": "O pensamento dele mudou.",
+        "zh": "他的想法变了。"
+      }
+    },
+    {
+      "rank": 727,
+      "pt": "mente",
+      "pos": "名词",
+      "zh": "头脑 / 心智",
+      "example": {
+        "pt": "A mente humana é complexa.",
+        "zh": "人类的心智很复杂。"
+      }
+    },
+    {
+      "rank": 728,
+      "pt": "cabeça",
+      "pos": "名词",
+      "zh": "头 / 头脑",
+      "example": {
+        "pt": "Eu tenho dor de cabeça.",
+        "zh": "我头疼。"
+      }
+    },
+    {
+      "rank": 729,
+      "pt": "coração",
+      "pos": "名词",
+      "zh": "心 / 心脏",
+      "example": {
+        "pt": "O coração bate forte.",
+        "zh": "心跳得很快。"
+      }
+    },
+    {
+      "rank": 730,
+      "pt": "bravo",
+      "pos": "形容词",
+      "zh": "生气的",
+      "example": {
+        "pt": "Fica bravo comigo não!",
+        "zh": "别生我的气！"
+      },
+      "falseFriend": "西语 bravo=凶猛的/野的（toro bravo）；西语'生气'是 enfadado/enojado"
+    },
+    {
+      "rank": 731,
+      "pt": "imaginação",
+      "pos": "名词",
+      "zh": "想象力",
+      "example": {
+        "pt": "A imaginação das crianças é incrível.",
+        "zh": "孩子们的想象力惊人。"
+      }
+    },
+    {
+      "rank": 732,
+      "pt": "desejo",
+      "pos": "名词",
+      "zh": "愿望",
+      "example": {
+        "pt": "O desejo de viajar cresce.",
+        "zh": "想旅行的愿望越来越强烈。"
+      }
+    },
+    {
+      "rank": 733,
+      "pt": "vontade",
+      "pos": "名词",
+      "zh": "意愿 / 念头",
+      "example": {
+        "pt": "Eu tenho vontade de chorar.",
+        "zh": "我想哭。"
+      }
+    },
+    {
+      "rank": 734,
+      "pt": "intenção",
+      "pos": "名词",
+      "zh": "意图",
+      "example": {
+        "pt": "A intenção dele era boa.",
+        "zh": "他的本意是好的。"
+      }
+    },
+    {
+      "rank": 735,
+      "pt": "dúvida",
+      "pos": "名词",
+      "zh": "疑问",
+      "example": {
+        "pt": "Tenho uma dúvida sobre o texto.",
+        "zh": "我对这段文字有个疑问。"
+      }
+    },
+    {
+      "rank": 736,
+      "pt": "certeza",
+      "pos": "名词",
+      "zh": "确信",
+      "example": {
+        "pt": "Tenho certeza de que ele vem.",
+        "zh": "我确信他会来。"
+      }
+    },
+    {
+      "rank": 737,
+      "pt": "verdade",
+      "pos": "名词",
+      "zh": "真相 / 事实",
+      "example": {
+        "pt": "É verdade que ele saiu?",
+        "zh": "他走了是真的吗？"
+      }
+    },
+    {
+      "rank": 738,
+      "pt": "mentira",
+      "pos": "名词",
+      "zh": "谎言",
+      "example": {
+        "pt": "A mentira tem perna curta.",
+        "zh": "谎言腿短（谚语：谎言站不住脚）。"
+      }
+    },
+    {
+      "rank": 739,
+      "pt": "segredo",
+      "pos": "名词",
+      "zh": "秘密",
+      "example": {
+        "pt": "O segredo foi revelado.",
+        "zh": "秘密被揭开了。"
+      }
+    },
+    {
+      "rank": 740,
+      "pt": "mistério",
+      "pos": "名词",
+      "zh": "谜团",
+      "example": {
+        "pt": "O caso continua um mistério.",
+        "zh": "这个案子仍是个谜。"
+      }
+    },
+    {
+      "rank": 741,
+      "pt": "surpresa",
+      "pos": "名词",
+      "zh": "惊喜 / 惊讶",
+      "example": {
+        "pt": "A festa foi uma surpresa.",
+        "zh": "这个聚会是个惊喜。"
+      }
+    },
+    {
+      "rank": 742,
+      "pt": "realidade",
+      "pos": "名词",
+      "zh": "现实",
+      "example": {
+        "pt": "A realidade é diferente do sonho.",
+        "zh": "现实与梦想不同。"
+      }
+    },
+    {
+      "rank": 743,
+      "pt": "experiência",
+      "pos": "名词",
+      "zh": "经验 / 经历",
+      "example": {
+        "pt": "A experiência dele conta muito.",
+        "zh": "他的经验很重要。"
+      }
+    },
+    {
+      "rank": 744,
+      "pt": "conhecimento",
+      "pos": "名词",
+      "zh": "知识",
+      "example": {
+        "pt": "O conhecimento liberta.",
+        "zh": "知识让人自由。"
+      }
+    },
+    {
+      "rank": 745,
+      "pt": "inteligência",
+      "pos": "名词",
+      "zh": "智力 / 智能",
+      "example": {
+        "pt": "A inteligência artificial avança.",
+        "zh": "人工智能在进步。"
+      }
+    },
+    {
+      "rank": 746,
+      "pt": "talento",
+      "pos": "名词",
+      "zh": "天赋",
+      "example": {
+        "pt": "Ela tem talento para a música.",
+        "zh": "她有音乐天赋。"
+      }
+    },
+    {
+      "rank": 747,
+      "pt": "jeito",
+      "pos": "名词",
+      "zh": "方式 / 窍门（西语无对应词）",
+      "example": {
+        "pt": "Dá um jeito nisso!",
+        "zh": "想办法搞定这事！"
+      }
+    },
+    {
+      "rank": 748,
+      "pt": "maneira",
+      "pos": "名词",
+      "zh": "方式 / 样子",
+      "example": {
+        "pt": "Que maneira linda de falar!",
+        "zh": "多么美好的表达方式！"
+      }
+    },
+    {
+      "rank": 749,
+      "pt": "gracioso",
+      "pos": "形容词",
+      "zh": "优雅的 / 雅致的",
+      "example": {
+        "pt": "A dança dela é graciosa.",
+        "zh": "她的舞姿很优雅。"
+      },
+      "falseFriend": "西语 gracioso=滑稽有趣的；葡语'有趣的'是 engraçado"
+    },
+    {
+      "rank": 750,
+      "pt": "sociedade",
+      "pos": "名词",
+      "zh": "社会",
+      "example": {
+        "pt": "A sociedade muda rápido.",
+        "zh": "社会变化很快。"
+      }
+    },
+    {
+      "rank": 751,
+      "pt": "relação",
+      "pos": "名词",
+      "zh": "关系",
+      "example": {
+        "pt": "A relação entre os países melhorou.",
+        "zh": "两国关系改善了。"
+      }
+    },
+    {
+      "rank": 752,
+      "pt": "amizade",
+      "pos": "名词",
+      "zh": "友谊",
+      "example": {
+        "pt": "A amizade verdadeira é rara.",
+        "zh": "真正的友谊很稀有。"
+      }
+    },
+    {
+      "rank": 753,
+      "pt": "namoro",
+      "pos": "名词",
+      "zh": "恋爱关系",
+      "example": {
+        "pt": "O namoro deles começou na escola.",
+        "zh": "他们的恋爱始于校园。"
+      }
+    },
+    {
+      "rank": 754,
+      "pt": "parceiro",
+      "pos": "名词",
+      "zh": "伙伴",
+      "example": {
+        "pt": "Ele é um bom parceiro de trabalho.",
+        "zh": "他是个好搭档。"
+      }
+    },
+    {
+      "rank": 755,
+      "pt": "colega",
+      "pos": "名词",
+      "zh": "同事 / 同学",
+      "example": {
+        "pt": "A minha colega discorda de mim.",
+        "zh": "我的同事不同意我。"
+      }
+    },
+    {
+      "rank": 756,
+      "pt": "vizinho",
+      "pos": "名词",
+      "zh": "邻居",
+      "example": {
+        "pt": "O vizinho faz muito barulho.",
+        "zh": "邻居很吵。"
+      }
+    },
+    {
+      "rank": 757,
+      "pt": "cultura",
+      "pos": "名词",
+      "zh": "文化",
+      "example": {
+        "pt": "A cultura brasileira é rica.",
+        "zh": "巴西文化很丰富。"
+      }
+    },
+    {
+      "rank": 758,
+      "pt": "tradição",
+      "pos": "名词",
+      "zh": "传统",
+      "example": {
+        "pt": "É tradição da família.",
+        "zh": "这是家里的传统。"
+      }
+    },
+    {
+      "rank": 759,
+      "pt": "costume",
+      "pos": "名词",
+      "zh": "习惯 / 习俗",
+      "example": {
+        "pt": "É costume comer tarde aqui.",
+        "zh": "这里习惯晚吃饭。"
+      }
+    },
+    {
+      "rank": 760,
+      "pt": "religião",
+      "pos": "名词",
+      "zh": "宗教",
+      "example": {
+        "pt": "A religião é importante para ele.",
+        "zh": "宗教对他很重要。"
+      }
+    },
+    {
+      "rank": 761,
+      "pt": "fé",
+      "pos": "名词",
+      "zh": "信仰",
+      "example": {
+        "pt": "A fé ajuda nos momentos difíceis.",
+        "zh": "信仰帮助人度过困难时刻。"
+      }
+    },
+    {
+      "rank": 762,
+      "pt": "Deus",
+      "pos": "名词",
+      "zh": "上帝",
+      "example": {
+        "pt": "Graças a Deus!",
+        "zh": "谢天谢地！"
+      }
+    },
+    {
+      "rank": 763,
+      "pt": "arte",
+      "pos": "名词",
+      "zh": "艺术",
+      "example": {
+        "pt": "A arte moderna é difícil.",
+        "zh": "现代艺术很难懂。"
+      }
+    },
+    {
+      "rank": 764,
+      "pt": "cinema",
+      "pos": "名词",
+      "zh": "电影院 / 电影",
+      "example": {
+        "pt": "Vamos ao cinema sábado?",
+        "zh": "周六我们去看电影吗？"
+      }
+    },
+    {
+      "rank": 765,
+      "pt": "romance",
+      "pos": "名词",
+      "zh": "长篇小说",
+      "example": {
+        "pt": "O romance vendeu um milhão de cópias.",
+        "zh": "这部小说卖出了一百万册。"
+      },
+      "falseFriend": "西语 romance=叙事诗/罗曼史；西语'长篇小说'是 novela"
+    },
+    {
+      "rank": 766,
+      "pt": "crítica",
+      "pos": "名词",
+      "zh": "评论 / 批评",
+      "example": {
+        "pt": "A crítica do filme foi boa.",
+        "zh": "这部电影的影评不错。"
+      }
+    },
+    {
+      "rank": 767,
+      "pt": "comentário",
+      "pos": "名词",
+      "zh": "评论",
+      "example": {
+        "pt": "Os comentários no site foram duros.",
+        "zh": "网站上的评论很尖锐。"
+      }
+    },
+    {
+      "rank": 768,
+      "pt": "debate",
+      "pos": "名词",
+      "zh": "辩论",
+      "example": {
+        "pt": "O debate foi transmitido ao vivo.",
+        "zh": "辩论进行了现场直播。"
+      }
+    },
+    {
+      "rank": 769,
+      "pt": "sugestão",
+      "pos": "名词",
+      "zh": "建议",
+      "example": {
+        "pt": "Aceito a sua sugestão.",
+        "zh": "我接受你的建议。"
+      }
+    },
+    {
+      "rank": 770,
+      "pt": "conselho",
+      "pos": "名词",
+      "zh": "忠告",
+      "example": {
+        "pt": "O conselho do avô sempre ajuda.",
+        "zh": "爷爷的忠告总是有用。"
+      }
+    },
+    {
+      "rank": 771,
+      "pt": "ponto de vista",
+      "pos": "名词词组",
+      "zh": "观点",
+      "example": {
+        "pt": "Do meu ponto de vista, está errado.",
+        "zh": "从我的观点看，这是错的。"
+      }
+    },
+    {
+      "rank": 772,
+      "pt": "razão",
+      "pos": "名词",
+      "zh": "理由 / 道理",
+      "example": {
+        "pt": "Você tem razão.",
+        "zh": "你说得对。"
+      }
+    },
+    {
+      "rank": 773,
+      "pt": "motivo",
+      "pos": "名词",
+      "zh": "动机 / 原因",
+      "example": {
+        "pt": "O motivo da festa é o aniversário.",
+        "zh": "聚会的原因是生日。"
+      }
+    },
+    {
+      "rank": 774,
+      "pt": "sentido",
+      "pos": "名词",
+      "zh": "意义 / 感觉",
+      "example": {
+        "pt": "Essa palavra tem outro sentido.",
+        "zh": "这个词有别的意思。"
+      }
+    },
+    {
+      "rank": 775,
+      "pt": "influência",
+      "pos": "名词",
+      "zh": "影响",
+      "example": {
+        "pt": "A influência da mídia é grande.",
+        "zh": "媒体的影响很大。"
+      }
+    },
+    {
+      "rank": 776,
+      "pt": "liberdade",
+      "pos": "名词",
+      "zh": "自由",
+      "example": {
+        "pt": "A liberdade tem preço.",
+        "zh": "自由是有代价的。"
+      }
+    },
+    {
+      "rank": 777,
+      "pt": "respeito",
+      "pos": "名词",
+      "zh": "尊重",
+      "example": {
+        "pt": "O respeito vem em primeiro lugar.",
+        "zh": "尊重是第一位的。"
+      }
+    },
+    {
+      "rank": 778,
+      "pt": "preconceito",
+      "pos": "名词",
+      "zh": "偏见",
+      "example": {
+        "pt": "O preconceito ainda existe.",
+        "zh": "偏见依然存在。"
+      }
+    },
+    {
+      "rank": 779,
+      "pt": "erro",
+      "pos": "名词",
+      "zh": "错误",
+      "example": {
+        "pt": "Admitir o erro é difícil.",
+        "zh": "承认错误很难。"
+      }
+    },
+    {
+      "rank": 780,
+      "pt": "amar",
+      "pos": "动词",
+      "zh": "爱",
+      "example": {
+        "pt": "Eu te amo.",
+        "zh": "我爱你。"
+      },
+      "conjugations": {
+        "eu": "amo",
+        "tu": "amas",
+        "ele/ela/você": "ama",
+        "nós": "amamos",
+        "eles/elas/vocês": "amam",
+        "es": "amar: amo/amas/ama/amamos/aman"
+      }
+    },
+    {
+      "rank": 781,
+      "pt": "desejar",
+      "pos": "动词",
+      "zh": "祝愿 / 渴望",
+      "example": {
+        "pt": "Desejo tudo de bom para você.",
+        "zh": "祝你一切顺利。"
+      },
+      "conjugations": {
+        "eu": "desejo",
+        "tu": "desejas",
+        "ele/ela/você": "deseja",
+        "nós": "desejamos",
+        "eles/elas/vocês": "desejam",
+        "es": "desear: deseo/deseas/desea/deseamos/desean"
+      }
+    },
+    {
+      "rank": 782,
+      "pt": "duvidar",
+      "pos": "动词",
+      "zh": "怀疑",
+      "example": {
+        "pt": "Eu duvido que ele venha.",
+        "zh": "我怀疑他会来。"
+      },
+      "conjugations": {
+        "eu": "duvido",
+        "tu": "duvidas",
+        "ele/ela/você": "duvida",
+        "nós": "duvidamos",
+        "eles/elas/vocês": "duvidam",
+        "es": "dudar: dudo/dudas/duda/dudamos/dudan"
+      }
+    },
+    {
+      "rank": 783,
+      "pt": "temer",
+      "pos": "动词",
+      "zh": "害怕 / 担心",
+      "example": {
+        "pt": "Eu temo que chova amanhã.",
+        "zh": "我担心明天会下雨。"
+      },
+      "conjugations": {
+        "eu": "temo",
+        "tu": "temes",
+        "ele/ela/você": "teme",
+        "nós": "tememos",
+        "eles/elas/vocês": "temem",
+        "es": "temer: temo/temes/teme/tememos/temen"
+      }
+    },
+    {
+      "rank": 784,
+      "pt": "imaginar",
+      "pos": "动词",
+      "zh": "想象",
+      "example": {
+        "pt": "Imagina só a surpresa dele!",
+        "zh": "想象一下他会有多惊喜！"
+      },
+      "conjugations": {
+        "eu": "imagino",
+        "tu": "imaginas",
+        "ele/ela/você": "imagina",
+        "nós": "imaginamos",
+        "eles/elas/vocês": "imaginam",
+        "es": "imaginar: imagino/imaginas/imagina/imaginamos/imaginan"
+      }
+    },
+    {
+      "rank": 785,
+      "pt": "supor",
+      "pos": "动词",
+      "zh": "猜想",
+      "example": {
+        "pt": "Suponho que você tem razão.",
+        "zh": "我想你是对的。"
+      },
+      "conjugations": {
+        "eu": "suponho",
+        "tu": "supões",
+        "ele/ela/você": "supõe",
+        "nós": "supomos",
+        "eles/elas/vocês": "supõem",
+        "es": "suponer: supongo/supones/supone/suponemos/suponen"
+      }
+    },
+    {
+      "rank": 786,
+      "pt": "sugerir",
+      "pos": "动词",
+      "zh": "建议",
+      "example": {
+        "pt": "Sugiro que você descanse.",
+        "zh": "我建议你休息。"
+      },
+      "conjugations": {
+        "eu": "sugiro",
+        "tu": "sugeres",
+        "ele/ela/você": "sugere",
+        "nós": "sugerimos",
+        "eles/elas/vocês": "sugerem",
+        "es": "sugerir: sugiero/sugieres/sugiere/sugerimos/sugieren"
+      }
+    },
+    {
+      "rank": 787,
+      "pt": "exigir",
+      "pos": "动词",
+      "zh": "要求",
+      "example": {
+        "pt": "O chefe exige pontualidade.",
+        "zh": "老板要求准时。"
+      },
+      "conjugations": {
+        "eu": "exijo",
+        "tu": "exiges",
+        "ele/ela/você": "exige",
+        "nós": "exigimos",
+        "eles/elas/vocês": "exigem",
+        "es": "exigir: exigo/exiges/exige/exigimos/exigen"
+      }
+    },
+    {
+      "rank": 788,
+      "pt": "lamentar",
+      "pos": "动词",
+      "zh": "遗憾 / 惋惜",
+      "example": {
+        "pt": "Lamento que você não possa vir.",
+        "zh": "很遗憾你不能来。"
+      },
+      "conjugations": {
+        "eu": "lamento",
+        "tu": "lamentas",
+        "ele/ela/você": "lamenta",
+        "nós": "lamentamos",
+        "eles/elas/vocês": "lamentam",
+        "es": "lamentar: lamento/lamentas/lamenta/lamentamos/lamentan"
+      }
+    },
+    {
+      "rank": 789,
+      "pt": "confiar",
+      "pos": "动词",
+      "zh": "信任",
+      "example": {
+        "pt": "Eu confio em você.",
+        "zh": "我信任你。"
+      },
+      "conjugations": {
+        "eu": "confio",
+        "tu": "confias",
+        "ele/ela/você": "confia",
+        "nós": "confiamos",
+        "eles/elas/vocês": "confiam",
+        "es": "confiar: confío/confías/confía/confiamos/confían"
+      }
+    },
+    {
+      "rank": 790,
+      "pt": "aceitar",
+      "pos": "动词",
+      "zh": "接受",
+      "example": {
+        "pt": "Aceito as condições.",
+        "zh": "我接受这些条件。"
+      },
+      "conjugations": {
+        "eu": "aceito",
+        "tu": "aceitas",
+        "ele/ela/você": "aceita",
+        "nós": "aceitamos",
+        "eles/elas/vocês": "aceitam",
+        "es": "aceitar: aceito/aceitas/aceita/aceitamos/aceitan"
+      }
+    },
+    {
+      "rank": 791,
+      "pt": "recusar",
+      "pos": "动词",
+      "zh": "拒绝",
+      "example": {
+        "pt": "Ele recusou o convite.",
+        "zh": "他拒绝了邀请。"
+      },
+      "conjugations": {
+        "eu": "recuso",
+        "tu": "recusas",
+        "ele/ela/você": "recusa",
+        "nós": "recusamos",
+        "eles/elas/vocês": "recusam",
+        "es": "rechazar: rechazo/rechazas/rechaza/rechazamos/rechazan"
+      }
+    },
+    {
+      "rank": 792,
+      "pt": "proibir",
+      "pos": "动词",
+      "zh": "禁止",
+      "example": {
+        "pt": "É proibido fumar aqui.",
+        "zh": "这里禁止吸烟。"
+      },
+      "conjugations": {
+        "eu": "proíbo",
+        "tu": "proíbes",
+        "ele/ela/você": "proíbe",
+        "nós": "proibimos",
+        "eles/elas/vocês": "proíbem",
+        "es": "prohibir: prohíbo/prohíbes/prohíbe/prohibimos/prohíben"
+      }
+    },
+    {
+      "rank": 793,
+      "pt": "aconselhar",
+      "pos": "动词",
+      "zh": "劝告",
+      "example": {
+        "pt": "Eu aconselho você a estudar mais.",
+        "zh": "我劝你多学习。"
+      },
+      "conjugations": {
+        "eu": "aconselho",
+        "tu": "aconselhas",
+        "ele/ela/você": "aconselha",
+        "nós": "aconselhamos",
+        "eles/elas/vocês": "aconselham",
+        "es": "aconsejar: aconsejo/aconsejas/aconseja/aconsejamos/aconsejan"
+      }
+    },
+    {
+      "rank": 794,
+      "pt": "elogiar",
+      "pos": "动词",
+      "zh": "表扬",
+      "example": {
+        "pt": "O professor elogiou o aluno.",
+        "zh": "老师表扬了学生。"
+      },
+      "conjugations": {
+        "eu": "elogio",
+        "tu": "elogias",
+        "ele/ela/você": "elogia",
+        "nós": "elogiamos",
+        "eles/elas/vocês": "elogiam",
+        "es": "elogiar: elogio/elogias/elogia/elogiamos/elogian"
+      }
+    },
+    {
+      "rank": 795,
+      "pt": "perdoar",
+      "pos": "动词",
+      "zh": "原谅",
+      "example": {
+        "pt": "Eu perdoo você.",
+        "zh": "我原谅你。"
+      },
+      "conjugations": {
+        "eu": "perdoo",
+        "tu": "perdoas",
+        "ele/ela/você": "perdoa",
+        "nós": "perdoamos",
+        "eles/elas/vocês": "perdoam",
+        "es": "perdonar: perdono/perdonas/perdona/perdonamos/perdonan"
+      }
+    },
+    {
+      "rank": 796,
+      "pt": "agradecer",
+      "pos": "动词",
+      "zh": "感谢",
+      "example": {
+        "pt": "Agradeço pela ajuda.",
+        "zh": "感谢你的帮助。"
+      },
+      "conjugations": {
+        "eu": "agradeço",
+        "tu": "agradeces",
+        "ele/ela/você": "agradece",
+        "nós": "agradecemos",
+        "eles/elas/vocês": "agradecem",
+        "es": "agradecer: agradezco/agradeces/agradece/agradecemos/agradecen"
+      }
+    },
+    {
+      "rank": 797,
+      "pt": "mentir",
+      "pos": "动词",
+      "zh": "说谎",
+      "example": {
+        "pt": "Não minta para mim!",
+        "zh": "别对我说谎！"
+      },
+      "conjugations": {
+        "eu": "minto",
+        "tu": "mentes",
+        "ele/ela/você": "mente",
+        "nós": "mentimos",
+        "eles/elas/vocês": "mentem",
+        "es": "mentir: miento/mientes/miente/mentimos/mienten"
+      }
+    },
+    {
+      "rank": 798,
+      "pt": "concordar",
+      "pos": "动词",
+      "zh": "同意",
+      "example": {
+        "pt": "Concordo com você.",
+        "zh": "我同意你。"
+      },
+      "conjugations": {
+        "eu": "concordo",
+        "tu": "concordas",
+        "ele/ela/você": "concorda",
+        "nós": "concordamos",
+        "eles/elas/vocês": "concordam",
+        "es": "concordar: concuerdo/concuerdas/concuerda/concordamos/concuerdan"
+      }
+    },
+    {
+      "rank": 799,
+      "pt": "insistir",
+      "pos": "动词",
+      "zh": "坚持",
+      "example": {
+        "pt": "Ele insiste na ideia.",
+        "zh": "他坚持这个想法。"
+      },
+      "conjugations": {
+        "eu": "insisto",
+        "tu": "insistes",
+        "ele/ela/você": "insiste",
+        "nós": "insistimos",
+        "eles/elas/vocês": "insistem",
+        "es": "insistir: insisto/insistes/insiste/insistimos/insisten"
+      }
+    },
+    {
+      "rank": 800,
+      "pt": "reconhecer",
+      "pos": "动词",
+      "zh": "承认 / 认出",
+      "example": {
+        "pt": "Reconheço que errei.",
+        "zh": "我承认我错了。"
+      },
+      "conjugations": {
+        "eu": "reconheço",
+        "tu": "reconheces",
+        "ele/ela/você": "reconhece",
+        "nós": "reconhecemos",
+        "eles/elas/vocês": "reconhecem",
+        "es": "reconocer: reconozco/reconoces/reconoce/reconocemos/reconocen"
+      }
     }
   ]
 }
