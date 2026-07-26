@@ -18,3 +18,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
+          keep_files: true          # 保留旧文件，避免部署窗口404
+          force_orphan: false        # 明确禁用孤儿推送
