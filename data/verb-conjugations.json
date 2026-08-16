@@ -1,5 +1,5 @@
 {
- "description": "W1-W9 每周 100 频率词中全部动词（225 个，含「词根→派生」扩展动词）的现在时变位表（PT-BR），含西语对照",
+ "description": "W1-W10 每周 100 频率词中全部动词（237 个，含「词根→派生」扩展动词）的现在时变位表（PT-BR），含西语对照",
  "tense": "presente do indicativo",
  "verbs": [
   {
@@ -3088,6 +3088,174 @@
    },
    "spanish": "satisfacer: satisfago/satisfaces/satisface/satisfacemos/satisfacen",
    "note": "satisfacer 同族：eu satisfaço"
+  },
+  {
+   "infinitive": "dispor",
+   "meaning": "支配 / 拥有",
+   "type": "irregular（pôr 族）",
+   "conjugation": {
+    "eu": "disponho",
+    "tu": "dispões",
+    "ele/ela/você": "dispõe",
+    "nós": "dispomos",
+    "eles/elas/vocês": "dispõem"
+   },
+   "spanish": "disponer: dispongo/dispones/dispone/disponemos/disponen",
+   "note": "dispor de + 名词 = 拥有/可用；disponer 同族"
+  },
+  {
+   "infinitive": "repor",
+   "meaning": "补充 / 恢复",
+   "type": "irregular（pôr 族）",
+   "conjugation": {
+    "eu": "reponho",
+    "tu": "repões",
+    "ele/ela/você": "repõe",
+    "nós": "repomos",
+    "eles/elas/vocês": "repõem"
+   },
+   "spanish": "reponer: repongo/repones/repone/reponemos/reponen",
+   "note": "repor o estoque 补货；perfeito repôs"
+  },
+  {
+   "infinitive": "entreter",
+   "meaning": "娱乐 / 使消遣",
+   "type": "irregular（ter 族）",
+   "conjugation": {
+    "eu": "entretenho",
+    "tu": "entreténs",
+    "ele/ela/você": "entretém",
+    "nós": "entretemos",
+    "eles/elas/vocês": "entretêm"
+   },
+   "spanish": "entretener: entretengo/entretienes/entretiene/entretenemos/entretienen",
+   "note": "entretener 同族：ele entretém（重音）"
+  },
+  {
+   "infinitive": "deter",
+   "meaning": "拘留 / 阻止",
+   "type": "irregular（ter 族）",
+   "conjugation": {
+    "eu": "detenho",
+    "tu": "deténs",
+    "ele/ela/você": "detém",
+    "nós": "detemos",
+    "eles/elas/vocês": "detêm"
+   },
+   "spanish": "detener: detengo/detienes/detiene/detenemos/detienen",
+   "note": "detener 同族：eu detenho；perfeito deteve"
+  },
+  {
+   "infinitive": "predizer",
+   "meaning": "预言 / 预测",
+   "type": "irregular（dizer 族）",
+   "conjugation": {
+    "eu": "predigo",
+    "tu": "predizes",
+    "ele/ela/você": "prediz",
+    "nós": "predizemos",
+    "eles/elas/vocês": "predizem"
+   },
+   "spanish": "predecir: predigo/predices/predice/predecimos/predicen",
+   "note": "predecir 同族：eu predigo；perfeito predisse"
+  },
+  {
+   "infinitive": "intervir",
+   "meaning": "干预 / 介入",
+   "type": "irregular（vir 族）",
+   "conjugation": {
+    "eu": "intervenho",
+    "tu": "intervéns",
+    "ele/ela/você": "intervém",
+    "nós": "intervimos",
+    "eles/elas/vocês": "intervêm"
+   },
+   "spanish": "intervenir: intervengo/intervienes/interviene/intervenimos/intervienen",
+   "note": "intervenir 同族：eu intervenho；perfeito interveio"
+  },
+  {
+   "infinitive": "distrair",
+   "meaning": "分散注意 / 消遣",
+   "type": "irregular（trazer 族）",
+   "conjugation": {
+    "eu": "distraio",
+    "tu": "distrais",
+    "ele/ela/você": "distrai",
+    "nós": "distraímos",
+    "eles/elas/vocês": "distraem"
+   },
+   "spanish": "distraer: distraigo/distraes/distrae/distraemos/distraen",
+   "note": "distraer 同族：eu distraio；nós distraímos（重音）"
+  },
+  {
+   "infinitive": "extrair",
+   "meaning": "提取 / 摘录",
+   "type": "irregular（trazer 族）",
+   "conjugation": {
+    "eu": "extraio",
+    "tu": "extrais",
+    "ele/ela/você": "extrai",
+    "nós": "extraímos",
+    "eles/elas/vocês": "extraem"
+   },
+   "spanish": "extraer: extraigo/extraes/extrae/extraemos/extraen",
+   "note": "extraer 同族：eu extraio；perfeito extraiu"
+  },
+  {
+   "infinitive": "prescrever",
+   "meaning": "开处方 / 规定",
+   "type": "regular -er（escrever 族）",
+   "conjugation": {
+    "eu": "prescrevo",
+    "tu": "prescreves",
+    "ele/ela/você": "prescreve",
+    "nós": "prescrevemos",
+    "eles/elas/vocês": "prescrevem"
+   },
+   "spanish": "prescribir: prescribo/prescribes/prescribe/prescribimos/prescriben",
+   "note": "⚠️ 西语 prescribir（b）≠ 葡语 prescrever（v）——拼写陷阱"
+  },
+  {
+   "infinitive": "avaliar",
+   "meaning": "评估 / 评价",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "avalio",
+    "tu": "avalias",
+    "ele/ela/você": "avalia",
+    "nós": "avaliamos",
+    "eles/elas/vocês": "avaliam"
+   },
+   "spanish": "evaluar: evalúo/evalúas/evalúa/evaluamos/evalúan",
+   "note": "西语 evaluar 带重音（evalúo）；葡语 avalio 无重音"
+  },
+  {
+   "infinitive": "analisar",
+   "meaning": "分析",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "analiso",
+    "tu": "analisas",
+    "ele/ela/você": "analisa",
+    "nós": "analisamos",
+    "eles/elas/vocês": "analisam"
+   },
+   "spanish": "analizar: analizo/analizas/analiza/analizamos/analizan",
+   "note": "analizar 同族：z→s"
+  },
+  {
+   "infinitive": "comentar",
+   "meaning": "评论 / 谈论",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "comento",
+    "tu": "comentas",
+    "ele/ela/você": "comenta",
+    "nós": "comentamos",
+    "eles/elas/vocês": "comentam"
+   },
+   "spanish": "comentar: comento/comentas/comenta/comentamos/comentan",
+   "note": "comentar 同形同义"
   }
  ]
 }
