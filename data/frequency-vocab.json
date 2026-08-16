@@ -1,5 +1,5 @@
 {
- "description": "每周 100 个频率词汇（PT-BR）。W1=频率排名1-100，W2=101-200，W3=201-300，W4=301-400，W5=401-500，W6=501-600，W7=601-700，W8=701-800，W9=801-900。选词参考 Corpus do Português / Routledge Frequency Dictionary 高频区（按教学需要微调）。动词只保留原形词条（é/sou/foi/está/tem 等变位形式已并入原形词条的变位表），并按「词根→派生」机制扩展（fazer→desfazer/refazer、pôr→propor/compor/depor、ter→manter/conter/ater-se 等），每周至少 10 个动词。动词附现在时完整变位与西语对照；falseFriend 为西语假朋友警示。",
+ "description": "每周 100 个频率词汇（PT-BR）。W1=频率排名1-100，W2=101-200，W3=201-300，W4=301-400，W5=401-500，W6=501-600，W7=601-700，W8=701-800，W9=801-900，W10=901-1000。选词参考 Corpus do Português / Routledge Frequency Dictionary 高频区（按教学需要微调）。动词只保留原形词条（é/sou/foi/está/tem 等变位形式已并入原形词条的变位表），并按「词根→派生」机制扩展（fazer→desfazer/refazer、pôr→propor/compor/depor、ter→manter/conter/ater-se 等），每周至少 10 个动词。动词附现在时完整变位与西语对照；falseFriend 为西语假朋友警示。",
  "source": "Corpus do Português / Routledge Frequency Dictionary of Portuguese（高频区，按教学需要微调）",
  "variant": "PT-BR",
  "w1": [
@@ -10876,6 +10876,1115 @@
    "example": {
     "pt": "A ata da reunião foi assinada.",
     "zh": "会议纪要已签署。"
+   }
+  }
+ ],
+ "w10": [
+  {
+   "rank": 901,
+   "pt": "coluna",
+   "pos": "名词",
+   "zh": "专栏 / 柱子",
+   "example": {
+    "pt": "Ela escreve uma coluna semanal.",
+    "zh": "她写一个每周专栏。"
+   }
+  },
+  {
+   "rank": 902,
+   "pt": "redação",
+   "pos": "名词",
+   "zh": "编辑部 / 作文",
+   "example": {
+    "pt": "A redação fica no segundo andar.",
+    "zh": "编辑部在二楼。"
+   }
+  },
+  {
+   "rank": 903,
+   "pt": "editor",
+   "pos": "名词",
+   "zh": "编辑 / 主编",
+   "example": {
+    "pt": "O editor revisou o texto.",
+    "zh": "编辑审改了稿件。"
+   }
+  },
+  {
+   "rank": 904,
+   "pt": "repórter",
+   "pos": "名词",
+   "zh": "记者",
+   "example": {
+    "pt": "A repórter fez uma pergunta difícil.",
+    "zh": "记者问了一个尖锐的问题。"
+   }
+  },
+  {
+   "rank": 905,
+   "pt": "entrevista",
+   "pos": "名词",
+   "zh": "采访 / 面试",
+   "example": {
+    "pt": "A entrevista sai amanhã no jornal.",
+    "zh": "采访明天见报。"
+   }
+  },
+  {
+   "rank": 906,
+   "pt": "leitor",
+   "pos": "名词",
+   "zh": "读者",
+   "example": {
+    "pt": "Os leitores enviaram cartas.",
+    "zh": "读者们寄来了信。"
+   }
+  },
+  {
+   "rank": 907,
+   "pt": "público",
+   "pos": "名词",
+   "zh": "公众 / 观众",
+   "example": {
+    "pt": "O público aplaudiu muito.",
+    "zh": "观众热烈鼓掌。"
+   }
+  },
+  {
+   "rank": 908,
+   "pt": "transmissão",
+   "pos": "名词",
+   "zh": "播出 / 传输",
+   "example": {
+    "pt": "A transmissão ao vivo começou.",
+    "zh": "直播开始了。"
+   }
+  },
+  {
+   "rank": 909,
+   "pt": "episódio",
+   "pos": "名词",
+   "zh": "（剧）集 / 事件",
+   "example": {
+    "pt": "O último episódio foi ótimo.",
+    "zh": "最后一集很棒。"
+   }
+  },
+  {
+   "rank": 910,
+   "pt": "série",
+   "pos": "名词",
+   "zh": "连续剧 / 系列",
+   "example": {
+    "pt": "Estou vendo uma série nova.",
+    "zh": "我在看一部新剧。"
+   }
+  },
+  {
+   "rank": 911,
+   "pt": "novela",
+   "pos": "名词",
+   "zh": "（电视）肥皂剧",
+   "example": {
+    "pt": "A novela das oito é muito popular.",
+    "zh": "八点档肥皂剧很受欢迎。"
+   },
+   "falseFriend": "西语 novela = 长篇小说；葡语 novela 常指电视肥皂剧，「长篇小说」葡语是 romance"
+  },
+  {
+   "rank": 912,
+   "pt": "documentário",
+   "pos": "名词",
+   "zh": "纪录片",
+   "example": {
+    "pt": "O documentário mostra a Amazônia.",
+    "zh": "这部纪录片展示亚马逊。"
+   }
+  },
+  {
+   "rank": 913,
+   "pt": "editorial",
+   "pos": "名词",
+   "zh": "社论",
+   "example": {
+    "pt": "O editorial criticou o governo.",
+    "zh": "社论批评了政府。"
+   }
+  },
+  {
+   "rank": 914,
+   "pt": "análise",
+   "pos": "名词",
+   "zh": "分析",
+   "example": {
+    "pt": "A análise dos dados levou dias.",
+    "zh": "数据分析花了好几天。"
+   }
+  },
+  {
+   "rank": 915,
+   "pt": "resumo",
+   "pos": "名词",
+   "zh": "摘要 / 梗概",
+   "example": {
+    "pt": "Escreva um resumo do artigo.",
+    "zh": "写一份这篇文章的摘要。"
+   }
+  },
+  {
+   "rank": 916,
+   "pt": "título",
+   "pos": "名词",
+   "zh": "标题 / 头衔",
+   "example": {
+    "pt": "O título chamou atenção.",
+    "zh": "标题很吸引眼球。"
+   }
+  },
+  {
+   "rank": 917,
+   "pt": "capa",
+   "pos": "名词",
+   "zh": "封面",
+   "example": {
+    "pt": "A capa da revista ficou linda.",
+    "zh": "杂志封面很漂亮。"
+   }
+  },
+  {
+   "rank": 918,
+   "pt": "edição",
+   "pos": "名词",
+   "zh": "版本 / 期号",
+   "example": {
+    "pt": "A edição de hoje traz uma entrevista.",
+    "zh": "今天这一期有一篇采访。"
+   }
+  },
+  {
+   "rank": 919,
+   "pt": "publicação",
+   "pos": "名词",
+   "zh": "发表 / 出版物",
+   "example": {
+    "pt": "A publicação do livro foi adiada.",
+    "zh": "这本书的出版被推迟了。"
+   }
+  },
+  {
+   "rank": 920,
+   "pt": "versão",
+   "pos": "名词",
+   "zh": "版本",
+   "example": {
+    "pt": "Prefiro a versão original.",
+    "zh": "我更喜欢原版。"
+   }
+  },
+  {
+   "rank": 921,
+   "pt": "fonte",
+   "pos": "名词",
+   "zh": "来源 / 喷泉",
+   "example": {
+    "pt": "A fonte não foi revelada.",
+    "zh": "消息来源未被披露。"
+   }
+  },
+  {
+   "rank": 922,
+   "pt": "informação",
+   "pos": "名词",
+   "zh": "信息 / 消息",
+   "example": {
+    "pt": "Essa informação é confidencial.",
+    "zh": "这条信息是机密的。"
+   }
+  },
+  {
+   "rank": 923,
+   "pt": "dados",
+   "pos": "名词",
+   "zh": "数据（dado 的复数）",
+   "example": {
+    "pt": "Os dados mostram uma queda.",
+    "zh": "数据显示下降。"
+   }
+  },
+  {
+   "rank": 924,
+   "pt": "boato",
+   "pos": "名词",
+   "zh": "谣言",
+   "example": {
+    "pt": "É só um boato, não acredite.",
+    "zh": "那只是谣言，别信。"
+   }
+  },
+  {
+   "rank": 925,
+   "pt": "polêmica",
+   "pos": "名词",
+   "zh": "争议",
+   "example": {
+    "pt": "A declaração causou polêmica.",
+    "zh": "这番言论引发了争议。"
+   }
+  },
+  {
+   "rank": 926,
+   "pt": "controvérsia",
+   "pos": "名词",
+   "zh": "争论 / 争议",
+   "example": {
+    "pt": "O tema gerou controvérsia.",
+    "zh": "这个话题引起了争论。"
+   }
+  },
+  {
+   "rank": 927,
+   "pt": "escândalo",
+   "pos": "名词",
+   "zh": "丑闻",
+   "example": {
+    "pt": "O escândalo derrubou o ministro.",
+    "zh": "丑闻让部长下台了。"
+   }
+  },
+  {
+   "rank": 928,
+   "pt": "repercussão",
+   "pos": "名词",
+   "zh": "反响 / 影响",
+   "example": {
+    "pt": "A repercussão foi enorme.",
+    "zh": "反响巨大。"
+   }
+  },
+  {
+   "rank": 929,
+   "pt": "destaque",
+   "pos": "名词",
+   "zh": "亮点 / 头条位置",
+   "example": {
+    "pt": "O jogo foi o destaque do dia.",
+    "zh": "这场比赛是当天的焦点。"
+   }
+  },
+  {
+   "rank": 930,
+   "pt": "foco",
+   "pos": "名词",
+   "zh": "焦点 / 重点",
+   "example": {
+    "pt": "O foco da reportagem é a educação.",
+    "zh": "报道的重点是教育。"
+   }
+  },
+  {
+   "rank": 931,
+   "pt": "questão",
+   "pos": "名词",
+   "zh": "问题 / 议题",
+   "example": {
+    "pt": "Essa questão é complicada.",
+    "zh": "这个问题很复杂。"
+   }
+  },
+  {
+   "rank": 932,
+   "pt": "tema",
+   "pos": "名词",
+   "zh": "主题",
+   "example": {
+    "pt": "O tema da redação foi meio ambiente.",
+    "zh": "作文主题是环境。"
+   }
+  },
+  {
+   "rank": 933,
+   "pt": "assunto",
+   "pos": "名词",
+   "zh": "话题 / 事情",
+   "example": {
+    "pt": "Mudemos de assunto.",
+    "zh": "我们换个话题吧。"
+   }
+  },
+  {
+   "rank": 934,
+   "pt": "conteúdo",
+   "pos": "名词",
+   "zh": "内容",
+   "example": {
+    "pt": "O conteúdo do curso é ótimo.",
+    "zh": "课程内容很棒。"
+   }
+  },
+  {
+   "rank": 935,
+   "pt": "expressão",
+   "pos": "名词",
+   "zh": "表达 / 短语",
+   "example": {
+    "pt": "Essa expressão é muito usada.",
+    "zh": "这个表达很常用。"
+   }
+  },
+  {
+   "rank": 936,
+   "pt": "termo",
+   "pos": "名词",
+   "zh": "术语",
+   "example": {
+    "pt": "Explique esse termo técnico.",
+    "zh": "解释一下这个专业术语。"
+   }
+  },
+  {
+   "rank": 937,
+   "pt": "conceito",
+   "pos": "名词",
+   "zh": "概念",
+   "example": {
+    "pt": "O conceito é difícil de definir.",
+    "zh": "这个概念很难定义。"
+   }
+  },
+  {
+   "rank": 938,
+   "pt": "definição",
+   "pos": "名词",
+   "zh": "定义",
+   "example": {
+    "pt": "Qual é a definição correta?",
+    "zh": "正确定义是什么？"
+   }
+  },
+  {
+   "rank": 939,
+   "pt": "descrição",
+   "pos": "名词",
+   "zh": "描述",
+   "example": {
+    "pt": "A descrição do produto está errada.",
+    "zh": "产品描述有误。"
+   }
+  },
+  {
+   "rank": 940,
+   "pt": "explicação",
+   "pos": "名词",
+   "zh": "解释",
+   "example": {
+    "pt": "A explicação foi clara.",
+    "zh": "解释很清楚。"
+   }
+  },
+  {
+   "rank": 941,
+   "pt": "argumento",
+   "pos": "名词",
+   "zh": "论点 / 论据",
+   "example": {
+    "pt": "Esse argumento é fraco.",
+    "zh": "这个论点站不住脚。"
+   }
+  },
+  {
+   "rank": 942,
+   "pt": "visão",
+   "pos": "名词",
+   "zh": "视野 / 观点",
+   "example": {
+    "pt": "Ela tem uma visão ampla.",
+    "zh": "她视野开阔。"
+   }
+  },
+  {
+   "rank": 943,
+   "pt": "posição",
+   "pos": "名词",
+   "zh": "位置 / 立场",
+   "example": {
+    "pt": "Qual é a sua posição?",
+    "zh": "你的立场是什么？"
+   }
+  },
+  {
+   "rank": 944,
+   "pt": "atitude",
+   "pos": "名词",
+   "zh": "态度",
+   "example": {
+    "pt": "Gosto da sua atitude.",
+    "zh": "我喜欢你的态度。"
+   }
+  },
+  {
+   "rank": 945,
+   "pt": "comportamento",
+   "pos": "名词",
+   "zh": "行为",
+   "example": {
+    "pt": "O comportamento dele mudou.",
+    "zh": "他的行为变了。"
+   }
+  },
+  {
+   "rank": 946,
+   "pt": "rotina",
+   "pos": "名词",
+   "zh": "日常 / 惯例",
+   "example": {
+    "pt": "Minha rotina é corrida.",
+    "zh": "我的日常很紧张。"
+   }
+  },
+  {
+   "rank": 947,
+   "pt": "cobertura",
+   "pos": "名词",
+   "zh": "报道 / 覆盖",
+   "example": {
+    "pt": "A cobertura da eleição foi ampla.",
+    "zh": "选举报道很全面。"
+   }
+  },
+  {
+   "rank": 948,
+   "pt": "site",
+   "pos": "名词",
+   "zh": "网站",
+   "example": {
+    "pt": "O site saiu do ar.",
+    "zh": "网站宕机了。"
+   }
+  },
+  {
+   "rank": 949,
+   "pt": "página",
+   "pos": "名词",
+   "zh": "页面",
+   "example": {
+    "pt": "A página não carrega.",
+    "zh": "页面加载不出来。"
+   }
+  },
+  {
+   "rank": 950,
+   "pt": "link",
+   "pos": "名词",
+   "zh": "链接",
+   "example": {
+    "pt": "Clique no link abaixo.",
+    "zh": "点击下面的链接。"
+   }
+  },
+  {
+   "rank": 951,
+   "pt": "tela",
+   "pos": "名词",
+   "zh": "屏幕",
+   "example": {
+    "pt": "A tela do celular quebrou.",
+    "zh": "手机屏幕碎了。"
+   }
+  },
+  {
+   "rank": 952,
+   "pt": "aplicativo",
+   "pos": "名词",
+   "zh": "应用程序（App）",
+   "example": {
+    "pt": "Baixe o aplicativo do banco.",
+    "zh": "下载银行的 App。"
+   }
+  },
+  {
+   "rank": 953,
+   "pt": "postagem",
+   "pos": "名词",
+   "zh": "帖子 / 发文",
+   "example": {
+    "pt": "A postagem teve mil curtidas.",
+    "zh": "这条帖子有一千个赞。"
+   }
+  },
+  {
+   "rank": 954,
+   "pt": "seguidor",
+   "pos": "名词",
+   "zh": "关注者 / 粉丝",
+   "example": {
+    "pt": "Ele tem muitos seguidores.",
+    "zh": "他有很多粉丝。"
+   }
+  },
+  {
+   "rank": 955,
+   "pt": "perfil",
+   "pos": "名词",
+   "zh": "个人主页 / 侧写",
+   "example": {
+    "pt": "Atualizei meu perfil.",
+    "zh": "我更新了个人主页。"
+   }
+  },
+  {
+   "rank": 956,
+   "pt": "compartilhamento",
+   "pos": "名词",
+   "zh": "分享 / 转发",
+   "example": {
+    "pt": "O compartilhamento é livre.",
+    "zh": "可以自由转发。"
+   }
+  },
+  {
+   "rank": 957,
+   "pt": "curtida",
+   "pos": "名词",
+   "zh": "点赞",
+   "example": {
+    "pt": "A foto teve muitas curtidas.",
+    "zh": "这张照片有很多赞。"
+   }
+  },
+  {
+   "rank": 958,
+   "pt": "algoritmo",
+   "pos": "名词",
+   "zh": "算法",
+   "example": {
+    "pt": "O algoritmo mudou de novo.",
+    "zh": "算法又变了。"
+   }
+  },
+  {
+   "rank": 959,
+   "pt": "canal",
+   "pos": "名词",
+   "zh": "频道 / 渠道",
+   "example": {
+    "pt": "Um canal de notícias.",
+    "zh": "一个新闻频道。"
+   }
+  },
+  {
+   "rank": 960,
+   "pt": "temporada",
+   "pos": "名词",
+   "zh": "（剧）季 / 季节",
+   "example": {
+    "pt": "A segunda temporada estreia em maio.",
+    "zh": "第二季五月开播。"
+   }
+  },
+  {
+   "rank": 961,
+   "pt": "personagem",
+   "pos": "名词",
+   "zh": "角色 / 人物",
+   "example": {
+    "pt": "Meu personagem favorito morreu.",
+    "zh": "我最喜欢的角色死了。"
+   }
+  },
+  {
+   "rank": 962,
+   "pt": "enredo",
+   "pos": "名词",
+   "zh": "剧情 / 情节",
+   "example": {
+    "pt": "O enredo é cheio de surpresas.",
+    "zh": "剧情充满反转。"
+   },
+   "falseFriend": "西语 enredo = 纠缠/乱子；葡语 enredo = 剧情/情节"
+  },
+  {
+   "rank": 963,
+   "pt": "ator",
+   "pos": "名词",
+   "zh": "演员（男）",
+   "example": {
+    "pt": "O ator ganhou um prêmio.",
+    "zh": "这位男演员获了奖。"
+   }
+  },
+  {
+   "rank": 964,
+   "pt": "atriz",
+   "pos": "名词",
+   "zh": "演员（女）",
+   "example": {
+    "pt": "A atriz mora no Rio.",
+    "zh": "这位女演员住在里约。"
+   }
+  },
+  {
+   "rank": 965,
+   "pt": "diretor",
+   "pos": "名词",
+   "zh": "导演 / 主任",
+   "example": {
+    "pt": "O diretor do filme é brasileiro.",
+    "zh": "这部电影的导演是巴西人。"
+   }
+  },
+  {
+   "rank": 966,
+   "pt": "autor",
+   "pos": "名词",
+   "zh": "作者",
+   "example": {
+    "pt": "A autora assinou meu livro.",
+    "zh": "作者在我的书上签了名。"
+   }
+  },
+  {
+   "rank": 967,
+   "pt": "obra",
+   "pos": "名词",
+   "zh": "作品 / 工程",
+   "example": {
+    "pt": "Uma obra importante da literatura.",
+    "zh": "一部重要的文学作品。"
+   }
+  },
+  {
+   "rank": 968,
+   "pt": "capítulo",
+   "pos": "名词",
+   "zh": "章节",
+   "example": {
+    "pt": "Li três capítulos hoje.",
+    "zh": "我今天读了三章。"
+   }
+  },
+  {
+   "rank": 969,
+   "pt": "gênero",
+   "pos": "名词",
+   "zh": "类型 / 性别",
+   "example": {
+    "pt": "Que gênero de filme você gosta?",
+    "zh": "你喜欢什么类型的电影？"
+   }
+  },
+  {
+   "rank": 970,
+   "pt": "estilo",
+   "pos": "名词",
+   "zh": "风格",
+   "example": {
+    "pt": "O estilo do autor é único.",
+    "zh": "这位作者风格独特。"
+   }
+  },
+  {
+   "rank": 971,
+   "pt": "tom",
+   "pos": "名词",
+   "zh": "语气 / 音调",
+   "example": {
+    "pt": "O tom do texto é irônico.",
+    "zh": "文章的语气很讽刺。"
+   }
+  },
+  {
+   "rank": 972,
+   "pt": "patrocínio",
+   "pos": "名词",
+   "zh": "赞助",
+   "example": {
+    "pt": "O evento tem patrocínio de bancos.",
+    "zh": "活动有银行赞助。"
+   }
+  },
+  {
+   "rank": 973,
+   "pt": "anúncio",
+   "pos": "名词",
+   "zh": "广告 / 公告",
+   "example": {
+    "pt": "Vi um anúncio no metrô.",
+    "zh": "我在地铁看到一则广告。"
+   }
+  },
+  {
+   "rank": 974,
+   "pt": "propaganda",
+   "pos": "名词",
+   "zh": "广告 / 宣传",
+   "example": {
+    "pt": "A propaganda aumentou as vendas.",
+    "zh": "广告提升了销量。"
+   }
+  },
+  {
+   "rank": 975,
+   "pt": "marca",
+   "pos": "名词",
+   "zh": "品牌 / 标记",
+   "example": {
+    "pt": "Uma marca famosa de roupas.",
+    "zh": "一个著名服装品牌。"
+   }
+  },
+  {
+   "rank": 976,
+   "pt": "campanha",
+   "pos": "名词",
+   "zh": "活动 / 战役",
+   "example": {
+    "pt": "A campanha de vacinação começou.",
+    "zh": "疫苗接种活动开始了。"
+   }
+  },
+  {
+   "rank": 977,
+   "pt": "pauta",
+   "pos": "名词",
+   "zh": "议程 / 选题",
+   "example": {
+    "pt": "Esse tema está na pauta do dia.",
+    "zh": "这个议题在今天的日程上。"
+   }
+  },
+  {
+   "rank": 978,
+   "pt": "apuração",
+   "pos": "名词",
+   "zh": "采访核实",
+   "example": {
+    "pt": "A apuração levou meses.",
+    "zh": "采访核实花了几个月。"
+   }
+  },
+  {
+   "rank": 979,
+   "pt": "checagem",
+   "pos": "名词",
+   "zh": "事实核查",
+   "example": {
+    "pt": "A checagem de fatos é essencial.",
+    "zh": "事实核查至关重要。"
+   }
+  },
+  {
+   "rank": 980,
+   "pt": "credibilidade",
+   "pos": "名词",
+   "zh": "可信度",
+   "example": {
+    "pt": "O jornal perdeu credibilidade.",
+    "zh": "这家报纸失去了公信力。"
+   }
+  },
+  {
+   "rank": 981,
+   "pt": "ética",
+   "pos": "名词",
+   "zh": "伦理 / 职业道德",
+   "example": {
+    "pt": "A ética jornalística importa.",
+    "zh": "新闻伦理很重要。"
+   }
+  },
+  {
+   "rank": 982,
+   "pt": "sigilo",
+   "pos": "名词",
+   "zh": "保密",
+   "example": {
+    "pt": "O caso está sob sigilo.",
+    "zh": "案件处于保密状态。"
+   }
+  },
+  {
+   "rank": 983,
+   "pt": "vazamento",
+   "pos": "名词",
+   "zh": "泄露",
+   "example": {
+    "pt": "O vazamento de dados foi grave.",
+    "zh": "数据泄露很严重。"
+   }
+  },
+  {
+   "rank": 984,
+   "pt": "bastidores",
+   "pos": "名词",
+   "zh": "幕后（复数常用）",
+   "example": {
+    "pt": "Os bastidores da política.",
+    "zh": "政治的幕后。"
+   }
+  },
+  {
+   "rank": 985,
+   "pt": "gravação",
+   "pos": "名词",
+   "zh": "录制 / 录像",
+   "example": {
+    "pt": "A gravação foi feita no estúdio.",
+    "zh": "录制是在演播室完成的。"
+   }
+  },
+  {
+   "rank": 986,
+   "pt": "internet",
+   "pos": "名词",
+   "zh": "互联网",
+   "example": {
+    "pt": "A internet caiu de novo.",
+    "zh": "网络又断了。"
+   }
+  },
+  {
+   "rank": 987,
+   "pt": "imagem",
+   "pos": "名词",
+   "zh": "图像 / 形象",
+   "example": {
+    "pt": "A imagem ficou borrada.",
+    "zh": "图像模糊了。"
+   }
+  },
+  {
+   "rank": 988,
+   "pt": "estreia",
+   "pos": "名词",
+   "zh": "首映 / 首演",
+   "example": {
+    "pt": "A estreia do filme é sexta.",
+    "zh": "电影周五首映。"
+   }
+  },
+  {
+   "rank": 989,
+   "pt": "dispor",
+   "pos": "动词",
+   "zh": "支配 / 拥有（pôr 加前缀 dis-）",
+   "example": {
+    "pt": "Dispomos de poucos recursos.",
+    "zh": "我们可用的资源很少。"
+   },
+   "derivedFrom": "pôr",
+   "conjugations": {
+    "eu": "disponho",
+    "tu": "dispões",
+    "ele/ela/você": "dispõe",
+    "nós": "dispomos",
+    "eles/elas/vocês": "dispõem",
+    "es": "disponer: dispongo/dispones/dispone/disponemos/disponen"
+   }
+  },
+  {
+   "rank": 990,
+   "pt": "repor",
+   "pos": "动词",
+   "zh": "补充 / 恢复（pôr 加前缀 re-）",
+   "example": {
+    "pt": "Precisamos repor o estoque.",
+    "zh": "我们需要补充库存。"
+   },
+   "derivedFrom": "pôr",
+   "conjugations": {
+    "eu": "reponho",
+    "tu": "repões",
+    "ele/ela/você": "repõe",
+    "nós": "repomos",
+    "eles/elas/vocês": "repõem",
+    "es": "reponer: repongo/repones/repone/reponemos/reponen"
+   }
+  },
+  {
+   "rank": 991,
+   "pt": "entreter",
+   "pos": "动词",
+   "zh": "娱乐 / 使消遣（ter 加前缀 entre-）",
+   "example": {
+    "pt": "O filme entretém toda a família.",
+    "zh": "这部电影让全家都开心。"
+   },
+   "derivedFrom": "ter",
+   "conjugations": {
+    "eu": "entretenho",
+    "tu": "entreténs",
+    "ele/ela/você": "entretém",
+    "nós": "entretemos",
+    "eles/elas/vocês": "entretêm",
+    "es": "entretener: entretengo/entretienes/entretiene/entretenemos/entretienen"
+   }
+  },
+  {
+   "rank": 992,
+   "pt": "deter",
+   "pos": "动词",
+   "zh": "拘留 / 阻止（ter 加前缀 de-）",
+   "example": {
+    "pt": "A polícia deteve o suspeito.",
+    "zh": "警方拘留了嫌疑人。"
+   },
+   "derivedFrom": "ter",
+   "conjugations": {
+    "eu": "detenho",
+    "tu": "deténs",
+    "ele/ela/você": "detém",
+    "nós": "detemos",
+    "eles/elas/vocês": "detêm",
+    "es": "detener: detengo/detienes/detiene/detenemos/detienen"
+   }
+  },
+  {
+   "rank": 993,
+   "pt": "predizer",
+   "pos": "动词",
+   "zh": "预言 / 预测（dizer 加前缀 pre-）",
+   "example": {
+    "pt": "Ninguém pode predizer o futuro.",
+    "zh": "没人能预言未来。"
+   },
+   "derivedFrom": "dizer",
+   "conjugations": {
+    "eu": "predigo",
+    "tu": "predizes",
+    "ele/ela/você": "prediz",
+    "nós": "predizemos",
+    "eles/elas/vocês": "predizem",
+    "es": "predecir: predigo/predices/predice/predecimos/predicen"
+   }
+  },
+  {
+   "rank": 994,
+   "pt": "intervir",
+   "pos": "动词",
+   "zh": "干预 / 介入（vir 加前缀 inter-）",
+   "example": {
+    "pt": "O governo interveio na crise.",
+    "zh": "政府干预了危机。"
+   },
+   "derivedFrom": "vir",
+   "conjugations": {
+    "eu": "intervenho",
+    "tu": "intervéns",
+    "ele/ela/você": "intervém",
+    "nós": "intervimos",
+    "eles/elas/vocês": "intervêm",
+    "es": "intervenir: intervengo/intervienes/interviene/intervenimos/intervienen"
+   }
+  },
+  {
+   "rank": 995,
+   "pt": "distrair",
+   "pos": "动词",
+   "zh": "分散注意 / 消遣（trazer 加前缀 dis-）",
+   "example": {
+    "pt": "O celular me distrai o tempo todo.",
+    "zh": "手机总是让我分心。"
+   },
+   "derivedFrom": "trazer",
+   "conjugations": {
+    "eu": "distraio",
+    "tu": "distrais",
+    "ele/ela/você": "distrai",
+    "nós": "distraímos",
+    "eles/elas/vocês": "distraem",
+    "es": "distraer: distraigo/distraes/distrae/distraemos/distraen"
+   }
+  },
+  {
+   "rank": 996,
+   "pt": "extrair",
+   "pos": "动词",
+   "zh": "提取 / 摘录（trazer 加前缀 ex-）",
+   "example": {
+    "pt": "Extraíram informações do relatório.",
+    "zh": "他们从报告中提取了信息。"
+   },
+   "derivedFrom": "trazer",
+   "conjugations": {
+    "eu": "extraio",
+    "tu": "extrais",
+    "ele/ela/você": "extrai",
+    "nós": "extraímos",
+    "eles/elas/vocês": "extraem",
+    "es": "extraer: extraigo/extraes/extrae/extraemos/extraen"
+   }
+  },
+  {
+   "rank": 997,
+   "pt": "prescrever",
+   "pos": "动词",
+   "zh": "开处方 / 规定（escrever 加前缀 pre-）",
+   "example": {
+    "pt": "O médico prescreveu um remédio.",
+    "zh": "医生开了一种药。"
+   },
+   "derivedFrom": "escrever",
+   "conjugations": {
+    "eu": "prescrevo",
+    "tu": "prescreves",
+    "ele/ela/você": "prescreve",
+    "nós": "prescrevemos",
+    "eles/elas/vocês": "prescrevem",
+    "es": "prescribir: prescribo/prescribes/prescribe/prescribimos/prescriben"
+   }
+  },
+  {
+   "rank": 998,
+   "pt": "avaliar",
+   "pos": "动词",
+   "zh": "评估 / 评价",
+   "example": {
+    "pt": "O professor avaliou os alunos.",
+    "zh": "老师评估了学生。"
+   },
+   "conjugations": {
+    "eu": "avalio",
+    "tu": "avalias",
+    "ele/ela/você": "avalia",
+    "nós": "avaliamos",
+    "eles/elas/vocês": "avaliam",
+    "es": "evaluar: evalúo/evalúas/evalúa/evaluamos/evalúan"
+   }
+  },
+  {
+   "rank": 999,
+   "pt": "analisar",
+   "pos": "动词",
+   "zh": "分析",
+   "example": {
+    "pt": "Vamos analisar os dados.",
+    "zh": "我们来分析数据。"
+   },
+   "conjugations": {
+    "eu": "analiso",
+    "tu": "analisas",
+    "ele/ela/você": "analisa",
+    "nós": "analisamos",
+    "eles/elas/vocês": "analisam",
+    "es": "analizar: analizo/analizas/analiza/analizamos/analizan"
+   }
+  },
+  {
+   "rank": 1000,
+   "pt": "comentar",
+   "pos": "动词",
+   "zh": "评论 / 谈论",
+   "example": {
+    "pt": "Todos comentaram a notícia.",
+    "zh": "大家都在谈论这条新闻。"
+   },
+   "conjugations": {
+    "eu": "comento",
+    "tu": "comentas",
+    "ele/ela/você": "comenta",
+    "nós": "comentamos",
+    "eles/elas/vocês": "comentam",
+    "es": "comentar: comento/comentas/comenta/comentamos/comentan"
    }
   }
  ]
