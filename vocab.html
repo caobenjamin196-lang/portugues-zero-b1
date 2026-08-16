@@ -22,7 +22,7 @@
   <script>
   (() => {
     const root = document.getElementById('vocab-root');
-    const week = Math.min(8, Math.max(1, parseInt(new URLSearchParams(location.search).get('week') || '1', 10)));
+    const week = Math.min(16, Math.max(1, parseInt(new URLSearchParams(location.search).get('week') || '1', 10)));
 
     function esc(s) {
       return String(s == null ? '' : s)
@@ -67,10 +67,10 @@
     function buildDerivIndex(data) {
       rootIndex = {};
       rootWordLoc = {};
-      for (let w = 1; w <= 8; w++) {
+      for (let w = 1; w <= 16; w++) {
         for (const e of (data['w' + w] || [])) rootWordLoc[e.pt] = { week: w, rank: e.rank };
       }
-      for (let w = 1; w <= 8; w++) {
+      for (let w = 1; w <= 16; w++) {
         for (const e of (data['w' + w] || [])) {
           if (!e.derivedFrom) continue;
           const rootPt = String(e.derivedFrom).split(/[（(]/)[0].trim();
@@ -185,7 +185,7 @@
       const r0 = words.length ? words[0].rank : 0;
       const r1 = words.length ? words[words.length - 1].rank : 0;
 
-      const weekNav = [1, 2, 3, 4, 5, 6, 7, 8].map(w =>
+      const weekNav = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16].map(w =>
         `<a class="btn btn-sm ${w === week ? 'btn-primary' : 'btn-outline'}" href="vocab.html?week=${w}">W${w}</a>`).join('');
 
       root.innerHTML = `

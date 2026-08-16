@@ -1,5 +1,5 @@
 {
- "description": "每周 100 个频率词汇（PT-BR）。W1=频率排名1-100，W2=101-200，W3=201-300，W4=301-400，W5=401-500，W6=501-600，W7=601-700，W8=701-800。选词参考 Corpus do Português / Routledge Frequency Dictionary 高频区（按教学需要微调）。动词只保留原形词条（é/sou/foi/está/tem 等变位形式已并入原形词条的变位表），并按「词根→派生」机制扩展（fazer→desfazer/refazer、pôr→propor/compor/depor、ter→manter/conter/ater-se 等），每周至少 10 个动词。动词附现在时完整变位与西语对照；falseFriend 为西语假朋友警示。",
+ "description": "每周 100 个频率词汇（PT-BR）。W1=频率排名1-100，W2=101-200，W3=201-300，W4=301-400，W5=401-500，W6=501-600，W7=601-700，W8=701-800，W9=801-900。选词参考 Corpus do Português / Routledge Frequency Dictionary 高频区（按教学需要微调）。动词只保留原形词条（é/sou/foi/está/tem 等变位形式已并入原形词条的变位表），并按「词根→派生」机制扩展（fazer→desfazer/refazer、pôr→propor/compor/depor、ter→manter/conter/ater-se 等），每周至少 10 个动词。动词附现在时完整变位与西语对照；falseFriend 为西语假朋友警示。",
  "source": "Corpus do Português / Routledge Frequency Dictionary of Portuguese（高频区，按教学需要微调）",
  "variant": "PT-BR",
  "w1": [
@@ -9769,6 +9769,1113 @@
     "nós": "reconhecemos",
     "eles/elas/vocês": "reconhecem",
     "es": "reconocer: reconozco/reconoces/reconoce/reconocemos/reconocen"
+   }
+  }
+ ],
+ "w9": [
+  {
+   "rank": 801,
+   "pt": "processo",
+   "pos": "名词",
+   "zh": "过程 / 诉讼",
+   "example": {
+    "pt": "O processo judicial durou cinco anos.",
+    "zh": "这场诉讼持续了五年。"
+   }
+  },
+  {
+   "rank": 802,
+   "pt": "advogado",
+   "pos": "名词",
+   "zh": "律师",
+   "example": {
+    "pt": "O advogado apresentou novas provas.",
+    "zh": "律师提交了新证据。"
+   }
+  },
+  {
+   "rank": 803,
+   "pt": "testemunha",
+   "pos": "名词",
+   "zh": "证人",
+   "example": {
+    "pt": "A testemunha confirmou o depoimento.",
+    "zh": "证人确认了证词。"
+   }
+  },
+  {
+   "rank": 804,
+   "pt": "réu",
+   "pos": "名词",
+   "zh": "被告",
+   "example": {
+    "pt": "O réu negou todas as acusações.",
+    "zh": "被告否认了所有指控。"
+   }
+  },
+  {
+   "rank": 805,
+   "pt": "acusação",
+   "pos": "名词",
+   "zh": "指控 / 控告",
+   "example": {
+    "pt": "A acusação divulgou documentos novos.",
+    "zh": "控方公布了新文件。"
+   }
+  },
+  {
+   "rank": 806,
+   "pt": "defesa",
+   "pos": "名词",
+   "zh": "辩护 / 防守",
+   "example": {
+    "pt": "A defesa pediu mais prazo.",
+    "zh": "辩方要求延长期限。"
+   }
+  },
+  {
+   "rank": 807,
+   "pt": "sentença",
+   "pos": "名词",
+   "zh": "判决",
+   "example": {
+    "pt": "A sentença será lida amanhã.",
+    "zh": "判决将于明天宣读。"
+   }
+  },
+  {
+   "rank": 808,
+   "pt": "julgar",
+   "pos": "动词",
+   "zh": "审判 / 评判",
+   "example": {
+    "pt": "O juiz julga o caso amanhã.",
+    "zh": "法官明天审理此案。"
+   },
+   "conjugations": {
+    "eu": "julgo",
+    "tu": "julgas",
+    "ele/ela/você": "julga",
+    "nós": "julgamos",
+    "eles/elas/vocês": "julgam",
+    "es": "juzgar: juzgo/juzgas/juzga/juzgamos/juzgan"
+   }
+  },
+  {
+   "rank": 809,
+   "pt": "julgamento",
+   "pos": "名词",
+   "zh": "审判 / 审理",
+   "example": {
+    "pt": "O julgamento começa na próxima semana.",
+    "zh": "审判下周开始。"
+   }
+  },
+  {
+   "rank": 810,
+   "pt": "prova",
+   "pos": "名词",
+   "zh": "证据 / 考试",
+   "example": {
+    "pt": "As provas foram analisadas pelo juiz.",
+    "zh": "证据已由法官分析。"
+   }
+  },
+  {
+   "rank": 811,
+   "pt": "evidência",
+   "pos": "名词",
+   "zh": "证据 / 迹象",
+   "example": {
+    "pt": "Não há evidências suficientes.",
+    "zh": "证据不足。"
+   }
+  },
+  {
+   "rank": 812,
+   "pt": "depoimento",
+   "pos": "名词",
+   "zh": "证词 / 供述",
+   "example": {
+    "pt": "O depoimento durou duas horas.",
+    "zh": "供述持续了两个小时。"
+   }
+  },
+  {
+   "rank": 813,
+   "pt": "denúncia",
+   "pos": "名词",
+   "zh": "举报 / 控告",
+   "example": {
+    "pt": "A denúncia foi registrada na delegacia.",
+    "zh": "举报已在警局登记。"
+   }
+  },
+  {
+   "rank": 814,
+   "pt": "acusar",
+   "pos": "动词",
+   "zh": "指控",
+   "example": {
+    "pt": "Acusaram-no de fraude.",
+    "zh": "他们指控他欺诈。"
+   },
+   "conjugations": {
+    "eu": "acuso",
+    "tu": "acusas",
+    "ele/ela/você": "acusa",
+    "nós": "acusamos",
+    "eles/elas/vocês": "acusam",
+    "es": "acusar: acuso/acusas/acusa/acusamos/acusan"
+   }
+  },
+  {
+   "rank": 815,
+   "pt": "suspeito",
+   "pos": "名词",
+   "zh": "嫌疑人；也可作形容词「可疑的」",
+   "example": {
+    "pt": "O suspeito foi interrogado ontem.",
+    "zh": "嫌疑人昨天接受了讯问。"
+   }
+  },
+  {
+   "rank": 816,
+   "pt": "vítima",
+   "pos": "名词",
+   "zh": "受害者",
+   "example": {
+    "pt": "A vítima prestou depoimento hoje.",
+    "zh": "受害者今天做了笔录。"
+   }
+  },
+  {
+   "rank": 817,
+   "pt": "culpado",
+   "pos": "形容词",
+   "zh": "有罪的",
+   "example": {
+    "pt": "O réu foi considerado culpado.",
+    "zh": "被告被判有罪。"
+   }
+  },
+  {
+   "rank": 818,
+   "pt": "inocente",
+   "pos": "形容词",
+   "zh": "无辜的",
+   "example": {
+    "pt": "Todos são inocentes até prova em contrário.",
+    "zh": "在反证之前，人人无罪。"
+   }
+  },
+  {
+   "rank": 819,
+   "pt": "culpa",
+   "pos": "名词",
+   "zh": "过错 / 内疚",
+   "example": {
+    "pt": "A culpa não foi provada.",
+    "zh": "过错未被证实。"
+   }
+  },
+  {
+   "rank": 820,
+   "pt": "pena",
+   "pos": "名词",
+   "zh": "刑罚；é uma pena = 真遗憾",
+   "example": {
+    "pt": "A pena máxima é de dez anos.",
+    "zh": "最高刑罚为十年。"
+   }
+  },
+  {
+   "rank": 821,
+   "pt": "multa",
+   "pos": "名词",
+   "zh": "罚款",
+   "example": {
+    "pt": "Ele pagou uma multa de trânsito.",
+    "zh": "他交了一笔交通罚款。"
+   }
+  },
+  {
+   "rank": 822,
+   "pt": "condenar",
+   "pos": "动词",
+   "zh": "判刑 / 谴责",
+   "example": {
+    "pt": "Ele foi condenado a cinco anos.",
+    "zh": "他被判了五年徒刑。"
+   },
+   "conjugations": {
+    "eu": "condeno",
+    "tu": "condenas",
+    "ele/ela/você": "condena",
+    "nós": "condenamos",
+    "eles/elas/vocês": "condenam",
+    "es": "condenar: condeno/condenas/condena/condenamos/condenan"
+   }
+  },
+  {
+   "rank": 823,
+   "pt": "delegacia",
+   "pos": "名词",
+   "zh": "警察局（分局）",
+   "example": {
+    "pt": "O caso foi registrado na delegacia.",
+    "zh": "案件已在警局备案。"
+   }
+  },
+  {
+   "rank": 824,
+   "pt": "audiência",
+   "pos": "名词",
+   "zh": "听证（会）/ 受众",
+   "example": {
+    "pt": "A audiência foi marcada para março.",
+    "zh": "听证会定在三月。"
+   }
+  },
+  {
+   "rank": 825,
+   "pt": "código",
+   "pos": "名词",
+   "zh": "法典 / 代码",
+   "example": {
+    "pt": "O Código Civil foi atualizado.",
+    "zh": "民法典已更新。"
+   }
+  },
+  {
+   "rank": 826,
+   "pt": "artigo",
+   "pos": "名词",
+   "zh": "条款 / 文章",
+   "example": {
+    "pt": "O artigo quinto garante esse direito.",
+    "zh": "第五条保障这项权利。"
+   }
+  },
+  {
+   "rank": 827,
+   "pt": "cláusula",
+   "pos": "名词",
+   "zh": "（合同）条款",
+   "example": {
+    "pt": "A cláusula proíbe a revenda.",
+    "zh": "该条款禁止转售。"
+   }
+  },
+  {
+   "rank": 828,
+   "pt": "documento",
+   "pos": "名词",
+   "zh": "文件 / 证件",
+   "example": {
+    "pt": "Envie os documentos por e-mail.",
+    "zh": "请把文件发到邮箱。"
+   }
+  },
+  {
+   "rank": 829,
+   "pt": "defender",
+   "pos": "动词",
+   "zh": "辩护 / 捍卫",
+   "example": {
+    "pt": "Ela defende os direitos do povo.",
+    "zh": "她捍卫人民的权利。"
+   },
+   "conjugations": {
+    "eu": "defendo",
+    "tu": "defendes",
+    "ele/ela/você": "defende",
+    "nós": "defendemos",
+    "eles/elas/vocês": "defendem",
+    "es": "defender: defiendo/defiendes/defiende/defendemos/defienden"
+   }
+  },
+  {
+   "rank": 830,
+   "pt": "formulário",
+   "pos": "名词",
+   "zh": "表格",
+   "example": {
+    "pt": "Preencha o formulário online.",
+    "zh": "请在线填写表格。"
+   }
+  },
+  {
+   "rank": 831,
+   "pt": "assinatura",
+   "pos": "名词",
+   "zh": "签名 / 订阅",
+   "example": {
+    "pt": "Falta a assinatura do gerente.",
+    "zh": "还缺经理的签名。"
+   }
+  },
+  {
+   "rank": 832,
+   "pt": "assinar",
+   "pos": "动词",
+   "zh": "签署",
+   "example": {
+    "pt": "Assine o contrato aqui, por favor.",
+    "zh": "请在这里签署合同。"
+   },
+   "falseFriend": "西语「签署」是 firmar；西语 asignar = 分配，别混",
+   "conjugations": {
+    "eu": "assino",
+    "tu": "assinas",
+    "ele/ela/você": "assina",
+    "nós": "assinamos",
+    "eles/elas/vocês": "assinam",
+    "es": "firmar: firmo/firmas/firma/firmamos/firman"
+   }
+  },
+  {
+   "rank": 833,
+   "pt": "registro",
+   "pos": "名词",
+   "zh": "登记 / 记录",
+   "example": {
+    "pt": "O registro foi feito no cartório.",
+    "zh": "登记已在公证处完成。"
+   }
+  },
+  {
+   "rank": 834,
+   "pt": "cartório",
+   "pos": "名词",
+   "zh": "公证处",
+   "example": {
+    "pt": "Leve o contrato ao cartório.",
+    "zh": "把合同拿到公证处。"
+   }
+  },
+  {
+   "rank": 835,
+   "pt": "licença",
+   "pos": "名词",
+   "zh": "许可 / 执照",
+   "example": {
+    "pt": "A licença vence no fim do ano.",
+    "zh": "执照年底到期。"
+   }
+  },
+  {
+   "rank": 836,
+   "pt": "autorização",
+   "pos": "名词",
+   "zh": "授权 / 许可",
+   "example": {
+    "pt": "É preciso autorização por escrito.",
+    "zh": "需要书面授权。"
+   }
+  },
+  {
+   "rank": 837,
+   "pt": "permissão",
+   "pos": "名词",
+   "zh": "允许",
+   "example": {
+    "pt": "Pedimos permissão para entrar.",
+    "zh": "我们请求允许进入。"
+   }
+  },
+  {
+   "rank": 838,
+   "pt": "proibição",
+   "pos": "名词",
+   "zh": "禁止",
+   "example": {
+    "pt": "A proibição entrou em vigor.",
+    "zh": "禁令已生效。"
+   }
+  },
+  {
+   "rank": 839,
+   "pt": "obrigação",
+   "pos": "名词",
+   "zh": "义务",
+   "example": {
+    "pt": "Votar é uma obrigação no Brasil.",
+    "zh": "在巴西，投票是义务。"
+   }
+  },
+  {
+   "rank": 840,
+   "pt": "cumprir",
+   "pos": "动词",
+   "zh": "履行 / 遵守",
+   "example": {
+    "pt": "Todos devem cumprir a lei.",
+    "zh": "人人都要遵守法律。"
+   },
+   "conjugations": {
+    "eu": "cumpro",
+    "tu": "cumpres",
+    "ele/ela/você": "cumpre",
+    "nós": "cumprimos",
+    "eles/elas/vocês": "cumprem",
+    "es": "cumplir: cumplo/cumples/cumple/cumplimos/cumplen"
+   }
+  },
+  {
+   "rank": 841,
+   "pt": "responsabilidade",
+   "pos": "名词",
+   "zh": "责任",
+   "example": {
+    "pt": "A empresa assumiu a responsabilidade.",
+    "zh": "公司承担了责任。"
+   }
+  },
+  {
+   "rank": 842,
+   "pt": "prazo",
+   "pos": "名词",
+   "zh": "期限",
+   "example": {
+    "pt": "O prazo termina na sexta-feira.",
+    "zh": "期限周五截止。"
+   }
+  },
+  {
+   "rank": 843,
+   "pt": "vigor",
+   "pos": "名词",
+   "zh": "生效（entrar em vigor 生效）",
+   "example": {
+    "pt": "A nova lei entra em vigor em janeiro.",
+    "zh": "新法一月生效。"
+   }
+  },
+  {
+   "rank": 844,
+   "pt": "ministério",
+   "pos": "名词",
+   "zh": "（政府的）部",
+   "example": {
+    "pt": "O Ministério da Saúde divulgou dados.",
+    "zh": "卫生部公布了数据。"
+   }
+  },
+  {
+   "rank": 845,
+   "pt": "secretaria",
+   "pos": "名词",
+   "zh": "秘书处 / （州）厅",
+   "example": {
+    "pt": "A Secretaria de Educação mudou as regras.",
+    "zh": "教育厅修改了规定。"
+   }
+  },
+  {
+   "rank": 846,
+   "pt": "departamento",
+   "pos": "名词",
+   "zh": "部门",
+   "example": {
+    "pt": "O departamento jurídico revisou o texto.",
+    "zh": "法务部门审核了文本。"
+   }
+  },
+  {
+   "rank": 847,
+   "pt": "órgão",
+   "pos": "名词",
+   "zh": "机关 / 器官",
+   "example": {
+    "pt": "O órgão público respondeu ao pedido.",
+    "zh": "该公共机关回复了申请。"
+   }
+  },
+  {
+   "rank": 848,
+   "pt": "instituição",
+   "pos": "名词",
+   "zh": "机构",
+   "example": {
+    "pt": "É uma instituição respeitada.",
+    "zh": "这是一家受尊敬的机构。"
+   }
+  },
+  {
+   "rank": 849,
+   "pt": "administração",
+   "pos": "名词",
+   "zh": "管理 / 行政",
+   "example": {
+    "pt": "A administração pública mudou muito.",
+    "zh": "公共行政变化很大。"
+   }
+  },
+  {
+   "rank": 850,
+   "pt": "gestão",
+   "pos": "名词",
+   "zh": "管理 / 治理",
+   "example": {
+    "pt": "A nova gestão cortou gastos.",
+    "zh": "新管理层削减了开支。"
+   }
+  },
+  {
+   "rank": 851,
+   "pt": "autoridade",
+   "pos": "名词",
+   "zh": "当局 / 权威",
+   "example": {
+    "pt": "As autoridades locais investigam o caso.",
+    "zh": "地方当局正在调查此案。"
+   }
+  },
+  {
+   "rank": 852,
+   "pt": "servidor",
+   "pos": "名词",
+   "zh": "公务员 / 服务器",
+   "example": {
+    "pt": "O servidor público assinou o documento.",
+    "zh": "这位公务员签署了文件。"
+   }
+  },
+  {
+   "rank": 853,
+   "pt": "cargo",
+   "pos": "名词",
+   "zh": "职位 / 职务",
+   "example": {
+    "pt": "Ele ocupa um cargo de confiança.",
+    "zh": "他担任一个要职。"
+   }
+  },
+  {
+   "rank": 854,
+   "pt": "orçamento",
+   "pos": "名词",
+   "zh": "预算",
+   "example": {
+    "pt": "O orçamento foi aprovado.",
+    "zh": "预算已获批准。"
+   }
+  },
+  {
+   "rank": 855,
+   "pt": "verba",
+   "pos": "名词",
+   "zh": "拨款 / 经费",
+   "example": {
+    "pt": "A verba do projeto foi cortada.",
+    "zh": "项目拨款被削减了。"
+   }
+  },
+  {
+   "rank": 856,
+   "pt": "recurso",
+   "pos": "名词",
+   "zh": "资源 / 上诉",
+   "example": {
+    "pt": "A defesa entrou com um recurso.",
+    "zh": "辩方提起了上诉。"
+   }
+  },
+  {
+   "rank": 857,
+   "pt": "impor",
+   "pos": "动词",
+   "zh": "强加 / 征收（pôr 加前缀 im-）",
+   "example": {
+    "pt": "O governo impôs novas taxas.",
+    "zh": "政府征收了新税。"
+   },
+   "derivedFrom": "pôr",
+   "conjugations": {
+    "eu": "imponho",
+    "tu": "impões",
+    "ele/ela/você": "impõe",
+    "nós": "impomos",
+    "eles/elas/vocês": "impõem",
+    "es": "imponer: impongo/impones/impone/imponemos/imponen"
+   }
+  },
+  {
+   "rank": 858,
+   "pt": "opor-se",
+   "pos": "动词",
+   "zh": "反对（pôr 加前缀 op-）",
+   "example": {
+    "pt": "Eles se opuseram à nova lei.",
+    "zh": "他们反对这项新法。"
+   },
+   "derivedFrom": "pôr",
+   "conjugations": {
+    "eu": "me oponho",
+    "tu": "te opões",
+    "ele/ela/você": "se opõe",
+    "nós": "nos opomos",
+    "eles/elas/vocês": "se opõem",
+    "es": "oponerse: me opongo/te opones/se opone/nos oponemos/se oponen"
+   }
+  },
+  {
+   "rank": 859,
+   "pt": "expor",
+   "pos": "动词",
+   "zh": "阐述 / 展出（pôr 加前缀 ex-）",
+   "example": {
+    "pt": "O relatório expõe os riscos.",
+    "zh": "报告阐述了风险。"
+   },
+   "derivedFrom": "pôr",
+   "conjugations": {
+    "eu": "exponho",
+    "tu": "expões",
+    "ele/ela/você": "expõe",
+    "nós": "expomos",
+    "eles/elas/vocês": "expõem",
+    "es": "exponer: expongo/expones/expone/exponemos/exponen"
+   }
+  },
+  {
+   "rank": 860,
+   "pt": "obter",
+   "pos": "动词",
+   "zh": "获得（ter 加前缀 ob-）",
+   "example": {
+    "pt": "Ela obteve a licença ontem.",
+    "zh": "她昨天拿到了许可。"
+   },
+   "derivedFrom": "ter",
+   "conjugations": {
+    "eu": "obtenho",
+    "tu": "obténs",
+    "ele/ela/você": "obtém",
+    "nós": "obtemos",
+    "eles/elas/vocês": "obtêm",
+    "es": "obtener: obtengo/obtienes/obtiene/obtenemos/obtienen"
+   }
+  },
+  {
+   "rank": 861,
+   "pt": "reter",
+   "pos": "动词",
+   "zh": "保留 / 扣留（ter 加前缀 re-）",
+   "example": {
+    "pt": "A empresa reteve os documentos.",
+    "zh": "公司扣留了文件。"
+   },
+   "derivedFrom": "ter",
+   "conjugations": {
+    "eu": "retenho",
+    "tu": "reténs",
+    "ele/ela/você": "retém",
+    "nós": "retemos",
+    "eles/elas/vocês": "retêm",
+    "es": "retener: retengo/retienes/retiene/retenemos/retienen"
+   }
+  },
+  {
+   "rank": 862,
+   "pt": "satisfazer",
+   "pos": "动词",
+   "zh": "使满意（fazer 加前缀 satis-）",
+   "example": {
+    "pt": "O resultado satisfaz a todos.",
+    "zh": "结果令所有人满意。"
+   },
+   "derivedFrom": "fazer",
+   "conjugations": {
+    "eu": "satisfaço",
+    "tu": "satisfazes",
+    "ele/ela/você": "satisfaz",
+    "nós": "satisfazemos",
+    "eles/elas/vocês": "satisfazem",
+    "es": "satisfacer: satisfago/satisfaces/satisface/satisfacemos/satisfacen"
+   }
+  },
+  {
+   "rank": 863,
+   "pt": "fenômeno",
+   "pos": "名词",
+   "zh": "现象",
+   "example": {
+    "pt": "É um fenômeno raro.",
+    "zh": "这是一种罕见的现象。"
+   }
+  },
+  {
+   "rank": 864,
+   "pt": "aspecto",
+   "pos": "名词",
+   "zh": "方面 / 外观",
+   "example": {
+    "pt": "Esse aspecto é muito importante.",
+    "zh": "这一方面非常重要。"
+   }
+  },
+  {
+   "rank": 865,
+   "pt": "fator",
+   "pos": "名词",
+   "zh": "因素",
+   "example": {
+    "pt": "O preço é um fator decisivo.",
+    "zh": "价格是决定性因素。"
+   }
+  },
+  {
+   "rank": 866,
+   "pt": "elemento",
+   "pos": "名词",
+   "zh": "元素 / 要素",
+   "example": {
+    "pt": "É um elemento essencial do contrato.",
+    "zh": "这是合同的基本要素。"
+   }
+  },
+  {
+   "rank": 867,
+   "pt": "estrutura",
+   "pos": "名词",
+   "zh": "结构",
+   "example": {
+    "pt": "A estrutura do texto é clara.",
+    "zh": "文本结构清晰。"
+   }
+  },
+  {
+   "rank": 868,
+   "pt": "função",
+   "pos": "名词",
+   "zh": "功能 / 职务",
+   "example": {
+    "pt": "Qual é a função desse botão?",
+    "zh": "这个按钮的功能是什么？"
+   }
+  },
+  {
+   "rank": 869,
+   "pt": "papel",
+   "pos": "名词",
+   "zh": "纸 / 角色",
+   "example": {
+    "pt": "O papel da escola mudou.",
+    "zh": "学校的角色变了。"
+   }
+  },
+  {
+   "rank": 870,
+   "pt": "nível",
+   "pos": "名词",
+   "zh": "水平 / 级别",
+   "example": {
+    "pt": "O nível do mar subiu.",
+    "zh": "海平面上升了。"
+   }
+  },
+  {
+   "rank": 871,
+   "pt": "critério",
+   "pos": "名词",
+   "zh": "标准",
+   "example": {
+    "pt": "Os critérios de avaliação mudaram.",
+    "zh": "评审标准变了。"
+   }
+  },
+  {
+   "rank": 872,
+   "pt": "método",
+   "pos": "名词",
+   "zh": "方法",
+   "example": {
+    "pt": "É um método muito eficiente.",
+    "zh": "这是个很高效的方法。"
+   }
+  },
+  {
+   "rank": 873,
+   "pt": "estratégia",
+   "pos": "名词",
+   "zh": "战略 / 策略",
+   "example": {
+    "pt": "A estratégia da empresa funcionou.",
+    "zh": "公司的战略奏效了。"
+   }
+  },
+  {
+   "rank": 874,
+   "pt": "objetivo",
+   "pos": "名词",
+   "zh": "目标；也可作形容词「客观的」",
+   "example": {
+    "pt": "Nosso objetivo principal é crescer.",
+    "zh": "我们的主要目标是增长。"
+   }
+  },
+  {
+   "rank": 875,
+   "pt": "meta",
+   "pos": "名词",
+   "zh": "目标 / 指标",
+   "example": {
+    "pt": "Batemos a meta de vendas.",
+    "zh": "我们完成了销售指标。"
+   }
+  },
+  {
+   "rank": 876,
+   "pt": "finalidade",
+   "pos": "名词",
+   "zh": "目的",
+   "example": {
+    "pt": "A finalidade da lei é proteger.",
+    "zh": "该法的目的是保护。"
+   }
+  },
+  {
+   "rank": 877,
+   "pt": "consequência",
+   "pos": "名词",
+   "zh": "后果",
+   "example": {
+    "pt": "As consequências da crise apareceram.",
+    "zh": "危机的后果显现了。"
+   }
+  },
+  {
+   "rank": 878,
+   "pt": "causa",
+   "pos": "名词",
+   "zh": "原因 / 事业",
+   "example": {
+    "pt": "A causa do acidente é desconhecida.",
+    "zh": "事故原因不明。"
+   }
+  },
+  {
+   "rank": 879,
+   "pt": "efeito",
+   "pos": "名词",
+   "zh": "效果 / 影响",
+   "example": {
+    "pt": "O efeito do remédio foi rápido.",
+    "zh": "药效来得很快。"
+   }
+  },
+  {
+   "rank": 880,
+   "pt": "risco",
+   "pos": "名词",
+   "zh": "风险",
+   "example": {
+    "pt": "Não corra riscos desnecessários.",
+    "zh": "不要冒不必要的风险。"
+   }
+  },
+  {
+   "rank": 881,
+   "pt": "desafio",
+   "pos": "名词",
+   "zh": "挑战",
+   "example": {
+    "pt": "É um grande desafio para todos.",
+    "zh": "这对所有人都是巨大的挑战。"
+   }
+  },
+  {
+   "rank": 882,
+   "pt": "oportunidade",
+   "pos": "名词",
+   "zh": "机会",
+   "example": {
+    "pt": "É uma oportunidade única.",
+    "zh": "这是独一无二的机会。"
+   }
+  },
+  {
+   "rank": 883,
+   "pt": "tendência",
+   "pos": "名词",
+   "zh": "趋势",
+   "example": {
+    "pt": "É uma tendência mundial.",
+    "zh": "这是一个全球趋势。"
+   }
+  },
+  {
+   "rank": 884,
+   "pt": "impacto",
+   "pos": "名词",
+   "zh": "影响 / 冲击",
+   "example": {
+    "pt": "O impacto da lei foi grande.",
+    "zh": "该法的影响很大。"
+   }
+  },
+  {
+   "rank": 885,
+   "pt": "desenvolvimento",
+   "pos": "名词",
+   "zh": "发展",
+   "example": {
+    "pt": "O desenvolvimento econômico acelerou.",
+    "zh": "经济发展加快了。"
+   }
+  },
+  {
+   "rank": 886,
+   "pt": "meio ambiente",
+   "pos": "名词",
+   "zh": "环境",
+   "example": {
+    "pt": "Proteger o meio ambiente é urgente.",
+    "zh": "保护环境刻不容缓。"
+   }
+  },
+  {
+   "rank": 887,
+   "pt": "poluição",
+   "pos": "名词",
+   "zh": "污染",
+   "example": {
+    "pt": "A poluição do ar piorou.",
+    "zh": "空气污染恶化了。"
+   }
+  },
+  {
+   "rank": 888,
+   "pt": "energia",
+   "pos": "名词",
+   "zh": "能源 / 精力",
+   "example": {
+    "pt": "Energia solar é o futuro.",
+    "zh": "太阳能是未来。"
+   }
+  },
+  {
+   "rank": 889,
+   "pt": "consumidor",
+   "pos": "名词",
+   "zh": "消费者",
+   "example": {
+    "pt": "A lei protege o consumidor.",
+    "zh": "法律保护消费者。"
+   }
+  },
+  {
+   "rank": 890,
+   "pt": "produção",
+   "pos": "名词",
+   "zh": "生产",
+   "example": {
+    "pt": "A produção aumentou este ano.",
+    "zh": "今年产量增加了。"
+   }
+  },
+  {
+   "rank": 891,
+   "pt": "comércio",
+   "pos": "名词",
+   "zh": "商业 / 贸易",
+   "example": {
+    "pt": "O comércio local cresceu.",
+    "zh": "本地商业增长了。"
+   }
+  },
+  {
+   "rank": 892,
+   "pt": "exportação",
+   "pos": "名词",
+   "zh": "出口",
+   "example": {
+    "pt": "As exportações cresceram muito.",
+    "zh": "出口大幅增长。"
+   }
+  },
+  {
+   "rank": 893,
+   "pt": "renda",
+   "pos": "名词",
+   "zh": "收入",
+   "example": {
+    "pt": "A renda familiar aumentou.",
+    "zh": "家庭收入增加了。"
+   }
+  },
+  {
+   "rank": 894,
+   "pt": "pobreza",
+   "pos": "名词",
+   "zh": "贫困",
+   "example": {
+    "pt": "Combater a pobreza é urgente.",
+    "zh": "消除贫困刻不容缓。"
+   }
+  },
+  {
+   "rank": 895,
+   "pt": "desigualdade",
+   "pos": "名词",
+   "zh": "不平等",
+   "example": {
+    "pt": "A desigualdade social diminuiu.",
+    "zh": "社会不平等缩小了。"
+   }
+  },
+  {
+   "rank": 896,
+   "pt": "sensível",
+   "pos": "形容词",
+   "zh": "敏感的 / 易感的",
+   "example": {
+    "pt": "Ele é muito sensível a críticas.",
+    "zh": "他对批评很敏感。"
+   },
+   "falseFriend": "西语 sensible = 明智的；葡语 sensível = 敏感的，「明智的」葡语是 sensato"
+  },
+  {
+   "rank": 897,
+   "pt": "raro",
+   "pos": "形容词",
+   "zh": "稀有的 / 罕见的",
+   "example": {
+    "pt": "É um caso raro na medicina.",
+    "zh": "这是医学上的罕见病例。"
+   },
+   "falseFriend": "西语 raro 常表「奇怪的」；葡语 raro = 稀有的，「奇怪」用 estranho"
+  },
+  {
+   "rank": 898,
+   "pt": "concurso",
+   "pos": "名词",
+   "zh": "竞赛 / 公开招考",
+   "example": {
+    "pt": "Ele passou no concurso público.",
+    "zh": "他通过了公务员招考。"
+   }
+  },
+  {
+   "rank": 899,
+   "pt": "edital",
+   "pos": "名词",
+   "zh": "公告 / 招考简章",
+   "example": {
+    "pt": "O edital foi publicado hoje.",
+    "zh": "公告今天发布了。"
+   }
+  },
+  {
+   "rank": 900,
+   "pt": "ata",
+   "pos": "名词",
+   "zh": "会议纪要",
+   "example": {
+    "pt": "A ata da reunião foi assinada.",
+    "zh": "会议纪要已签署。"
    }
   }
  ]

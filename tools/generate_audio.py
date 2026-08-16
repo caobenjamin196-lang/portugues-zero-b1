@@ -40,7 +40,7 @@ def collect_jobs():
     jobs = []  # (text, path)
     seen_conj = set()
     n_words = n_verbs = 0
-    for w in range(1, 9):
+    for w in range(1, 17):
         for e in data.get(f"w{w}", []):
             pt = e["pt"]
             sw = safe(pt)
