@@ -6,21 +6,165 @@
   "totalWeeks": 16,
   "hoursPerWeek": 3,
   "weeks": [
-    { "week": 1, "phase": 1, "title": "发音系统：14个元音 + 鼻元音 + 半元音", "grammar": "字母→音素映射规则；重音规则（proparoxítona/paroxítona/oxítona）", "reading": "短句朗读 + 拼音练习", "examFormat": "听辨选择 + 重音标注", "theoryPage": "w01-pronunciation.html", "ready": true },
-    { "week": 2, "phase": 1, "title": "名词 / 冠词 / 形容词：阴阳性转移规则", "grammar": "-ción→-ção、-dad→-dade、-ón→-ão；形容词位置；复数规则", "reading": "简短描述文（自我介绍、家庭）", "examFormat": "选词填空 + 词性转换", "theoryPage": "w02-nouns-articles.html", "ready": true },
-    { "week": 3, "phase": 1, "title": "动词现在时：规则动词 -ar/-er/-ir", "grammar": "ser/estar 差异（与西语对比）；ter/haver/fazer/ir 不规则；PT-BR 主语保留规则", "reading": "日常对话短文（餐厅、购物）", "examFormat": "变位填空 + 翻译", "theoryPage": "w03-present-tense.html", "ready": true },
-    { "week": 4, "phase": 1, "title": "介词与连词（Phase 1 结业考）", "grammar": "em/de/para/por vs en/de/para/por；缩合 no/na/do/da/ao/à；连词差异", "reading": "短新闻（100-150词）", "examFormat": "介词选择 + 句型改写 + AI 段落翻译与写作", "theoryPage": "w04-prepositions-conjunctions.html", "ready": true },
-    { "week": 5, "phase": 2, "title": "过去时：pretérito perfeito vs imperfeito", "grammar": "与西语 pretérito/imperfecto 对应；PT-BR 用法差异；不规则动词 foi/esteve/teve", "reading": "短篇故事（300词）", "examFormat": "时态选择 + 动词变位", "theoryPage": "w05-past-tense.html", "ready": true },
-    { "week": 6, "phase": 2, "title": "进行时与完成时", "grammar": "estar + gerúndio；pretérito composto（tenho falado）；与西语差异", "reading": "新闻报道（200词）", "examFormat": "时态转换 + 阅读理解", "theoryPage": "w06-progressive-perfect.html", "ready": true },
-    { "week": 7, "phase": 2, "title": "将来时与条件式", "grammar": "futuro do presente（falarei）；futuro do pretérito（falaria）= 西语 condicional；ir + infinitivo", "reading": "预测/计划类文章", "examFormat": "填空 + 翻译", "theoryPage": "w07-future-conditional.html", "ready": true },
-    { "week": 8, "phase": 2, "title": "虚拟式：presente + pretérito imperfeito（Phase 2 结业考）", "grammar": "subjuntivo presente；subjuntivo imperfeito；触发词对比", "reading": "评论/观点文章（250词）", "examFormat": "虚拟式选择 + 句型改写 + AI 翻译与写作", "theoryPage": "w08-subjunctive.html", "ready": true },
-    { "week": 9, "phase": 3, "title": "虚拟式未来时 + 被动语态", "grammar": "futuro do subjuntivo（葡语独有）；se + verbo 被动；被动结构对比", "reading": "法律/正式文书片段", "examFormat": "虚拟式未来填空 + 被动改写", "theoryPage": "w09-future-subjunctive-passive.html", "ready": false },
-    { "week": 10, "phase": 3, "title": "不定式与动名词", "grammar": "infinitivo pessoal（人称化不定式，葡语独有）；gerúndio vs infinitivo 选择", "reading": "报刊专栏（350词）", "examFormat": "不定式人称化填空 + 阅读理解", "theoryPage": "w10-infinitive-gerund.html", "ready": false },
-    { "week": 11, "phase": 3, "title": "关系代词与从句", "grammar": "que/quem/cujo/onde/o qual；关系从句 vs 西语差异", "reading": "传记/历史文章（400词）", "examFormat": "关系代词选择 + 从句合并", "theoryPage": "w11-relative-clauses.html", "ready": false },
-    { "week": 12, "phase": 3, "title": "假朋友与词汇深化（Phase 3 结业考）", "grammar": "50个高频假朋友；同源词变形规则；巴西俚语入门", "reading": "文学片段（500词）", "examFormat": "词汇辨析 + 翻译 + AI 翻译与评论写作", "theoryPage": "w12-false-friends.html", "ready": false },
-    { "week": 13, "phase": 4, "title": "阅读强化：新闻", "grammar": "时态混合运用；新闻体词汇；标题缩略语法", "reading": "3篇真实新闻（每篇300-400词）", "examFormat": "阅读理解 + 词汇 + 翻译", "theoryPage": "w13-news-reading.html", "ready": false },
-    { "week": 14, "phase": 4, "title": "阅读强化：文学", "grammar": "文学时态用法；叙述体；对话描写", "reading": "短篇小说（800-1000词）", "examFormat": "阅读理解 + 语法分析", "theoryPage": "w14-literature.html", "ready": false },
-    { "week": 15, "phase": 4, "title": "写作强化", "grammar": "论证结构；连接词；正式/非正式语域", "reading": "范文3篇（议论文/邮件/评论）", "examFormat": "AI 批改：1篇200词议论文", "theoryPage": "w15-writing.html", "ready": false },
-    { "week": 16, "phase": 4, "title": "综合复习 + B1 模拟考", "grammar": "全部语法点查漏补缺", "reading": "综合阅读（800词）", "examFormat": "B1 模拟考（阅读30题 + 语法词汇40题 + AI 翻译与写作）", "theoryPage": "w16-review.html", "ready": false }
+    {
+      "week": 1,
+      "phase": 1,
+      "title": "发音系统：14个元音 + 鼻元音 + 半元音",
+      "grammar": "字母→音素映射规则；重音规则（proparoxítona/paroxítona/oxítona）",
+      "reading": "短句朗读 + 拼音练习",
+      "examFormat": "听辨选择 + 重音标注",
+      "theoryPage": "w01-pronunciation.html",
+      "ready": true
+    },
+    {
+      "week": 2,
+      "phase": 1,
+      "title": "名词 / 冠词 / 形容词：阴阳性转移规则",
+      "grammar": "-ción→-ção、-dad→-dade、-ón→-ão；形容词位置；复数规则",
+      "reading": "简短描述文（自我介绍、家庭）",
+      "examFormat": "选词填空 + 词性转换",
+      "theoryPage": "w02-nouns-articles.html",
+      "ready": true
+    },
+    {
+      "week": 3,
+      "phase": 1,
+      "title": "动词现在时：规则动词 -ar/-er/-ir",
+      "grammar": "ser/estar 差异（与西语对比）；ter/haver/fazer/ir 不规则；PT-BR 主语保留规则",
+      "reading": "日常对话短文（餐厅、购物）",
+      "examFormat": "变位填空 + 翻译",
+      "theoryPage": "w03-present-tense.html",
+      "ready": true
+    },
+    {
+      "week": 4,
+      "phase": 1,
+      "title": "介词与连词（Phase 1 结业考）",
+      "grammar": "em/de/para/por vs en/de/para/por；缩合 no/na/do/da/ao/à；连词差异",
+      "reading": "短新闻（100-150词）",
+      "examFormat": "介词选择 + 句型改写 + AI 段落翻译与写作",
+      "theoryPage": "w04-prepositions-conjunctions.html",
+      "ready": true
+    },
+    {
+      "week": 5,
+      "phase": 2,
+      "title": "过去时：pretérito perfeito vs imperfeito",
+      "grammar": "与西语 pretérito/imperfecto 对应；PT-BR 用法差异；不规则动词 foi/esteve/teve",
+      "reading": "短篇故事（300词）",
+      "examFormat": "时态选择 + 动词变位",
+      "theoryPage": "w05-past-tense.html",
+      "ready": true
+    },
+    {
+      "week": 6,
+      "phase": 2,
+      "title": "进行时与完成时",
+      "grammar": "estar + gerúndio；pretérito composto（tenho falado）；与西语差异",
+      "reading": "新闻报道（200词）",
+      "examFormat": "时态转换 + 阅读理解",
+      "theoryPage": "w06-progressive-perfect.html",
+      "ready": true
+    },
+    {
+      "week": 7,
+      "phase": 2,
+      "title": "将来时与条件式",
+      "grammar": "futuro do presente（falarei）；futuro do pretérito（falaria）= 西语 condicional；ir + infinitivo",
+      "reading": "预测/计划类文章",
+      "examFormat": "填空 + 翻译",
+      "theoryPage": "w07-future-conditional.html",
+      "ready": true
+    },
+    {
+      "week": 8,
+      "phase": 2,
+      "title": "虚拟式：presente + pretérito imperfeito（Phase 2 结业考）",
+      "grammar": "subjuntivo presente；subjuntivo imperfeito；触发词对比",
+      "reading": "评论/观点文章（250词）",
+      "examFormat": "虚拟式选择 + 句型改写 + AI 翻译与写作",
+      "theoryPage": "w08-subjunctive.html",
+      "ready": true
+    },
+    {
+      "week": 9,
+      "phase": 3,
+      "title": "虚拟式未来时 + 被动语态",
+      "grammar": "futuro do subjuntivo（葡语独有）；se + verbo 被动；被动结构对比",
+      "reading": "法律/正式文书片段",
+      "examFormat": "虚拟式未来填空 + 被动改写",
+      "theoryPage": "w09-future-subjunctive-passive.html",
+      "ready": true
+    },
+    {
+      "week": 10,
+      "phase": 3,
+      "title": "不定式与动名词",
+      "grammar": "infinitivo pessoal（人称化不定式，葡语独有）；gerúndio vs infinitivo 选择",
+      "reading": "报刊专栏（350词）",
+      "examFormat": "不定式人称化填空 + 阅读理解",
+      "theoryPage": "w10-infinitive-gerund.html",
+      "ready": false
+    },
+    {
+      "week": 11,
+      "phase": 3,
+      "title": "关系代词与从句",
+      "grammar": "que/quem/cujo/onde/o qual；关系从句 vs 西语差异",
+      "reading": "传记/历史文章（400词）",
+      "examFormat": "关系代词选择 + 从句合并",
+      "theoryPage": "w11-relative-clauses.html",
+      "ready": false
+    },
+    {
+      "week": 12,
+      "phase": 3,
+      "title": "假朋友与词汇深化（Phase 3 结业考）",
+      "grammar": "50个高频假朋友；同源词变形规则；巴西俚语入门",
+      "reading": "文学片段（500词）",
+      "examFormat": "词汇辨析 + 翻译 + AI 翻译与评论写作",
+      "theoryPage": "w12-false-friends.html",
+      "ready": false
+    },
+    {
+      "week": 13,
+      "phase": 4,
+      "title": "阅读强化：新闻",
+      "grammar": "时态混合运用；新闻体词汇；标题缩略语法",
+      "reading": "3篇真实新闻（每篇300-400词）",
+      "examFormat": "阅读理解 + 词汇 + 翻译",
+      "theoryPage": "w13-news-reading.html",
+      "ready": false
+    },
+    {
+      "week": 14,
+      "phase": 4,
+      "title": "阅读强化：文学",
+      "grammar": "文学时态用法；叙述体；对话描写",
+      "reading": "短篇小说（800-1000词）",
+      "examFormat": "阅读理解 + 语法分析",
+      "theoryPage": "w14-literature.html",
+      "ready": false
+    },
+    {
+      "week": 15,
+      "phase": 4,
+      "title": "写作强化",
+      "grammar": "论证结构；连接词；正式/非正式语域",
+      "reading": "范文3篇（议论文/邮件/评论）",
+      "examFormat": "AI 批改：1篇200词议论文",
+      "theoryPage": "w15-writing.html",
+      "ready": false
+    },
+    {
+      "week": 16,
+      "phase": 4,
+      "title": "综合复习 + B1 模拟考",
+      "grammar": "全部语法点查漏补缺",
+      "reading": "综合阅读（800词）",
+      "examFormat": "B1 模拟考（阅读30题 + 语法词汇40题 + AI 翻译与写作）",
+      "theoryPage": "w16-review.html",
+      "ready": false
+    }
   ]
 }

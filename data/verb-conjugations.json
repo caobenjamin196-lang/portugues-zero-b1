@@ -1,5 +1,5 @@
 {
- "description": "W1-W8 每周 100 频率词中全部动词（213 个，含「词根→派生」扩展动词）的现在时变位表（PT-BR），含西语对照",
+ "description": "W1-W9 每周 100 频率词中全部动词（225 个，含「词根→派生」扩展动词）的现在时变位表（PT-BR），含西语对照",
  "tense": "presente do indicativo",
  "verbs": [
   {
@@ -2920,6 +2920,174 @@
    },
    "spanish": "reconocer: reconozco/reconoces/reconoce/reconocemos/reconocen",
    "note": "eu reconheço（c→ç）"
+  },
+  {
+   "infinitive": "julgar",
+   "meaning": "审判 / 评判",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "julgo",
+    "tu": "julgas",
+    "ele/ela/você": "julga",
+    "nós": "julgamos",
+    "eles/elas/vocês": "julgam"
+   },
+   "spanish": "juzgar: juzgo/juzgas/juzga/juzgamos/juzgan",
+   "note": "西语 juzgar：z→j 对应"
+  },
+  {
+   "infinitive": "acusar",
+   "meaning": "指控",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "acuso",
+    "tu": "acusas",
+    "ele/ela/você": "acusa",
+    "nós": "acusamos",
+    "eles/elas/vocês": "acusam"
+   },
+   "spanish": "acusar: acuso/acusas/acusa/acusamos/acusan",
+   "note": "acusar alguém de algo：指控某人某事"
+  },
+  {
+   "infinitive": "condenar",
+   "meaning": "判刑 / 谴责",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "condeno",
+    "tu": "condenas",
+    "ele/ela/você": "condena",
+    "nós": "condenamos",
+    "eles/elas/vocês": "condenam"
+   },
+   "spanish": "condenar: condeno/condenas/condena/condenamos/condenan",
+   "note": "condenar alguém a + 刑期：condenado a cinco anos"
+  },
+  {
+   "infinitive": "defender",
+   "meaning": "辩护 / 捍卫",
+   "type": "regular -er",
+   "conjugation": {
+    "eu": "defendo",
+    "tu": "defendes",
+    "ele/ela/você": "defende",
+    "nós": "defendemos",
+    "eles/elas/vocês": "defendem"
+   },
+   "spanish": "defender: defiendo/defiendes/defiende/defendemos/defienden",
+   "note": "西语 defender 词干变位（defiendo）；葡语无变位：eu defendo"
+  },
+  {
+   "infinitive": "assinar",
+   "meaning": "签署",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "assino",
+    "tu": "assinas",
+    "ele/ela/você": "assina",
+    "nós": "assinamos",
+    "eles/elas/vocês": "assinam"
+   },
+   "spanish": "firmar: firmo/firmas/firma/firmamos/firman",
+   "note": "西语「签署」用 firmar；asignar=分配"
+  },
+  {
+   "infinitive": "cumprir",
+   "meaning": "履行 / 遵守",
+   "type": "regular -ir",
+   "conjugation": {
+    "eu": "cumpro",
+    "tu": "cumpres",
+    "ele/ela/você": "cumpre",
+    "nós": "cumprimos",
+    "eles/elas/vocês": "cumprem"
+   },
+   "spanish": "cumplir: cumplo/cumples/cumple/cumplimos/cumplen",
+   "note": "与西语 cumplir 规则对应：cumpro≈cumplo"
+  },
+  {
+   "infinitive": "impor",
+   "meaning": "强加 / 征收",
+   "type": "irregular（pôr 族）",
+   "conjugation": {
+    "eu": "imponho",
+    "tu": "impões",
+    "ele/ela/você": "impõe",
+    "nós": "impomos",
+    "eles/elas/vocês": "impõem"
+   },
+   "spanish": "imponer: impongo/impones/impone/imponemos/imponen",
+   "note": "imponer 同族：eu imponho；perfeito impus/impôs"
+  },
+  {
+   "infinitive": "opor-se",
+   "meaning": "反对",
+   "type": "irregular（pôr 族，反身）",
+   "conjugation": {
+    "eu": "me oponho",
+    "tu": "te opões",
+    "ele/ela/você": "se opõe",
+    "nós": "nos opomos",
+    "eles/elas/vocês": "se opõem"
+   },
+   "spanish": "oponerse: me opongo/te opones/se opone/nos oponemos/se oponen",
+   "note": "反身代词前置（口语）或后置：me oponho / oponho-me"
+  },
+  {
+   "infinitive": "expor",
+   "meaning": "阐述 / 展出",
+   "type": "irregular（pôr 族）",
+   "conjugation": {
+    "eu": "exponho",
+    "tu": "expões",
+    "ele/ela/você": "expõe",
+    "nós": "expomos",
+    "eles/elas/vocês": "expõem"
+   },
+   "spanish": "exponer: expongo/expones/expone/exponemos/exponen",
+   "note": "exponer 同族：eu exponho"
+  },
+  {
+   "infinitive": "obter",
+   "meaning": "获得",
+   "type": "irregular（ter 族）",
+   "conjugation": {
+    "eu": "obtenho",
+    "tu": "obténs",
+    "ele/ela/você": "obtém",
+    "nós": "obtemos",
+    "eles/elas/vocês": "obtêm"
+   },
+   "spanish": "obtener: obtengo/obtienes/obtiene/obtenemos/obtienen",
+   "note": "obtener 同族：eu obtenho；ele obtém（重音）"
+  },
+  {
+   "infinitive": "reter",
+   "meaning": "保留 / 扣留",
+   "type": "irregular（ter 族）",
+   "conjugation": {
+    "eu": "retenho",
+    "tu": "reténs",
+    "ele/ela/você": "retém",
+    "nós": "retemos",
+    "eles/elas/vocês": "retêm"
+   },
+   "spanish": "retener: retengo/retienes/retiene/retenemos/retienen",
+   "note": "retener 同族：eu retenho；eles retêm"
+  },
+  {
+   "infinitive": "satisfazer",
+   "meaning": "使满意",
+   "type": "irregular（fazer 族）",
+   "conjugation": {
+    "eu": "satisfaço",
+    "tu": "satisfazes",
+    "ele/ela/você": "satisfaz",
+    "nós": "satisfazemos",
+    "eles/elas/vocês": "satisfazem"
+   },
+   "spanish": "satisfacer: satisfago/satisfaces/satisface/satisfacemos/satisfacen",
+   "note": "satisfacer 同族：eu satisfaço"
   }
  ]
 }
