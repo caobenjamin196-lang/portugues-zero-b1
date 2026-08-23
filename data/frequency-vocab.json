@@ -1,5 +1,5 @@
 {
- "description": "每周 100 个频率词汇（PT-BR）。W1=频率排名1-100，W2=101-200，W3=201-300，W4=301-400，W5=401-500，W6=501-600，W7=601-700，W8=701-800，W9=801-900，W10=901-1000。选词参考 Corpus do Português / Routledge Frequency Dictionary 高频区（按教学需要微调）。动词只保留原形词条（é/sou/foi/está/tem 等变位形式已并入原形词条的变位表），并按「词根→派生」机制扩展（fazer→desfazer/refazer、pôr→propor/compor/depor、ter→manter/conter/ater-se 等），每周至少 10 个动词。动词附现在时完整变位与西语对照；falseFriend 为西语假朋友警示。",
+ "description": "每周 100 个频率词汇（PT-BR）。W1=频率排名1-100，W2=101-200，W3=201-300，W4=301-400，W5=401-500，W6=501-600，W7=601-700，W8=701-800，W9=801-900，W10=901-1000，W11=1001-1100。选词参考 Corpus do Português / Routledge Frequency Dictionary 高频区（按教学需要微调）。动词只保留原形词条（é/sou/foi/está/tem 等变位形式已并入原形词条的变位表），并按「词根→派生」机制扩展（fazer→desfazer/refazer、pôr→propor/compor/depor、ter→manter/conter/ater-se 等），每周至少 10 个动词。动词附现在时完整变位与西语对照；falseFriend 为西语假朋友警示。",
  "source": "Corpus do Português / Routledge Frequency Dictionary of Portuguese（高频区，按教学需要微调）",
  "variant": "PT-BR",
  "w1": [
@@ -11985,6 +11985,1111 @@
     "nós": "comentamos",
     "eles/elas/vocês": "comentam",
     "es": "comentar: comento/comentas/comenta/comentamos/comentan"
+   }
+  }
+ ],
+ "w11": [
+  {
+   "rank": 1001,
+   "pt": "biografia",
+   "pos": "名词",
+   "zh": "传记",
+   "example": {
+    "pt": "A biografia do inventor saiu em maio.",
+    "zh": "这位发明家的传记五月出版。"
+   }
+  },
+  {
+   "rank": 1002,
+   "pt": "autobiografia",
+   "pos": "名词",
+   "zh": "自传",
+   "example": {
+    "pt": "Ela está escrevendo a autobiografia.",
+    "zh": "她正在写自传。"
+   }
+  },
+  {
+   "rank": 1003,
+   "pt": "antepassado",
+   "pos": "名词",
+   "zh": "祖先",
+   "example": {
+    "pt": "Meus antepassados vieram da Itália.",
+    "zh": "我的祖先来自意大利。"
+   }
+  },
+  {
+   "rank": 1004,
+   "pt": "descendente",
+   "pos": "名词",
+   "zh": "后代 / 后裔",
+   "example": {
+    "pt": "Ele é descendente de japoneses.",
+    "zh": "他是日本后裔。"
+   }
+  },
+  {
+   "rank": 1005,
+   "pt": "geração",
+   "pos": "名词",
+   "zh": "一代人",
+   "example": {
+    "pt": "A nova geração lê menos.",
+    "zh": "新一代读书更少。"
+   }
+  },
+  {
+   "rank": 1006,
+   "pt": "herança",
+   "pos": "名词",
+   "zh": "遗产",
+   "example": {
+    "pt": "Recebeu uma herança da avó.",
+    "zh": "他继承了祖母的遗产。"
+   }
+  },
+  {
+   "rank": 1007,
+   "pt": "origem",
+   "pos": "名词",
+   "zh": "出身 / 起源",
+   "example": {
+    "pt": "Qual é a origem da palavra?",
+    "zh": "这个词的起源是什么？"
+   }
+  },
+  {
+   "rank": 1008,
+   "pt": "raiz",
+   "pos": "名词",
+   "zh": "根 / 根源",
+   "example": {
+    "pt": "As raízes da cultura brasileira.",
+    "zh": "巴西文化的根源。"
+   }
+  },
+  {
+   "rank": 1009,
+   "pt": "reino",
+   "pos": "名词",
+   "zh": "王国",
+   "example": {
+    "pt": "O reino durou três séculos.",
+    "zh": "这个王国延续了三百年。"
+   }
+  },
+  {
+   "rank": 1010,
+   "pt": "império",
+   "pos": "名词",
+   "zh": "帝国",
+   "example": {
+    "pt": "O Império do Brasil acabou em 1889.",
+    "zh": "巴西帝国于 1889 年终结。"
+   }
+  },
+  {
+   "rank": 1011,
+   "pt": "colônia",
+   "pos": "名词",
+   "zh": "殖民地",
+   "example": {
+    "pt": "O Brasil foi colônia de Portugal.",
+    "zh": "巴西曾是葡萄牙的殖民地。"
+   }
+  },
+  {
+   "rank": 1012,
+   "pt": "independência",
+   "pos": "名词",
+   "zh": "独立",
+   "example": {
+    "pt": "A independência foi em 1822.",
+    "zh": "独立发生于 1822 年。"
+   }
+  },
+  {
+   "rank": 1013,
+   "pt": "revolução",
+   "pos": "名词",
+   "zh": "革命",
+   "example": {
+    "pt": "A revolução mudou o país.",
+    "zh": "革命改变了这个国家。"
+   }
+  },
+  {
+   "rank": 1014,
+   "pt": "batalha",
+   "pos": "名词",
+   "zh": "战役",
+   "example": {
+    "pt": "A batalha durou dois dias.",
+    "zh": "战役持续了两天。"
+   }
+  },
+  {
+   "rank": 1015,
+   "pt": "conquista",
+   "pos": "名词",
+   "zh": "征服 / 成就",
+   "example": {
+    "pt": "Uma grande conquista da ciência.",
+    "zh": "科学的一项伟大成就。"
+   }
+  },
+  {
+   "rank": 1016,
+   "pt": "descobrimento",
+   "pos": "名词",
+   "zh": "发现（大发现）",
+   "example": {
+    "pt": "O descobrimento do Brasil foi em 1500.",
+    "zh": "巴西的发现是在 1500 年。"
+   }
+  },
+  {
+   "rank": 1017,
+   "pt": "navegação",
+   "pos": "名词",
+   "zh": "航海 / 浏览",
+   "example": {
+    "pt": "As navegações abriram novas rotas.",
+    "zh": "大航海开辟了新航线。"
+   }
+  },
+  {
+   "rank": 1018,
+   "pt": "expedição",
+   "pos": "名词",
+   "zh": "远征 / 考察",
+   "example": {
+    "pt": "A expedição chegou ao polo sul.",
+    "zh": "考察队抵达了南极。"
+   }
+  },
+  {
+   "rank": 1019,
+   "pt": "explorador",
+   "pos": "名词",
+   "zh": "探险家",
+   "example": {
+    "pt": "O explorador escreveu um diário.",
+    "zh": "探险家写了一本日记。"
+   }
+  },
+  {
+   "rank": 1020,
+   "pt": "escravo",
+   "pos": "名词",
+   "zh": "奴隶",
+   "example": {
+    "pt": "Os escravos trabalhavam nas fazendas.",
+    "zh": "奴隶们在种植园劳作。"
+   }
+  },
+  {
+   "rank": 1021,
+   "pt": "escravidão",
+   "pos": "名词",
+   "zh": "奴隶制",
+   "example": {
+    "pt": "A escravidão foi abolida em 1888.",
+    "zh": "奴隶制于 1888 年被废除。"
+   }
+  },
+  {
+   "rank": 1022,
+   "pt": "abolição",
+   "pos": "名词",
+   "zh": "废除",
+   "example": {
+    "pt": "A abolição foi uma conquista.",
+    "zh": "废奴是一项伟大的成就。"
+   }
+  },
+  {
+   "rank": 1023,
+   "pt": "rei",
+   "pos": "名词",
+   "zh": "国王",
+   "example": {
+    "pt": "O rei assinou o decreto.",
+    "zh": "国王签署了法令。"
+   }
+  },
+  {
+   "rank": 1024,
+   "pt": "rainha",
+   "pos": "名词",
+   "zh": "女王 / 王后",
+   "example": {
+    "pt": "A rainha visitou o Brasil.",
+    "zh": "女王访问了巴西。"
+   }
+  },
+  {
+   "rank": 1025,
+   "pt": "coroa",
+   "pos": "名词",
+   "zh": "王冠",
+   "example": {
+    "pt": "A coroa era de ouro.",
+    "zh": "王冠是黄金做的。"
+   }
+  },
+  {
+   "rank": 1026,
+   "pt": "trono",
+   "pos": "名词",
+   "zh": "王位",
+   "example": {
+    "pt": "Ele subiu ao trono aos cinco anos.",
+    "zh": "他五岁登上王位。"
+   }
+  },
+  {
+   "rank": 1027,
+   "pt": "general",
+   "pos": "名词",
+   "zh": "将军",
+   "example": {
+    "pt": "O general liderou o exército.",
+    "zh": "将军率领了军队。"
+   }
+  },
+  {
+   "rank": 1028,
+   "pt": "soldado",
+   "pos": "名词",
+   "zh": "士兵",
+   "example": {
+    "pt": "Os soldados voltaram para casa.",
+    "zh": "士兵们回家了。"
+   }
+  },
+  {
+   "rank": 1029,
+   "pt": "exército",
+   "pos": "名词",
+   "zh": "军队",
+   "example": {
+    "pt": "O exército foi derrotado.",
+    "zh": "军队被打败了。"
+   }
+  },
+  {
+   "rank": 1030,
+   "pt": "bandeira",
+   "pos": "名词",
+   "zh": "旗帜",
+   "example": {
+    "pt": "A bandeira do Brasil é verde e amarela.",
+    "zh": "巴西国旗是绿黄相间的。"
+   }
+  },
+  {
+   "rank": 1031,
+   "pt": "hino",
+   "pos": "名词",
+   "zh": "国歌 / 赞歌",
+   "example": {
+    "pt": "O hino nacional tocou no estádio.",
+    "zh": "体育场奏响了国歌。"
+   }
+  },
+  {
+   "rank": 1032,
+   "pt": "símbolo",
+   "pos": "名词",
+   "zh": "象征",
+   "example": {
+    "pt": "O pão-de-açúcar é símbolo do Rio.",
+    "zh": "糖面包山是里约的象征。"
+   }
+  },
+  {
+   "rank": 1033,
+   "pt": "monumento",
+   "pos": "名词",
+   "zh": "纪念碑",
+   "example": {
+    "pt": "O monumento atrai turistas.",
+    "zh": "这座纪念碑吸引游客。"
+   }
+  },
+  {
+   "rank": 1034,
+   "pt": "estátua",
+   "pos": "名词",
+   "zh": "雕像",
+   "example": {
+    "pt": "A estátua fica no centro da praça.",
+    "zh": "雕像在广场中央。"
+   }
+  },
+  {
+   "rank": 1035,
+   "pt": "museu",
+   "pos": "名词",
+   "zh": "博物馆",
+   "example": {
+    "pt": "O museu abre às dez.",
+    "zh": "博物馆十点开门。"
+   }
+  },
+  {
+   "rank": 1036,
+   "pt": "ruína",
+   "pos": "名词",
+   "zh": "遗迹 / 废墟",
+   "example": {
+    "pt": "As ruínas da cidade antiga.",
+    "zh": "古城遗迹。"
+   }
+  },
+  {
+   "rank": 1037,
+   "pt": "tesouro",
+   "pos": "名词",
+   "zh": "宝藏",
+   "example": {
+    "pt": "Encontraram um tesouro no navio.",
+    "zh": "他们在船上发现了宝藏。"
+   }
+  },
+  {
+   "rank": 1038,
+   "pt": "ouro",
+   "pos": "名词",
+   "zh": "黄金",
+   "example": {
+    "pt": "O ouro foi levado para Portugal.",
+    "zh": "黄金被运去了葡萄牙。"
+   }
+  },
+  {
+   "rank": 1039,
+   "pt": "prata",
+   "pos": "名词",
+   "zh": "白银 / 银",
+   "example": {
+    "pt": "Uma medalha de prata.",
+    "zh": "一枚银牌。"
+   }
+  },
+  {
+   "rank": 1040,
+   "pt": "ciclo",
+   "pos": "名词",
+   "zh": "周期 / 循环",
+   "example": {
+    "pt": "O ciclo do ouro durou décadas.",
+    "zh": "黄金周期持续了几十年。"
+   }
+  },
+  {
+   "rank": 1041,
+   "pt": "prosperidade",
+   "pos": "名词",
+   "zh": "繁荣",
+   "example": {
+    "pt": "Um período de prosperidade.",
+    "zh": "一段繁荣时期。"
+   }
+  },
+  {
+   "rank": 1042,
+   "pt": "declínio",
+   "pos": "名词",
+   "zh": "衰落",
+   "example": {
+    "pt": "O declínio do império foi lento.",
+    "zh": "帝国的衰落是缓慢的。"
+   }
+  },
+  {
+   "rank": 1043,
+   "pt": "queda",
+   "pos": "名词",
+   "zh": "衰落 / 下跌",
+   "example": {
+    "pt": "A queda da monarquia.",
+    "zh": "君主制的倒台。"
+   }
+  },
+  {
+   "rank": 1044,
+   "pt": "ascensão",
+   "pos": "名词",
+   "zh": "崛起 / 上升",
+   "example": {
+    "pt": "A ascensão do novo líder.",
+    "zh": "新领袖的崛起。"
+   }
+  },
+  {
+   "rank": 1045,
+   "pt": "glória",
+   "pos": "名词",
+   "zh": "荣耀",
+   "example": {
+    "pt": "Um momento de glória.",
+    "zh": "荣耀的时刻。"
+   }
+  },
+  {
+   "rank": 1046,
+   "pt": "derrota",
+   "pos": "名词",
+   "zh": "失败",
+   "example": {
+    "pt": "A derrota foi anunciada no rádio.",
+    "zh": "失败的消息在广播里宣布了。"
+   }
+  },
+  {
+   "rank": 1047,
+   "pt": "vitória",
+   "pos": "名词",
+   "zh": "胜利",
+   "example": {
+    "pt": "A vitória mudou a história.",
+    "zh": "这场胜利改变了历史。"
+   }
+  },
+  {
+   "rank": 1048,
+   "pt": "herói",
+   "pos": "名词",
+   "zh": "英雄",
+   "example": {
+    "pt": "Ele virou herói nacional.",
+    "zh": "他成了民族英雄。"
+   }
+  },
+  {
+   "rank": 1049,
+   "pt": "lenda",
+   "pos": "名词",
+   "zh": "传说",
+   "example": {
+    "pt": "A lenda conta outra versão.",
+    "zh": "传说讲述了另一个版本。"
+   }
+  },
+  {
+   "rank": 1050,
+   "pt": "mito",
+   "pos": "名词",
+   "zh": "神话",
+   "example": {
+    "pt": "Um mito da cultura indígena.",
+    "zh": "原住民文化的一个神话。"
+   }
+  },
+  {
+   "rank": 1051,
+   "pt": "figura",
+   "pos": "名词",
+   "zh": "人物 / 形象",
+   "example": {
+    "pt": "Uma figura importante da história.",
+    "zh": "历史上的重要人物。"
+   }
+  },
+  {
+   "rank": 1052,
+   "pt": "personalidade",
+   "pos": "名词",
+   "zh": "名人 / 个性",
+   "example": {
+    "pt": "Uma personalidade marcante.",
+    "zh": "一位有影响力的名人。"
+   }
+  },
+  {
+   "rank": 1053,
+   "pt": "legado",
+   "pos": "名词",
+   "zh": "（精神）遗产",
+   "example": {
+    "pt": "Seu legado vive até hoje.",
+    "zh": "他的遗产流传至今。"
+   }
+  },
+  {
+   "rank": 1054,
+   "pt": "pioneiro",
+   "pos": "名词",
+   "zh": "先驱",
+   "example": {
+    "pt": "Um pioneiro da aviação.",
+    "zh": "航空先驱。"
+   }
+  },
+  {
+   "rank": 1055,
+   "pt": "líder",
+   "pos": "名词",
+   "zh": "领袖",
+   "example": {
+    "pt": "O líder fez um discurso.",
+    "zh": "领袖发表了演说。"
+   }
+  },
+  {
+   "rank": 1056,
+   "pt": "movimento",
+   "pos": "名词",
+   "zh": "运动",
+   "example": {
+    "pt": "O movimento abolicionista cresceu.",
+    "zh": "废奴运动壮大了。"
+   }
+  },
+  {
+   "rank": 1057,
+   "pt": "resistência",
+   "pos": "名词",
+   "zh": "抵抗",
+   "example": {
+    "pt": "A resistência durou anos.",
+    "zh": "抵抗持续了数年。"
+   }
+  },
+  {
+   "rank": 1058,
+   "pt": "luta",
+   "pos": "名词",
+   "zh": "斗争",
+   "example": {
+    "pt": "A luta pela liberdade.",
+    "zh": "为自由而斗争。"
+   }
+  },
+  {
+   "rank": 1059,
+   "pt": "igualdade",
+   "pos": "名词",
+   "zh": "平等",
+   "example": {
+    "pt": "A igualdade de direitos.",
+    "zh": "权利平等。"
+   }
+  },
+  {
+   "rank": 1060,
+   "pt": "humanidade",
+   "pos": "名词",
+   "zh": "人类 / 人性",
+   "example": {
+    "pt": "Um presente para a humanidade.",
+    "zh": "给人类的礼物。"
+   }
+  },
+  {
+   "rank": 1061,
+   "pt": "civilização",
+   "pos": "名词",
+   "zh": "文明",
+   "example": {
+    "pt": "Uma civilização antiga.",
+    "zh": "一个古老的文明。"
+   }
+  },
+  {
+   "rank": 1062,
+   "pt": "época",
+   "pos": "名词",
+   "zh": "时代",
+   "example": {
+    "pt": "Naquela época, não havia luz elétrica.",
+    "zh": "那个时代还没有电灯。"
+   }
+  },
+  {
+   "rank": 1063,
+   "pt": "período",
+   "pos": "名词",
+   "zh": "时期",
+   "example": {
+    "pt": "O período colonial.",
+    "zh": "殖民时期。"
+   }
+  },
+  {
+   "rank": 1064,
+   "pt": "fase",
+   "pos": "名词",
+   "zh": "阶段",
+   "example": {
+    "pt": "Uma fase difícil da vida.",
+    "zh": "人生的艰难阶段。"
+   }
+  },
+  {
+   "rank": 1065,
+   "pt": "etapa",
+   "pos": "名词",
+   "zh": "阶段 / 步骤",
+   "example": {
+    "pt": "A próxima etapa do projeto.",
+    "zh": "项目的下一阶段。"
+   }
+  },
+  {
+   "rank": 1066,
+   "pt": "contemporâneo",
+   "pos": "形容词",
+   "zh": "当代的",
+   "example": {
+    "pt": "Arte contemporânea.",
+    "zh": "当代艺术。"
+   }
+  },
+  {
+   "rank": 1067,
+   "pt": "antigo",
+   "pos": "形容词",
+   "zh": "古老的 / 前任的",
+   "example": {
+    "pt": "Um costume antigo.",
+    "zh": "一个古老的习俗。"
+   }
+  },
+  {
+   "rank": 1068,
+   "pt": "moderno",
+   "pos": "形容词",
+   "zh": "现代的",
+   "example": {
+    "pt": "O mundo moderno.",
+    "zh": "现代世界。"
+   }
+  },
+  {
+   "rank": 1069,
+   "pt": "atual",
+   "pos": "形容词",
+   "zh": "当前的",
+   "example": {
+    "pt": "O governo atual.",
+    "zh": "现任政府。"
+   },
+   "falseFriend": "西语 actual 也=当前的；但西语 actualmente=目前，葡语 atualmente 同义——注意葡语「实际的」是 real/efetivo"
+  },
+  {
+   "rank": 1070,
+   "pt": "recente",
+   "pos": "形容词",
+   "zh": "最近的",
+   "example": {
+    "pt": "Uma descoberta recente.",
+    "zh": "最近的发现。"
+   }
+  },
+  {
+   "rank": 1071,
+   "pt": "arquivo",
+   "pos": "名词",
+   "zh": "档案馆 / 文件",
+   "example": {
+    "pt": "O documento está no arquivo.",
+    "zh": "文件在档案馆里。"
+   }
+  },
+  {
+   "rank": 1072,
+   "pt": "testemunho",
+   "pos": "名词",
+   "zh": "证词 / 见证",
+   "example": {
+    "pt": "Seu testemunho foi decisivo.",
+    "zh": "他的证词起了决定性作用。"
+   }
+  },
+  {
+   "rank": 1073,
+   "pt": "relato",
+   "pos": "名词",
+   "zh": "叙述 / 讲述",
+   "example": {
+    "pt": "O relato da viagem emocionou todos.",
+    "zh": "旅行叙述感动了所有人。"
+   }
+  },
+  {
+   "rank": 1074,
+   "pt": "pesquisador",
+   "pos": "名词",
+   "zh": "研究员",
+   "example": {
+    "pt": "A pesquisadora estudou os documentos.",
+    "zh": "研究员研究了这些文件。"
+   }
+  },
+  {
+   "rank": 1075,
+   "pt": "historiador",
+   "pos": "名词",
+   "zh": "历史学家",
+   "example": {
+    "pt": "O historiador publicou um livro.",
+    "zh": "历史学家出版了一本书。"
+   }
+  },
+  {
+   "rank": 1076,
+   "pt": "especialista",
+   "pos": "名词",
+   "zh": "专家",
+   "example": {
+    "pt": "Uma especialista em história.",
+    "zh": "一位历史专家。"
+   }
+  },
+  {
+   "rank": 1077,
+   "pt": "retrato",
+   "pos": "名词",
+   "zh": "肖像 / 写照",
+   "example": {
+    "pt": "Um retrato da época.",
+    "zh": "那个时代的写照。"
+   }
+  },
+  {
+   "rank": 1078,
+   "pt": "trajetória",
+   "pos": "名词",
+   "zh": "轨迹 / 历程",
+   "example": {
+    "pt": "Uma trajetória impressionante.",
+    "zh": "一段令人敬佩的历程。"
+   }
+  },
+  {
+   "rank": 1079,
+   "pt": "carreira",
+   "pos": "名词",
+   "zh": "职业生涯",
+   "example": {
+    "pt": "Sua carreira começou cedo.",
+    "zh": "他的职业生涯开始得很早。"
+   }
+  },
+  {
+   "rank": 1080,
+   "pt": "enterro",
+   "pos": "名词",
+   "zh": "葬礼",
+   "example": {
+    "pt": "O enterro foi no domingo.",
+    "zh": "葬礼在周日举行。"
+   }
+  },
+  {
+   "rank": 1081,
+   "pt": "homenagem",
+   "pos": "名词",
+   "zh": "致敬",
+   "example": {
+    "pt": "Uma homenagem ao inventor.",
+    "zh": "向发明家致敬。"
+   }
+  },
+  {
+   "rank": 1082,
+   "pt": "descoberta",
+   "pos": "名词",
+   "zh": "发现",
+   "example": {
+    "pt": "A descoberta mudou a medicina.",
+    "zh": "这一发现改变了医学。"
+   }
+  },
+  {
+   "rank": 1083,
+   "pt": "invenção",
+   "pos": "名词",
+   "zh": "发明",
+   "example": {
+    "pt": "A invenção do avião.",
+    "zh": "飞机的发明。"
+   }
+  },
+  {
+   "rank": 1084,
+   "pt": "criação",
+   "pos": "名词",
+   "zh": "创造 / 创作",
+   "example": {
+    "pt": "A criação do parque levou anos.",
+    "zh": "公园的创建历时数年。"
+   }
+  },
+  {
+   "rank": 1085,
+   "pt": "contribuição",
+   "pos": "名词",
+   "zh": "贡献",
+   "example": {
+    "pt": "Uma contribuição enorme.",
+    "zh": "巨大的贡献。"
+   }
+  },
+  {
+   "rank": 1086,
+   "pt": "realização",
+   "pos": "名词",
+   "zh": "成就 / 实现",
+   "example": {
+    "pt": "Sua maior realização.",
+    "zh": "他最大的成就。"
+   }
+  },
+  {
+   "rank": 1087,
+   "pt": "prêmio",
+   "pos": "名词",
+   "zh": "奖项",
+   "example": {
+    "pt": "Ganhou um prêmio internacional.",
+    "zh": "他获得了一个国际奖项。"
+   }
+  },
+  {
+   "rank": 1088,
+   "pt": "reconhecimento",
+   "pos": "名词",
+   "zh": "认可 / 承认",
+   "example": {
+    "pt": "O reconhecimento veio tarde.",
+    "zh": "认可姗姗来迟。"
+   }
+  },
+  {
+   "rank": 1089,
+   "pt": "abster-se",
+   "pos": "动词",
+   "zh": "弃权 / 克制（ter 加前缀 abs-）",
+   "example": {
+    "pt": "Três países se abstiveram na votação.",
+    "zh": "三个国家在投票中弃权。"
+   },
+   "derivedFrom": "ter",
+   "conjugations": {
+    "eu": "me abstenho",
+    "tu": "te absténs",
+    "ele/ela/você": "se abstém",
+    "nós": "nos abstenmos",
+    "eles/elas/vocês": "se abstêm",
+    "es": "abstenerse: me abstengo/te abstienes/se abstiene/nos abstenemos/se abstienen"
+   }
+  },
+  {
+   "rank": 1090,
+   "pt": "subtrair",
+   "pos": "动词",
+   "zh": "减去 / 窃取（trazer 加前缀 sub-）",
+   "example": {
+    "pt": "Subtraia dez do total.",
+    "zh": "从总数中减去十。"
+   },
+   "derivedFrom": "trazer",
+   "conjugations": {
+    "eu": "subtraio",
+    "tu": "subtrais",
+    "ele/ela/você": "subtrai",
+    "nós": "subtraímos",
+    "eles/elas/vocês": "subtraem",
+    "es": "sustraer: sustraigo/sustraes/sustrae/sustraemos/sustraen"
+   }
+  },
+  {
+   "rank": 1091,
+   "pt": "transcrever",
+   "pos": "动词",
+   "zh": "转录 / 誊写（escrever 加前缀 trans-）",
+   "example": {
+    "pt": "Ela transcreveu a carta antiga.",
+    "zh": "她誊写了那封古旧的信。"
+   },
+   "derivedFrom": "escrever",
+   "conjugations": {
+    "eu": "transcrevo",
+    "tu": "transcreves",
+    "ele/ela/você": "transcreve",
+    "nós": "transcrevemos",
+    "eles/elas/vocês": "transcrevem",
+    "es": "transcribir: transcribo/transcribes/transcribe/transcribimos/transcriben"
+   }
+  },
+  {
+   "rank": 1092,
+   "pt": "sorrir",
+   "pos": "动词",
+   "zh": "微笑（rir 加前缀 so-）",
+   "example": {
+    "pt": "Ela sorriu para a foto.",
+    "zh": "她对着镜头微笑。"
+   },
+   "derivedFrom": "rir",
+   "conjugations": {
+    "eu": "sorrio",
+    "tu": "sorris",
+    "ele/ela/você": "sorri",
+    "nós": "sorrimos",
+    "eles/elas/vocês": "sorriem",
+    "es": "sonreír: sonrío/sonríes/sonríe/sonreímos/sonríen"
+   }
+  },
+  {
+   "rank": 1093,
+   "pt": "descobrir",
+   "pos": "动词",
+   "zh": "发现（cobrir 加前缀 des-）",
+   "example": {
+    "pt": "Descobriram ouro na região.",
+    "zh": "他们在该地区发现了黄金。"
+   },
+   "derivedFrom": "cobrir",
+   "conjugations": {
+    "eu": "descubro",
+    "tu": "descobres",
+    "ele/ela/você": "descobre",
+    "nós": "descobrimos",
+    "eles/elas/vocês": "descobrem",
+    "es": "descubrir: descubro/descubres/descubre/descubrimos/descubren"
+   }
+  },
+  {
+   "rank": 1094,
+   "pt": "cobrir",
+   "pos": "动词",
+   "zh": "覆盖 / 报道",
+   "example": {
+    "pt": "A neve cobriu a cidade.",
+    "zh": "雪覆盖了城市。"
+   },
+   "conjugations": {
+    "eu": "cubro",
+    "tu": "cobres",
+    "ele/ela/você": "cobre",
+    "nós": "cobrimos",
+    "eles/elas/vocês": "cobrem",
+    "es": "cubrir: cubro/cubres/cubre/cubrimos/cubren"
+   }
+  },
+  {
+   "rank": 1095,
+   "pt": "fugir",
+   "pos": "动词",
+   "zh": "逃跑",
+   "example": {
+    "pt": "O ladrão fugiu da prisão.",
+    "zh": "小偷越狱逃跑了。"
+   },
+   "conjugations": {
+    "eu": "fujo",
+    "tu": "foges",
+    "ele/ela/você": "foge",
+    "nós": "fugimos",
+    "eles/elas/vocês": "fogem",
+    "es": "huir: huyo/huyes/huye/huimos/huyen"
+   }
+  },
+  {
+   "rank": 1096,
+   "pt": "medir",
+   "pos": "动词",
+   "zh": "测量 / 量度",
+   "example": {
+    "pt": "O engenheiro mediu a ponte.",
+    "zh": "工程师测量了大桥。"
+   },
+   "conjugations": {
+    "eu": "meço",
+    "tu": "medes",
+    "ele/ela/você": "mede",
+    "nós": "medimos",
+    "eles/elas/vocês": "medem",
+    "es": "medir: mido/mides/mide/medimos/miden"
+   }
+  },
+  {
+   "rank": 1097,
+   "pt": "pressentir",
+   "pos": "动词",
+   "zh": "预感（sentir 加前缀 pres-）",
+   "example": {
+    "pt": "Pressenti que algo ia acontecer.",
+    "zh": "我预感到有事要发生。"
+   },
+   "derivedFrom": "sentir",
+   "conjugations": {
+    "eu": "pressinto",
+    "tu": "pressentes",
+    "ele/ela/você": "pressente",
+    "nós": "pressentimos",
+    "eles/elas/vocês": "pressentem",
+    "es": "presentir: presiento/presientes/presiente/presentimos/presienten"
+   }
+  },
+  {
+   "rank": 1098,
+   "pt": "narrar",
+   "pos": "动词",
+   "zh": "叙述 / 讲述",
+   "example": {
+    "pt": "O livro narra a vida do inventor.",
+    "zh": "这本书讲述了发明家的一生。"
+   },
+   "conjugations": {
+    "eu": "narro",
+    "tu": "narras",
+    "ele/ela/você": "narra",
+    "nós": "narramos",
+    "eles/elas/vocês": "narram",
+    "es": "narrar: narro/narras/narra/narramos/narran"
+   }
+  },
+  {
+   "rank": 1099,
+   "pt": "citar",
+   "pos": "动词",
+   "zh": "引用 / 提及",
+   "example": {
+    "pt": "O artigo cita três especialistas.",
+    "zh": "文章引用了三位专家。"
+   },
+   "conjugations": {
+    "eu": "cito",
+    "tu": "citas",
+    "ele/ela/você": "cita",
+    "nós": "citamos",
+    "eles/elas/vocês": "citam",
+    "es": "citar: cito/citas/cita/citamos/citan"
+   }
+  },
+  {
+   "rank": 1100,
+   "pt": "herdar",
+   "pos": "动词",
+   "zh": "继承",
+   "example": {
+    "pt": "Ela herdou a casa dos pais.",
+    "zh": "她继承了父母的房子。"
+   },
+   "conjugations": {
+    "eu": "herdo",
+    "tu": "herdas",
+    "ele/ela/você": "herda",
+    "nós": "herdamos",
+    "eles/elas/vocês": "herdam",
+    "es": "heredar: heredo/heredas/hereda/heredamos/heredan"
    }
   }
  ]
