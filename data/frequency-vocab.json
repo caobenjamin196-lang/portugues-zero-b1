@@ -1,5 +1,5 @@
 {
- "description": "每周 100 个频率词汇（PT-BR）。W1=频率排名1-100，W2=101-200，W3=201-300，W4=301-400，W5=401-500，W6=501-600，W7=601-700，W8=701-800，W9=801-900，W10=901-1000，W11=1001-1100。选词参考 Corpus do Português / Routledge Frequency Dictionary 高频区（按教学需要微调）。动词只保留原形词条（é/sou/foi/está/tem 等变位形式已并入原形词条的变位表），并按「词根→派生」机制扩展（fazer→desfazer/refazer、pôr→propor/compor/depor、ter→manter/conter/ater-se 等），每周至少 10 个动词。动词附现在时完整变位与西语对照；falseFriend 为西语假朋友警示。",
+ "description": "每周 100 个频率词汇（PT-BR）。W1=频率排名1-100，W2=101-200，W3=201-300，W4=301-400，W5=401-500，W6=501-600，W7=601-700，W8=701-800，W9=801-900，W10=901-1000，W11=1001-1100，W12=1101-1200。选词参考 Corpus do Português / Routledge Frequency Dictionary 高频区（按教学需要微调）。动词只保留原形词条（é/sou/foi/está/tem 等变位形式已并入原形词条的变位表），并按「词根→派生」机制扩展（fazer→desfazer/refazer、pôr→propor/compor/depor、ter→manter/conter/ater-se 等），每周至少 10 个动词。动词附现在时完整变位与西语对照；falseFriend 为西语假朋友警示。",
  "source": "Corpus do Português / Routledge Frequency Dictionary of Portuguese（高频区，按教学需要微调）",
  "variant": "PT-BR",
  "w1": [
@@ -13090,6 +13090,1126 @@
     "nós": "herdamos",
     "eles/elas/vocês": "herdam",
     "es": "heredar: heredo/heredas/hereda/heredamos/heredan"
+   }
+  }
+ ],
+ "w12": [
+  {
+   "rank": 1101,
+   "pt": "embaraçada",
+   "pos": "形容词",
+   "zh": "尴尬的 / 难为情的",
+   "example": {
+    "pt": "Ela ficou embaraçada com a pergunta.",
+    "zh": "她被这个问题弄得很尴尬。"
+   },
+   "falseFriend": "⚠️ 西语 embarazada = 怀孕的！葡语 embaraçada = 尴尬的；「怀孕」葡语说 grávida"
+  },
+  {
+   "rank": 1102,
+   "pt": "apelido",
+   "pos": "名词",
+   "zh": "昵称 / 绰号",
+   "example": {
+    "pt": "Meu apelido na escola era Beto.",
+    "zh": "我在学校的绰号叫 Beto。"
+   },
+   "falseFriend": "⚠️ 西语 apellido = 姓；葡语 apelido = 绰号，「姓」葡语是 sobrenome"
+  },
+  {
+   "rank": 1103,
+   "pt": "sobrenome",
+   "pos": "名词",
+   "zh": "姓",
+   "example": {
+    "pt": "Silva é o sobrenome mais comum do Brasil.",
+    "zh": "Silva 是巴西最常见的姓。"
+   },
+   "falseFriend": "⚠️ 西语 sobrenombre = 绰号；葡语 sobrenome = 姓——与 apelido 恰好对调"
+  },
+  {
+   "rank": 1104,
+   "pt": "balcão",
+   "pos": "名词",
+   "zh": "柜台 / 吧台",
+   "example": {
+    "pt": "Ele pagou no balcão.",
+    "zh": "他在柜台付了钱。"
+   },
+   "falseFriend": "⚠️ 西语 balcón = 阳台；葡语 balcão = 柜台，「阳台」葡语是 sacada/varanda"
+  },
+  {
+   "rank": 1105,
+   "pt": "sacada",
+   "pos": "名词",
+   "zh": "阳台 / 妙语",
+   "example": {
+    "pt": "O apartamento tem uma sacada grande.",
+    "zh": "这套公寓有个大阳台。"
+   },
+   "falseFriend": "⚠️ 西语 sacada = 取出/发球；葡语 sacada = 阳台（也=妙语 sacada genial）"
+  },
+  {
+   "rank": 1106,
+   "pt": "manga",
+   "pos": "名词",
+   "zh": "芒果 / 袖子",
+   "example": {
+    "pt": "Comprei mangas na feira.",
+    "zh": "我在集市买了芒果。"
+   },
+   "falseFriend": "⚠️ 西语 manga = 袖子、芒果是 mango；葡语 manga 兼指芒果和袖子"
+  },
+  {
+   "rank": 1107,
+   "pt": "receita",
+   "pos": "名词",
+   "zh": "食谱 / 处方 / 收入",
+   "example": {
+    "pt": "A receita do bolo é da minha avó.",
+    "zh": "这个蛋糕食谱是我祖母的。"
+   }
+  },
+  {
+   "rank": 1108,
+   "pt": "padaria",
+   "pos": "名词",
+   "zh": "面包店",
+   "example": {
+    "pt": "A padaria abre às seis.",
+    "zh": "面包店六点开门。"
+   }
+  },
+  {
+   "rank": 1109,
+   "pt": "açougue",
+   "pos": "名词",
+   "zh": "肉店",
+   "example": {
+    "pt": "Comprei carne no açougue.",
+    "zh": "我在肉店买了肉。"
+   }
+  },
+  {
+   "rank": 1110,
+   "pt": "feira",
+   "pos": "名词",
+   "zh": "集市 / 展会",
+   "example": {
+    "pt": "A feira livre é aos sábados.",
+    "zh": "露天集市每周六开。"
+   }
+  },
+  {
+   "rank": 1111,
+   "pt": "supermercado",
+   "pos": "名词",
+   "zh": "超市",
+   "example": {
+    "pt": "O supermercado fecha às dez.",
+    "zh": "超市十点关门。"
+   }
+  },
+  {
+   "rank": 1112,
+   "pt": "lanchonete",
+   "pos": "名词",
+   "zh": "小吃店 / 快餐店",
+   "example": {
+    "pt": "Almocei numa lanchonete.",
+    "zh": "我在小吃店吃了午饭。"
+   }
+  },
+  {
+   "rank": 1113,
+   "pt": "farmácia",
+   "pos": "名词",
+   "zh": "药店",
+   "example": {
+    "pt": "A farmácia fica na esquina.",
+    "zh": "药店在街角。"
+   }
+  },
+  {
+   "rank": 1114,
+   "pt": "consulta",
+   "pos": "名词",
+   "zh": "问诊 / 查询",
+   "example": {
+    "pt": "Tenho consulta às três.",
+    "zh": "我三点有门诊。"
+   }
+  },
+  {
+   "rank": 1115,
+   "pt": "xarope",
+   "pos": "名词",
+   "zh": "糖浆 / 止咳糖浆",
+   "example": {
+    "pt": "Tomei um xarope para tosse.",
+    "zh": "我喝了止咳糖浆。"
+   },
+   "falseFriend": "西语 jarabe；葡语 xarope——词形完全不同"
+  },
+  {
+   "rank": 1116,
+   "pt": "toalha",
+   "pos": "名词",
+   "zh": "毛巾",
+   "example": {
+    "pt": "Peguei uma toalha limpa.",
+    "zh": "我拿了一条干净毛巾。"
+   }
+  },
+  {
+   "rank": 1117,
+   "pt": "joelho",
+   "pos": "名词",
+   "zh": "膝盖",
+   "example": {
+    "pt": "Machuquei o joelho jogando bola.",
+    "zh": "我踢球伤了膝盖。"
+   }
+  },
+  {
+   "rank": 1118,
+   "pt": "lanche",
+   "pos": "名词",
+   "zh": "点心 / 快餐",
+   "example": {
+    "pt": "Fiz um lanche à tarde.",
+    "zh": "下午我吃了点心。"
+   }
+  },
+  {
+   "rank": 1119,
+   "pt": "pipoca",
+   "pos": "名词",
+   "zh": "爆米花",
+   "example": {
+    "pt": "Compramos pipoca no cinema.",
+    "zh": "我们在电影院买了爆米花。"
+   }
+  },
+  {
+   "rank": 1120,
+   "pt": "abacaxi",
+   "pos": "名词",
+   "zh": "菠萝",
+   "example": {
+    "pt": "O abacaxi está maduro.",
+    "zh": "菠萝熟了。"
+   },
+   "falseFriend": "西语 piña；葡语 abacaxi——西语 ananás 在葡语指南洋品种，日常说 abacaxi"
+  },
+  {
+   "rank": 1121,
+   "pt": "xícara",
+   "pos": "名词",
+   "zh": "（带把的）杯子",
+   "example": {
+    "pt": "Uma xícara de café, por favor.",
+    "zh": "请来一杯咖啡。"
+   }
+  },
+  {
+   "rank": 1122,
+   "pt": "compromisso",
+   "pos": "名词",
+   "zh": "约会 / 承诺 / 日程安排",
+   "example": {
+    "pt": "Tenho um compromisso às oito.",
+    "zh": "我八点有个约。"
+   },
+   "falseFriend": "西语 compromiso = 承诺；葡语 compromisso 兼指「约会/日程」——Tenho um compromisso = 我有约"
+  },
+  {
+   "rank": 1123,
+   "pt": "legal",
+   "pos": "形容词",
+   "zh": "酷的 / 棒的（口语）；合法的",
+   "example": {
+    "pt": "Que filme legal!",
+    "zh": "多棒的电影！"
+   },
+   "falseFriend": "西语 legal 口语也=棒（拉美）；葡语 legal 使用频率极高，注意它兼指「合法的」"
+  },
+  {
+   "rank": 1124,
+   "pt": "beleza",
+   "pos": "名词",
+   "zh": "美；（口语）好/没问题",
+   "example": {
+    "pt": "— Vamos lá às sete? — Beleza!",
+    "zh": "「七点见？」「好！」"
+   }
+  },
+  {
+   "rank": 1125,
+   "pt": "valeu",
+   "pos": "感叹词",
+   "zh": "谢了（口语）",
+   "example": {
+    "pt": "Valeu pela ajuda!",
+    "zh": "谢谢帮忙！"
+   },
+   "falseFriend": "西语用 vale/gracias；葡语 valeu 来自 valer 的过去时，巴西口语万能道谢词"
+  },
+  {
+   "rank": 1126,
+   "pt": "cara",
+   "pos": "名词",
+   "zh": "脸；（口语）家伙",
+   "example": {
+    "pt": "Esse cara é muito gente boa.",
+    "zh": "那家伙人很好。"
+   },
+   "falseFriend": "西语 cara = 脸；葡语 cara 口语兼指「家伙/人」（类似 tío）"
+  },
+  {
+   "rank": 1127,
+   "pt": "mano",
+   "pos": "名词",
+   "zh": "哥们（口语）",
+   "example": {
+    "pt": "E aí, mano? Tudo bem?",
+    "zh": "哥们，最近怎样？"
+   }
+  },
+  {
+   "rank": 1128,
+   "pt": "gata",
+   "pos": "名词",
+   "zh": "母猫；（口语）美女",
+   "example": {
+    "pt": "A gata do vizinho sumiu.",
+    "zh": "邻居家的母猫丢了。"
+   },
+   "falseFriend": "西语 gata = 母猫；葡语口语 gata 也=美女（gato=帅哥），注意语境"
+  },
+  {
+   "rank": 1129,
+   "pt": "grana",
+   "pos": "名词",
+   "zh": "钱（口语）",
+   "example": {
+    "pt": "Estou sem grana este mês.",
+    "zh": "这个月我没钱。"
+   }
+  },
+  {
+   "rank": 1130,
+   "pt": "trampo",
+   "pos": "名词",
+   "zh": "活儿 / 工作（口语）",
+   "example": {
+    "pt": "O trampo foi puxado.",
+    "zh": "这活儿很累。"
+   }
+  },
+  {
+   "rank": 1131,
+   "pt": "perrengue",
+   "pos": "名词",
+   "zh": "困境 / 折腾（口语）",
+   "example": {
+    "pt": "Passei um perrengue no aeroporto.",
+    "zh": "我在机场折腾惨了。"
+   }
+  },
+  {
+   "rank": 1132,
+   "pt": "rolê",
+   "pos": "名词",
+   "zh": "出门玩 / 兜风（口语）",
+   "example": {
+    "pt": "Vamos dar um rolê no centro?",
+    "zh": "去市中心逛逛吗？"
+   }
+  },
+  {
+   "rank": 1133,
+   "pt": "baita",
+   "pos": "形容词",
+   "zh": "巨大的 / 超棒的（口语）",
+   "example": {
+    "pt": "Uma baita festa!",
+    "zh": "超棒的派对！"
+   }
+  },
+  {
+   "rank": 1134,
+   "pt": "balada",
+   "pos": "名词",
+   "zh": "夜店 / 派对（口语）",
+   "example": {
+    "pt": "A balada começa à meia-noite.",
+    "zh": "夜店午夜开场。"
+   }
+  },
+  {
+   "rank": 1135,
+   "pt": "jeitinho",
+   "pos": "名词",
+   "zh": "小聪明 / 变通办法",
+   "example": {
+    "pt": "Ele deu um jeitinho e resolveu.",
+    "zh": "他想了个变通办法解决了。"
+   }
+  },
+  {
+   "rank": 1136,
+   "pt": "gambiarra",
+   "pos": "名词",
+   "zh": "土法临时修补",
+   "example": {
+    "pt": "Fiz uma gambiarra no chuveiro.",
+    "zh": "我给淋浴器做了个土法应急修理。"
+   }
+  },
+  {
+   "rank": 1137,
+   "pt": "cafuné",
+   "pos": "名词",
+   "zh": "亲昵地挠头",
+   "example": {
+    "pt": "Ela fez cafuné no filho.",
+    "zh": "她亲昵地挠了挠儿子的头。"
+   }
+  },
+  {
+   "rank": 1138,
+   "pt": "xodó",
+   "pos": "名词",
+   "zh": "心头好 / 宝贝",
+   "example": {
+    "pt": "Esse copo é meu xodó.",
+    "zh": "这个杯子是我的心头好。"
+   }
+  },
+  {
+   "rank": 1139,
+   "pt": "zoeira",
+   "pos": "名词",
+   "zh": "胡闹 / 玩笑（口语）",
+   "example": {
+    "pt": "É só zoeira, não leva a sério.",
+    "zh": "只是玩笑，别当真。"
+   }
+  },
+  {
+   "rank": 1140,
+   "pt": "firmeza",
+   "pos": "名词",
+   "zh": "可靠 / 赞（口语）",
+   "example": {
+    "pt": "Esse cara é firmeza.",
+    "zh": "这人很靠谱。"
+   }
+  },
+  {
+   "rank": 1141,
+   "pt": "mó",
+   "pos": "副词",
+   "zh": "非常（口语，maior 缩合）",
+   "example": {
+    "pt": "Foi mó legal.",
+    "zh": "简直太棒了。"
+   }
+  },
+  {
+   "rank": 1142,
+   "pt": "discurso",
+   "pos": "名词",
+   "zh": "演说 / 话语",
+   "example": {
+    "pt": "O discurso durou uma hora.",
+    "zh": "演说持续了一小时。"
+   }
+  },
+  {
+   "rank": 1143,
+   "pt": "faculdade",
+   "pos": "名词",
+   "zh": "大学（本科）/ 学院",
+   "example": {
+    "pt": "Ela estuda numa faculdade pública.",
+    "zh": "她在一所公立大学读书。"
+   }
+  },
+  {
+   "rank": 1144,
+   "pt": "palestra",
+   "pos": "名词",
+   "zh": "讲座",
+   "example": {
+    "pt": "A palestra foi lotada.",
+    "zh": "讲座座无虚席。"
+   }
+  },
+  {
+   "rank": 1145,
+   "pt": "sessão",
+   "pos": "名词",
+   "zh": "场次 / 会议",
+   "example": {
+    "pt": "A sessão das oito está esgotada.",
+    "zh": "八点场售罄了。"
+   }
+  },
+  {
+   "rank": 1146,
+   "pt": "ingresso",
+   "pos": "名词",
+   "zh": "门票 / 入场券",
+   "example": {
+    "pt": "Comprei os ingressos online.",
+    "zh": "我在网上买了票。"
+   },
+   "falseFriend": "⚠️ 西语 ingreso = 收入/入学；葡语 ingresso = 门票（西语门票 = entrada/boleto）"
+  },
+  {
+   "rank": 1147,
+   "pt": "cartaz",
+   "pos": "名词",
+   "zh": "海报",
+   "example": {
+    "pt": "O cartaz do filme é bonito.",
+    "zh": "电影海报很好看。"
+   }
+  },
+  {
+   "rank": 1148,
+   "pt": "folheto",
+   "pos": "名词",
+   "zh": "小册子 / 传单",
+   "example": {
+    "pt": "Distribuíram folhetos na rua.",
+    "zh": "他们在街上发传单。"
+   }
+  },
+  {
+   "rank": 1149,
+   "pt": "dicionário",
+   "pos": "名词",
+   "zh": "词典",
+   "example": {
+    "pt": "Consultei o dicionário.",
+    "zh": "我查了词典。"
+   }
+  },
+  {
+   "rank": 1150,
+   "pt": "gramática",
+   "pos": "名词",
+   "zh": "语法（书）",
+   "example": {
+    "pt": "A gramática do português.",
+    "zh": "葡语语法。"
+   }
+  },
+  {
+   "rank": 1151,
+   "pt": "vocabulário",
+   "pos": "名词",
+   "zh": "词汇（表）",
+   "example": {
+    "pt": "Meu vocabulário está crescendo.",
+    "zh": "我的词汇量在增长。"
+   }
+  },
+  {
+   "rank": 1152,
+   "pt": "sinônimo",
+   "pos": "名词",
+   "zh": "同义词",
+   "example": {
+    "pt": "Qual é o sinônimo de rápido?",
+    "zh": "rápido 的同义词是什么？"
+   }
+  },
+  {
+   "rank": 1153,
+   "pt": "antônimo",
+   "pos": "名词",
+   "zh": "反义词",
+   "example": {
+    "pt": "O antônimo de alto é baixo.",
+    "zh": "alto 的反义词是 baixo。"
+   }
+  },
+  {
+   "rank": 1154,
+   "pt": "provérbio",
+   "pos": "名词",
+   "zh": "谚语",
+   "example": {
+    "pt": "Um provérbio brasileiro famoso.",
+    "zh": "一句著名的巴西谚语。"
+   }
+  },
+  {
+   "rank": 1155,
+   "pt": "ditado",
+   "pos": "名词",
+   "zh": "俗语 / 听写",
+   "example": {
+    "pt": "Um ditado popular: quem canta seus males espanta.",
+    "zh": "一句俗语：唱歌驱忧。"
+   },
+   "falseFriend": "西语 dictado = 听写；葡语 ditado 兼指俗语（ditado popular）"
+  },
+  {
+   "rank": 1156,
+   "pt": "gíria",
+   "pos": "名词",
+   "zh": "俚语",
+   "example": {
+    "pt": "Gíria de jovem muda rápido.",
+    "zh": "年轻人的俚语变得快。"
+   }
+  },
+  {
+   "rank": 1157,
+   "pt": "sotaque",
+   "pos": "名词",
+   "zh": "口音",
+   "example": {
+    "pt": "Ela tem sotaque carioca.",
+    "zh": "她有里约口音。"
+   },
+   "falseFriend": "⚠️ 西语 acento 兼指口音和重音符号；葡语「口音」= sotaque，acento 只=重音符号"
+  },
+  {
+   "rank": 1158,
+   "pt": "dialeto",
+   "pos": "名词",
+   "zh": "方言",
+   "example": {
+    "pt": "Os dialetos do nordeste.",
+    "zh": "东北部的方言。"
+   }
+  },
+  {
+   "rank": 1159,
+   "pt": "pronúncia",
+   "pos": "名词",
+   "zh": "发音",
+   "example": {
+    "pt": "Sua pronúncia é ótima.",
+    "zh": "你的发音很棒。"
+   }
+  },
+  {
+   "rank": 1160,
+   "pt": "ortografia",
+   "pos": "名词",
+   "zh": "拼写 / 正字法",
+   "example": {
+    "pt": "A reforma ortográfica de 2009.",
+    "zh": "2009 年正字法改革。"
+   }
+  },
+  {
+   "rank": 1161,
+   "pt": "acento",
+   "pos": "名词",
+   "zh": "重音符号",
+   "example": {
+    "pt": "O acento agudo do é.",
+    "zh": "é 的尖音符。"
+   }
+  },
+  {
+   "rank": 1162,
+   "pt": "hífen",
+   "pos": "名词",
+   "zh": "连字符",
+   "example": {
+    "pt": "Palavras com hífen.",
+    "zh": "带连字符的词。"
+   }
+  },
+  {
+   "rank": 1163,
+   "pt": "pontuação",
+   "pos": "名词",
+   "zh": "标点",
+   "example": {
+    "pt": "Revise a pontuação.",
+    "zh": "检查一下标点。"
+   }
+  },
+  {
+   "rank": 1164,
+   "pt": "maiúscula",
+   "pos": "名词",
+   "zh": "大写字母",
+   "example": {
+    "pt": "Comece com letra maiúscula.",
+    "zh": "用大写字母开头。"
+   }
+  },
+  {
+   "rank": 1165,
+   "pt": "minúscula",
+   "pos": "名词",
+   "zh": "小写字母",
+   "example": {
+    "pt": "Escreva em minúsculas.",
+    "zh": "用小写写。"
+   }
+  },
+  {
+   "rank": 1166,
+   "pt": "itálico",
+   "pos": "名词",
+   "zh": "斜体",
+   "example": {
+    "pt": "A palavra está em itálico.",
+    "zh": "这个词是斜体。"
+   }
+  },
+  {
+   "rank": 1167,
+   "pt": "negrito",
+   "pos": "名词",
+   "zh": "粗体",
+   "example": {
+    "pt": "O título está em negrito.",
+    "zh": "标题是粗体。"
+   }
+  },
+  {
+   "rank": 1168,
+   "pt": "parágrafo",
+   "pos": "名词",
+   "zh": "段落",
+   "example": {
+    "pt": "Leia o primeiro parágrafo.",
+    "zh": "读第一段。"
+   }
+  },
+  {
+   "rank": 1169,
+   "pt": "verso",
+   "pos": "名词",
+   "zh": "诗句",
+   "example": {
+    "pt": "Um verso de Drummond.",
+    "zh": "德鲁蒙德的一句诗。"
+   }
+  },
+  {
+   "rank": 1170,
+   "pt": "rima",
+   "pos": "名词",
+   "zh": "押韵",
+   "example": {
+    "pt": "Amor rima com dor.",
+    "zh": "amor 和 dor 押韵。"
+   }
+  },
+  {
+   "rank": 1171,
+   "pt": "poema",
+   "pos": "名词",
+   "zh": "诗",
+   "example": {
+    "pt": "Escreveu um poema para ela.",
+    "zh": "他为她写了一首诗。"
+   }
+  },
+  {
+   "rank": 1172,
+   "pt": "poeta",
+   "pos": "名词",
+   "zh": "诗人",
+   "example": {
+    "pt": "O poeta morreu jovem.",
+    "zh": "诗人英年早逝。"
+   }
+  },
+  {
+   "rank": 1173,
+   "pt": "fábula",
+   "pos": "名词",
+   "zh": "寓言",
+   "example": {
+    "pt": "Uma fábula de Esopo.",
+    "zh": "一则伊索寓言。"
+   }
+  },
+  {
+   "rank": 1174,
+   "pt": "crônica",
+   "pos": "名词",
+   "zh": "纪事小品文（巴西特色文体）",
+   "example": {
+    "pt": "A crônica sai no jornal de domingo.",
+    "zh": "小品文登在周日报纸上。"
+   }
+  },
+  {
+   "rank": 1175,
+   "pt": "ensaio",
+   "pos": "名词",
+   "zh": "随笔 / 散文",
+   "example": {
+    "pt": "Um ensaio sobre a saudade.",
+    "zh": "一篇关于 saudade 的随笔。"
+   }
+  },
+  {
+   "rank": 1176,
+   "pt": "narrativa",
+   "pos": "名词",
+   "zh": "叙事",
+   "example": {
+    "pt": "A narrativa é envolvente.",
+    "zh": "叙事引人入胜。"
+   }
+  },
+  {
+   "rank": 1177,
+   "pt": "protagonista",
+   "pos": "名词",
+   "zh": "主角",
+   "example": {
+    "pt": "O protagonista é um menino.",
+    "zh": "主角是个男孩。"
+   }
+  },
+  {
+   "rank": 1178,
+   "pt": "narrador",
+   "pos": "名词",
+   "zh": "叙述者",
+   "example": {
+    "pt": "O narrador conta tudo em primeira pessoa.",
+    "zh": "叙述者用第一人称讲述一切。"
+   }
+  },
+  {
+   "rank": 1179,
+   "pt": "desfecho",
+   "pos": "名词",
+   "zh": "结局",
+   "example": {
+    "pt": "O desfecho surpreendeu todos.",
+    "zh": "结局出乎所有人意料。"
+   }
+  },
+  {
+   "rank": 1180,
+   "pt": "ironia",
+   "pos": "名词",
+   "zh": "讽刺",
+   "example": {
+    "pt": "A ironia do texto é sutil.",
+    "zh": "文章的讽刺很含蓄。"
+   }
+  },
+  {
+   "rank": 1181,
+   "pt": "humor",
+   "pos": "名词",
+   "zh": "幽默 / 心情",
+   "example": {
+    "pt": "O humor do autor é único.",
+    "zh": "作者的幽默独一无二。"
+   }
+  },
+  {
+   "rank": 1182,
+   "pt": "metáfora",
+   "pos": "名词",
+   "zh": "隐喻",
+   "example": {
+    "pt": "Uma metáfora bonita.",
+    "zh": "一个漂亮的隐喻。"
+   }
+  },
+  {
+   "rank": 1183,
+   "pt": "linguagem",
+   "pos": "名词",
+   "zh": "语言 / 语言风格",
+   "example": {
+    "pt": "A linguagem do poema é simples.",
+    "zh": "这首诗的语言很朴实。"
+   }
+  },
+  {
+   "rank": 1184,
+   "pt": "formal",
+   "pos": "形容词",
+   "zh": "正式的",
+   "example": {
+    "pt": "Linguagem formal.",
+    "zh": "正式语言。"
+   }
+  },
+  {
+   "rank": 1185,
+   "pt": "informal",
+   "pos": "形容词",
+   "zh": "非正式的",
+   "example": {
+    "pt": "Um tom informal.",
+    "zh": "非正式的语气。"
+   }
+  },
+  {
+   "rank": 1186,
+   "pt": "coloquial",
+   "pos": "形容词",
+   "zh": "口语的",
+   "example": {
+    "pt": "Expressão coloquial.",
+    "zh": "口语表达。"
+   }
+  },
+  {
+   "rank": 1187,
+   "pt": "trocadilho",
+   "pos": "名词",
+   "zh": "双关 / 文字游戏",
+   "example": {
+    "pt": "Um trocadilho engraçado.",
+    "zh": "一个有趣的双关。"
+   }
+  },
+  {
+   "rank": 1188,
+   "pt": "pressa",
+   "pos": "名词",
+   "zh": "匆忙",
+   "example": {
+    "pt": "Sem pressa!",
+    "zh": "不着急！"
+   }
+  },
+  {
+   "rank": 1189,
+   "pt": "topar",
+   "pos": "动词",
+   "zh": "愿意 / 接受（口语）",
+   "example": {
+    "pt": "Ele topou na hora.",
+    "zh": "他当场就答应了。"
+   },
+   "falseFriend": "⚠️ 西语 topar = 碰撞/偶遇；葡语口语 topar = 愿意（topar com = 偶遇）",
+   "conjugations": {
+    "eu": "topo",
+    "tu": "topas",
+    "ele/ela/você": "topa",
+    "nós": "topamos",
+    "eles/elas/vocês": "topam",
+    "es": "topar: topo/topas/topa/topamos/topan（西语=碰撞）"
+   }
+  },
+  {
+   "rank": 1190,
+   "pt": "aprontar",
+   "pos": "动词",
+   "zh": "捣乱 / 准备（口语）",
+   "example": {
+    "pt": "As crianças aprontaram na aula.",
+    "zh": "孩子们上课时捣乱了。"
+   },
+   "conjugations": {
+    "eu": "apronto",
+    "tu": "aprontas",
+    "ele/ela/você": "apronta",
+    "nós": "aprontamos",
+    "eles/elas/vocês": "aprontam",
+    "es": "preparar: preparo/preparas/prepara/preparamos/preparan"
+   }
+  },
+  {
+   "rank": 1191,
+   "pt": "zoar",
+   "pos": "动词",
+   "zh": "取笑 / 闹腾（俚语）",
+   "example": {
+    "pt": "Eles zoaram o amigo.",
+    "zh": "他们取笑了朋友。"
+   },
+   "conjugations": {
+    "eu": "zoo",
+    "tu": "zoas",
+    "ele/ela/você": "zoa",
+    "nós": "zoamos",
+    "eles/elas/vocês": "zoam",
+    "es": "bromear: bromeo/bromeas/bromea/bromeamos/bromean"
+   }
+  },
+  {
+   "rank": 1192,
+   "pt": "paquerar",
+   "pos": "动词",
+   "zh": "调情 / 眉目传情",
+   "example": {
+    "pt": "Ele paquerou a colega.",
+    "zh": "他跟同事调情。"
+   },
+   "conjugations": {
+    "eu": "paquero",
+    "tu": "paqueras",
+    "ele/ela/você": "paquera",
+    "nós": "paqueramos",
+    "eles/elas/vocês": "paqueram",
+    "es": "coquetear: coqueteo/coqueteas/coquetea/coqueteamos/coquetean"
+   }
+  },
+  {
+   "rank": 1193,
+   "pt": "pospor",
+   "pos": "动词",
+   "zh": "推迟 / 置于…后（pôr 加前缀 pos-）",
+   "example": {
+    "pt": "O jogo foi posposto.",
+    "zh": "比赛被推迟了。"
+   },
+   "derivedFrom": "pôr",
+   "conjugations": {
+    "eu": "posponho",
+    "tu": "pospões",
+    "ele/ela/você": "pospõe",
+    "nós": "pospomos",
+    "eles/elas/vocês": "pospõem",
+    "es": "posponer: pospongo/pospones/pospone/posponemos/posponen"
+   }
+  },
+  {
+   "rank": 1194,
+   "pt": "retrair",
+   "pos": "动词",
+   "zh": "缩回 / 使退缩（trazer 加前缀 re-）",
+   "example": {
+    "pt": "O gato retraiu as garras.",
+    "zh": "猫收回了爪子。"
+   },
+   "derivedFrom": "trazer",
+   "conjugations": {
+    "eu": "retraio",
+    "tu": "retrais",
+    "ele/ela/você": "retrai",
+    "nós": "retraímos",
+    "eles/elas/vocês": "retraem",
+    "es": "retraer: retraigo/retraes/retrae/retraemos/retraen"
+   }
+  },
+  {
+   "rank": 1195,
+   "pt": "encobrir",
+   "pos": "动词",
+   "zh": "掩盖 / 包庇（cobrir 加前缀 en-）",
+   "example": {
+    "pt": "Ele tentou encobrir o erro.",
+    "zh": "他试图掩盖错误。"
+   },
+   "derivedFrom": "cobrir",
+   "conjugations": {
+    "eu": "encubro",
+    "tu": "encobres",
+    "ele/ela/você": "encobre",
+    "nós": "encobrimos",
+    "eles/elas/vocês": "encobrem",
+    "es": "encubrir: encubro/encubres/encubre/encubrimos/encubren"
+   }
+  },
+  {
+   "rank": 1196,
+   "pt": "vestir",
+   "pos": "动词",
+   "zh": "穿（衣）",
+   "example": {
+    "pt": "Ela vestiu o casaco e saiu.",
+    "zh": "她穿上外套出门了。"
+   },
+   "conjugations": {
+    "eu": "visto",
+    "tu": "vestes",
+    "ele/ela/você": "veste",
+    "nós": "vestimos",
+    "eles/elas/vocês": "vestem",
+    "es": "vestir: visto/vistes/viste/vestimos/visten"
+   }
+  },
+  {
+   "rank": 1197,
+   "pt": "despedir",
+   "pos": "动词",
+   "zh": "解雇 / 送别（pedir 加前缀 des-）",
+   "example": {
+    "pt": "Despedimo-nos na porta.",
+    "zh": "我们在门口道别了。"
+   },
+   "derivedFrom": "pedir",
+   "conjugations": {
+    "eu": "despeço",
+    "tu": "despedes",
+    "ele/ela/você": "despede",
+    "nós": "despedimos",
+    "eles/elas/vocês": "despedem",
+    "es": "despedir: despido/despides/despide/despedimos/despiden"
+   }
+  },
+  {
+   "rank": 1198,
+   "pt": "desmentir",
+   "pos": "动词",
+   "zh": "否认 / 辟谣（mentir 加前缀 des-）",
+   "example": {
+    "pt": "O ministro desmentiu a notícia.",
+    "zh": "部长否认了这条新闻。"
+   },
+   "derivedFrom": "mentir",
+   "conjugations": {
+    "eu": "desminto",
+    "tu": "desmentes",
+    "ele/ela/você": "desmente",
+    "nós": "desmentimos",
+    "eles/elas/vocês": "desmentem",
+    "es": "desmentir: desmiento/desmientes/desmiente/desmentimos/desmienten"
+   }
+  },
+  {
+   "rank": 1199,
+   "pt": "divertir",
+   "pos": "动词",
+   "zh": "使开心 / 娱乐",
+   "example": {
+    "pt": "O palhaço divertiu as crianças.",
+    "zh": "小丑逗乐了孩子们。"
+   },
+   "conjugations": {
+    "eu": "divirto",
+    "tu": "divertes",
+    "ele/ela/você": "diverte",
+    "nós": "divertimos",
+    "eles/elas/vocês": "divertem",
+    "es": "divertir: divierto/diviertes/divierte/divertimos/divierten"
+   }
+  },
+  {
+   "rank": 1200,
+   "pt": "surgir",
+   "pos": "动词",
+   "zh": "出现 / 涌现",
+   "example": {
+    "pt": "Surgiu um problema novo.",
+    "zh": "出现了一个新问题。"
+   },
+   "conjugations": {
+    "eu": "surjo",
+    "tu": "surges",
+    "ele/ela/você": "surge",
+    "nós": "surgimos",
+    "eles/elas/vocês": "surgem",
+    "es": "surgir: surjo/surges/surge/surgimos/surgen"
    }
   }
  ]
