@@ -1,5 +1,5 @@
 {
- "description": "W1-W11 每周 100 频率词中全部动词（249 个，含「词根→派生」扩展动词）的现在时变位表（PT-BR），含西语对照",
+ "description": "W1-W12 每周 100 频率词中全部动词（261 个，含「词根→派生」扩展动词）的现在时变位表（PT-BR），含西语对照",
  "tense": "presente do indicativo",
  "verbs": [
   {
@@ -3424,6 +3424,174 @@
    },
    "spanish": "heredar: heredo/heredas/hereda/heredamos/heredan",
    "note": "herdar de：从…继承；西语 heredar 同义"
+  },
+  {
+   "infinitive": "topar",
+   "meaning": "愿意 / 接受",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "topo",
+    "tu": "topas",
+    "ele/ela/você": "topa",
+    "nós": "topamos",
+    "eles/elas/vocês": "topam"
+   },
+   "spanish": "topar: topo/topas/topa/topamos/topan（西语=碰撞）",
+   "note": "topar + 不定式 = 愿意做；topar com = 偶遇"
+  },
+  {
+   "infinitive": "aprontar",
+   "meaning": "捣乱 / 准备",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "apronto",
+    "tu": "aprontas",
+    "ele/ela/você": "apronta",
+    "nós": "aprontamos",
+    "eles/elas/vocês": "aprontam"
+   },
+   "spanish": "preparar: preparo/preparas/prepara/preparamos/preparan",
+   "note": "aprontar (algo) = 捣乱/准备；口语高频"
+  },
+  {
+   "infinitive": "zoar",
+   "meaning": "取笑 / 闹腾",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "zoo",
+    "tu": "zoas",
+    "ele/ela/você": "zoa",
+    "nós": "zoamos",
+    "eles/elas/vocês": "zoam"
+   },
+   "spanish": "bromear: bromeo/bromeas/bromea/bromeamos/bromean",
+   "note": "zoar alguém = 取笑某人；名词 zoeira"
+  },
+  {
+   "infinitive": "paquerar",
+   "meaning": "调情 / 眉目传情",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "paquero",
+    "tu": "paqueras",
+    "ele/ela/você": "paquera",
+    "nós": "paqueramos",
+    "eles/elas/vocês": "paqueram"
+   },
+   "spanish": "coquetear: coqueteo/coqueteas/coquetea/coqueteamos/coquetean",
+   "note": "paquerar alguém = 和某人调情；名词 paquera"
+  },
+  {
+   "infinitive": "pospor",
+   "meaning": "推迟 / 置于…后",
+   "type": "irregular（pôr 族）",
+   "conjugation": {
+    "eu": "posponho",
+    "tu": "pospões",
+    "ele/ela/você": "pospõe",
+    "nós": "pospomos",
+    "eles/elas/vocês": "pospõem"
+   },
+   "spanish": "posponer: pospongo/pospones/pospone/posponemos/posponen",
+   "note": "正式用词：pospor para + 日期；perfeito pospôs"
+  },
+  {
+   "infinitive": "retrair",
+   "meaning": "缩回 / 使退缩",
+   "type": "irregular（trazer 族）",
+   "conjugation": {
+    "eu": "retraio",
+    "tu": "retrais",
+    "ele/ela/você": "retrai",
+    "nós": "retraímos",
+    "eles/elas/vocês": "retraem"
+   },
+   "spanish": "retraer: retraigo/retraes/retrae/retraemos/retraen",
+   "note": "retrair-se = 退缩；分词 retraído（也=内向的）"
+  },
+  {
+   "infinitive": "encobrir",
+   "meaning": "掩盖 / 包庇",
+   "type": "irregular（cobrir 族）",
+   "conjugation": {
+    "eu": "encubro",
+    "tu": "encobres",
+    "ele/ela/você": "encobre",
+    "nós": "encobrimos",
+    "eles/elas/vocês": "encobrem"
+   },
+   "spanish": "encubrir: encubro/encubres/encubre/encubrimos/encubren",
+   "note": "eu encubro；encobrir um crime = 包庇罪行"
+  },
+  {
+   "infinitive": "vestir",
+   "meaning": "穿",
+   "type": "irregular",
+   "conjugation": {
+    "eu": "visto",
+    "tu": "vestes",
+    "ele/ela/você": "veste",
+    "nós": "vestimos",
+    "eles/elas/vocês": "vestem"
+   },
+   "spanish": "vestir: visto/vistes/viste/vestimos/visten",
+   "note": "eu visto（e→i）；vestir-se = 穿衣服（反身）"
+  },
+  {
+   "infinitive": "despedir",
+   "meaning": "解雇 / 送别",
+   "type": "irregular（pedir 族）",
+   "conjugation": {
+    "eu": "despeço",
+    "tu": "despedes",
+    "ele/ela/você": "despede",
+    "nós": "despedimos",
+    "eles/elas/vocês": "despedem"
+   },
+   "spanish": "despedir: despido/despides/despide/despedimos/despiden",
+   "note": "eu despeço；despedir-se de = 向…告别"
+  },
+  {
+   "infinitive": "desmentir",
+   "meaning": "否认 / 辟谣",
+   "type": "irregular（mentir 族）",
+   "conjugation": {
+    "eu": "desminto",
+    "tu": "desmentes",
+    "ele/ela/você": "desmente",
+    "nós": "desmentimos",
+    "eles/elas/vocês": "desmentem"
+   },
+   "spanish": "desmentir: desmiento/desmientes/desmiente/desmentimos/desmienten",
+   "note": "eu desminto；desmentir um boato = 辟谣"
+  },
+  {
+   "infinitive": "divertir",
+   "meaning": "使开心 / 娱乐",
+   "type": "irregular",
+   "conjugation": {
+    "eu": "divirto",
+    "tu": "divertes",
+    "ele/ela/você": "diverte",
+    "nós": "divertimos",
+    "eles/elas/vocês": "divertem"
+   },
+   "spanish": "divertir: divierto/diviertes/divierte/divertimos/divierten",
+   "note": "eu divirto；divertir-se = 玩得开心（反身）"
+  },
+  {
+   "infinitive": "surgir",
+   "meaning": "出现 / 涌现",
+   "type": "regular -ir（词干 g→j）",
+   "conjugation": {
+    "eu": "surjo",
+    "tu": "surges",
+    "ele/ela/você": "surge",
+    "nós": "surgimos",
+    "eles/elas/vocês": "surgem"
+   },
+   "spanish": "surgir: surjo/surges/surge/surgimos/surgen",
+   "note": "eu surjo；surgir de/em = 出现于"
   }
  ]
 }
