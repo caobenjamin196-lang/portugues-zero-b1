@@ -1,5 +1,5 @@
 {
- "description": "W1-W10 每周 100 频率词中全部动词（237 个，含「词根→派生」扩展动词）的现在时变位表（PT-BR），含西语对照",
+ "description": "W1-W11 每周 100 频率词中全部动词（249 个，含「词根→派生」扩展动词）的现在时变位表（PT-BR），含西语对照",
  "tense": "presente do indicativo",
  "verbs": [
   {
@@ -3256,6 +3256,174 @@
    },
    "spanish": "comentar: comento/comentas/comenta/comentamos/comentan",
    "note": "comentar 同形同义"
+  },
+  {
+   "infinitive": "abster-se",
+   "meaning": "弃权 / 克制",
+   "type": "irregular（ter 族，反身）",
+   "conjugation": {
+    "eu": "me abstenho",
+    "tu": "te absténs",
+    "ele/ela/você": "se abstém",
+    "nós": "nos abstenmos",
+    "eles/elas/vocês": "se abstêm"
+   },
+   "spanish": "abstenerse: me abstengo/te abstienes/se abstiene/nos abstenemos/se abstienen",
+   "note": "abster-se de + 不定式/名词：克制做某事/弃权"
+  },
+  {
+   "infinitive": "subtrair",
+   "meaning": "减去 / 窃取",
+   "type": "irregular（trazer 族）",
+   "conjugation": {
+    "eu": "subtraio",
+    "tu": "subtrais",
+    "ele/ela/você": "subtrai",
+    "nós": "subtraímos",
+    "eles/elas/vocês": "subtraem"
+   },
+   "spanish": "sustraer: sustraigo/sustraes/sustrae/sustraemos/sustraen",
+   "note": "subtrair de：从…中减去；西语拼写 sustraer（多 s）"
+  },
+  {
+   "infinitive": "transcrever",
+   "meaning": "转录 / 誊写",
+   "type": "regular -er（escrever 族）",
+   "conjugation": {
+    "eu": "transcrevo",
+    "tu": "transcreves",
+    "ele/ela/você": "transcreve",
+    "nós": "transcrevemos",
+    "eles/elas/vocês": "transcrevem"
+   },
+   "spanish": "transcribir: transcribo/transcribes/transcribe/transcribimos/transcriben",
+   "note": "⚠️ 西语 transcribir（b）≠ 葡语 transcrever（v）"
+  },
+  {
+   "infinitive": "sorrir",
+   "meaning": "微笑",
+   "type": "regular -ir（rir 族）",
+   "conjugation": {
+    "eu": "sorrio",
+    "tu": "sorris",
+    "ele/ela/você": "sorri",
+    "nós": "sorrimos",
+    "eles/elas/vocês": "sorriem"
+   },
+   "spanish": "sonreír: sonrío/sonríes/sonríe/sonreímos/sonríen",
+   "note": "sorrir para/de：对…微笑；西语 sonreír 词干变位（sonrío）"
+  },
+  {
+   "infinitive": "descobrir",
+   "meaning": "发现",
+   "type": "irregular（cobrir 族）",
+   "conjugation": {
+    "eu": "descubro",
+    "tu": "descobres",
+    "ele/ela/você": "descobre",
+    "nós": "descobrimos",
+    "eles/elas/vocês": "descobrem"
+   },
+   "spanish": "descubrir: descubro/descubres/descubre/descubrimos/descubren",
+   "note": "eu descubro 词干变位：descubro/descobres；西语同构 descubro"
+  },
+  {
+   "infinitive": "cobrir",
+   "meaning": "覆盖 / 报道",
+   "type": "irregular",
+   "conjugation": {
+    "eu": "cubro",
+    "tu": "cobres",
+    "ele/ela/você": "cobre",
+    "nós": "cobrimos",
+    "eles/elas/vocês": "cobrem"
+   },
+   "spanish": "cubrir: cubro/cubres/cubre/cubrimos/cubren",
+   "note": "eu cubro 词干变位；分词 coberto（规则）≠ 西语 cubierto"
+  },
+  {
+   "infinitive": "fugir",
+   "meaning": "逃跑",
+   "type": "irregular",
+   "conjugation": {
+    "eu": "fujo",
+    "tu": "foges",
+    "ele/ela/você": "foge",
+    "nós": "fugimos",
+    "eles/elas/vocês": "fogem"
+   },
+   "spanish": "huir: huyo/huyes/huye/huimos/huyen",
+   "note": "eu fujo（g→j）；fugir de/para：从…逃跑/逃往…"
+  },
+  {
+   "infinitive": "medir",
+   "meaning": "测量 / 量度",
+   "type": "irregular",
+   "conjugation": {
+    "eu": "meço",
+    "tu": "medes",
+    "ele/ela/você": "mede",
+    "nós": "medimos",
+    "eles/elas/vocês": "medem"
+   },
+   "spanish": "medir: mido/mides/mide/medimos/miden",
+   "note": "eu meço（d→c 拼写变化）；西语 mido 词干变位（e→i）"
+  },
+  {
+   "infinitive": "pressentir",
+   "meaning": "预感",
+   "type": "irregular（sentir 族）",
+   "conjugation": {
+    "eu": "pressinto",
+    "tu": "pressentes",
+    "ele/ela/você": "pressente",
+    "nós": "pressentimos",
+    "eles/elas/vocês": "pressentem"
+   },
+   "spanish": "presentir: presiento/presientes/presiente/presentimos/presienten",
+   "note": "eu pressinto；sentir 族变位规则全部继承"
+  },
+  {
+   "infinitive": "narrar",
+   "meaning": "叙述 / 讲述",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "narro",
+    "tu": "narras",
+    "ele/ela/você": "narra",
+    "nós": "narramos",
+    "eles/elas/vocês": "narram"
+   },
+   "spanish": "narrar: narro/narras/narra/narramos/narran",
+   "note": "西语 narrar 同形同义"
+  },
+  {
+   "infinitive": "citar",
+   "meaning": "引用 / 提及",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "cito",
+    "tu": "citas",
+    "ele/ela/você": "cita",
+    "nós": "citamos",
+    "eles/elas/vocês": "citam"
+   },
+   "spanish": "citar: cito/citas/cita/citamos/citan",
+   "note": "西语 citar 同形同义；也=传唤（法律）"
+  },
+  {
+   "infinitive": "herdar",
+   "meaning": "继承",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "herdo",
+    "tu": "herdas",
+    "ele/ela/você": "herda",
+    "nós": "herdamos",
+    "eles/elas/vocês": "herdam"
+   },
+   "spanish": "heredar: heredo/heredas/hereda/heredamos/heredan",
+   "note": "herdar de：从…继承；西语 heredar 同义"
   }
  ]
 }
