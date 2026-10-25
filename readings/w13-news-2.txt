@@ -1,0 +1,56 @@
+====================================================
+W13 · 阅读 2/3 · 治安新闻：警方行动
+====================================================
+
+【标题】
+Operação prende dez suspeitos de desvio na saúde
+
+【导语】
+A Polícia Federal deflagrou, na manhã desta terça-feira, uma operação que investiga o desvio de recursos da saúde pública em três estados.
+
+【正文】
+Dez pessoas foram presas, entre elas um empresário e dois ex-secretários. Segundo o delegado que comanda o caso, o grupo agia desde 2020 e movimentou milhões.
+
+— As provas são robustas — afirmou o delegado. — Contratos foram fraudados e empresas de fachada foram usadas.
+
+De acordo com a investigação, o esquema funcionava assim: as empresas venciam licitações, recebiam adiantamentos e não entregavam os serviços. O dinheiro era transferido para contas no exterior.
+
+O promotor responsável afirmou que os suspeitos serão indiciados por organização criminosa. Se houver condenação, as penas podem chegar a vinte anos.
+
+Em nota, a defesa do empresário negou as acusações e disse que o cliente vai provar a inocência. O Ministério Público informou que novas fases da operação não estão descartadas.
+
+Até o momento, divulgaram-se os nomes de apenas cinco investigados. O sigilo, segundo a Justiça, protege o andamento do caso.
+
+---- 词汇表（★ = 假朋友/易混）----
+deflagrar = 展开（行动）
+desvio = 挪用（资金）
+recursos = 公共资金
+ex-secretário = 前厅长/前部长秘书
+movimentar = 经手（资金）
+fachada = 门面；empresa de fachada = 空壳公司
+licitação = 公开招标
+adiantamento = 预付款
+conta no exterior = 海外账户
+indiciar = 起诉/列为被告
+pena = 刑罚
+em nota = 在声明中（新闻套语）
+defesa = 辩护方
+não estão descartadas = 不排除
+sigilo = 保密
+andamento = 进展
+
+---- 阅读理解题（答案在文末）----
+1. 这次行动调查的是什么？
+2. 被捕的有哪几类人？
+3. 这个骗局是怎么运作的？（三步）
+4. 「Os suspeitos serão indiciados」用了什么结构？
+5. 辩方怎么回应？用了哪个转述语？
+
+【语法观察】
+- 标题纯名词短语 + 现在时：Operação prende…
+- foram presas：真被动（ser + 分词），施动者省略
+- afirmou o delegado / afirmou o promotor：转述语 + 主语后置
+- divulgaram-se os nomes：se 被动，句首后置
+- Se houver condenação：虚拟式未来时
+
+答案：1) 三个州公共卫生资金被挪用。2) 一名企业家和两名前厅长等十人。3) 空壳公司中标 → 收预付款 → 不交服务，钱转海外账户。4) 真被动 + 将来时（serão indiciados）。5) 辩方否认指控，称客户将证明清白；转述语是 em nota + negou/disse que。

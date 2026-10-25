@@ -1,5 +1,5 @@
 {
- "description": "每周 100 个频率词汇（PT-BR）。W1=频率排名1-100，W2=101-200，W3=201-300，W4=301-400，W5=401-500，W6=501-600，W7=601-700，W8=701-800，W9=801-900，W10=901-1000，W11=1001-1100，W12=1101-1200。选词参考 Corpus do Português / Routledge Frequency Dictionary 高频区（按教学需要微调）。动词只保留原形词条（é/sou/foi/está/tem 等变位形式已并入原形词条的变位表），并按「词根→派生」机制扩展（fazer→desfazer/refazer、pôr→propor/compor/depor、ter→manter/conter/ater-se 等），每周至少 10 个动词。动词附现在时完整变位与西语对照；falseFriend 为西语假朋友警示。",
+ "description": "每周 100 个频率词汇（PT-BR）。W1=频率排名1-100，W2=101-200，W3=201-300，W4=301-400，W5=401-500，W6=501-600，W7=601-700，W8=701-800，W9=801-900，W10=901-1000，W11=1001-1100，W12=1101-1200，W13=1201-1300。选词参考 Corpus do Português / Routledge Frequency Dictionary 高频区（按教学需要微调）。动词只保留原形词条（é/sou/foi/está/tem 等变位形式已并入原形词条的变位表），并按「词根→派生」机制扩展（fazer→desfazer/refazer、pôr→propor/compor/depor、ter→manter/conter/ater-se 等），每周至少 10 个动词。动词附现在时完整变位与西语对照；falseFriend 为西语假朋友警示。",
  "source": "Corpus do Português / Routledge Frequency Dictionary of Portuguese（高频区，按教学需要微调）",
  "variant": "PT-BR",
  "w1": [
@@ -14210,6 +14210,1113 @@
     "nós": "surgimos",
     "eles/elas/vocês": "surgem",
     "es": "surgir: surjo/surges/surge/surgimos/surgen"
+   }
+  }
+ ],
+ "w13": [
+  {
+   "rank": 1201,
+   "pt": "time",
+   "pos": "名词",
+   "zh": "球队 / 队伍",
+   "example": {
+    "pt": "O time venceu o campeonato.",
+    "zh": "球队赢得了冠军。"
+   }
+  },
+  {
+   "rank": 1202,
+   "pt": "campeonato",
+   "pos": "名词",
+   "zh": "锦标赛 / 联赛",
+   "example": {
+    "pt": "O campeonato começa em março.",
+    "zh": "联赛三月开赛。"
+   }
+  },
+  {
+   "rank": 1203,
+   "pt": "torneio",
+   "pos": "名词",
+   "zh": "巡回赛 / 杯赛",
+   "example": {
+    "pt": "O torneio reúne oito seleções.",
+    "zh": "这项赛事汇集了八支国家队。"
+   }
+  },
+  {
+   "rank": 1204,
+   "pt": "medalha",
+   "pos": "名词",
+   "zh": "奖牌",
+   "example": {
+    "pt": "Ela ganhou a medalha de ouro.",
+    "zh": "她赢得了金牌。"
+   }
+  },
+  {
+   "rank": 1205,
+   "pt": "gol",
+   "pos": "名词",
+   "zh": "进球",
+   "example": {
+    "pt": "O gol saiu aos quarenta minutos.",
+    "zh": "进球出现在第 40 分钟。"
+   }
+  },
+  {
+   "rank": 1206,
+   "pt": "jogador",
+   "pos": "名词",
+   "zh": "球员 / 运动员",
+   "example": {
+    "pt": "O jogador assinou contrato novo.",
+    "zh": "这名球员签了新合同。"
+   }
+  },
+  {
+   "rank": 1207,
+   "pt": "técnico",
+   "pos": "名词",
+   "zh": "主教练 / 技术员",
+   "example": {
+    "pt": "O técnico mudou a formação.",
+    "zh": "主教练换了阵型。"
+   },
+   "falseFriend": "⚠️ 体育新闻里 técnico = 主教练（西语 entrenador）；「技术员」才是西语 técnico 的原义"
+  },
+  {
+   "rank": 1208,
+   "pt": "treinador",
+   "pos": "名词",
+   "zh": "教练 / 训练师",
+   "example": {
+    "pt": "O treinador elogiou a equipe.",
+    "zh": "教练表扬了队伍。"
+   }
+  },
+  {
+   "rank": 1209,
+   "pt": "árbitro",
+   "pos": "名词",
+   "zh": "裁判",
+   "example": {
+    "pt": "O árbitro marcou pênalti.",
+    "zh": "裁判判了点球。"
+   }
+  },
+  {
+   "rank": 1210,
+   "pt": "torcida",
+   "pos": "名词",
+   "zh": "球迷（群体）",
+   "example": {
+    "pt": "A torcida lotou o estádio.",
+    "zh": "球迷把球场坐满了。"
+   }
+  },
+  {
+   "rank": 1211,
+   "pt": "estádio",
+   "pos": "名词",
+   "zh": "体育场",
+   "example": {
+    "pt": "O estádio recebeu sessenta mil pessoas.",
+    "zh": "体育场迎来了六万人。"
+   }
+  },
+  {
+   "rank": 1212,
+   "pt": "campeão",
+   "pos": "名词",
+   "zh": "冠军",
+   "example": {
+    "pt": "O Brasil foi campeão cinco vezes.",
+    "zh": "巴西五次夺冠。"
+   }
+  },
+  {
+   "rank": 1213,
+   "pt": "empate",
+   "pos": "名词",
+   "zh": "平局",
+   "example": {
+    "pt": "O jogo terminou em empate.",
+    "zh": "比赛以平局结束。"
+   }
+  },
+  {
+   "rank": 1214,
+   "pt": "classificação",
+   "pos": "名词",
+   "zh": "排名 / 晋级 / 分类",
+   "example": {
+    "pt": "A classificação foi comemorada.",
+    "zh": "晋级引发了庆祝。"
+   }
+  },
+  {
+   "rank": 1215,
+   "pt": "rodada",
+   "pos": "名词",
+   "zh": "轮次 / 回合",
+   "example": {
+    "pt": "A rodada decide o líder.",
+    "zh": "这一轮决定榜首。"
+   },
+   "falseFriend": "西语 ronda；葡语 rodada 兼指「一轮酒」（rodada de cerveja）"
+  },
+  {
+   "rank": 1216,
+   "pt": "seleção",
+   "pos": "名词",
+   "zh": "国家队 / 选拔",
+   "example": {
+    "pt": "A seleção joga na terça.",
+    "zh": "国家队周二比赛。"
+   }
+  },
+  {
+   "rank": 1217,
+   "pt": "convocação",
+   "pos": "名词",
+   "zh": "征召名单 / 召集",
+   "example": {
+    "pt": "A convocação saiu hoje.",
+    "zh": "征召名单今天公布。"
+   }
+  },
+  {
+   "rank": 1218,
+   "pt": "lesão",
+   "pos": "名词",
+   "zh": "伤病 / 损伤",
+   "example": {
+    "pt": "A lesão tirou ele do jogo.",
+    "zh": "伤病让他缺席比赛。"
+   }
+  },
+  {
+   "rank": 1219,
+   "pt": "contratação",
+   "pos": "名词",
+   "zh": "签约引进 / 雇用",
+   "example": {
+    "pt": "A contratação custou dez milhões.",
+    "zh": "这笔引援花了一千万。"
+   }
+  },
+  {
+   "rank": 1220,
+   "pt": "transferência",
+   "pos": "名词",
+   "zh": "转会 / 转账",
+   "example": {
+    "pt": "A transferência foi confirmada.",
+    "zh": "转会已获确认。"
+   }
+  },
+  {
+   "rank": 1221,
+   "pt": "notebook",
+   "pos": "名词",
+   "zh": "笔记本电脑",
+   "example": {
+    "pt": "Comprei um notebook novo.",
+    "zh": "我买了台新笔记本。"
+   },
+   "falseFriend": "西语说 portátil；葡语直接用 notebook，「笔记本（纸）」是 caderno"
+  },
+  {
+   "rank": 1222,
+   "pt": "impressora",
+   "pos": "名词",
+   "zh": "打印机",
+   "example": {
+    "pt": "A impressora está sem tinta.",
+    "zh": "打印机没墨了。"
+   }
+  },
+  {
+   "rank": 1223,
+   "pt": "senha",
+   "pos": "名词",
+   "zh": "密码 / 排队号码",
+   "example": {
+    "pt": "Esqueci a senha do banco.",
+    "zh": "我忘了银行密码。"
+   },
+   "falseFriend": "西语密码 = contraseña；葡语 senha 兼指密码和排队叫号单"
+  },
+  {
+   "rank": 1224,
+   "pt": "usuário",
+   "pos": "名词",
+   "zh": "用户",
+   "example": {
+    "pt": "O número de usuários cresceu.",
+    "zh": "用户数量增长了。"
+   }
+  },
+  {
+   "rank": 1225,
+   "pt": "robô",
+   "pos": "名词",
+   "zh": "机器人",
+   "example": {
+    "pt": "O robô faz cirurgias.",
+    "zh": "机器人可以做手术。"
+   }
+  },
+  {
+   "rank": 1226,
+   "pt": "automação",
+   "pos": "名词",
+   "zh": "自动化",
+   "example": {
+    "pt": "A automação mudou a fábrica.",
+    "zh": "自动化改变了工厂。"
+   }
+  },
+  {
+   "rank": 1227,
+   "pt": "inovação",
+   "pos": "名词",
+   "zh": "创新",
+   "example": {
+    "pt": "A inovação atrai investidores.",
+    "zh": "创新吸引投资者。"
+   }
+  },
+  {
+   "rank": 1228,
+   "pt": "cientista",
+   "pos": "名词",
+   "zh": "科学家",
+   "example": {
+    "pt": "A cientista publicou o estudo.",
+    "zh": "这位科学家发表了研究。"
+   }
+  },
+  {
+   "rank": 1229,
+   "pt": "laboratório",
+   "pos": "名词",
+   "zh": "实验室",
+   "example": {
+    "pt": "O laboratório testou as amostras.",
+    "zh": "实验室检测了样本。"
+   }
+  },
+  {
+   "rank": 1230,
+   "pt": "experimento",
+   "pos": "名词",
+   "zh": "实验",
+   "example": {
+    "pt": "O experimento durou seis meses.",
+    "zh": "实验持续了六个月。"
+   }
+  },
+  {
+   "rank": 1231,
+   "pt": "tratamento",
+   "pos": "名词",
+   "zh": "治疗 / 处理",
+   "example": {
+    "pt": "O tratamento é gratuito.",
+    "zh": "治疗是免费的。"
+   }
+  },
+  {
+   "rank": 1232,
+   "pt": "sintoma",
+   "pos": "名词",
+   "zh": "症状",
+   "example": {
+    "pt": "Os sintomas desapareceram.",
+    "zh": "症状消失了。"
+   }
+  },
+  {
+   "rank": 1233,
+   "pt": "vírus",
+   "pos": "名词",
+   "zh": "病毒",
+   "example": {
+    "pt": "O vírus se espalha no inverno.",
+    "zh": "病毒在冬季传播。"
+   }
+  },
+  {
+   "rank": 1234,
+   "pt": "bactéria",
+   "pos": "名词",
+   "zh": "细菌",
+   "example": {
+    "pt": "A bactéria resiste a antibióticos.",
+    "zh": "这种细菌对抗生素有耐药性。"
+   }
+  },
+  {
+   "rank": 1235,
+   "pt": "epidemia",
+   "pos": "名词",
+   "zh": "流行病（局部）",
+   "example": {
+    "pt": "A epidemia atingiu a região.",
+    "zh": "疫情袭击了该地区。"
+   }
+  },
+  {
+   "rank": 1236,
+   "pt": "pandemia",
+   "pos": "名词",
+   "zh": "大流行病（全球）",
+   "example": {
+    "pt": "A pandemia mudou o mundo.",
+    "zh": "大流行改变了世界。"
+   }
+  },
+  {
+   "rank": 1237,
+   "pt": "surto",
+   "pos": "名词",
+   "zh": "（疫情）暴发",
+   "example": {
+    "pt": "Um surto foi registrado na cidade.",
+    "zh": "该市记录了一起暴发。"
+   }
+  },
+  {
+   "rank": 1238,
+   "pt": "dose",
+   "pos": "名词",
+   "zh": "剂量",
+   "example": {
+    "pt": "A segunda dose é essencial.",
+    "zh": "第二剂必不可少。"
+   }
+  },
+  {
+   "rank": 1239,
+   "pt": "eficácia",
+   "pos": "名词",
+   "zh": "效力 / 有效率",
+   "example": {
+    "pt": "A eficácia da vacina é alta.",
+    "zh": "疫苗的有效率很高。"
+   }
+  },
+  {
+   "rank": 1240,
+   "pt": "amostra",
+   "pos": "名词",
+   "zh": "样本",
+   "example": {
+    "pt": "As amostras foram analisadas.",
+    "zh": "样本已被分析。"
+   }
+  },
+  {
+   "rank": 1241,
+   "pt": "paciente",
+   "pos": "名词",
+   "zh": "病人",
+   "example": {
+    "pt": "O paciente recebeu alta.",
+    "zh": "病人出院了。"
+   }
+  },
+  {
+   "rank": 1242,
+   "pt": "cirurgia",
+   "pos": "名词",
+   "zh": "手术",
+   "example": {
+    "pt": "A cirurgia foi um sucesso.",
+    "zh": "手术很成功。"
+   }
+  },
+  {
+   "rank": 1243,
+   "pt": "diagnóstico",
+   "pos": "名词",
+   "zh": "诊断",
+   "example": {
+    "pt": "O diagnóstico saiu rápido.",
+    "zh": "诊断很快出来了。"
+   }
+  },
+  {
+   "rank": 1244,
+   "pt": "manifestação",
+   "pos": "名词",
+   "zh": "示威 / 表现",
+   "example": {
+    "pt": "A manifestação reuniu milhares.",
+    "zh": "示威聚集了数千人。"
+   }
+  },
+  {
+   "rank": 1245,
+   "pt": "protesto",
+   "pos": "名词",
+   "zh": "抗议",
+   "example": {
+    "pt": "O protesto foi pacífico.",
+    "zh": "抗议是和平的。"
+   }
+  },
+  {
+   "rank": 1246,
+   "pt": "marcha",
+   "pos": "名词",
+   "zh": "游行 / 行进",
+   "example": {
+    "pt": "A marcha seguiu pela avenida.",
+    "zh": "游行队伍沿大道行进。"
+   }
+  },
+  {
+   "rank": 1247,
+   "pt": "mobilização",
+   "pos": "名词",
+   "zh": "动员",
+   "example": {
+    "pt": "A mobilização começou na internet.",
+    "zh": "动员始于网络。"
+   }
+  },
+  {
+   "rank": 1248,
+   "pt": "petição",
+   "pos": "名词",
+   "zh": "请愿书",
+   "example": {
+    "pt": "A petição já tem mil assinaturas.",
+    "zh": "请愿书已有一千个签名。"
+   }
+  },
+  {
+   "rank": 1249,
+   "pt": "abaixo-assinado",
+   "pos": "名词",
+   "zh": "联名请愿书",
+   "example": {
+    "pt": "O abaixo-assinado foi entregue ao prefeito.",
+    "zh": "联名请愿书交给了市长。"
+   }
+  },
+  {
+   "rank": 1250,
+   "pt": "referendo",
+   "pos": "名词",
+   "zh": "全民公投",
+   "example": {
+    "pt": "O referendo será em outubro.",
+    "zh": "公投将在十月举行。"
+   }
+  },
+  {
+   "rank": 1251,
+   "pt": "plebiscito",
+   "pos": "名词",
+   "zh": "全民表决",
+   "example": {
+    "pt": "O plebiscito definiu o futuro.",
+    "zh": "全民表决决定了未来。"
+   }
+  },
+  {
+   "rank": 1252,
+   "pt": "mandato",
+   "pos": "名词",
+   "zh": "任期",
+   "example": {
+    "pt": "O mandato termina em dezembro.",
+    "zh": "任期十二月结束。"
+   }
+  },
+  {
+   "rank": 1253,
+   "pt": "posse",
+   "pos": "名词",
+   "zh": "就职 / 占有",
+   "example": {
+    "pt": "A posse do presidente foi histórica.",
+    "zh": "总统就职典礼具有历史意义。"
+   },
+   "falseFriend": "⚠️ 新闻里 posse 常指「就职」（posse presidencial）；西语 posesión 同义但葡语也用 tomar posse 这个固定搭配"
+  },
+  {
+   "rank": 1254,
+   "pt": "renúncia",
+   "pos": "名词",
+   "zh": "辞职",
+   "example": {
+    "pt": "A renúncia surpreendeu o país.",
+    "zh": "辞职震惊了全国。"
+   }
+  },
+  {
+   "rank": 1255,
+   "pt": "impeachment",
+   "pos": "名词",
+   "zh": "弹劾",
+   "example": {
+    "pt": "O impeachment foi aprovado.",
+    "zh": "弹劾案获得通过。"
+   }
+  },
+  {
+   "rank": 1256,
+   "pt": "operação",
+   "pos": "名词",
+   "zh": "（警方）行动 / 手术 / 运营",
+   "example": {
+    "pt": "A operação prendeu dez pessoas.",
+    "zh": "这次行动逮捕了十人。"
+   }
+  },
+  {
+   "rank": 1257,
+   "pt": "flagrante",
+   "pos": "名词",
+   "zh": "现行抓捕",
+   "example": {
+    "pt": "Ele foi preso em flagrante.",
+    "zh": "他被当场抓获。"
+   },
+   "falseFriend": "⚠️ 西语 flagrante = 明目张胆的；葡语 em flagrante = 现行犯当场抓获，新闻高频词"
+  },
+  {
+   "rank": 1258,
+   "pt": "condenação",
+   "pos": "名词",
+   "zh": "定罪 / 谴责",
+   "example": {
+    "pt": "A condenação foi anunciada ontem.",
+    "zh": "判决昨天宣布。"
+   }
+  },
+  {
+   "rank": 1259,
+   "pt": "absolvição",
+   "pos": "名词",
+   "zh": "无罪释放",
+   "example": {
+    "pt": "A absolvição encerrou o caso.",
+    "zh": "无罪判决了结此案。"
+   }
+  },
+  {
+   "rank": 1260,
+   "pt": "promotor",
+   "pos": "名词",
+   "zh": "检察官",
+   "example": {
+    "pt": "O promotor pediu a condenação.",
+    "zh": "检察官请求定罪。"
+   },
+   "falseFriend": "⚠️ 葡语 promotor (de justiça) = 检察官；西语 promotor = 推广者/发起人"
+  },
+  {
+   "rank": 1261,
+   "pt": "delegado",
+   "pos": "名词",
+   "zh": "警长 / 代表",
+   "example": {
+    "pt": "O delegado comandou a investigação.",
+    "zh": "警长指挥了调查。"
+   },
+   "falseFriend": "⚠️ 葡语 delegado = 警长（巴西警察系统）；西语 delegado = 代表/特派员"
+  },
+  {
+   "rank": 1262,
+   "pt": "perito",
+   "pos": "名词",
+   "zh": "鉴定专家",
+   "example": {
+    "pt": "O perito examinou as provas.",
+    "zh": "鉴定专家检验了证据。"
+   }
+  },
+  {
+   "rank": 1263,
+   "pt": "ação",
+   "pos": "名词",
+   "zh": "行动 / 诉讼 / 股票",
+   "example": {
+    "pt": "A ação judicial começa em maio.",
+    "zh": "诉讼五月开庭。"
+   }
+  },
+  {
+   "rank": 1264,
+   "pt": "índice",
+   "pos": "名词",
+   "zh": "指数 / 比率",
+   "example": {
+    "pt": "O índice de desemprego caiu.",
+    "zh": "失业率下降了。"
+   }
+  },
+  {
+   "rank": 1265,
+   "pt": "cotação",
+   "pos": "名词",
+   "zh": "报价 / 汇率",
+   "example": {
+    "pt": "A cotação do dólar subiu.",
+    "zh": "美元汇率上涨。"
+   }
+  },
+  {
+   "rank": 1266,
+   "pt": "alta",
+   "pos": "名词",
+   "zh": "上涨 / 出院",
+   "example": {
+    "pt": "O dólar teve alta de dois por cento.",
+    "zh": "美元上涨了 2%。"
+   }
+  },
+  {
+   "rank": 1267,
+   "pt": "baixa",
+   "pos": "名词",
+   "zh": "下跌 / 减员",
+   "example": {
+    "pt": "A baixa nas vendas preocupa.",
+    "zh": "销量下跌令人担忧。"
+   }
+  },
+  {
+   "rank": 1268,
+   "pt": "recorde",
+   "pos": "名词",
+   "zh": "纪录",
+   "example": {
+    "pt": "As exportações bateram recorde.",
+    "zh": "出口创了纪录。"
+   }
+  },
+  {
+   "rank": 1269,
+   "pt": "superávit",
+   "pos": "名词",
+   "zh": "顺差 / 盈余",
+   "example": {
+    "pt": "O país registrou superávit.",
+    "zh": "该国录得顺差。"
+   }
+  },
+  {
+   "rank": 1270,
+   "pt": "déficit",
+   "pos": "名词",
+   "zh": "赤字 / 逆差",
+   "example": {
+    "pt": "O déficit fiscal aumentou.",
+    "zh": "财政赤字增加了。"
+   }
+  },
+  {
+   "rank": 1271,
+   "pt": "tarifa",
+   "pos": "名词",
+   "zh": "关税 / 资费",
+   "example": {
+    "pt": "A tarifa de energia vai subir.",
+    "zh": "电价将要上调。"
+   }
+  },
+  {
+   "rank": 1272,
+   "pt": "acordo",
+   "pos": "名词",
+   "zh": "协议 / 一致",
+   "example": {
+    "pt": "O acordo foi assinado hoje.",
+    "zh": "协议今天签署。"
+   }
+  },
+  {
+   "rank": 1273,
+   "pt": "importação",
+   "pos": "名词",
+   "zh": "进口",
+   "example": {
+    "pt": "A importação de trigo cresceu.",
+    "zh": "小麦进口增加了。"
+   }
+  },
+  {
+   "rank": 1274,
+   "pt": "seca",
+   "pos": "名词",
+   "zh": "干旱",
+   "example": {
+    "pt": "A seca castiga o nordeste.",
+    "zh": "干旱肆虐东北部。"
+   }
+  },
+  {
+   "rank": 1275,
+   "pt": "queimada",
+   "pos": "名词",
+   "zh": "烧荒 / 野火",
+   "example": {
+    "pt": "As queimadas aumentaram no cerrado.",
+    "zh": "塞拉多的烧荒增多了。"
+   }
+  },
+  {
+   "rank": 1276,
+   "pt": "desmatamento",
+   "pos": "名词",
+   "zh": "毁林",
+   "example": {
+    "pt": "O desmatamento caiu dez por cento.",
+    "zh": "毁林下降了 10%。"
+   }
+  },
+  {
+   "rank": 1277,
+   "pt": "biodiversidade",
+   "pos": "名词",
+   "zh": "生物多样性",
+   "example": {
+    "pt": "A Amazônia tem biodiversidade única.",
+    "zh": "亚马孙拥有独特的生物多样性。"
+   }
+  },
+  {
+   "rank": 1278,
+   "pt": "espécie",
+   "pos": "名词",
+   "zh": "物种 / 种类",
+   "example": {
+    "pt": "A espécie está ameaçada.",
+    "zh": "该物种受到威胁。"
+   }
+  },
+  {
+   "rank": 1279,
+   "pt": "extinção",
+   "pos": "名词",
+   "zh": "灭绝",
+   "example": {
+    "pt": "A extinção do animal seria irreversível.",
+    "zh": "该动物的灭绝将不可逆转。"
+   }
+  },
+  {
+   "rank": 1280,
+   "pt": "habitat",
+   "pos": "名词",
+   "zh": "栖息地",
+   "example": {
+    "pt": "O habitat foi destruído.",
+    "zh": "栖息地被破坏了。"
+   }
+  },
+  {
+   "rank": 1281,
+   "pt": "sustentabilidade",
+   "pos": "名词",
+   "zh": "可持续性",
+   "example": {
+    "pt": "A sustentabilidade virou prioridade.",
+    "zh": "可持续性成了优先事项。"
+   }
+  },
+  {
+   "rank": 1282,
+   "pt": "reciclagem",
+   "pos": "名词",
+   "zh": "回收利用",
+   "example": {
+    "pt": "A reciclagem cresce nas cidades.",
+    "zh": "回收利用在城市中增长。"
+   }
+  },
+  {
+   "rank": 1283,
+   "pt": "lixo",
+   "pos": "名词",
+   "zh": "垃圾",
+   "example": {
+    "pt": "O lixo é recolhido de manhã.",
+    "zh": "垃圾早上清运。"
+   }
+  },
+  {
+   "rank": 1284,
+   "pt": "resíduo",
+   "pos": "名词",
+   "zh": "废弃物 / 残留",
+   "example": {
+    "pt": "Os resíduos foram tratados.",
+    "zh": "废弃物已处理。"
+   }
+  },
+  {
+   "rank": 1285,
+   "pt": "emissão",
+   "pos": "名词",
+   "zh": "排放",
+   "example": {
+    "pt": "A emissão de gases caiu.",
+    "zh": "气体排放下降了。"
+   }
+  },
+  {
+   "rank": 1286,
+   "pt": "carbono",
+   "pos": "名词",
+   "zh": "碳",
+   "example": {
+    "pt": "A meta é reduzir o carbono.",
+    "zh": "目标是减少碳排放。"
+   }
+  },
+  {
+   "rank": 1287,
+   "pt": "solar",
+   "pos": "形容词",
+   "zh": "太阳能的",
+   "example": {
+    "pt": "A energia solar avança no país.",
+    "zh": "太阳能在全国推进。"
+   },
+   "falseFriend": "葡语 solar 作名词 = 庄园大宅（历史建筑）；作形容词 = 太阳能的，与西语一致"
+  },
+  {
+   "rank": 1288,
+   "pt": "eólica",
+   "pos": "形容词",
+   "zh": "风力的",
+   "example": {
+    "pt": "A energia eólica bateu recorde.",
+    "zh": "风电创了纪录。"
+   }
+  },
+  {
+   "rank": 1289,
+   "pt": "contratar",
+   "pos": "动词",
+   "zh": "雇用 / 签约",
+   "example": {
+    "pt": "O clube contratou um novo técnico.",
+    "zh": "俱乐部签了新教练。"
+   },
+   "conjugations": {
+    "eu": "contrato",
+    "tu": "contratas",
+    "ele/ela/você": "contrata",
+    "nós": "contratamos",
+    "eles/elas/vocês": "contratam",
+    "es": "contratar: contrato/contratas/contrata/contratamos/contratan"
+   }
+  },
+  {
+   "rank": 1290,
+   "pt": "demitir",
+   "pos": "动词",
+   "zh": "解雇 / 辞退",
+   "example": {
+    "pt": "A empresa demitiu cem funcionários.",
+    "zh": "公司解雇了一百名员工。"
+   },
+   "conjugations": {
+    "eu": "demito",
+    "tu": "demites",
+    "ele/ela/você": "demite",
+    "nós": "demitimos",
+    "eles/elas/vocês": "demitem",
+    "es": "despedir: despido/despides/despide/despedimos/despiden"
+   }
+  },
+  {
+   "rank": 1291,
+   "pt": "treinar",
+   "pos": "动词",
+   "zh": "训练 / 执教",
+   "example": {
+    "pt": "A equipe treina todos os dias.",
+    "zh": "队伍每天训练。"
+   },
+   "conjugations": {
+    "eu": "treino",
+    "tu": "treinas",
+    "ele/ela/você": "treina",
+    "nós": "treinamos",
+    "eles/elas/vocês": "treinam",
+    "es": "entrenar: entreno/entrenas/entrena/entrenamos/entrenan"
+   }
+  },
+  {
+   "rank": 1292,
+   "pt": "negociar",
+   "pos": "动词",
+   "zh": "谈判 / 协商",
+   "example": {
+    "pt": "Os sindicatos negociam o salário.",
+    "zh": "工会正在谈工资。"
+   },
+   "conjugations": {
+    "eu": "negocio",
+    "tu": "negocias",
+    "ele/ela/você": "negocia",
+    "nós": "negociamos",
+    "eles/elas/vocês": "negociam",
+    "es": "negociar: negocio/negocias/negocia/negociamos/negocian"
+   }
+  },
+  {
+   "rank": 1293,
+   "pt": "divulgar",
+   "pos": "动词",
+   "zh": "公布 / 发布",
+   "example": {
+    "pt": "O IBGE divulgou os dados.",
+    "zh": "地理统计局公布了数据。"
+   },
+   "conjugations": {
+    "eu": "divulgo",
+    "tu": "divulgas",
+    "ele/ela/você": "divulga",
+    "nós": "divulgamos",
+    "eles/elas/vocês": "divulgam",
+    "es": "divulgar: divulgo/divulgas/divulga/divulgamos/divulgan"
+   }
+  },
+  {
+   "rank": 1294,
+   "pt": "revelar",
+   "pos": "动词",
+   "zh": "揭示 / 透露",
+   "example": {
+    "pt": "O relatório revelou falhas graves.",
+    "zh": "报告揭示了严重缺陷。"
+   },
+   "conjugations": {
+    "eu": "revelo",
+    "tu": "revelas",
+    "ele/ela/você": "revela",
+    "nós": "revelamos",
+    "eles/elas/vocês": "revelam",
+    "es": "revelar: revelo/revelas/revela/revelamos/revelan"
+   }
+  },
+  {
+   "rank": 1295,
+   "pt": "alertar",
+   "pos": "动词",
+   "zh": "警告 / 提醒",
+   "example": {
+    "pt": "Os médicos alertaram para o risco.",
+    "zh": "医生们警告了风险。"
+   },
+   "conjugations": {
+    "eu": "alerto",
+    "tu": "alertas",
+    "ele/ela/você": "alerta",
+    "nós": "alertamos",
+    "eles/elas/vocês": "alertam",
+    "es": "alertar: alerto/alertas/alerta/alertamos/alertan"
+   }
+  },
+  {
+   "rank": 1296,
+   "pt": "restringir",
+   "pos": "动词",
+   "zh": "限制",
+   "example": {
+    "pt": "A lei restringe o acesso.",
+    "zh": "该法律限制访问。"
+   },
+   "conjugations": {
+    "eu": "restrinjo",
+    "tu": "restringes",
+    "ele/ela/você": "restringe",
+    "nós": "restringimos",
+    "eles/elas/vocês": "restringem",
+    "es": "restringir: restrinjo/restringes/restringe/restringimos/restringen"
+   }
+  },
+  {
+   "rank": 1297,
+   "pt": "corrigir",
+   "pos": "动词",
+   "zh": "纠正 / 批改",
+   "example": {
+    "pt": "O governo corrigiu o valor.",
+    "zh": "政府修正了数值。"
+   },
+   "conjugations": {
+    "eu": "corrijo",
+    "tu": "corriges",
+    "ele/ela/você": "corrige",
+    "nós": "corrigimos",
+    "eles/elas/vocês": "corrigem",
+    "es": "corregir: corrijo/corriges/corrige/corregimos/corrigen"
+   }
+  },
+  {
+   "rank": 1298,
+   "pt": "registrar",
+   "pos": "动词",
+   "zh": "记录 / 登记",
+   "example": {
+    "pt": "A cidade registrou recorde de calor.",
+    "zh": "该市录得高温纪录。"
+   },
+   "conjugations": {
+    "eu": "registro",
+    "tu": "registras",
+    "ele/ela/você": "registra",
+    "nós": "registramos",
+    "eles/elas/vocês": "registram",
+    "es": "registrar: registro/registras/registra/registramos/registran"
+   }
+  },
+  {
+   "rank": 1299,
+   "pt": "empatar",
+   "pos": "动词",
+   "zh": "踢平 / 打平",
+   "example": {
+    "pt": "O time empatou no último minuto.",
+    "zh": "球队在最后一分钟扳平。"
+   },
+   "conjugations": {
+    "eu": "empato",
+    "tu": "empatas",
+    "ele/ela/você": "empata",
+    "nós": "empatamos",
+    "eles/elas/vocês": "empatam",
+    "es": "empatar: empato/empatas/empata/empatamos/empatan"
+   }
+  },
+  {
+   "rank": 1300,
+   "pt": "vencer",
+   "pos": "动词",
+   "zh": "战胜 / 获胜 / 到期",
+   "example": {
+    "pt": "O Brasil venceu por dois a zero.",
+    "zh": "巴西 2 比 0 获胜。"
+   },
+   "conjugations": {
+    "eu": "venço",
+    "tu": "vences",
+    "ele/ela/você": "vence",
+    "nós": "vencemos",
+    "eles/elas/vocês": "vencem",
+    "es": "vencer: venzo/vences/vence/vencemos/vencen"
    }
   }
  ]

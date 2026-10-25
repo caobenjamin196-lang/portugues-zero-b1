@@ -1,0 +1,57 @@
+====================================================
+W13 · 阅读 3/3 · 环境经济新闻：干旱中的纪录
+====================================================
+
+【标题】
+Em meio à seca, exportações batem recorde
+
+【导语】
+Mesmo com a pior seca dos últimos quarenta anos, as exportações de grãos do Brasil registraram recorde no primeiro semestre, segundo dados divulgados ontem pelo ministério.
+
+【正文】
+De acordo com o relatório, o país exportou o equivalente a trinta bilhões de dólares, alta de doze por cento em relação ao ano passado. A soja liderou as vendas, seguida pelo milho e pelo café.
+
+A seca, porém, castiga o interior. Em algumas regiões, os reservatórios estão no nível mais baixo da série histórica. Os produtores alertaram para o risco de perdas na próxima safra.
+
+— Se não chover até novembro, a colheita vai cair — alertou o presidente do sindicato rural.
+
+O relatório revelou ainda que a energia solar e a eólica ganharam espaço na matriz elétrica. Com os reservatórios baixos, as térmicas foram acionadas, e a tarifa de energia vai subir a partir do próximo mês.
+
+Ambientalistas cobraram medidas contra o desmatamento e as queimadas. — O recorde de hoje não pode custar a biodiversidade de amanhã — afirmou uma pesquisadora.
+
+O governo informou, por meio de nota, que um pacote de apoio aos produtores será anunciado até o fim do mês. Se aprovado, o programa terá crédito emergencial e seguro contra perdas.
+
+---- 词汇表（★ = 假朋友/易混）----
+mesmo com = 尽管（= em meio a 的转折近义）
+seca = 干旱（★ 西语 sequía，词形相近不同）
+registrar recorde = 录得纪录
+em relação a = 与…相比
+milho = 玉米
+reservatório = 水库
+nível = 水位/水平
+série histórica = 历史数据序列
+safra = 收成/收获季（★ 不是「安全」）
+colheita = 收割
+sindicato rural = 农村工会
+matriz elétrica = 电力结构
+térmica = 火电站
+tarifa = 资费/电价
+cobrar = 敦促/要求（★ 兼「收费」）
+por meio de nota = 通过声明
+crédito emergencial = 紧急信贷
+
+---- 阅读理解题（答案在文末）----
+1. 尽管干旱，哪项数据创了纪录？涨幅多少？
+2. 干旱带来了哪两个具体风险？
+3. 「as térmicas foram acionadas」是什么语态？为什么用过去时？
+4. 环保人士警告什么？转述语是哪个？
+5. 政府的回应用了什么发布形式？计划里有什么条件句？
+
+【语法观察】
+- 标题 em meio à seca：名词短语表转折背景
+- segundo dados divulgados：分词短语作定语（divulgados = 被公布的）
+- foram acionadas / será anunciado：被动两连
+- Se não chover / Se aprovado：虚拟式未来时两处
+- alertou / afirmou / cobraram：转述动词三连
+
+答案：1) 粮食出口额创纪录（三百亿美元），涨 12%。2) 下季收成可能受损；水库水位历史最低导致电价上涨。3) 真被动（foram acionadas），过去时因为动作已完成。4) 警告「今天的纪录不能以明天的生物多样性为代价」；转述语是 afirmou。5) por meio de nota（声明）；Se aprovado, o programa terá…（虚拟式未来时条件）。
