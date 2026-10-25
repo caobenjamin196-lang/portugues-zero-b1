@@ -1,5 +1,5 @@
 {
- "description": "W1-W12 每周 100 频率词中全部动词（261 个，含「词根→派生」扩展动词）的现在时变位表（PT-BR），含西语对照",
+ "description": "W1-W13 每周 100 频率词中全部动词（273 个，含「词根→派生」扩展动词）的现在时变位表（PT-BR），含西语对照",
  "tense": "presente do indicativo",
  "verbs": [
   {
@@ -3592,6 +3592,174 @@
    },
    "spanish": "surgir: surjo/surges/surge/surgimos/surgen",
    "note": "eu surjo；surgir de/em = 出现于"
+  },
+  {
+   "infinitive": "contratar",
+   "meaning": "雇用 / 签约",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "contrato",
+    "tu": "contratas",
+    "ele/ela/você": "contrata",
+    "nós": "contratamos",
+    "eles/elas/vocês": "contratam"
+   },
+   "spanish": "contratar: contrato/contratas/contrata/contratamos/contratan",
+   "note": "新闻高频：contratar um técnico = 签教练；名词 contratação"
+  },
+  {
+   "infinitive": "demitir",
+   "meaning": "解雇 / 辞退",
+   "type": "regular -ir",
+   "conjugation": {
+    "eu": "demito",
+    "tu": "demites",
+    "ele/ela/você": "demite",
+    "nós": "demitimos",
+    "eles/elas/vocês": "demitem"
+   },
+   "spanish": "despedir: despido/despides/despide/despedimos/despiden",
+   "note": "demitir alguém = 解雇某人；demissão = 解雇（名词）"
+  },
+  {
+   "infinitive": "treinar",
+   "meaning": "训练 / 执教",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "treino",
+    "tu": "treinas",
+    "ele/ela/você": "treina",
+    "nós": "treinamos",
+    "eles/elas/vocês": "treinam"
+   },
+   "spanish": "entrenar: entreno/entrenas/entrena/entrenamos/entrenan",
+   "note": "treinar (alguém/para) = 训练；treinador = 教练"
+  },
+  {
+   "infinitive": "negociar",
+   "meaning": "谈判 / 协商",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "negocio",
+    "tu": "negocias",
+    "ele/ela/você": "negocia",
+    "nós": "negociamos",
+    "eles/elas/vocês": "negociam"
+   },
+   "spanish": "negociar: negocio/negocias/negocia/negociamos/negocian",
+   "note": "negociar com = 与…谈判；negociação = 谈判"
+  },
+  {
+   "infinitive": "divulgar",
+   "meaning": "公布 / 发布",
+   "type": "regular -ar（g→gu 仅未来虚拟式）",
+   "conjugation": {
+    "eu": "divulgo",
+    "tu": "divulgas",
+    "ele/ela/você": "divulga",
+    "nós": "divulgamos",
+    "eles/elas/vocês": "divulgam"
+   },
+   "spanish": "divulgar: divulgo/divulgas/divulga/divulgamos/divulgan",
+   "note": "divulgar dados/resultados = 公布数据；新闻高频"
+  },
+  {
+   "infinitive": "revelar",
+   "meaning": "揭示 / 透露",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "revelo",
+    "tu": "revelas",
+    "ele/ela/você": "revela",
+    "nós": "revelamos",
+    "eles/elas/vocês": "revelam"
+   },
+   "spanish": "revelar: revelo/revelas/revela/revelamos/revelan",
+   "note": "revelar que… = 透露…；revelação = 揭示/新星"
+  },
+  {
+   "infinitive": "alertar",
+   "meaning": "警告 / 提醒",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "alerto",
+    "tu": "alertas",
+    "ele/ela/você": "alerta",
+    "nós": "alertamos",
+    "eles/elas/vocês": "alertam"
+   },
+   "spanish": "alertar: alerto/alertas/alerta/alertamos/alertan",
+   "note": "alertar para/sobre = 警告…；alerta = 警报"
+  },
+  {
+   "infinitive": "restringir",
+   "meaning": "限制",
+   "type": "irregular（g→j）",
+   "conjugation": {
+    "eu": "restrinjo",
+    "tu": "restringes",
+    "ele/ela/você": "restringe",
+    "nós": "restringimos",
+    "eles/elas/vocês": "restringem"
+   },
+   "spanish": "restringir: restrinjo/restringes/restringe/restringimos/restringen",
+   "note": "eu restrinjo；restringir o acesso = 限制访问"
+  },
+  {
+   "infinitive": "corrigir",
+   "meaning": "纠正 / 批改",
+   "type": "irregular（g→j）",
+   "conjugation": {
+    "eu": "corrijo",
+    "tu": "corriges",
+    "ele/ela/você": "corrige",
+    "nós": "corrigimos",
+    "eles/elas/vocês": "corrigem"
+   },
+   "spanish": "corregir: corrijo/corriges/corrige/corregimos/corrigen",
+   "note": "eu corrijo；correção = 修正/批改"
+  },
+  {
+   "infinitive": "registrar",
+   "meaning": "记录 / 登记",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "registro",
+    "tu": "registras",
+    "ele/ela/você": "registra",
+    "nós": "registramos",
+    "eles/elas/vocês": "registram"
+   },
+   "spanish": "registrar: registro/registras/registra/registramos/registran",
+   "note": "registrar recorde/ocorrência = 录得纪录/立案；registro = 记录"
+  },
+  {
+   "infinitive": "empatar",
+   "meaning": "踢平 / 打平",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "empato",
+    "tu": "empatas",
+    "ele/ela/você": "empata",
+    "nós": "empatamos",
+    "eles/elas/vocês": "empatam"
+   },
+   "spanish": "empatar: empato/empatas/empata/empatamos/empatan",
+   "note": "empatar com = 与…战平；empate = 平局"
+  },
+  {
+   "infinitive": "vencer",
+   "meaning": "战胜 / 获胜 / 到期",
+   "type": "regular -er（c→ç：eu venço）",
+   "conjugation": {
+    "eu": "venço",
+    "tu": "vences",
+    "ele/ela/você": "vence",
+    "nós": "vencemos",
+    "eles/elas/vocês": "vencem"
+   },
+   "spanish": "vencer: venzo/vences/vence/vencemos/vencen",
+   "note": "vencer por X a Y = X 比 Y 获胜；vencido = 输家/已到期"
   }
  ]
 }
