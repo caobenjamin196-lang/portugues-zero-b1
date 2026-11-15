@@ -1,5 +1,5 @@
 {
- "description": "W1-W13 每周 100 频率词中全部动词（273 个，含「词根→派生」扩展动词）的现在时变位表（PT-BR），含西语对照",
+ "description": "W1-W14 每周 100 频率词中全部动词（285 个，含「词根→派生」扩展动词）的现在时变位表（PT-BR），含西语对照",
  "tense": "presente do indicativo",
  "verbs": [
   {
@@ -3760,6 +3760,174 @@
    },
    "spanish": "vencer: venzo/vences/vence/vencemos/vencen",
    "note": "vencer por X a Y = X 比 Y 获胜；vencido = 输家/已到期"
+  },
+  {
+   "infinitive": "suspirar",
+   "meaning": "叹息 / 渴望",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "suspiro",
+    "tu": "suspiras",
+    "ele/ela/você": "suspira",
+    "nós": "suspiramos",
+    "eles/elas/vocês": "suspiram"
+   },
+   "spanish": "suspirar: suspiro/suspiras/suspira/suspiramos/suspiran",
+   "note": "suspirar de/por = 因…叹息/渴望；suspiro = 叹息"
+  },
+  {
+   "infinitive": "sussurrar",
+   "meaning": "低语 / 耳语",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "sussurro",
+    "tu": "sussurras",
+    "ele/ela/você": "sussurra",
+    "nós": "sussurramos",
+    "eles/elas/vocês": "sussurram"
+   },
+   "spanish": "susurrar: susurro/susurras/susurra/susurramos/susurran",
+   "note": "sussurrar algo a alguém = 对某人耳语"
+  },
+  {
+   "infinitive": "soluçar",
+   "meaning": "抽泣 / 呜咽",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "soluço",
+    "tu": "soluças",
+    "ele/ela/você": "soluça",
+    "nós": "soluçamos",
+    "eles/elas/vocês": "soluçam"
+   },
+   "spanish": "sollozar: sollozo/sollozas/solloza/sollozamos/sollozan",
+   "note": "soluçar = 抽泣（介于哭与喘之间）"
+  },
+  {
+   "infinitive": "acariciar",
+   "meaning": "爱抚 / 轻抚",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "acaricio",
+    "tu": "acaricias",
+    "ele/ela/você": "acaricia",
+    "nós": "acariciamos",
+    "eles/elas/vocês": "acariciam"
+   },
+   "spanish": "acariciar: acaricio/acaricias/acaricia/acariciamos/acarician",
+   "note": "acariciar = 轻抚；carícia = 爱抚"
+  },
+  {
+   "infinitive": "ousar",
+   "meaning": "敢于 / 胆敢",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "ouso",
+    "tu": "ousas",
+    "ele/ela/você": "ousa",
+    "nós": "ousamos",
+    "eles/elas/vocês": "ousam"
+   },
+   "spanish": "osar: oso/osas/osa/osamos/osan",
+   "note": "ousar + 不定式 = 敢于做；ousadia = 大胆"
+  },
+  {
+   "infinitive": "consolar",
+   "meaning": "安慰",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "consolo",
+    "tu": "consolas",
+    "ele/ela/você": "consola",
+    "nós": "consolamos",
+    "eles/elas/vocês": "consolam"
+   },
+   "spanish": "consolar: consuelo/consuelas/consuela/consolamos/consuelan（词干 o→ue）",
+   "note": "consolar alguém = 安慰某人；consolo = 安慰"
+  },
+  {
+   "infinitive": "arrepender",
+   "meaning": "后悔 / 懊悔",
+   "type": "regular -er（常用反身）",
+   "conjugation": {
+    "eu": "arrependo",
+    "tu": "arrependes",
+    "ele/ela/você": "arrepende",
+    "nós": "arrependemos",
+    "eles/elas/vocês": "arrependem"
+   },
+   "spanish": "arrepentirse: me arrepiento/te arrepientes/se arrepiente/nos arrepentimos/se arrepienten",
+   "note": "arrepender-se de = 后悔…；arrependimento = 悔恨"
+  },
+  {
+   "infinitive": "contemplar",
+   "meaning": "凝视 / 静观",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "contemplo",
+    "tu": "contemplas",
+    "ele/ela/você": "contempla",
+    "nós": "contemplamos",
+    "eles/elas/vocês": "contemplam"
+   },
+   "spanish": "contemplar: contemplo/contemplas/contempla/contemplamos/contemplan",
+   "note": "contemplar = 静观/凝视（带敬意）"
+  },
+  {
+   "infinitive": "fitar",
+   "meaning": "盯着看 / 注视",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "fito",
+    "tu": "fitas",
+    "ele/ela/você": "fita",
+    "nós": "fitamos",
+    "eles/elas/vocês": "fitam"
+   },
+   "spanish": "mirar fijamente / clavar la vista",
+   "note": "fitar os olhos em = 注视；文学高频"
+  },
+  {
+   "infinitive": "tremer",
+   "meaning": "颤抖",
+   "type": "regular -er",
+   "conjugation": {
+    "eu": "tremo",
+    "tu": "tremes",
+    "ele/ela/você": "treme",
+    "nós": "trememos",
+    "eles/elas/vocês": "tremem"
+   },
+   "spanish": "temblar: tiemblo/tiemblas/tiembla/temblamos/tiemblan（词干 e→ie）",
+   "note": "tremer de frio/medo = 冷/怕得发抖"
+  },
+  {
+   "infinitive": "vaguear",
+   "meaning": "游荡 / 徘徊",
+   "type": "regular -ar",
+   "conjugation": {
+    "eu": "vagueio",
+    "tu": "vagueias",
+    "ele/ela/você": "vagueia",
+    "nós": "vagueamos",
+    "eles/elas/vocês": "vagueiam"
+   },
+   "spanish": "vagar: vago/vagas/vaga/vagamos/vagan",
+   "note": "vaguear pelas ruas = 在街头游荡"
+  },
+  {
+   "infinitive": "gemer",
+   "meaning": "呻吟 / 呜咽",
+   "type": "regular -er",
+   "conjugation": {
+    "eu": "gemo",
+    "tu": "gemes",
+    "ele/ela/você": "geme",
+    "nós": "gememos",
+    "eles/elas/vocês": "gemem"
+   },
+   "spanish": "gemir: gimo/gimes/gime/gemimos/gimen（e→i）",
+   "note": "gemer de dor = 疼得呻吟；gemido = 呻吟声"
   }
  ]
 }
