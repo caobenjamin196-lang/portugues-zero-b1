@@ -1,5 +1,5 @@
 {
- "description": "每周 100 个频率词汇（PT-BR）。W1=频率排名1-100，W2=101-200，W3=201-300，W4=301-400，W5=401-500，W6=501-600，W7=601-700，W8=701-800，W9=801-900，W10=901-1000，W11=1001-1100，W12=1101-1200，W13=1201-1300。选词参考 Corpus do Português / Routledge Frequency Dictionary 高频区（按教学需要微调）。动词只保留原形词条（é/sou/foi/está/tem 等变位形式已并入原形词条的变位表），并按「词根→派生」机制扩展（fazer→desfazer/refazer、pôr→propor/compor/depor、ter→manter/conter/ater-se 等），每周至少 10 个动词。动词附现在时完整变位与西语对照；falseFriend 为西语假朋友警示。",
+ "description": "每周 100 个频率词汇（PT-BR）。W1=频率排名1-100，W2=101-200，W3=201-300，W4=301-400，W5=401-500，W6=501-600，W7=601-700，W8=701-800，W9=801-900，W10=901-1000，W11=1001-1100，W12=1101-1200，W13=1201-1300，W14=1301-1400。选词参考 Corpus do Português / Routledge Frequency Dictionary 高频区（按教学需要微调）。动词只保留原形词条（é/sou/foi/está/tem 等变位形式已并入原形词条的变位表），并按「词根→派生」机制扩展（fazer→desfazer/refazer、pôr→propor/compor/depor、ter→manter/conter/ater-se 等），每周至少 10 个动词。动词附现在时完整变位与西语对照；falseFriend 为西语假朋友警示。",
  "source": "Corpus do Português / Routledge Frequency Dictionary of Portuguese（高频区，按教学需要微调）",
  "variant": "PT-BR",
  "w1": [
@@ -15317,6 +15317,1109 @@
     "nós": "vencemos",
     "eles/elas/vocês": "vencem",
     "es": "vencer: venzo/vences/vence/vencemos/vencen"
+   }
+  }
+ ],
+ "w14": [
+  {
+   "rank": 1301,
+   "pt": "alma",
+   "pos": "名词",
+   "zh": "灵魂 / 心灵",
+   "example": {
+    "pt": "Ela tem uma alma generosa.",
+    "zh": "她有一颗慷慨的心灵。"
+   }
+  },
+  {
+   "rank": 1302,
+   "pt": "sombra",
+   "pos": "名词",
+   "zh": "影子 / 阴影",
+   "example": {
+    "pt": "Descansamos à sombra da árvore.",
+    "zh": "我们在树荫下休息。"
+   }
+  },
+  {
+   "rank": 1303,
+   "pt": "solidão",
+   "pos": "名词",
+   "zh": "孤独",
+   "example": {
+    "pt": "A solidão da noite o assustava.",
+    "zh": "夜晚的孤独让他害怕。"
+   }
+  },
+  {
+   "rank": 1304,
+   "pt": "silêncio",
+   "pos": "名词",
+   "zh": "沉默 / 寂静",
+   "example": {
+    "pt": "Um silêncio pesado caiu na sala.",
+    "zh": "一阵沉重的沉默笼罩了房间。"
+   }
+  },
+  {
+   "rank": 1305,
+   "pt": "suspiro",
+   "pos": "名词",
+   "zh": "叹息 / 深呼吸",
+   "example": {
+    "pt": "Ela deu um suspiro de alívio.",
+    "zh": "她松了口气。"
+   }
+  },
+  {
+   "rank": 1306,
+   "pt": "lágrima",
+   "pos": "名词",
+   "zh": "眼泪",
+   "example": {
+    "pt": "Uma lágrima rolou pelo rosto.",
+    "zh": "一滴泪滑过脸庞。"
+   }
+  },
+  {
+   "rank": 1307,
+   "pt": "sorriso",
+   "pos": "名词",
+   "zh": "微笑",
+   "example": {
+    "pt": "O sorriso dela iluminou o dia.",
+    "zh": "她的微笑照亮了一天。"
+   }
+  },
+  {
+   "rank": 1308,
+   "pt": "abraço",
+   "pos": "名词",
+   "zh": "拥抱",
+   "example": {
+    "pt": "Ele me deu um abraço apertado.",
+    "zh": "他给了我一个紧紧的拥抱。"
+   }
+  },
+  {
+   "rank": 1309,
+   "pt": "beijo",
+   "pos": "名词",
+   "zh": "吻",
+   "example": {
+    "pt": "O primeiro beijo foi na praia.",
+    "zh": "初吻在海边。"
+   }
+  },
+  {
+   "rank": 1310,
+   "pt": "adeus",
+   "pos": "名词",
+   "zh": "永别 / 再见",
+   "example": {
+    "pt": "Dissemos adeus na estação.",
+    "zh": "我们在车站告别。"
+   },
+   "falseFriend": "葡语 adeus 语气重、偏「永别」，日常再见用 tchau；西语 adiós 日常通用"
+  },
+  {
+   "rank": 1311,
+   "pt": "despedida",
+   "pos": "名词",
+   "zh": "告别 / 送别会",
+   "example": {
+    "pt": "A despedida foi emocionante.",
+    "zh": "送别很感人。"
+   }
+  },
+  {
+   "rank": 1312,
+   "pt": "promessa",
+   "pos": "名词",
+   "zh": "承诺 / 诺言",
+   "example": {
+    "pt": "Ele cumpriu a promessa.",
+    "zh": "他兑现了诺言。"
+   }
+  },
+  {
+   "rank": 1313,
+   "pt": "ternura",
+   "pos": "名词",
+   "zh": "温柔 / 柔情",
+   "example": {
+    "pt": "Ela olhou o filho com ternura.",
+    "zh": "她温柔地看着儿子。"
+   }
+  },
+  {
+   "rank": 1314,
+   "pt": "paixão",
+   "pos": "名词",
+   "zh": "激情 / 热恋",
+   "example": {
+    "pt": "Vivem uma grande paixão.",
+    "zh": "他们正经历一场热恋。"
+   }
+  },
+  {
+   "rank": 1315,
+   "pt": "ódio",
+   "pos": "名词",
+   "zh": "仇恨",
+   "example": {
+    "pt": "O ódio destrói quem o sente.",
+    "zh": "仇恨毁掉的是怀有它的人。"
+   }
+  },
+  {
+   "rank": 1316,
+   "pt": "rancor",
+   "pos": "名词",
+   "zh": "积怨 / 怨恨",
+   "example": {
+    "pt": "Ele guarda rancor do passado.",
+    "zh": "他对过去怀恨在心。"
+   }
+  },
+  {
+   "rank": 1317,
+   "pt": "mágoa",
+   "pos": "名词",
+   "zh": "伤心 / 委屈",
+   "example": {
+    "pt": "A mágoa ainda não passou.",
+    "zh": "那份伤心还没过去。"
+   }
+  },
+  {
+   "rank": 1318,
+   "pt": "angústia",
+   "pos": "名词",
+   "zh": "焦虑 / 痛苦",
+   "example": {
+    "pt": "A angústia apertava o peito.",
+    "zh": "焦虑揪紧了胸口。"
+   }
+  },
+  {
+   "rank": 1319,
+   "pt": "desespero",
+   "pos": "名词",
+   "zh": "绝望",
+   "example": {
+    "pt": "No desespero, ele gritou.",
+    "zh": "绝望中他喊了出来。"
+   }
+  },
+  {
+   "rank": 1320,
+   "pt": "consolo",
+   "pos": "名词",
+   "zh": "安慰",
+   "example": {
+    "pt": "Suas palavras foram um consolo.",
+    "zh": "她的话是一种安慰。"
+   }
+  },
+  {
+   "rank": 1321,
+   "pt": "perdão",
+   "pos": "名词",
+   "zh": "原谅 / 宽恕",
+   "example": {
+    "pt": "Ele pediu perdão ajoelhado.",
+    "zh": "他跪着请求原谅。"
+   }
+  },
+  {
+   "rank": 1322,
+   "pt": "arrependimento",
+   "pos": "名词",
+   "zh": "悔恨 / 懊悔",
+   "example": {
+    "pt": "O arrependimento veio tarde.",
+    "zh": "悔悟来得太晚。"
+   }
+  },
+  {
+   "rank": 1323,
+   "pt": "sorte",
+   "pos": "名词",
+   "zh": "运气",
+   "example": {
+    "pt": "Que sorte a nossa!",
+    "zh": "我们真走运！"
+   }
+  },
+  {
+   "rank": 1324,
+   "pt": "azar",
+   "pos": "名词",
+   "zh": "坏运气 / 倒霉",
+   "example": {
+    "pt": "Deu azar: choveu no casamento.",
+    "zh": "真倒霉：婚礼下雨了。"
+   },
+   "falseFriend": "⚠️ 西语 azar = 随机/机遇（中性）；葡语 azar 固定贬义 = 倒霉"
+  },
+  {
+   "rank": 1325,
+   "pt": "milagre",
+   "pos": "名词",
+   "zh": "奇迹",
+   "example": {
+    "pt": "Foi um milagre ninguém se ferir.",
+    "zh": "没人受伤真是奇迹。"
+   }
+  },
+  {
+   "rank": 1326,
+   "pt": "fantasia",
+   "pos": "名词",
+   "zh": "幻想 / 化妆服",
+   "example": {
+    "pt": "A fantasia virou realidade.",
+    "zh": "幻想变成了现实。"
+   }
+  },
+  {
+   "rank": 1327,
+   "pt": "enigma",
+   "pos": "名词",
+   "zh": "谜 / 谜团",
+   "example": {
+    "pt": "O caso continua um enigma.",
+    "zh": "这案子仍是个谜。"
+   }
+  },
+  {
+   "rank": 1328,
+   "pt": "horizonte",
+   "pos": "名词",
+   "zh": "地平线 / 视野",
+   "example": {
+    "pt": "O sol sumiu no horizonte.",
+    "zh": "太阳消失在地平线上。"
+   }
+  },
+  {
+   "rank": 1329,
+   "pt": "amanhecer",
+   "pos": "名词",
+   "zh": "黎明 / 拂晓",
+   "example": {
+    "pt": "O amanhecer na roça é lindo.",
+    "zh": "乡下的黎明很美。"
+   }
+  },
+  {
+   "rank": 1330,
+   "pt": "entardecer",
+   "pos": "名词",
+   "zh": "傍晚 / 黄昏",
+   "example": {
+    "pt": "O entardecer pintou o céu.",
+    "zh": "黄昏染红了天空。"
+   }
+  },
+  {
+   "rank": 1331,
+   "pt": "anoitecer",
+   "pos": "名词",
+   "zh": "夜幕降临",
+   "example": {
+    "pt": "Chegamos ao anoitecer.",
+    "zh": "我们入夜时到达。"
+   }
+  },
+  {
+   "rank": 1332,
+   "pt": "brisa",
+   "pos": "名词",
+   "zh": "微风",
+   "example": {
+    "pt": "A brisa do mar refrescava.",
+    "zh": "海风带来凉意。"
+   }
+  },
+  {
+   "rank": 1333,
+   "pt": "trovão",
+   "pos": "名词",
+   "zh": "雷",
+   "example": {
+    "pt": "O trovão assustou as crianças.",
+    "zh": "雷声吓到了孩子们。"
+   }
+  },
+  {
+   "rank": 1334,
+   "pt": "relâmpago",
+   "pos": "名词",
+   "zh": "闪电",
+   "example": {
+    "pt": "Um relâmpago rachou o céu.",
+    "zh": "一道闪电划破天空。"
+   }
+  },
+  {
+   "rank": 1335,
+   "pt": "névoa",
+   "pos": "名词",
+   "zh": "薄雾",
+   "example": {
+    "pt": "A névoa cobria o vale.",
+    "zh": "薄雾笼罩着山谷。"
+   }
+  },
+  {
+   "rank": 1336,
+   "pt": "neblina",
+   "pos": "名词",
+   "zh": "浓雾",
+   "example": {
+    "pt": "A neblina fechou a estrada.",
+    "zh": "浓雾封锁了道路。"
+   }
+  },
+  {
+   "rank": 1337,
+   "pt": "maré",
+   "pos": "名词",
+   "zh": "潮汐",
+   "example": {
+    "pt": "A maré está subindo.",
+    "zh": "潮水在上涨。"
+   }
+  },
+  {
+   "rank": 1338,
+   "pt": "concha",
+   "pos": "名词",
+   "zh": "贝壳",
+   "example": {
+    "pt": "Achei uma concha na areia.",
+    "zh": "我在沙滩上捡到一只贝壳。"
+   }
+  },
+  {
+   "rank": 1339,
+   "pt": "vela",
+   "pos": "名词",
+   "zh": "帆 / 蜡烛",
+   "example": {
+    "pt": "O barco abriu as velas.",
+    "zh": "船张开了帆。"
+   }
+  },
+  {
+   "rank": 1340,
+   "pt": "farol",
+   "pos": "名词",
+   "zh": "灯塔 / 车灯",
+   "example": {
+    "pt": "O farol guiava os navios.",
+    "zh": "灯塔为船只引航。"
+   }
+  },
+  {
+   "rank": 1341,
+   "pt": "porto",
+   "pos": "名词",
+   "zh": "港口",
+   "example": {
+    "pt": "O navio atracou no porto.",
+    "zh": "船停靠在港口。"
+   }
+  },
+  {
+   "rank": 1342,
+   "pt": "cais",
+   "pos": "名词",
+   "zh": "码头",
+   "example": {
+    "pt": "Pescadores no cais ao amanhecer.",
+    "zh": "黎明时码头上的渔民。"
+   }
+  },
+  {
+   "rank": 1343,
+   "pt": "trilha",
+   "pos": "名词",
+   "zh": "小径 / 步道",
+   "example": {
+    "pt": "A trilha sobe até o pico.",
+    "zh": "小径一路通到峰顶。"
+   }
+  },
+  {
+   "rank": 1344,
+   "pt": "atalho",
+   "pos": "名词",
+   "zh": "捷径",
+   "example": {
+    "pt": "Pegamos um atalho pelo campo.",
+    "zh": "我们抄了田间的一条捷径。"
+   }
+  },
+  {
+   "rank": 1345,
+   "pt": "encruzilhada",
+   "pos": "名词",
+   "zh": "十字路口",
+   "example": {
+    "pt": "Paramos na encruzilhada.",
+    "zh": "我们在十字路口停下。"
+   }
+  },
+  {
+   "rank": 1346,
+   "pt": "aldeia",
+   "pos": "名词",
+   "zh": "村庄",
+   "example": {
+    "pt": "A aldeia fica na montanha.",
+    "zh": "村庄在山上。"
+   }
+  },
+  {
+   "rank": 1347,
+   "pt": "vila",
+   "pos": "名词",
+   "zh": "小镇 / 居民区",
+   "example": {
+    "pt": "A vila cresceu devagar.",
+    "zh": "小镇慢慢发展起来。"
+   }
+  },
+  {
+   "rank": 1348,
+   "pt": "casarão",
+   "pos": "名词",
+   "zh": "大宅 / 老宅",
+   "example": {
+    "pt": "O casarão virou museu.",
+    "zh": "老宅变成了博物馆。"
+   }
+  },
+  {
+   "rank": 1349,
+   "pt": "sobrado",
+   "pos": "名词",
+   "zh": "两层楼房",
+   "example": {
+    "pt": "Mora num sobrado antigo.",
+    "zh": "他住在一栋老式两层楼房里。"
+   }
+  },
+  {
+   "rank": 1350,
+   "pt": "varanda",
+   "pos": "名词",
+   "zh": "门廊 / 阳台",
+   "example": {
+    "pt": "Tomamos café na varanda.",
+    "zh": "我们在门廊喝了咖啡。"
+   }
+  },
+  {
+   "rank": 1351,
+   "pt": "quintal",
+   "pos": "名词",
+   "zh": "后院",
+   "example": {
+    "pt": "As crianças brincam no quintal.",
+    "zh": "孩子们在后院玩。"
+   }
+  },
+  {
+   "rank": 1352,
+   "pt": "roseira",
+   "pos": "名词",
+   "zh": "玫瑰丛",
+   "example": {
+    "pt": "A roseira floresceu na primavera.",
+    "zh": "玫瑰丛在春天开了花。"
+   }
+  },
+  {
+   "rank": 1353,
+   "pt": "espinho",
+   "pos": "名词",
+   "zh": "刺",
+   "example": {
+    "pt": "O espinho furou o dedo.",
+    "zh": "刺扎了手指。"
+   }
+  },
+  {
+   "rank": 1354,
+   "pt": "pétala",
+   "pos": "名词",
+   "zh": "花瓣",
+   "example": {
+    "pt": "Pétalas caíram no chão.",
+    "zh": "花瓣落了一地。"
+   }
+  },
+  {
+   "rank": 1355,
+   "pt": "tronco",
+   "pos": "名词",
+   "zh": "树干",
+   "example": {
+    "pt": "O tronco era oco por dentro.",
+    "zh": "树干里面是空的。"
+   }
+  },
+  {
+   "rank": 1356,
+   "pt": "galho",
+   "pos": "名词",
+   "zh": "树枝",
+   "example": {
+    "pt": "O pássaro pousou no galho.",
+    "zh": "鸟落在树枝上。"
+   }
+  },
+  {
+   "rank": 1357,
+   "pt": "semente",
+   "pos": "名词",
+   "zh": "种子",
+   "example": {
+    "pt": "Plantei a semente na horta.",
+    "zh": "我把种子种在菜园里。"
+   }
+  },
+  {
+   "rank": 1358,
+   "pt": "vendaval",
+   "pos": "名词",
+   "zh": "狂风 / 大风",
+   "example": {
+    "pt": "O vendaval derrubou árvores.",
+    "zh": "狂风刮倒了大树。"
+   }
+  },
+  {
+   "rank": 1359,
+   "pt": "penumbra",
+   "pos": "名词",
+   "zh": "昏暗 / 半暗",
+   "example": {
+    "pt": "Na penumbra, mal vi o rosto dela.",
+    "zh": "昏暗中我几乎看不清她的脸。"
+   }
+  },
+  {
+   "rank": 1360,
+   "pt": "clarão",
+   "pos": "名词",
+   "zh": "闪光 / 亮光",
+   "example": {
+    "pt": "Um clarão iluminou a sala.",
+    "zh": "一道亮光照亮了房间。"
+   }
+  },
+  {
+   "rank": 1361,
+   "pt": "escuridão",
+   "pos": "名词",
+   "zh": "黑暗",
+   "example": {
+    "pt": "A escuridão era total.",
+    "zh": "一片漆黑。"
+   }
+  },
+  {
+   "rank": 1362,
+   "pt": "luar",
+   "pos": "名词",
+   "zh": "月光",
+   "example": {
+    "pt": "O luar entrava pela janela.",
+    "zh": "月光从窗户照进来。"
+   }
+  },
+  {
+   "rank": 1363,
+   "pt": "cantiga",
+   "pos": "名词",
+   "zh": "歌谣 / 儿歌",
+   "example": {
+    "pt": "A avó cantava uma cantiga antiga.",
+    "zh": "祖母唱着一首老歌谣。"
+   }
+  },
+  {
+   "rank": 1364,
+   "pt": "melodia",
+   "pos": "名词",
+   "zh": "旋律",
+   "example": {
+    "pt": "A melodia ficou na cabeça.",
+    "zh": "旋律萦绕在脑海里。"
+   }
+  },
+  {
+   "rank": 1365,
+   "pt": "sino",
+   "pos": "名词",
+   "zh": "钟",
+   "example": {
+    "pt": "O sino da igreja tocou.",
+    "zh": "教堂的钟响了。"
+   },
+   "falseFriend": "⚠️ 西语 sino = 命运/而是（连词）；葡语 sino = 钟，「命运」葡语是 destino"
+  },
+  {
+   "rank": 1366,
+   "pt": "torre",
+   "pos": "名词",
+   "zh": "塔",
+   "example": {
+    "pt": "A torre do castelo data do século XVI.",
+    "zh": "城堡的塔建于十六世纪。"
+   }
+  },
+  {
+   "rank": 1367,
+   "pt": "ponte",
+   "pos": "名词",
+   "zh": "桥",
+   "example": {
+    "pt": "A ponte liga as duas margens.",
+    "zh": "桥连接两岸。"
+   }
+  },
+  {
+   "rank": 1368,
+   "pt": "penhasco",
+   "pos": "名词",
+   "zh": "悬崖",
+   "example": {
+    "pt": "A casa fica à beira do penhasco.",
+    "zh": "房子在悬崖边上。"
+   },
+   "falseFriend": "西语 peñasco；注意葡语 nh 对应西语 ñ"
+  },
+  {
+   "rank": 1369,
+   "pt": "vale",
+   "pos": "名词",
+   "zh": "山谷",
+   "example": {
+    "pt": "O vale ficava verde na chuva.",
+    "zh": "雨后山谷一片翠绿。"
+   }
+  },
+  {
+   "rank": 1370,
+   "pt": "gruta",
+   "pos": "名词",
+   "zh": "岩洞 / 石窟",
+   "example": {
+    "pt": "A gruta escondia um lago.",
+    "zh": "岩洞里藏着一个湖。"
+   }
+  },
+  {
+   "rank": 1371,
+   "pt": "poço",
+   "pos": "名词",
+   "zh": "水井",
+   "example": {
+    "pt": "O poço secou na estiagem.",
+    "zh": "水井在旱季干了。"
+   }
+  },
+  {
+   "rank": 1372,
+   "pt": "riacho",
+   "pos": "名词",
+   "zh": "小溪",
+   "example": {
+    "pt": "O riacho cruza a fazenda.",
+    "zh": "小溪穿过农场。"
+   }
+  },
+  {
+   "rank": 1373,
+   "pt": "capricho",
+   "pos": "名词",
+   "zh": "任性 / 心血来潮",
+   "example": {
+    "pt": "Foi um capricho do destino.",
+    "zh": "那是命运的一时兴起。"
+   }
+  },
+  {
+   "rank": 1374,
+   "pt": "afeto",
+   "pos": "名词",
+   "zh": "深情 / 慈爱",
+   "example": {
+    "pt": "Ele trata os alunos com afeto.",
+    "zh": "他深情地对待学生。"
+   }
+  },
+  {
+   "rank": 1375,
+   "pt": "carinho",
+   "pos": "名词",
+   "zh": "疼爱 / 亲昵",
+   "example": {
+    "pt": "Ela fez carinho no gato.",
+    "zh": "她亲昵地抚摸了猫。"
+   }
+  },
+  {
+   "rank": 1376,
+   "pt": "delicadeza",
+   "pos": "名词",
+   "zh": "细腻 / 体贴",
+   "example": {
+    "pt": "A delicadeza do gesto comoveu todos.",
+    "zh": "这个体贴的举动感动了大家。"
+   }
+  },
+  {
+   "rank": 1377,
+   "pt": "doçura",
+   "pos": "名词",
+   "zh": "甜美 / 温柔",
+   "example": {
+    "pt": "A doçura da voz dela acalmava.",
+    "zh": "她甜美的嗓音让人平静。"
+   }
+  },
+  {
+   "rank": 1378,
+   "pt": "amargura",
+   "pos": "名词",
+   "zh": "苦涩 / 痛苦",
+   "example": {
+    "pt": "A amargura marcou seus anos finais.",
+    "zh": "苦涩伴随了他的晚年。"
+   }
+  },
+  {
+   "rank": 1379,
+   "pt": "delírio",
+   "pos": "名词",
+   "zh": "谵妄 / 狂热",
+   "example": {
+    "pt": "No delírio da febre, falava sem parar.",
+    "zh": "高烧说胡话时他不停地说。"
+   }
+  },
+  {
+   "rank": 1380,
+   "pt": "devaneio",
+   "pos": "名词",
+   "zh": "胡思乱想 / 呓语",
+   "example": {
+    "pt": "Era só um devaneio de poeta.",
+    "zh": "那只是诗人的胡思乱想。"
+   }
+  },
+  {
+   "rank": 1381,
+   "pt": "pesar",
+   "pos": "名词",
+   "zh": "悲痛 / 惋惜",
+   "example": {
+    "pt": "Expressou seu pesar pela perda.",
+    "zh": "他对这个损失表达了悲痛。"
+   }
+  },
+  {
+   "rank": 1382,
+   "pt": "luto",
+   "pos": "名词",
+   "zh": "哀悼 / 丧期",
+   "example": {
+    "pt": "A família está de luto.",
+    "zh": "一家人在服丧。"
+   }
+  },
+  {
+   "rank": 1383,
+   "pt": "recordação",
+   "pos": "名词",
+   "zh": "回忆 / 纪念品",
+   "example": {
+    "pt": "Guardo a recordação com carinho.",
+    "zh": "我珍藏着这份回忆。"
+   }
+  },
+  {
+   "rank": 1384,
+   "pt": "nostalgia",
+   "pos": "名词",
+   "zh": "怀旧 / 乡愁",
+   "example": {
+    "pt": "Uma nostalgia tomou conta dele.",
+    "zh": "一阵乡愁涌上心头。"
+   }
+  },
+  {
+   "rank": 1385,
+   "pt": "ausência",
+   "pos": "名词",
+   "zh": "缺席 / 不在",
+   "example": {
+    "pt": "A ausência dela foi notada.",
+    "zh": "她的缺席被注意到了。"
+   }
+  },
+  {
+   "rank": 1386,
+   "pt": "juramento",
+   "pos": "名词",
+   "zh": "誓言",
+   "example": {
+    "pt": "Fizeram um juramento de amor.",
+    "zh": "他们立下爱的誓言。"
+   }
+  },
+  {
+   "rank": 1387,
+   "pt": "confissão",
+   "pos": "名词",
+   "zh": "忏悔 / 坦白",
+   "example": {
+    "pt": "A confissão aliviou a culpa.",
+    "zh": "坦白减轻了愧疚。"
+   }
+  },
+  {
+   "rank": 1388,
+   "pt": "orvalho",
+   "pos": "名词",
+   "zh": "露水",
+   "example": {
+    "pt": "O orvalho brilhava na grama.",
+    "zh": "露水在草地上闪光。"
+   },
+   "falseFriend": "西语 rocío；葡语 orvalho——词形完全不同"
+  },
+  {
+   "rank": 1389,
+   "pt": "suspirar",
+   "pos": "动词",
+   "zh": "叹息 / 渴望",
+   "example": {
+    "pt": "Ela suspirou de saudade.",
+    "zh": "她思念地叹了口气。"
+   },
+   "conjugations": {
+    "eu": "suspiro",
+    "tu": "suspiras",
+    "ele/ela/você": "suspira",
+    "nós": "suspiramos",
+    "eles/elas/vocês": "suspiram",
+    "es": "suspirar: suspiro/suspiras/suspira/suspiramos/suspiran"
+   }
+  },
+  {
+   "rank": 1390,
+   "pt": "sussurrar",
+   "pos": "动词",
+   "zh": "低语 / 耳语",
+   "example": {
+    "pt": "Ele sussurrou um segredo.",
+    "zh": "他悄声说了一个秘密。"
+   },
+   "conjugations": {
+    "eu": "sussurro",
+    "tu": "sussurras",
+    "ele/ela/você": "sussurra",
+    "nós": "sussurramos",
+    "eles/elas/vocês": "sussurram",
+    "es": "susurrar: susurro/susurras/susurra/susurramos/susurran"
+   }
+  },
+  {
+   "rank": 1391,
+   "pt": "soluçar",
+   "pos": "动词",
+   "zh": "抽泣 / 呜咽",
+   "example": {
+    "pt": "A criança soluçava baixinho.",
+    "zh": "孩子小声抽泣着。"
+   },
+   "conjugations": {
+    "eu": "soluço",
+    "tu": "soluças",
+    "ele/ela/você": "soluça",
+    "nós": "soluçamos",
+    "eles/elas/vocês": "soluçam",
+    "es": "sollozar: sollozo/sollozas/solloza/sollozamos/sollozan"
+   }
+  },
+  {
+   "rank": 1392,
+   "pt": "acariciar",
+   "pos": "动词",
+   "zh": "爱抚 / 轻抚",
+   "example": {
+    "pt": "Ela acariciou o rosto do filho.",
+    "zh": "她轻抚着儿子的脸。"
+   },
+   "conjugations": {
+    "eu": "acaricio",
+    "tu": "acaricias",
+    "ele/ela/você": "acaricia",
+    "nós": "acariciamos",
+    "eles/elas/vocês": "acariciam",
+    "es": "acariciar: acaricio/acaricias/acaricia/acariciamos/acarician"
+   }
+  },
+  {
+   "rank": 1393,
+   "pt": "ousar",
+   "pos": "动词",
+   "zh": "敢于 / 胆敢",
+   "example": {
+    "pt": "Ninguém ousou discordar.",
+    "zh": "没人敢反对。"
+   },
+   "conjugations": {
+    "eu": "ouso",
+    "tu": "ousas",
+    "ele/ela/você": "ousa",
+    "nós": "ousamos",
+    "eles/elas/vocês": "ousam",
+    "es": "osar: oso/osas/osa/osamos/osan"
+   }
+  },
+  {
+   "rank": 1394,
+   "pt": "consolar",
+   "pos": "动词",
+   "zh": "安慰",
+   "example": {
+    "pt": "Ela consolou o amigo chorando.",
+    "zh": "她安慰了哭泣的朋友。"
+   },
+   "conjugations": {
+    "eu": "consolo",
+    "tu": "consolas",
+    "ele/ela/você": "consola",
+    "nós": "consolamos",
+    "eles/elas/vocês": "consolam",
+    "es": "consolar: consuelo/consuelas/consuela/consolamos/consuelan（词干 o→ue）"
+   }
+  },
+  {
+   "rank": 1395,
+   "pt": "arrepender",
+   "pos": "动词",
+   "zh": "后悔 / 懊悔（常用反身）",
+   "example": {
+    "pt": "Ele se arrependeu de tudo.",
+    "zh": "他对一切都后悔了。"
+   },
+   "conjugations": {
+    "eu": "arrependo",
+    "tu": "arrependes",
+    "ele/ela/você": "arrepende",
+    "nós": "arrependemos",
+    "eles/elas/vocês": "arrependem",
+    "es": "arrepentirse: me arrepiento/te arrepientes/se arrepiente/nos arrepentimos/se arrepienten"
+   }
+  },
+  {
+   "rank": 1396,
+   "pt": "contemplar",
+   "pos": "动词",
+   "zh": "凝视 / 静观",
+   "example": {
+    "pt": "Contemplamos o pôr do sol em silêncio.",
+    "zh": "我们静静地看日落。"
+   },
+   "conjugations": {
+    "eu": "contemplo",
+    "tu": "contemplas",
+    "ele/ela/você": "contempla",
+    "nós": "contemplamos",
+    "eles/elas/vocês": "contemplam",
+    "es": "contemplar: contemplo/contemplas/contempla/contemplamos/contemplan"
+   }
+  },
+  {
+   "rank": 1397,
+   "pt": "fitar",
+   "pos": "动词",
+   "zh": "盯着看 / 注视",
+   "example": {
+    "pt": "Ela fitou os olhos dele.",
+    "zh": "她注视着他的眼睛。"
+   },
+   "conjugations": {
+    "eu": "fito",
+    "tu": "fitas",
+    "ele/ela/você": "fita",
+    "nós": "fitamos",
+    "eles/elas/vocês": "fitam",
+    "es": "mirar fijamente / clavar la vista"
+   }
+  },
+  {
+   "rank": 1398,
+   "pt": "tremer",
+   "pos": "动词",
+   "zh": "颤抖",
+   "example": {
+    "pt": "Suas mãos tremiam de frio.",
+    "zh": "他的手冻得发抖。"
+   },
+   "conjugations": {
+    "eu": "tremo",
+    "tu": "tremes",
+    "ele/ela/você": "treme",
+    "nós": "trememos",
+    "eles/elas/vocês": "tremem",
+    "es": "temblar: tiemblo/tiemblas/tiembla/temblamos/tiemblan（词干 e→ie）"
+   }
+  },
+  {
+   "rank": 1399,
+   "pt": "vaguear",
+   "pos": "动词",
+   "zh": "游荡 / 徘徊",
+   "example": {
+    "pt": "Vagueamos pelas ruas da vila.",
+    "zh": "我们在小镇的街上闲逛。"
+   },
+   "conjugations": {
+    "eu": "vagueio",
+    "tu": "vagueias",
+    "ele/ela/você": "vagueia",
+    "nós": "vagueamos",
+    "eles/elas/vocês": "vagueiam",
+    "es": "vagar: vago/vagas/vaga/vagamos/vagan"
+   }
+  },
+  {
+   "rank": 1400,
+   "pt": "gemer",
+   "pos": "动词",
+   "zh": "呻吟 / 呜咽",
+   "example": {
+    "pt": "O ferido gemia de dor.",
+    "zh": "伤员疼得呻吟。"
+   },
+   "conjugations": {
+    "eu": "gemo",
+    "tu": "gemes",
+    "ele/ela/você": "geme",
+    "nós": "gememos",
+    "eles/elas/vocês": "gemem",
+    "es": "gemir: gimo/gimes/gime/gemimos/gimen（e→i）"
    }
   }
  ]
